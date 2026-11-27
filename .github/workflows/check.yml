@@ -52,3 +52,4 @@ jobs:
           lean results/RotationDiscoveryObligations.lean
           lean results/RotationReuseObligations.lean
           lean results/RotationLineageObligations.lean
+          lean results/RotationQualityObligations.lean
