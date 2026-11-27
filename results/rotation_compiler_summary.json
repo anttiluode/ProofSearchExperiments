@@ -1,0 +1,4674 @@
+{
+  "protocolCommit": "2c14ee399d32e573c153537667b0f68dac04c30e",
+  "codeCommit": "bf56454b92ace8b5688ace3f344abd57c00649fd",
+  "rows": 864,
+  "summary": [
+    {
+      "budget": 2000000,
+      "group": "all",
+      "mode": "F8",
+      "n": 72,
+      "success": 16,
+      "meanWork": 1808401.4166666667,
+      "meanLinear": 1360549.0277777778,
+      "meanRotations": 1728.9027777777778,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77004,
+          77023,
+          77028,
+          77029,
+          77030,
+          77035,
+          77057
+        ],
+        "losses": [
+          77009,
+          77010,
+          77019,
+          77021,
+          77025,
+          77034,
+          77037,
+          77063
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [
+          77011,
+          77035,
+          77057
+        ],
+        "losses": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77006,
+          77009,
+          77010,
+          77015,
+          77017,
+          77019,
+          77021,
+          77025,
+          77032,
+          77034,
+          77036,
+          77037,
+          77038,
+          77040,
+          77046,
+          77059,
+          77060,
+          77063,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "all",
+      "mode": "INIT8",
+      "n": 72,
+      "success": 17,
+      "meanWork": 1655278.888888889,
+      "meanLinear": 1373342,
+      "meanRotations": 1659.7222222222222,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77011
+        ],
+        "losses": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77004,
+          77006,
+          77015,
+          77017,
+          77023,
+          77028,
+          77029,
+          77030,
+          77032,
+          77036,
+          77038,
+          77040,
+          77046,
+          77059,
+          77060,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "all",
+      "mode": "NL8",
+      "n": 72,
+      "success": 13,
+      "meanWork": 1805945.3194444445,
+      "meanLinear": 1676351.013888889,
+      "meanRotations": 783.2916666666666,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0.38247685162226713,
+      "vsInit": {
+        "wins": [
+          77015,
+          77023,
+          77032,
+          77036,
+          77038
+        ],
+        "losses": [
+          77005,
+          77007,
+          77009,
+          77011,
+          77012,
+          77025,
+          77031,
+          77034,
+          77063
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77004,
+          77005,
+          77006,
+          77007,
+          77009,
+          77012,
+          77017,
+          77025,
+          77028,
+          77029,
+          77030,
+          77031,
+          77034,
+          77040,
+          77046,
+          77059,
+          77060,
+          77063,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "all",
+      "mode": "COMP-U8",
+      "n": 72,
+      "success": 36,
+      "meanWork": 1264550.1805555555,
+      "meanLinear": 773115.6666666666,
+      "meanRotations": 1488.3472222222222,
+      "meanDimension": 12.5,
+      "meanPruned": 0,
+      "maxLeak": 4.6698811090693717e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77004,
+          77006,
+          77015,
+          77017,
+          77023,
+          77028,
+          77029,
+          77030,
+          77032,
+          77036,
+          77038,
+          77040,
+          77046,
+          77059,
+          77060,
+          77071
+        ],
+        "losses": [
+          77011
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "all",
+      "mode": "COMP-G8",
+      "n": 72,
+      "success": 36,
+      "meanWork": 1200555.5,
+      "meanLinear": 711691.0555555555,
+      "meanRotations": 1729.9166666666667,
+      "meanDimension": 12.5,
+      "meanPruned": 10.333333333333334,
+      "maxLeak": 4.6698811090693717e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77004,
+          77006,
+          77015,
+          77017,
+          77023,
+          77028,
+          77029,
+          77030,
+          77032,
+          77036,
+          77038,
+          77040,
+          77046,
+          77059,
+          77060,
+          77071
+        ],
+        "losses": [
+          77011
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "all",
+      "mode": "COMP-G8S",
+      "n": 72,
+      "success": 46,
+      "meanWork": 991640.0138888889,
+      "meanLinear": 613017.2916666666,
+      "meanRotations": 1323.388888888889,
+      "meanDimension": 12.5,
+      "meanPruned": 10.333333333333334,
+      "maxLeak": 4.7008448732065525e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77004,
+          77008,
+          77015,
+          77016,
+          77017,
+          77023,
+          77027,
+          77028,
+          77029,
+          77030,
+          77032,
+          77033,
+          77035,
+          77036,
+          77038,
+          77041,
+          77042,
+          77046,
+          77053,
+          77054,
+          77055,
+          77056,
+          77060,
+          77061,
+          77065
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77008,
+          77011,
+          77016,
+          77027,
+          77033,
+          77035,
+          77041,
+          77042,
+          77053,
+          77054,
+          77055,
+          77056,
+          77061,
+          77065
+        ],
+        "losses": [
+          77006,
+          77040,
+          77059,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 6,
+      "mode": "F8",
+      "n": 24,
+      "success": 9,
+      "meanWork": 1724875.875,
+      "meanLinear": 1180660.125,
+      "meanRotations": 2436.4166666666665,
+      "meanDimension": 15,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77004,
+          77023
+        ],
+        "losses": [
+          77009,
+          77010,
+          77019,
+          77021
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [
+          77011
+        ],
+        "losses": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77006,
+          77009,
+          77010,
+          77015,
+          77017,
+          77019,
+          77021
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 6,
+      "mode": "INIT8",
+      "n": 24,
+      "success": 11,
+      "meanWork": 1325446.1666666667,
+      "meanLinear": 1018725.7916666666,
+      "meanRotations": 2074.6666666666665,
+      "meanDimension": 15,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77011
+        ],
+        "losses": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77004,
+          77006,
+          77015,
+          77017,
+          77023
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 6,
+      "mode": "NL8",
+      "n": 24,
+      "success": 8,
+      "meanWork": 1624178.5,
+      "meanLinear": 1449501.0416666667,
+      "meanRotations": 1197.25,
+      "meanDimension": 15,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0.38048984595667107,
+      "vsInit": {
+        "wins": [
+          77015,
+          77023
+        ],
+        "losses": [
+          77005,
+          77007,
+          77009,
+          77011,
+          77012
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77004,
+          77005,
+          77006,
+          77007,
+          77009,
+          77012,
+          77017
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 6,
+      "mode": "COMP-U8",
+      "n": 24,
+      "success": 19,
+      "meanWork": 880451.5,
+      "meanLinear": 439364.25,
+      "meanRotations": 1605.875,
+      "meanDimension": 8.166666666666666,
+      "meanPruned": 0,
+      "maxLeak": 4.564187445225543e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77004,
+          77006,
+          77015,
+          77017,
+          77023
+        ],
+        "losses": [
+          77011
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 6,
+      "mode": "COMP-G8",
+      "n": 24,
+      "success": 19,
+      "meanWork": 755856.6666666666,
+      "meanLinear": 359472.875,
+      "meanRotations": 1692.4166666666667,
+      "meanDimension": 8.166666666666666,
+      "meanPruned": 8.333333333333334,
+      "maxLeak": 4.564187445225543e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77004,
+          77006,
+          77015,
+          77017,
+          77023
+        ],
+        "losses": [
+          77011
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 6,
+      "mode": "COMP-G8S",
+      "n": 24,
+      "success": 21,
+      "meanWork": 439047.2916666667,
+      "meanLinear": 216003.625,
+      "meanRotations": 977.4166666666666,
+      "meanDimension": 8.166666666666666,
+      "meanPruned": 8.333333333333334,
+      "maxLeak": 4.7008448732065525e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77004,
+          77008,
+          77015,
+          77016,
+          77017,
+          77023
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77008,
+          77011,
+          77016
+        ],
+        "losses": [
+          77006
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 7,
+      "mode": "F8",
+      "n": 24,
+      "success": 6,
+      "meanWork": 1749909.5416666667,
+      "meanLinear": 1324462.625,
+      "meanRotations": 1580.2083333333333,
+      "meanDimension": 21,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77028,
+          77029,
+          77030,
+          77035
+        ],
+        "losses": [
+          77025,
+          77034,
+          77037
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [
+          77035
+        ],
+        "losses": [
+          77025,
+          77032,
+          77034,
+          77036,
+          77037,
+          77038,
+          77040,
+          77046
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 7,
+      "mode": "INIT8",
+      "n": 24,
+      "success": 5,
+      "meanWork": 1696095.125,
+      "meanLinear": 1404243.4583333333,
+      "meanRotations": 1692.625,
+      "meanDimension": 21,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77028,
+          77029,
+          77030,
+          77032,
+          77036,
+          77038,
+          77040,
+          77046
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 7,
+      "mode": "NL8",
+      "n": 24,
+      "success": 5,
+      "meanWork": 1793657.875,
+      "meanLinear": 1669477.4166666667,
+      "meanRotations": 727.4166666666666,
+      "meanDimension": 21,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0.38247685162226713,
+      "vsInit": {
+        "wins": [
+          77032,
+          77036,
+          77038
+        ],
+        "losses": [
+          77025,
+          77031,
+          77034
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77025,
+          77028,
+          77029,
+          77030,
+          77031,
+          77034,
+          77040,
+          77046
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 7,
+      "mode": "COMP-U8",
+      "n": 24,
+      "success": 13,
+      "meanWork": 1167800.625,
+      "meanLinear": 698924.3333333334,
+      "meanRotations": 1411.2916666666667,
+      "meanDimension": 12.166666666666666,
+      "meanPruned": 0,
+      "maxLeak": 4.6698811090693717e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77028,
+          77029,
+          77030,
+          77032,
+          77036,
+          77038,
+          77040,
+          77046
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 7,
+      "mode": "COMP-G8",
+      "n": 24,
+      "success": 13,
+      "meanWork": 1116182.75,
+      "meanLinear": 641259.375,
+      "meanRotations": 1702.75,
+      "meanDimension": 12.166666666666666,
+      "meanPruned": 10.333333333333334,
+      "maxLeak": 4.6698811090693717e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77028,
+          77029,
+          77030,
+          77032,
+          77036,
+          77038,
+          77040,
+          77046
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 7,
+      "mode": "COMP-G8S",
+      "n": 24,
+      "success": 17,
+      "meanWork": 849442.2083333334,
+      "meanLinear": 498989.2083333333,
+      "meanRotations": 1292.75,
+      "meanDimension": 12.166666666666666,
+      "meanPruned": 10.333333333333334,
+      "maxLeak": 4.6698811090693717e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77027,
+          77028,
+          77029,
+          77030,
+          77032,
+          77033,
+          77035,
+          77036,
+          77038,
+          77041,
+          77042,
+          77046
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77027,
+          77033,
+          77035,
+          77041,
+          77042
+        ],
+        "losses": [
+          77040
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 8,
+      "mode": "F8",
+      "n": 24,
+      "success": 1,
+      "meanWork": 1950418.8333333333,
+      "meanLinear": 1576524.3333333333,
+      "meanRotations": 1170.0833333333333,
+      "meanDimension": 28,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77057
+        ],
+        "losses": [
+          77063
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [
+          77057
+        ],
+        "losses": [
+          77059,
+          77060,
+          77063,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 8,
+      "mode": "INIT8",
+      "n": 24,
+      "success": 1,
+      "meanWork": 1944295.375,
+      "meanLinear": 1697056.75,
+      "meanRotations": 1211.875,
+      "meanDimension": 28,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77059,
+          77060,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 8,
+      "mode": "NL8",
+      "n": 24,
+      "success": 0,
+      "meanWork": 1999999.5833333333,
+      "meanLinear": 1910074.5833333333,
+      "meanRotations": 425.2083333333333,
+      "meanDimension": 28,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0.25153847605937263,
+      "vsInit": {
+        "wins": [],
+        "losses": [
+          77063
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77059,
+          77060,
+          77063,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 8,
+      "mode": "COMP-U8",
+      "n": 24,
+      "success": 4,
+      "meanWork": 1745398.4166666667,
+      "meanLinear": 1181058.4166666667,
+      "meanRotations": 1447.875,
+      "meanDimension": 17.166666666666668,
+      "meanPruned": 0,
+      "maxLeak": 3.747675017920406e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77059,
+          77060,
+          77071
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 8,
+      "mode": "COMP-G8",
+      "n": 24,
+      "success": 4,
+      "meanWork": 1729627.0833333333,
+      "meanLinear": 1134340.9166666667,
+      "meanRotations": 1794.5833333333333,
+      "meanDimension": 17.166666666666668,
+      "meanPruned": 12.333333333333334,
+      "maxLeak": 3.747675017920406e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77059,
+          77060,
+          77071
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 8,
+      "mode": "COMP-G8S",
+      "n": 24,
+      "success": 8,
+      "meanWork": 1686430.5416666667,
+      "meanLinear": 1124059.0416666667,
+      "meanRotations": 1700,
+      "meanDimension": 17.166666666666668,
+      "meanPruned": 12.333333333333334,
+      "maxLeak": 3.9198786360258285e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77053,
+          77054,
+          77055,
+          77056,
+          77060,
+          77061,
+          77065
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77053,
+          77054,
+          77055,
+          77056,
+          77061,
+          77065
+        ],
+        "losses": [
+          77059,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t0",
+      "mode": "F8",
+      "n": 12,
+      "success": 0,
+      "meanWork": 1999999.3333333333,
+      "meanLinear": 1495523.1666666667,
+      "meanRotations": 1967.3333333333333,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": [
+          77025
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77025
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t0",
+      "mode": "INIT8",
+      "n": 12,
+      "success": 1,
+      "meanWork": 1937842,
+      "meanLinear": 1593752,
+      "meanRotations": 2065.8333333333335,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77000,
+          77001,
+          77002,
+          77003
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t0",
+      "mode": "NL8",
+      "n": 12,
+      "success": 0,
+      "meanWork": 1999999.6666666667,
+      "meanLinear": 1868483.1666666667,
+      "meanRotations": 731.25,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0.052169909723934996,
+      "vsInit": {
+        "wins": [],
+        "losses": [
+          77025
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77025
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t0",
+      "mode": "COMP-U8",
+      "n": 12,
+      "success": 5,
+      "meanWork": 1766834.25,
+      "meanLinear": 1057113.5,
+      "meanRotations": 2213.3333333333335,
+      "meanDimension": 12.333333333333334,
+      "meanPruned": 0,
+      "maxLeak": 4.6698811090693717e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77000,
+          77001,
+          77002,
+          77003
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t0",
+      "mode": "COMP-G8",
+      "n": 12,
+      "success": 5,
+      "meanWork": 1642904.6666666667,
+      "meanLinear": 950349.0833333334,
+      "meanRotations": 2563.4166666666665,
+      "meanDimension": 12.333333333333334,
+      "meanPruned": 11,
+      "maxLeak": 4.6698811090693717e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77000,
+          77001,
+          77002,
+          77003
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t0",
+      "mode": "COMP-G8S",
+      "n": 12,
+      "success": 6,
+      "meanWork": 1235268.9166666667,
+      "meanLinear": 755461,
+      "meanRotations": 1689.5833333333333,
+      "meanDimension": 12.333333333333334,
+      "meanPruned": 11,
+      "maxLeak": 4.6698811090693717e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77027
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77027
+        ],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t1",
+      "mode": "F8",
+      "n": 12,
+      "success": 7,
+      "meanWork": 1590570,
+      "meanLinear": 1196088.8333333333,
+      "meanRotations": 1524.25,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77004,
+          77028,
+          77029,
+          77030
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77006
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t1",
+      "mode": "INIT8",
+      "n": 12,
+      "success": 3,
+      "meanWork": 1547203.6666666667,
+      "meanLinear": 1288259.9166666667,
+      "meanRotations": 1515.6666666666667,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77004,
+          77006,
+          77028,
+          77029,
+          77030
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t1",
+      "mode": "NL8",
+      "n": 12,
+      "success": 0,
+      "meanWork": 1999999.6666666667,
+      "meanLinear": 1826056.0833333333,
+      "meanRotations": 1168.0833333333333,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0.04009529644086836,
+      "vsInit": {
+        "wins": [],
+        "losses": [
+          77005,
+          77007,
+          77031
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77004,
+          77005,
+          77006,
+          77007,
+          77028,
+          77029,
+          77030,
+          77031
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t1",
+      "mode": "COMP-U8",
+      "n": 12,
+      "success": 8,
+      "meanWork": 1144683.9166666667,
+      "meanLinear": 701411.0833333334,
+      "meanRotations": 1252,
+      "meanDimension": 13.333333333333334,
+      "meanPruned": 0,
+      "maxLeak": 4.4408920985006264e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77004,
+          77006,
+          77028,
+          77029,
+          77030
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t1",
+      "mode": "COMP-G8",
+      "n": 12,
+      "success": 8,
+      "meanWork": 1050363.5,
+      "meanLinear": 632573.1666666666,
+      "meanRotations": 1385.5,
+      "meanDimension": 13.333333333333334,
+      "meanPruned": 10,
+      "maxLeak": 4.4408920985006264e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77004,
+          77006,
+          77028,
+          77029,
+          77030
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t1",
+      "mode": "COMP-G8S",
+      "n": 12,
+      "success": 10,
+      "meanWork": 783583.9166666666,
+      "meanLinear": 473558.8333333333,
+      "meanRotations": 1039.6666666666667,
+      "meanDimension": 13.333333333333334,
+      "meanPruned": 10,
+      "maxLeak": 4.4408920985006264e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77004,
+          77028,
+          77029,
+          77030,
+          77053,
+          77054,
+          77055
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77053,
+          77054,
+          77055
+        ],
+        "losses": [
+          77006
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t2",
+      "mode": "F8",
+      "n": 12,
+      "success": 3,
+      "meanWork": 1762753.4166666667,
+      "meanLinear": 1319055.8333333333,
+      "meanRotations": 1704.6666666666667,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77035,
+          77057
+        ],
+        "losses": [
+          77009,
+          77010,
+          77034
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [
+          77011,
+          77035,
+          77057
+        ],
+        "losses": [
+          77009,
+          77010,
+          77032,
+          77034,
+          77059
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t2",
+      "mode": "INIT8",
+      "n": 12,
+      "success": 4,
+      "meanWork": 1505601.75,
+      "meanLinear": 1258487.8333333333,
+      "meanRotations": 1421.9166666666667,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77011
+        ],
+        "losses": [
+          77032,
+          77059
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t2",
+      "mode": "NL8",
+      "n": 12,
+      "success": 2,
+      "meanWork": 1876186.8333333333,
+      "meanLinear": 1726939.5,
+      "meanRotations": 969.75,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0.047534591064648316,
+      "vsInit": {
+        "wins": [
+          77032
+        ],
+        "losses": [
+          77009,
+          77011,
+          77034
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77009,
+          77034,
+          77059
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t2",
+      "mode": "COMP-U8",
+      "n": 12,
+      "success": 5,
+      "meanWork": 1363481.75,
+      "meanLinear": 779306.75,
+      "meanRotations": 1456.5833333333333,
+      "meanDimension": 14.333333333333334,
+      "meanPruned": 0,
+      "maxLeak": 4.564187445225543e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77032,
+          77059
+        ],
+        "losses": [
+          77011
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t2",
+      "mode": "COMP-G8",
+      "n": 12,
+      "success": 5,
+      "meanWork": 1326772.25,
+      "meanLinear": 747282.1666666666,
+      "meanRotations": 1740.8333333333333,
+      "meanDimension": 14.333333333333334,
+      "meanPruned": 9,
+      "maxLeak": 4.564187445225543e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77032,
+          77059
+        ],
+        "losses": [
+          77011
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t2",
+      "mode": "COMP-G8S",
+      "n": 12,
+      "success": 9,
+      "meanWork": 740546.4166666666,
+      "meanLinear": 461549.8333333333,
+      "meanRotations": 749.3333333333334,
+      "meanDimension": 14.333333333333334,
+      "meanPruned": 9,
+      "maxLeak": 4.7008448732065525e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77008,
+          77032,
+          77033,
+          77035,
+          77056
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77008,
+          77011,
+          77033,
+          77035,
+          77056
+        ],
+        "losses": [
+          77059
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t3",
+      "mode": "F8",
+      "n": 12,
+      "success": 3,
+      "meanWork": 1714028.75,
+      "meanLinear": 1299690.4166666667,
+      "meanRotations": 1593.8333333333333,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": [
+          77037,
+          77063
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77015,
+          77036,
+          77037,
+          77038,
+          77060,
+          77063
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t3",
+      "mode": "INIT8",
+      "n": 12,
+      "success": 5,
+      "meanWork": 1339175.4166666667,
+      "meanLinear": 1111850.4166666667,
+      "meanRotations": 1338.0833333333333,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77015,
+          77036,
+          77038,
+          77060
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t3",
+      "mode": "NL8",
+      "n": 12,
+      "success": 6,
+      "meanWork": 1475273,
+      "meanLinear": 1402531.6666666667,
+      "meanRotations": 309.5833333333333,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 2.2204460492503132e-17,
+      "vsInit": {
+        "wins": [
+          77015,
+          77036,
+          77038
+        ],
+        "losses": [
+          77012,
+          77063
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77012,
+          77060,
+          77063
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t3",
+      "mode": "COMP-U8",
+      "n": 12,
+      "success": 9,
+      "meanWork": 597934.6666666666,
+      "meanLinear": 384530.8333333333,
+      "meanRotations": 810.1666666666666,
+      "meanDimension": 10.333333333333334,
+      "meanPruned": 0,
+      "maxLeak": 2.2204460492503132e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77015,
+          77036,
+          77038,
+          77060
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t3",
+      "mode": "COMP-G8",
+      "n": 12,
+      "success": 9,
+      "meanWork": 539677.1666666666,
+      "meanLinear": 329369,
+      "meanRotations": 901.75,
+      "meanDimension": 10.333333333333334,
+      "meanPruned": 12,
+      "maxLeak": 2.2204460492503132e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77015,
+          77036,
+          77038,
+          77060
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t3",
+      "mode": "COMP-G8S",
+      "n": 12,
+      "success": 10,
+      "meanWork": 632781.75,
+      "meanLinear": 394195,
+      "meanRotations": 988.5,
+      "meanDimension": 10.333333333333334,
+      "meanPruned": 12,
+      "maxLeak": 2.2204460492503132e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77015,
+          77036,
+          77038,
+          77060,
+          77061
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77061
+        ],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t4",
+      "mode": "F8",
+      "n": 12,
+      "success": 1,
+      "meanWork": 1846999.25,
+      "meanLinear": 1390742.75,
+      "meanRotations": 1751.6666666666667,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": [
+          77019
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77017,
+          77019,
+          77040
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t4",
+      "mode": "INIT8",
+      "n": 12,
+      "success": 2,
+      "meanWork": 1816169.0833333333,
+      "meanLinear": 1505038.8333333333,
+      "meanRotations": 1835.5833333333333,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77017,
+          77040
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t4",
+      "mode": "NL8",
+      "n": 12,
+      "success": 2,
+      "meanWork": 1723812.0833333333,
+      "meanLinear": 1609916.5833333333,
+      "meanRotations": 645,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0.048735976250597904,
+      "vsInit": {
+        "wins": [],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77017,
+          77040
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t4",
+      "mode": "COMP-U8",
+      "n": 12,
+      "success": 4,
+      "meanWork": 1362817.0833333333,
+      "meanLinear": 871440.5833333334,
+      "meanRotations": 1672.4166666666667,
+      "meanDimension": 11.333333333333334,
+      "meanPruned": 0,
+      "maxLeak": 3.002600441889983e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77017,
+          77040
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t4",
+      "mode": "COMP-G8",
+      "n": 12,
+      "success": 4,
+      "meanWork": 1324073.5,
+      "meanLinear": 810904.9166666666,
+      "meanRotations": 2004.1666666666667,
+      "meanDimension": 11.333333333333334,
+      "meanPruned": 11,
+      "maxLeak": 3.002600441889983e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77017,
+          77040
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t4",
+      "mode": "COMP-G8S",
+      "n": 12,
+      "success": 7,
+      "meanWork": 1114310.9166666667,
+      "meanLinear": 695703.5833333334,
+      "meanRotations": 1605.25,
+      "meanDimension": 11.333333333333334,
+      "meanPruned": 11,
+      "maxLeak": 3.005950164563267e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77016,
+          77017,
+          77041,
+          77042,
+          77065
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77016,
+          77041,
+          77042,
+          77065
+        ],
+        "losses": [
+          77040
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t5",
+      "mode": "F8",
+      "n": 12,
+      "success": 2,
+      "meanWork": 1936057.75,
+      "meanLinear": 1462193.1666666667,
+      "meanRotations": 1831.6666666666667,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77023
+        ],
+        "losses": [
+          77021
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77021,
+          77046,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t5",
+      "mode": "INIT8",
+      "n": 12,
+      "success": 2,
+      "meanWork": 1785681.4166666667,
+      "meanLinear": 1482663,
+      "meanRotations": 1781.25,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77023,
+          77046,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t5",
+      "mode": "NL8",
+      "n": 12,
+      "success": 3,
+      "meanWork": 1760400.6666666667,
+      "meanLinear": 1624179.0833333333,
+      "meanRotations": 876.0833333333334,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0.38247685162226713,
+      "vsInit": {
+        "wins": [
+          77023
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77046,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t5",
+      "mode": "COMP-U8",
+      "n": 12,
+      "success": 5,
+      "meanWork": 1351549.4166666667,
+      "meanLinear": 844891.25,
+      "meanRotations": 1525.5833333333333,
+      "meanDimension": 13.333333333333334,
+      "meanPruned": 0,
+      "maxLeak": 3.2750925610655947e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77023,
+          77046,
+          77071
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t5",
+      "mode": "COMP-G8",
+      "n": 12,
+      "success": 5,
+      "meanWork": 1319541.9166666667,
+      "meanLinear": 799668,
+      "meanRotations": 1783.8333333333333,
+      "meanDimension": 13.333333333333334,
+      "meanPruned": 9,
+      "maxLeak": 3.2750925610655947e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77023,
+          77046,
+          77071
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t5",
+      "mode": "COMP-G8S",
+      "n": 12,
+      "success": 4,
+      "meanWork": 1443348.1666666667,
+      "meanLinear": 897635.5,
+      "meanRotations": 1868,
+      "meanDimension": 13.333333333333334,
+      "meanPruned": 9,
+      "maxLeak": 3.269790250360578e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77023,
+          77046
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77071
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "all",
+      "mode": "F8",
+      "n": 72,
+      "success": 23,
+      "meanWork": 4018086.847222222,
+      "meanLinear": 3090693.736111111,
+      "meanRotations": 3399.2361111111113,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77004,
+          77015,
+          77016,
+          77023,
+          77028,
+          77029,
+          77032,
+          77035,
+          77052,
+          77057
+        ],
+        "losses": [
+          77009,
+          77019,
+          77025,
+          77037,
+          77053,
+          77063
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [
+          77011,
+          77016,
+          77052
+        ],
+        "losses": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77006,
+          77009,
+          77017,
+          77019,
+          77025,
+          77036,
+          77037,
+          77038,
+          77040,
+          77046,
+          77054,
+          77059,
+          77060,
+          77063,
+          77069,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "all",
+      "mode": "INIT8",
+      "n": 72,
+      "success": 19,
+      "meanWork": 3615791.2916666665,
+      "meanLinear": 3046391.5,
+      "meanRotations": 3222.0555555555557,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77011,
+          77053
+        ],
+        "losses": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77004,
+          77006,
+          77015,
+          77017,
+          77023,
+          77028,
+          77029,
+          77032,
+          77035,
+          77036,
+          77038,
+          77040,
+          77046,
+          77054,
+          77057,
+          77059,
+          77060,
+          77069,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "all",
+      "mode": "NL8",
+      "n": 72,
+      "success": 28,
+      "meanWork": 8820301.083333334,
+      "meanLinear": 8280132.555555556,
+      "meanRotations": 3079.8055555555557,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0.3987003895747315,
+      "vsInit": {
+        "wins": [
+          77000,
+          77002,
+          77015,
+          77017,
+          77023,
+          77032,
+          77035,
+          77036,
+          77038,
+          77040,
+          77042,
+          77060,
+          77065
+        ],
+        "losses": [
+          77007,
+          77031,
+          77034,
+          77053
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [
+          77011,
+          77042,
+          77065
+        ],
+        "losses": [
+          77001,
+          77003,
+          77004,
+          77006,
+          77007,
+          77028,
+          77029,
+          77031,
+          77034,
+          77046,
+          77054,
+          77057,
+          77059,
+          77069,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "all",
+      "mode": "COMP-U8",
+      "n": 72,
+      "success": 40,
+      "meanWork": 2201178.75,
+      "meanLinear": 1385628.0694444445,
+      "meanRotations": 2372.402777777778,
+      "meanDimension": 12.5,
+      "meanPruned": 0,
+      "maxLeak": 4.6698811090693717e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77004,
+          77006,
+          77015,
+          77017,
+          77023,
+          77028,
+          77029,
+          77032,
+          77035,
+          77036,
+          77038,
+          77040,
+          77046,
+          77054,
+          77057,
+          77059,
+          77060,
+          77069,
+          77071
+        ],
+        "losses": [
+          77011,
+          77053
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "all",
+      "mode": "COMP-G8",
+      "n": 72,
+      "success": 40,
+      "meanWork": 1769984.0694444445,
+      "meanLinear": 1075803.1527777778,
+      "meanRotations": 2372.2916666666665,
+      "meanDimension": 12.5,
+      "meanPruned": 10.333333333333334,
+      "maxLeak": 4.6698811090693717e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77004,
+          77006,
+          77015,
+          77017,
+          77023,
+          77028,
+          77029,
+          77032,
+          77035,
+          77036,
+          77038,
+          77040,
+          77046,
+          77054,
+          77057,
+          77059,
+          77060,
+          77069,
+          77071
+        ],
+        "losses": [
+          77011,
+          77053
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "all",
+      "mode": "COMP-G8S",
+      "n": 72,
+      "success": 48,
+      "meanWork": 1492579.0416666667,
+      "meanLinear": 942444.2361111111,
+      "meanRotations": 1850.625,
+      "meanDimension": 12.5,
+      "meanPruned": 10.333333333333334,
+      "maxLeak": 4.7008448732065525e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77004,
+          77008,
+          77015,
+          77016,
+          77017,
+          77023,
+          77027,
+          77028,
+          77029,
+          77032,
+          77033,
+          77035,
+          77036,
+          77038,
+          77041,
+          77042,
+          77045,
+          77046,
+          77054,
+          77055,
+          77056,
+          77057,
+          77060,
+          77061,
+          77065
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77008,
+          77011,
+          77016,
+          77027,
+          77033,
+          77041,
+          77042,
+          77045,
+          77053,
+          77055,
+          77056,
+          77061,
+          77065
+        ],
+        "losses": [
+          77006,
+          77040,
+          77059,
+          77069,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": 6,
+      "mode": "F8",
+      "n": 24,
+      "success": 13,
+      "meanWork": 2212165.8333333335,
+      "meanLinear": 1515218.75,
+      "meanRotations": 3121.7083333333335,
+      "meanDimension": 15,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77004,
+          77015,
+          77016,
+          77023
+        ],
+        "losses": [
+          77009,
+          77019
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [
+          77011,
+          77016
+        ],
+        "losses": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77006,
+          77009,
+          77017,
+          77019
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": 6,
+      "mode": "INIT8",
+      "n": 24,
+      "success": 11,
+      "meanWork": 1659773.0833333333,
+      "meanLinear": 1276303.2916666667,
+      "meanRotations": 2594.625,
+      "meanDimension": 15,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77011
+        ],
+        "losses": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77004,
+          77006,
+          77015,
+          77017,
+          77023
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": 6,
+      "mode": "NL8",
+      "n": 24,
+      "success": 15,
+      "meanWork": 3364788.0416666665,
+      "meanLinear": 3002112.4583333335,
+      "meanRotations": 2481.1666666666665,
+      "meanDimension": 15,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0.38048984595667107,
+      "vsInit": {
+        "wins": [
+          77000,
+          77002,
+          77015,
+          77017,
+          77023
+        ],
+        "losses": [
+          77007
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [
+          77011
+        ],
+        "losses": [
+          77001,
+          77003,
+          77004,
+          77006,
+          77007
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": 6,
+      "mode": "COMP-U8",
+      "n": 24,
+      "success": 19,
+      "meanWork": 949346.625,
+      "meanLinear": 473526.0416666667,
+      "meanRotations": 1722.2916666666667,
+      "meanDimension": 8.166666666666666,
+      "meanPruned": 0,
+      "maxLeak": 4.564187445225543e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77004,
+          77006,
+          77015,
+          77017,
+          77023
+        ],
+        "losses": [
+          77011
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": 6,
+      "mode": "COMP-G8",
+      "n": 24,
+      "success": 19,
+      "meanWork": 769581.0416666666,
+      "meanLinear": 366042.5416666667,
+      "meanRotations": 1721.9583333333333,
+      "meanDimension": 8.166666666666666,
+      "meanPruned": 8.333333333333334,
+      "maxLeak": 4.564187445225543e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77004,
+          77006,
+          77015,
+          77017,
+          77023
+        ],
+        "losses": [
+          77011
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": 6,
+      "mode": "COMP-G8S",
+      "n": 24,
+      "success": 21,
+      "meanWork": 439047.2916666667,
+      "meanLinear": 216003.625,
+      "meanRotations": 977.4166666666666,
+      "meanDimension": 8.166666666666666,
+      "meanPruned": 8.333333333333334,
+      "maxLeak": 4.7008448732065525e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77004,
+          77008,
+          77015,
+          77016,
+          77017,
+          77023
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77008,
+          77011,
+          77016
+        ],
+        "losses": [
+          77006
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": 7,
+      "mode": "F8",
+      "n": 24,
+      "success": 8,
+      "meanWork": 3514588.7916666665,
+      "meanLinear": 2657854.7916666665,
+      "meanRotations": 3191.3333333333335,
+      "meanDimension": 21,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77028,
+          77029,
+          77032,
+          77035
+        ],
+        "losses": [
+          77025,
+          77037
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77025,
+          77036,
+          77037,
+          77038,
+          77040,
+          77046
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": 7,
+      "mode": "INIT8",
+      "n": 24,
+      "success": 6,
+      "meanWork": 3264711.7083333335,
+      "meanLinear": 2704294.5,
+      "meanRotations": 3257.25,
+      "meanDimension": 21,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77028,
+          77029,
+          77032,
+          77035,
+          77036,
+          77038,
+          77040,
+          77046
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": 7,
+      "mode": "NL8",
+      "n": 24,
+      "success": 10,
+      "meanWork": 7186783.041666667,
+      "meanLinear": 6672532.291666667,
+      "meanRotations": 3077.3333333333335,
+      "meanDimension": 21,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0.3987003895747315,
+      "vsInit": {
+        "wins": [
+          77032,
+          77035,
+          77036,
+          77038,
+          77040,
+          77042
+        ],
+        "losses": [
+          77031,
+          77034
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [
+          77042
+        ],
+        "losses": [
+          77028,
+          77029,
+          77031,
+          77034,
+          77046
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": 7,
+      "mode": "COMP-U8",
+      "n": 24,
+      "success": 14,
+      "meanWork": 1774529.625,
+      "meanLinear": 1062638.125,
+      "meanRotations": 2152.7916666666665,
+      "meanDimension": 12.166666666666666,
+      "meanPruned": 0,
+      "maxLeak": 4.6698811090693717e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77028,
+          77029,
+          77032,
+          77035,
+          77036,
+          77038,
+          77040,
+          77046
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": 7,
+      "mode": "COMP-G8",
+      "n": 24,
+      "success": 14,
+      "meanWork": 1426233,
+      "meanLinear": 821376.7916666666,
+      "meanRotations": 2152.7916666666665,
+      "meanDimension": 12.166666666666666,
+      "meanPruned": 10.333333333333334,
+      "maxLeak": 4.6698811090693717e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77028,
+          77029,
+          77032,
+          77035,
+          77036,
+          77038,
+          77040,
+          77046
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": 7,
+      "mode": "COMP-G8S",
+      "n": 24,
+      "success": 18,
+      "meanWork": 1040959.1666666666,
+      "meanLinear": 611688.25,
+      "meanRotations": 1589,
+      "meanDimension": 12.166666666666666,
+      "meanPruned": 10.333333333333334,
+      "maxLeak": 4.6698811090693717e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77027,
+          77028,
+          77029,
+          77032,
+          77033,
+          77035,
+          77036,
+          77038,
+          77041,
+          77042,
+          77045,
+          77046
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77027,
+          77033,
+          77041,
+          77042,
+          77045
+        ],
+        "losses": [
+          77040
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": 8,
+      "mode": "F8",
+      "n": 24,
+      "success": 2,
+      "meanWork": 6327505.916666667,
+      "meanLinear": 5099007.666666667,
+      "meanRotations": 3884.6666666666665,
+      "meanDimension": 28,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77052,
+          77057
+        ],
+        "losses": [
+          77053,
+          77063
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [
+          77052
+        ],
+        "losses": [
+          77054,
+          77059,
+          77060,
+          77063,
+          77069,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": 8,
+      "mode": "INIT8",
+      "n": 24,
+      "success": 2,
+      "meanWork": 5922889.083333333,
+      "meanLinear": 5158576.708333333,
+      "meanRotations": 3814.2916666666665,
+      "meanDimension": 28,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77053
+        ],
+        "losses": [
+          77054,
+          77057,
+          77059,
+          77060,
+          77069,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": 8,
+      "mode": "NL8",
+      "n": 24,
+      "success": 3,
+      "meanWork": 15909332.166666666,
+      "meanLinear": 15165752.916666666,
+      "meanRotations": 3680.9166666666665,
+      "meanDimension": 28,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0.3455739187881238,
+      "vsInit": {
+        "wins": [
+          77060,
+          77065
+        ],
+        "losses": [
+          77053
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [
+          77065
+        ],
+        "losses": [
+          77054,
+          77057,
+          77059,
+          77069,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": 8,
+      "mode": "COMP-U8",
+      "n": 24,
+      "success": 7,
+      "meanWork": 3879660,
+      "meanLinear": 2620720.0416666665,
+      "meanRotations": 3242.125,
+      "meanDimension": 17.166666666666668,
+      "meanPruned": 0,
+      "maxLeak": 3.747675017920406e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77054,
+          77057,
+          77059,
+          77060,
+          77069,
+          77071
+        ],
+        "losses": [
+          77053
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": 8,
+      "mode": "COMP-G8",
+      "n": 24,
+      "success": 7,
+      "meanWork": 3114138.1666666665,
+      "meanLinear": 2039990.125,
+      "meanRotations": 3242.125,
+      "meanDimension": 17.166666666666668,
+      "meanPruned": 12.333333333333334,
+      "maxLeak": 3.747675017920406e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77054,
+          77057,
+          77059,
+          77060,
+          77069,
+          77071
+        ],
+        "losses": [
+          77053
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": 8,
+      "mode": "COMP-G8S",
+      "n": 24,
+      "success": 9,
+      "meanWork": 2997730.6666666665,
+      "meanLinear": 1999640.8333333333,
+      "meanRotations": 2985.4583333333335,
+      "meanDimension": 17.166666666666668,
+      "meanPruned": 12.333333333333334,
+      "maxLeak": 3.9198786360258285e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77054,
+          77055,
+          77056,
+          77057,
+          77060,
+          77061,
+          77065
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77053,
+          77055,
+          77056,
+          77061,
+          77065
+        ],
+        "losses": [
+          77059,
+          77069,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t0",
+      "mode": "F8",
+      "n": 12,
+      "success": 0,
+      "meanWork": 4666265.75,
+      "meanLinear": 3567296.5833333335,
+      "meanRotations": 4087.6666666666665,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": [
+          77025
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77025
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t0",
+      "mode": "INIT8",
+      "n": 12,
+      "success": 1,
+      "meanWork": 4077300.1666666665,
+      "meanLinear": 3410407.5833333335,
+      "meanRotations": 3848.6666666666665,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77000,
+          77001,
+          77002,
+          77003
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t0",
+      "mode": "NL8",
+      "n": 12,
+      "success": 3,
+      "meanWork": 11836580.833333334,
+      "meanLinear": 11145296.666666666,
+      "meanRotations": 3743.3333333333335,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0.052169909723934996,
+      "vsInit": {
+        "wins": [
+          77000,
+          77002
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77001,
+          77003
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t0",
+      "mode": "COMP-U8",
+      "n": 12,
+      "success": 5,
+      "meanWork": 3026029.1666666665,
+      "meanLinear": 1877432.6666666667,
+      "meanRotations": 3450.6666666666665,
+      "meanDimension": 12.333333333333334,
+      "meanPruned": 0,
+      "maxLeak": 4.6698811090693717e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77000,
+          77001,
+          77002,
+          77003
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "t0",
+      "mode": "COMP-G8",
+      "n": 12,
+      "success": 5,
+      "meanWork": 2391354.6666666665,
+      "meanLinear": 1426033.8333333333,
+      "meanRotations": 3450,
+      "meanDimension": 12.333333333333334,
+      "meanPruned": 11,
+      "maxLeak": 4.6698811090693717e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77000,
+          77001,
+          77002,
+          77003
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "t0",
+      "mode": "COMP-G8S",
+      "n": 12,
+      "success": 6,
+      "meanWork": 1983826.3333333333,
+      "meanLinear": 1241959.1666666667,
+      "meanRotations": 2510.0833333333335,
+      "meanDimension": 12.333333333333334,
+      "meanPruned": 11,
+      "maxLeak": 4.6698811090693717e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77000,
+          77001,
+          77002,
+          77003,
+          77027
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77027
+        ],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "t1",
+      "mode": "F8",
+      "n": 12,
+      "success": 8,
+      "meanWork": 3067731.6666666665,
+      "meanLinear": 2376187.5,
+      "meanRotations": 2492.0833333333335,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77004,
+          77028,
+          77029,
+          77052
+        ],
+        "losses": [
+          77053
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [
+          77052
+        ],
+        "losses": [
+          77006,
+          77054
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t1",
+      "mode": "INIT8",
+      "n": 12,
+      "success": 5,
+      "meanWork": 3100824.9166666665,
+      "meanLinear": 2615206.0833333335,
+      "meanRotations": 2748.0833333333335,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77053
+        ],
+        "losses": [
+          77004,
+          77006,
+          77028,
+          77029,
+          77054
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t1",
+      "mode": "NL8",
+      "n": 12,
+      "success": 2,
+      "meanWork": 8589883.333333334,
+      "meanLinear": 7977261.666666667,
+      "meanRotations": 3853.9166666666665,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0.10149039757064442,
+      "vsInit": {
+        "wins": [],
+        "losses": [
+          77007,
+          77031,
+          77053
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77004,
+          77006,
+          77007,
+          77028,
+          77029,
+          77031,
+          77054
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t1",
+      "mode": "COMP-U8",
+      "n": 12,
+      "success": 9,
+      "meanWork": 2008173.0833333333,
+      "meanLinear": 1276520.6666666667,
+      "meanRotations": 1947.6666666666667,
+      "meanDimension": 13.333333333333334,
+      "meanPruned": 0,
+      "maxLeak": 4.4408920985006264e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77004,
+          77006,
+          77028,
+          77029,
+          77054
+        ],
+        "losses": [
+          77053
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "t1",
+      "mode": "COMP-G8",
+      "n": 12,
+      "success": 9,
+      "meanWork": 1615784.1666666667,
+      "meanLinear": 1000470.6666666666,
+      "meanRotations": 1947.6666666666667,
+      "meanDimension": 13.333333333333334,
+      "meanPruned": 10,
+      "maxLeak": 4.4408920985006264e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77004,
+          77006,
+          77028,
+          77029,
+          77054
+        ],
+        "losses": [
+          77053
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "t1",
+      "mode": "COMP-G8S",
+      "n": 12,
+      "success": 10,
+      "meanWork": 963025.8333333334,
+      "meanLinear": 592726.25,
+      "meanRotations": 1209.6666666666667,
+      "meanDimension": 13.333333333333334,
+      "meanPruned": 10,
+      "maxLeak": 4.4408920985006264e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77004,
+          77028,
+          77029,
+          77054,
+          77055
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77053,
+          77055
+        ],
+        "losses": [
+          77006
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t2",
+      "mode": "F8",
+      "n": 12,
+      "success": 6,
+      "meanWork": 3508086.3333333335,
+      "meanLinear": 2673257.75,
+      "meanRotations": 3072.5,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77032,
+          77035,
+          77057
+        ],
+        "losses": [
+          77009
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [
+          77011
+        ],
+        "losses": [
+          77009,
+          77059
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t2",
+      "mode": "INIT8",
+      "n": 12,
+      "success": 4,
+      "meanWork": 3498750,
+      "meanLinear": 2963261.75,
+      "meanRotations": 2967.0833333333335,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77011
+        ],
+        "losses": [
+          77032,
+          77035,
+          77057,
+          77059
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t2",
+      "mode": "NL8",
+      "n": 12,
+      "success": 5,
+      "meanWork": 8188518.666666667,
+      "meanLinear": 7645028.333333333,
+      "meanRotations": 3307.6666666666665,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0.059376834995846464,
+      "vsInit": {
+        "wins": [
+          77032,
+          77035
+        ],
+        "losses": [
+          77034
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [
+          77011
+        ],
+        "losses": [
+          77034,
+          77057,
+          77059
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t2",
+      "mode": "COMP-U8",
+      "n": 12,
+      "success": 7,
+      "meanWork": 2462988.3333333335,
+      "meanLinear": 1452381.6666666667,
+      "meanRotations": 2441.3333333333335,
+      "meanDimension": 14.333333333333334,
+      "meanPruned": 0,
+      "maxLeak": 4.564187445225543e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77032,
+          77035,
+          77057,
+          77059
+        ],
+        "losses": [
+          77011
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "t2",
+      "mode": "COMP-G8",
+      "n": 12,
+      "success": 7,
+      "meanWork": 2009317.3333333333,
+      "meanLinear": 1166477.1666666667,
+      "meanRotations": 2441.3333333333335,
+      "meanDimension": 14.333333333333334,
+      "meanPruned": 9,
+      "maxLeak": 4.564187445225543e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77032,
+          77035,
+          77057,
+          77059
+        ],
+        "losses": [
+          77011
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "t2",
+      "mode": "COMP-G8S",
+      "n": 12,
+      "success": 10,
+      "meanWork": 1210663.0833333333,
+      "meanLinear": 769446.5833333334,
+      "meanRotations": 1155.9166666666667,
+      "meanDimension": 14.333333333333334,
+      "meanPruned": 9,
+      "maxLeak": 4.7008448732065525e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77008,
+          77032,
+          77033,
+          77035,
+          77056,
+          77057
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77008,
+          77011,
+          77033,
+          77056
+        ],
+        "losses": [
+          77059
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t3",
+      "mode": "F8",
+      "n": 12,
+      "success": 4,
+      "meanWork": 4012413.1666666665,
+      "meanLinear": 3103600.0833333335,
+      "meanRotations": 3320,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77015
+        ],
+        "losses": [
+          77037,
+          77063
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77036,
+          77037,
+          77038,
+          77060,
+          77063
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t3",
+      "mode": "INIT8",
+      "n": 12,
+      "success": 5,
+      "meanWork": 2858819.8333333335,
+      "meanLinear": 2407713.5,
+      "meanRotations": 2559.9166666666665,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77015,
+          77036,
+          77038,
+          77060
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t3",
+      "mode": "NL8",
+      "n": 12,
+      "success": 9,
+      "meanWork": 5874157.416666667,
+      "meanLinear": 5609001.416666667,
+      "meanRotations": 1143.3333333333333,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 2.2204460492503132e-17,
+      "vsInit": {
+        "wins": [
+          77015,
+          77036,
+          77038,
+          77060
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "t3",
+      "mode": "COMP-U8",
+      "n": 12,
+      "success": 9,
+      "meanWork": 920936.0833333334,
+      "meanLinear": 608661.5,
+      "meanRotations": 1147.6666666666667,
+      "meanDimension": 10.333333333333334,
+      "meanPruned": 0,
+      "maxLeak": 2.2204460492503132e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77015,
+          77036,
+          77038,
+          77060
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "t3",
+      "mode": "COMP-G8",
+      "n": 12,
+      "success": 9,
+      "meanWork": 723479,
+      "meanLinear": 450366.5,
+      "meanRotations": 1147.6666666666667,
+      "meanDimension": 10.333333333333334,
+      "meanPruned": 12,
+      "maxLeak": 2.2204460492503132e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77015,
+          77036,
+          77038,
+          77060
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "t3",
+      "mode": "COMP-G8S",
+      "n": 12,
+      "success": 10,
+      "meanWork": 723349.1666666666,
+      "meanLinear": 453753.5833333333,
+      "meanRotations": 1113.0833333333333,
+      "meanDimension": 10.333333333333334,
+      "meanPruned": 12,
+      "maxLeak": 2.2204460492503132e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77015,
+          77036,
+          77038,
+          77060,
+          77061
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77061
+        ],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "t4",
+      "mode": "F8",
+      "n": 12,
+      "success": 2,
+      "meanWork": 4413074.416666667,
+      "meanLinear": 3393670.75,
+      "meanRotations": 3734.5833333333335,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77016
+        ],
+        "losses": [
+          77019
+        ]
+      },
+      "vsUnpruned": {
+        "wins": [
+          77016
+        ],
+        "losses": [
+          77017,
+          77019,
+          77040
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t4",
+      "mode": "INIT8",
+      "n": 12,
+      "success": 2,
+      "meanWork": 4075943.6666666665,
+      "meanLinear": 3433020.0833333335,
+      "meanRotations": 3642.3333333333335,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77017,
+          77040
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t4",
+      "mode": "NL8",
+      "n": 12,
+      "success": 6,
+      "meanWork": 9726652.5,
+      "meanLinear": 9148896.416666666,
+      "meanRotations": 3145.4166666666665,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0.048735976250597904,
+      "vsInit": {
+        "wins": [
+          77017,
+          77040,
+          77042,
+          77065
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77042,
+          77065
+        ],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "t4",
+      "mode": "COMP-U8",
+      "n": 12,
+      "success": 4,
+      "meanWork": 2476635.25,
+      "meanLinear": 1625848.6666666667,
+      "meanRotations": 2770,
+      "meanDimension": 11.333333333333334,
+      "meanPruned": 0,
+      "maxLeak": 3.002600441889983e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77017,
+          77040
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "t4",
+      "mode": "COMP-G8",
+      "n": 12,
+      "success": 4,
+      "meanWork": 1968976.5833333333,
+      "meanLinear": 1233629,
+      "meanRotations": 2770,
+      "meanDimension": 11.333333333333334,
+      "meanPruned": 11,
+      "maxLeak": 3.002600441889983e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77017,
+          77040
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "t4",
+      "mode": "COMP-G8S",
+      "n": 12,
+      "success": 7,
+      "meanWork": 1604969.5,
+      "meanLinear": 1019997.8333333334,
+      "meanRotations": 2184.0833333333335,
+      "meanDimension": 11.333333333333334,
+      "meanPruned": 11,
+      "maxLeak": 3.005950164563267e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77016,
+          77017,
+          77041,
+          77042,
+          77065
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77016,
+          77041,
+          77042,
+          77065
+        ],
+        "losses": [
+          77040
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t5",
+      "mode": "F8",
+      "n": 12,
+      "success": 3,
+      "meanWork": 4440949.75,
+      "meanLinear": 3430149.75,
+      "meanRotations": 3688.5833333333335,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77023
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77046,
+          77069,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t5",
+      "mode": "INIT8",
+      "n": 12,
+      "success": 2,
+      "meanWork": 4083109.1666666665,
+      "meanLinear": 3448740,
+      "meanRotations": 3566.25,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77023,
+          77046,
+          77069,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t5",
+      "mode": "NL8",
+      "n": 12,
+      "success": 3,
+      "meanWork": 8706013.75,
+      "meanLinear": 8155310.833333333,
+      "meanRotations": 3285.1666666666665,
+      "meanDimension": 21.333333333333332,
+      "meanPruned": 0,
+      "maxLeak": 0,
+      "maxPortDrift": 0.3987003895747315,
+      "vsInit": {
+        "wins": [
+          77023
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": [
+          77046,
+          77069,
+          77071
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t5",
+      "mode": "COMP-U8",
+      "n": 12,
+      "success": 6,
+      "meanWork": 2312310.5833333335,
+      "meanLinear": 1472923.25,
+      "meanRotations": 2477.0833333333335,
+      "meanDimension": 13.333333333333334,
+      "meanPruned": 0,
+      "maxLeak": 3.2750925610655947e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77023,
+          77046,
+          77069,
+          77071
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "t5",
+      "mode": "COMP-G8",
+      "n": 12,
+      "success": 6,
+      "meanWork": 1910992.6666666667,
+      "meanLinear": 1177841.75,
+      "meanRotations": 2477.0833333333335,
+      "meanDimension": 13.333333333333334,
+      "meanPruned": 9,
+      "maxLeak": 3.2750925610655947e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77023,
+          77046,
+          77069,
+          77071
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "t5",
+      "mode": "COMP-G8S",
+      "n": 12,
+      "success": 5,
+      "meanWork": 2469640.3333333335,
+      "meanLinear": 1576782,
+      "meanRotations": 2930.9166666666665,
+      "meanDimension": 13.333333333333334,
+      "meanPruned": 9,
+      "maxLeak": 3.269790250360578e-17,
+      "maxPortDrift": 0,
+      "vsInit": {
+        "wins": [
+          77023,
+          77045,
+          77046
+        ],
+        "losses": []
+      },
+      "vsUnpruned": {
+        "wins": [
+          77045
+        ],
+        "losses": [
+          77069,
+          77071
+        ]
+      }
+    }
+  ],
+  "verifyMax": {
+    "err": 4.7961634663806766e-15,
+    "orth": 3.4416913763379853e-15,
+    "ports": 0,
+    "sym": 7.105427357601002e-16,
+    "resp": 9.875426003145159e-14,
+    "denseMultiplyTerms": 522000,
+    "responseSolves": 10
+  },
+  "maxDerivative": 7.447162886364823e-11,
+  "maxLeak": 4.7008448732065525e-17,
+  "predictions": {
+    "P1": {
+      "predicted": [
+        77000,
+        77001,
+        77002,
+        77003,
+        77004,
+        77005,
+        77006,
+        77007,
+        77008,
+        77009,
+        77010,
+        77011,
+        77012,
+        77013,
+        77014,
+        77015,
+        77016,
+        77017,
+        77018,
+        77019,
+        77020,
+        77021,
+        77022,
+        77023,
+        77024,
+        77025,
+        77026,
+        77027,
+        77028,
+        77029,
+        77030,
+        77031,
+        77032,
+        77033,
+        77034,
+        77035,
+        77036,
+        77037,
+        77038,
+        77039,
+        77040,
+        77041,
+        77042,
+        77043,
+        77044,
+        77045,
+        77046,
+        77047,
+        77048,
+        77049,
+        77050,
+        77051,
+        77052,
+        77053,
+        77054,
+        77055,
+        77056,
+        77057,
+        77058,
+        77059,
+        77060,
+        77061,
+        77062,
+        77063,
+        77064,
+        77065,
+        77066,
+        77067,
+        77068,
+        77069,
+        77070,
+        77071
+      ],
+      "fixed": [
+        77000,
+        77001,
+        77002,
+        77003,
+        77004,
+        77005,
+        77006,
+        77007,
+        77008,
+        77009,
+        77010,
+        77011,
+        77012,
+        77013,
+        77014,
+        77015,
+        77016,
+        77017,
+        77018,
+        77019,
+        77020,
+        77021,
+        77022,
+        77023,
+        77024,
+        77025,
+        77026,
+        77027,
+        77028,
+        77029,
+        77030,
+        77031,
+        77032,
+        77033,
+        77034,
+        77035,
+        77036,
+        77037,
+        77038,
+        77039,
+        77040,
+        77041,
+        77042,
+        77043,
+        77044,
+        77045,
+        77046,
+        77047,
+        77048,
+        77049,
+        77050,
+        77051,
+        77052,
+        77053,
+        77054,
+        77055,
+        77056,
+        77057,
+        77058,
+        77059,
+        77060,
+        77061,
+        77062,
+        77063,
+        77064,
+        77065,
+        77066,
+        77067,
+        77068,
+        77069,
+        77070,
+        77071
+      ],
+      "missed": []
+    },
+    "P2": {
+      "predicted": [
+        77000,
+        77001,
+        77002,
+        77003,
+        77004,
+        77005,
+        77006,
+        77007,
+        77008,
+        77009,
+        77010,
+        77011,
+        77012,
+        77013,
+        77014,
+        77015,
+        77016,
+        77017,
+        77018,
+        77019,
+        77020,
+        77021,
+        77022,
+        77023,
+        77024,
+        77025,
+        77026,
+        77027,
+        77028,
+        77029,
+        77030,
+        77031,
+        77032,
+        77033,
+        77034,
+        77035,
+        77036,
+        77037,
+        77038,
+        77039,
+        77040,
+        77041,
+        77042,
+        77043,
+        77044,
+        77045,
+        77046,
+        77047,
+        77048,
+        77049,
+        77050,
+        77051,
+        77052,
+        77053,
+        77054,
+        77055,
+        77056,
+        77057,
+        77058,
+        77059,
+        77060,
+        77061,
+        77062,
+        77063,
+        77064,
+        77065,
+        77066,
+        77067,
+        77068,
+        77069,
+        77070,
+        77071
+      ],
+      "fixed": [
+        77000,
+        77001,
+        77002,
+        77003,
+        77004,
+        77005,
+        77006,
+        77007,
+        77008,
+        77009,
+        77010,
+        77011,
+        77012,
+        77013,
+        77014,
+        77015,
+        77016,
+        77017,
+        77018,
+        77019,
+        77020,
+        77021,
+        77022,
+        77023,
+        77024,
+        77025,
+        77026,
+        77027,
+        77028,
+        77029,
+        77030,
+        77031,
+        77032,
+        77033,
+        77034,
+        77035,
+        77036,
+        77037,
+        77038,
+        77039,
+        77040,
+        77041,
+        77042,
+        77043,
+        77044,
+        77045,
+        77046,
+        77047,
+        77048,
+        77049,
+        77050,
+        77051,
+        77052,
+        77053,
+        77054,
+        77055,
+        77056,
+        77057,
+        77058,
+        77059,
+        77060,
+        77061,
+        77062,
+        77063,
+        77064,
+        77065,
+        77066,
+        77067,
+        77068,
+        77069,
+        77070,
+        77071
+      ],
+      "missed": []
+    },
+    "P3": {
+      "predicted": [
+        77100,
+        77101,
+        77102,
+        77103,
+        77104,
+        77105,
+        77106,
+        77107,
+        77108,
+        77109,
+        77110,
+        77111
+      ],
+      "fixed": [
+        77100,
+        77101,
+        77102,
+        77103,
+        77104,
+        77105,
+        77106,
+        77107,
+        77108,
+        77109,
+        77110,
+        77111
+      ],
+      "missed": [],
+      "falseRejects": 0
+    },
+    "P4": {
+      "predicted": [
+        77000,
+        77001,
+        77002,
+        77003,
+        77004,
+        77005,
+        77006,
+        77007,
+        77008,
+        77009,
+        77010,
+        77011,
+        77012,
+        77013,
+        77014,
+        77015,
+        77016,
+        77017,
+        77018,
+        77019,
+        77020,
+        77021,
+        77022,
+        77023,
+        77024,
+        77025,
+        77026,
+        77027,
+        77028,
+        77029,
+        77030,
+        77031,
+        77032,
+        77033,
+        77034,
+        77035,
+        77036,
+        77037,
+        77038,
+        77039,
+        77040,
+        77041,
+        77042,
+        77043,
+        77044,
+        77045,
+        77046,
+        77047,
+        77048,
+        77049,
+        77050,
+        77051,
+        77052,
+        77053,
+        77054,
+        77055,
+        77056,
+        77057,
+        77058,
+        77059,
+        77060,
+        77061,
+        77062,
+        77063,
+        77064,
+        77065,
+        77066,
+        77067,
+        77068,
+        77069,
+        77070,
+        77071
+      ],
+      "fixed": [
+        77000,
+        77001,
+        77002,
+        77003,
+        77004,
+        77005,
+        77006,
+        77007,
+        77008,
+        77009,
+        77010,
+        77011,
+        77012,
+        77013,
+        77014,
+        77015,
+        77016,
+        77017,
+        77018,
+        77019,
+        77020,
+        77021,
+        77022,
+        77023,
+        77024,
+        77025,
+        77026,
+        77027,
+        77028,
+        77029,
+        77030,
+        77031,
+        77032,
+        77033,
+        77034,
+        77035,
+        77036,
+        77037,
+        77038,
+        77039,
+        77040,
+        77041,
+        77042,
+        77043,
+        77044,
+        77045,
+        77046,
+        77047,
+        77048,
+        77049,
+        77050,
+        77051,
+        77052,
+        77053,
+        77054,
+        77055,
+        77056,
+        77057,
+        77058,
+        77059,
+        77060,
+        77061,
+        77062,
+        77063,
+        77064,
+        77065,
+        77066,
+        77067,
+        77068,
+        77069,
+        77070,
+        77071
+      ],
+      "missed": []
+    }
+  },
+  "rawFiles": [
+    "rotation_compiler_target_00.json",
+    "rotation_compiler_target_01.json",
+    "rotation_compiler_target_02.json",
+    "rotation_compiler_target_03.json",
+    "rotation_compiler_target_04.json",
+    "rotation_compiler_target_05.json",
+    "rotation_compiler_target_06.json",
+    "rotation_compiler_target_07.json",
+    "rotation_compiler_target_08.json"
+  ],
+  "certificates": [
+    {
+      "seed": 77100,
+      "valid": true,
+      "dot": "12",
+      "certificateWork": 24,
+      "baselineWork": 2000000,
+      "baselineSuccess": false
+    },
+    {
+      "seed": 77101,
+      "valid": true,
+      "dot": "18",
+      "certificateWork": 28,
+      "baselineWork": 2000000,
+      "baselineSuccess": false
+    },
+    {
+      "seed": 77102,
+      "valid": true,
+      "dot": "12",
+      "certificateWork": 32,
+      "baselineWork": 2000000,
+      "baselineSuccess": false
+    },
+    {
+      "seed": 77103,
+      "valid": true,
+      "dot": "18",
+      "certificateWork": 24,
+      "baselineWork": 2000000,
+      "baselineSuccess": false
+    },
+    {
+      "seed": 77104,
+      "valid": true,
+      "dot": "18",
+      "certificateWork": 28,
+      "baselineWork": 2000000,
+      "baselineSuccess": false
+    },
+    {
+      "seed": 77105,
+      "valid": true,
+      "dot": "3",
+      "certificateWork": 32,
+      "baselineWork": 1999999,
+      "baselineSuccess": false
+    },
+    {
+      "seed": 77106,
+      "valid": true,
+      "dot": "6",
+      "certificateWork": 24,
+      "baselineWork": 2000000,
+      "baselineSuccess": false
+    },
+    {
+      "seed": 77107,
+      "valid": true,
+      "dot": "6",
+      "certificateWork": 28,
+      "baselineWork": 1999999,
+      "baselineSuccess": false
+    },
+    {
+      "seed": 77108,
+      "valid": true,
+      "dot": "9",
+      "certificateWork": 32,
+      "baselineWork": 1999999,
+      "baselineSuccess": false
+    },
+    {
+      "seed": 77109,
+      "valid": true,
+      "dot": "21",
+      "certificateWork": 24,
+      "baselineWork": 2000000,
+      "baselineSuccess": false
+    },
+    {
+      "seed": 77110,
+      "valid": true,
+      "dot": "21",
+      "certificateWork": 28,
+      "baselineWork": 1999999,
+      "baselineSuccess": false
+    },
+    {
+      "seed": 77111,
+      "valid": true,
+      "dot": "15",
+      "certificateWork": 32,
+      "baselineWork": 2000000,
+      "baselineSuccess": false
+    }
+  ],
+  "obligationsChecked": 72,
+  "sourceDevelopment": 0,
+  "limitations": [
+    "No fitting; design cost excluded.",
+    "Compiler selects among three algebraic schemas, not arbitrary theorem discovery. General overlap uses union confinement only; internal port zeros remain as constraints.",
+    "Exact integer contradiction controls not canonicalized; floating nonorthogonal disjoint inputs return unsupported rather than exact refutation.",
+    "INIT8 and NL8 pay compiler initialization; NL8 uses local affine correction without retraction, drift measured, not a complete constrained optimization baseline.",
+    "F8 differs in clipping and metric batching; INIT8 is matched for both and for chart seed states.",
+    "Row-pruned vs unpruned can differ through work cap and floating-point rounding; no wall-time claim.",
+    "Proof obligations checked by independent deterministic support propagation; not Lean-certified. No rank-one, empty, overlapping-degenerate, arbitrary multiport or hardware coverage."
+  ]
+}

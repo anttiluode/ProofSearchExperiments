@@ -329,3 +329,21 @@ P8C+ caches residual/Jacobian/gradient/undamped Gram across rejected same-state 
 | HOMO | 5/32 | 10/32 | 2/32 | 17/96 | 1,099,765 | 20/96 | 20/96 |
 
 Fixed = 2M work and 4096 rotations. Scaled rotation-only caps 4096/5735/7646 for n=6/7/8 (ceil 4096*d/15). F8/F2 legacy cached full LM eight/two starts; B2 batch score; T2 adds Euclidean clip; G2/G8 exact chart two/eight starts; PERM second-start signed permutation; SMOOTH/BAND/HOMO continuation on G2. Full metrics remain final acceptance; weighted intermediate objectives do not count as solutions. Square by equation count does not establish independent rank or a homotopy path; no claim that every failure is a local minimum. Chart restricted to disjoint degree-two supports, with different required initialization. BAND second stage already restores all forbidden weights in these chain masks; HOMO uses fixed canonical-input magnitude. Two-start 120-attempt ceilings may bind before rotation quotas. Signed permutations sampled, not exhaustive. Source fitting zero; engineering cost excluded. Partial modeled work, no runtime benchmark, no Lean numerical certificate or hardware. Reproduce `node rotation_geometry.cjs`; compact rows omit paths, reproducible from exported run().
+
+
+## Experiment 7h — general rank-two port chart compiler
+
+[Protocol](ROTATION_COMPILER_PROTOCOL.md) · [Code](rotation_compiler.cjs) · [Summary and compact raw file index](results/rotation_compiler_summary.json) · [Generator/derivative/negative audit](results/rotation_compiler_audit.json) · [Checked support proof obligations](results/rotation_compiler_obligations.json).
+
+72 feasible fresh cases, 77000–77071, balanced across six support types and n=6/7/8; support vertices permuted, port roles swapped on alternating IDs. 12 exact integer negative controls, 77100–77111. Compiler reads mask and port Gram, not type labels or witness. Uses three general schemas: independent spherical chains for disjoint support, singleton nested support, partial union confinement for general overlap. Prunes only certified forbidden zero rows; all required hinge rows remain. 72 witness and transported derivative audits passed, maximum derivative error 7.447162886364823e-11; 72 separate symbolic support checks passed. 864 feasible runs and 12 negative baseline runs independently verified, max sampled response error 9.875426003145159e-14; maximum compiled endpoint leakage 4.7008448732065525e-17. All feasible budget caps and ledger sums checked. 12 exact integer nonzero Gram certificates independently checked, zero rotations and no false rejects in feasible corpus. Negative baseline failed all 12 under 2M work. Exact zero infeasibility is a mathematical certificate; no tolerance-general rejection theorem or floating-input certificate claimed.
+
+| Arm | n=6 fixed | n=7 fixed | n=8 fixed | Fixed total | Fixed mean work | Rotation-only total | Rotation-only mean work |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| F8 | 9/24 | 6/24 | 1/24 | 16/72 | 1,808,401 | 23/72 | 4,018,087 |
+| INIT8 | 11/24 | 5/24 | 1/24 | 17/72 | 1,655,279 | 19/72 | 3,615,791 |
+| NL8 | 8/24 | 5/24 | 0/24 | 13/72 | 1,805,945 | 28/72 | 8,820,301 |
+| COMP-U8 | 19/24 | 13/24 | 4/24 | 36/72 | 1,264,550 | 40/72 | 2,201,179 |
+| COMP-G8 | 19/24 | 13/24 | 4/24 | 36/72 | 1,200,556 | 40/72 | 1,769,984 |
+| COMP-G8S | 21/24 | 17/24 | 8/24 | 46/72 | 991,640 | 48/72 | 1,492,579 |
+
+Fixed = 2M work and 4096 rotations. F8 frozen 7g full baseline; INIT8 full LM from same chart seed states with same L2 clipping/batch scoring as compiled arms; NL8 local affine numerical nullspace step with no exact retraction (drift recorded); COMP-U8 unpruned; COMP-G8 pruned; COMP-G8S pruned plus smooth continuation, all eight starts. Compiler/seed costs charged to INIT8 and NL8 too. General overlap confines span to union only, not individual supports. This is automatic schema compilation, not automated invention of theorems. Support obligations checked by separate deterministic set-propagation audit, not Lean. Rank-one/empty/degenerate supports not validated. Source fitting zero; engineering cost excluded. Modeled work is partial, not runtime. No hardware or Lean numerical proof. Reproduce `node rotation_compiler.cjs`; compact rows omit paths, reproducible from exported run().
