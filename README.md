@@ -497,3 +497,23 @@ Replay Exp 11 FIRST/TOP on 83000–83031 at both budgets. All 128 runs match pri
 | 9 | 17/177 | 1138038 | 1179256 | 17/17 | 14/17 |
 
 At n=9, prefix trial 4/6/8 full-loss AUC 0.595/0.623/0.720; cumulative log-loss/work 0.549/0.581/0.694. Normalized dependent-denominator margin AUC 0.498/0.463/0.417, no positive evidence for low-margin stall discrimination. Exploratory curves at trial 10: n=9 full-loss AUC 0.890, recent four-trial log-loss/work AUC 0.908, median successful work 757,308; all 17 observed wins still represented. At n=8 trial 10 recent AUC 0.756. Later points survivor-conditioned. 120/177 n=9 nonwinning trajectories accepted their last completed step, median final relative full-loss decrease 0.0253; not all are stagnant. 14/17 observed n=9 winning starts took >1M work. Short-leash interruption count not counterfactual short-leash solve rate. No regulator rule frozen or tested; mandatory future controls short fixed quota and classical racing, plus unchanged baseline. No learned selector or fresh numerical performance claim. Reproduce `node trace_quality.cjs`.
+
+
+## Experiment 13 — reader-regulator under matched work budgets
+
+[Protocol](ROTATION_REGULATOR_PROTOCOL.md) · [Code](rotation_regulator.cjs) · [Summary](results/rotation_regulator_summary.json) · [Exact baseline replays](results/rotation_regulator_replay.json) · [SIM ledger](SIM_OPERATOR_READER.json).
+
+Fresh seeds 84000–84031, 16 per size, FIRST chart, two budgets, eight arms, 512 numerical runs. All 64 baseline replays matched success/loss/work/rotations exactly (Gate 11 compact rows, previously matched by Gate 12); all 32 generator witnesses, derivative audits and final path replays passed; no cap or ledger violations. Maximum response error 3.423e-14, compiled leakage 6.823e-17, derivative error 6.958e-11. Raw events in eight target files indexed by summary.
+
+| Policy | n=8 / 2M | n=8 / 4M | n=9 / 2M | n=9 / 4M |
+|---|---:|---:|---:|---:|
+| BASE-512 | 4 | 9 | 2 | 7 |
+| LOCAL-512 | 4 | 8 | 2 | 7 |
+| SHORT-384 | 4 | 7 | 1 | 2 |
+| LONG-1024 | 7 | 9 | 5 | 6 |
+| UNLEASH | 8 | 10 | 3 | 8 |
+| HALVE-LOSS | 5 | 8 | 4 | 6 |
+| SUSPEND-LOSS | 5 | 9 | 4 | 6 |
+| SUSPEND-PROGRESS | 8 | 9 | 3 | 6 |
+
+Counts out of 16. All arms retain unchanged numerical metric/verification. All new arms share stage switch at 256 local rotations or original nonquota triggers. BASE retains original cumulative schedule. P1 long passes, P1 unleash fails; P2 n8 passes, n9 fails; P3 both pass. No general regulator promotion. n8/2M progress racer wins four and loses one against each loss racer, wins two and loses one against LONG, but ties UNLEASH in success with mean work 1.701M vs 1.521M. n9/2M LONG wins 5 vs LOCAL 2, UNLEASH 3. Matched initial trajectory 84020 UNLEASH stops after rejected trial 18 while LONG recovers after trial 19 rejection and succeeds at trial 27 (1,833,351 work). 84022 UNLEASH stops at trial 22 rejection; LONG recovers after trial 23 rejection and succeeds at trial 30 (1,997,000 work). Do not treat rejected LM steps as death of the basin. No fitting or generalization from 16 cases per slice. Modeled work is partial, not runtime; verifier and memory outside ledger, terminated states retained for logging. No Lean certificate for numerical realizations. Gate 13 corpus diagnostic forever for future design. Reproduce `node rotation_regulator.cjs`.
