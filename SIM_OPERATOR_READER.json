@@ -1,6 +1,6 @@
 {
   "format": "SIM-inspired experimental history, not Google's CRSI optimizer",
-  "next_id": 18,
+  "next_id": 19,
   "problems": [
     {
       "id": 1,
@@ -17776,6 +17776,712 @@
           ],
           "source_development": 0,
           "decision": "Do not promote static quality score or mixed-organ portfolio on these results; retain successful multi-generation synthesis. Distinguish exact commutation from sampled spectrum clustering; no neural routing yet."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "root_cause": "11 static quality and split portfolios failed; test whether live residual trajectories separate converging from quota-limited starts before designing regulator.",
+      "attempts": [
+        {
+          "intervention": "12 diagnostic-only read-only replay on 11 matrices",
+          "protocol_commit": "568d157d3a4bfbe90335e98e140229477c8e7005",
+          "observed": {
+            "replay": {
+              "rows": 128,
+              "mismatches": [],
+              "events": 15168,
+              "trials": 6897,
+              "starts": 404
+            },
+            "summary": [
+              {
+                "n": 8,
+                "mode": "both",
+                "rotationOnly": {
+                  "starts": 86,
+                  "wins": 29,
+                  "fail": 57,
+                  "winWork": 680390,
+                  "failWork": 818118,
+                  "winTrials": 16,
+                  "failTrials": 22,
+                  "winRotations": 376,
+                  "failRotations": 519,
+                  "winBeyond": [
+                    {
+                      "cap": 200,
+                      "count": 29
+                    },
+                    {
+                      "cap": 256,
+                      "count": 29
+                    },
+                    {
+                      "cap": 512,
+                      "count": 1
+                    }
+                  ],
+                  "winBeyond1M": 0,
+                  "pref": [
+                    {
+                      "k": 4,
+                      "wins": 29,
+                      "fail": 57,
+                      "excludedWins": 0,
+                      "excludedFail": 0,
+                      "fields": {
+                        "progress": {
+                          "win": 12.690499487623354,
+                          "fail": 11.891735600876975,
+                          "auc": 0.5662431941923775
+                        },
+                        "loss": {
+                          "win": 3.3455040809599867,
+                          "fail": 3.395953375952051,
+                          "auc": 0.5287356321839081
+                        },
+                        "grad": {
+                          "win": 2.0827267561180576,
+                          "fail": 2.1978310631907028,
+                          "auc": 0.4730792498487598
+                        },
+                        "margin": {
+                          "win": 0.8414741660747119,
+                          "fail": 0.8818729504476988,
+                          "auc": 0.4470659407138536
+                        },
+                        "port": {
+                          "win": 0.03759664475520322,
+                          "fail": 0.033321195590295456,
+                          "auc": 0.543859649122807
+                        },
+                        "work": {
+                          "win": 179585,
+                          "fail": 178385,
+                          "auc": 0.55837870538415
+                        }
+                      }
+                    },
+                    {
+                      "k": 6,
+                      "wins": 29,
+                      "fail": 57,
+                      "excludedWins": 0,
+                      "excludedFail": 0,
+                      "fields": {
+                        "progress": {
+                          "win": 13.68009758697354,
+                          "fail": 14.155830956649993,
+                          "auc": 0.5372050816696915
+                        },
+                        "loss": {
+                          "win": 5.070098800656201,
+                          "fail": 5.025493910824101,
+                          "auc": 0.5238959467634604
+                        },
+                        "grad": {
+                          "win": 3.050991502985999,
+                          "fail": 2.8966688853327405,
+                          "auc": 0.557773744706594
+                        },
+                        "margin": {
+                          "win": 0.8548504683042814,
+                          "fail": 0.861380311627764,
+                          "auc": 0.4863883847549909
+                        },
+                        "port": {
+                          "win": 0.04248850067131005,
+                          "fail": 0.025624850250381363,
+                          "auc": 0.5904416212946159
+                        },
+                        "work": {
+                          "win": 267668,
+                          "fail": 265715,
+                          "auc": 0.5535390199637024
+                        }
+                      }
+                    },
+                    {
+                      "k": 8,
+                      "wins": 29,
+                      "fail": 57,
+                      "excludedWins": 0,
+                      "excludedFail": 0,
+                      "fields": {
+                        "progress": {
+                          "win": 17.521111531272464,
+                          "fail": 14.28676777383069,
+                          "auc": 0.6303690260133091
+                        },
+                        "loss": {
+                          "win": 7.427031606692068,
+                          "fail": 6.358502408036284,
+                          "auc": 0.6279491833030852
+                        },
+                        "grad": {
+                          "win": 3.935653202936762,
+                          "fail": 3.8418006380408327,
+                          "auc": 0.514821536600121
+                        },
+                        "margin": {
+                          "win": 0.8551664645503588,
+                          "fail": 0.8771932118491623,
+                          "auc": 0.4900181488203267
+                        },
+                        "port": {
+                          "win": 0.08151240580475837,
+                          "fail": 0.05232224298273156,
+                          "auc": 0.6938898971566848
+                        },
+                        "work": {
+                          "win": 355445,
+                          "fail": 355305,
+                          "auc": 0.514216575922565
+                        }
+                      }
+                    }
+                  ]
+                },
+                "fixed": {
+                  "starts": 64,
+                  "wins": 20,
+                  "censored": 12,
+                  "completedNonwinning": 32
+                }
+              },
+              {
+                "n": 9,
+                "mode": "both",
+                "rotationOnly": {
+                  "starts": 194,
+                  "wins": 17,
+                  "fail": 177,
+                  "winWork": 1138038,
+                  "failWork": 1179256,
+                  "winTrials": 15,
+                  "failTrials": 17,
+                  "winRotations": 449,
+                  "failRotations": 507,
+                  "winBeyond": [
+                    {
+                      "cap": 200,
+                      "count": 17
+                    },
+                    {
+                      "cap": 256,
+                      "count": 17
+                    },
+                    {
+                      "cap": 512,
+                      "count": 0
+                    }
+                  ],
+                  "winBeyond1M": 14,
+                  "pref": [
+                    {
+                      "k": 4,
+                      "wins": 17,
+                      "fail": 177,
+                      "excludedWins": 0,
+                      "excludedFail": 0,
+                      "fields": {
+                        "progress": {
+                          "win": 5.678538684411175,
+                          "fail": 5.2153307637880895,
+                          "auc": 0.548687271518777
+                        },
+                        "loss": {
+                          "win": 3.048981577549537,
+                          "fail": 2.596523974077182,
+                          "auc": 0.5945496842804918
+                        },
+                        "grad": {
+                          "win": 2.0308596988583707,
+                          "fail": 1.78749114279722,
+                          "auc": 0.6334330342306415
+                        },
+                        "margin": {
+                          "win": 0.917208483366515,
+                          "fail": 0.8970822191078756,
+                          "auc": 0.49750747756729813
+                        },
+                        "port": {
+                          "win": 0.04947679277444344,
+                          "fail": 0.026675100332971633,
+                          "auc": 0.6124958457959455
+                        },
+                        "work": {
+                          "win": 304263,
+                          "fail": 304814,
+                          "auc": 0.4627783316716517
+                        }
+                      }
+                    },
+                    {
+                      "k": 6,
+                      "wins": 17,
+                      "fail": 177,
+                      "excludedWins": 0,
+                      "excludedFail": 0,
+                      "fields": {
+                        "progress": {
+                          "win": 6.026291902020163,
+                          "fail": 5.625673400575327,
+                          "auc": 0.5812562313060817
+                        },
+                        "loss": {
+                          "win": 4.431783196360707,
+                          "fail": 3.5739866143834553,
+                          "auc": 0.6227982718511134
+                        },
+                        "grad": {
+                          "win": 2.726788213427781,
+                          "fail": 2.2918423671326464,
+                          "auc": 0.650049850448654
+                        },
+                        "margin": {
+                          "win": 0.8868128361750037,
+                          "fail": 0.9057886940857569,
+                          "auc": 0.46294449983383185
+                        },
+                        "port": {
+                          "win": 0.04348031230743172,
+                          "fail": 0.026873273296712845,
+                          "auc": 0.6071784646061814
+                        },
+                        "work": {
+                          "win": 454363,
+                          "fail": 456006,
+                          "auc": 0.45928880026586905
+                        }
+                      }
+                    },
+                    {
+                      "k": 8,
+                      "wins": 17,
+                      "fail": 177,
+                      "excludedWins": 0,
+                      "excludedFail": 0,
+                      "fields": {
+                        "progress": {
+                          "win": 7.16397829807148,
+                          "fail": 5.646986447071147,
+                          "auc": 0.6939182452642074
+                        },
+                        "loss": {
+                          "win": 5.426220629497797,
+                          "fail": 4.4861797102218,
+                          "auc": 0.7195081422399469
+                        },
+                        "grad": {
+                          "win": 3.0295616228121864,
+                          "fail": 2.931794212660382,
+                          "auc": 0.6374210701229645
+                        },
+                        "margin": {
+                          "win": 0.8695793453597012,
+                          "fail": 0.9040455349583225,
+                          "auc": 0.4167497507477567
+                        },
+                        "port": {
+                          "win": 0.0546330667246161,
+                          "fail": 0.027686829928738128,
+                          "auc": 0.6161515453639083
+                        },
+                        "work": {
+                          "win": 605378,
+                          "fail": 607308,
+                          "auc": 0.4803921568627451
+                        }
+                      }
+                    }
+                  ]
+                },
+                "fixed": {
+                  "starts": 60,
+                  "wins": 4,
+                  "censored": 28,
+                  "completedNonwinning": 28
+                }
+              }
+            ],
+            "exploratory": [
+              {
+                "n": 8,
+                "curve": [
+                  {
+                    "k": 1,
+                    "win": 29,
+                    "fail": 57,
+                    "winLoss": 0.18496477524478092,
+                    "failLoss": 0.18209640762490842,
+                    "winWork": 47639,
+                    "lossAUC": 0.4476709013914096,
+                    "recentAUC": 0.5184513006654567,
+                    "progressAUC": 0.5184513006654567,
+                    "acceptAUC": 0.5,
+                    "muAUC": 0.5
+                  },
+                  {
+                    "k": 2,
+                    "win": 29,
+                    "fail": 57,
+                    "winLoss": 0.12160512804608167,
+                    "failLoss": 0.11472546500749703,
+                    "winWork": 91655,
+                    "lossAUC": 0.4936479128856624,
+                    "recentAUC": 0.5396249243799153,
+                    "progressAUC": 0.5396249243799153,
+                    "acceptAUC": 0.5,
+                    "muAUC": 0.5
+                  },
+                  {
+                    "k": 3,
+                    "win": 29,
+                    "fail": 57,
+                    "winLoss": 0.06238080849669809,
+                    "failLoss": 0.06429645488643078,
+                    "winWork": 135569,
+                    "lossAUC": 0.5081669691470054,
+                    "recentAUC": 0.5505142165759226,
+                    "progressAUC": 0.5505142165759226,
+                    "acceptAUC": 0.5,
+                    "muAUC": 0.5
+                  },
+                  {
+                    "k": 4,
+                    "win": 29,
+                    "fail": 57,
+                    "winLoss": 0.03524244563352378,
+                    "failLoss": 0.033508592652475466,
+                    "winWork": 179585,
+                    "lossAUC": 0.5287356321839081,
+                    "recentAUC": 0.5662431941923775,
+                    "progressAUC": 0.5662431941923775,
+                    "acceptAUC": 0.5,
+                    "muAUC": 0.5087719298245614
+                  },
+                  {
+                    "k": 5,
+                    "win": 29,
+                    "fail": 57,
+                    "winLoss": 0.01144182723248204,
+                    "failLoss": 0.014032288764148228,
+                    "winWork": 223499,
+                    "lossAUC": 0.5372050816696915,
+                    "recentAUC": 0.5620084694494858,
+                    "progressAUC": 0.5547489413188142,
+                    "acceptAUC": 0.5087719298245614,
+                    "muAUC": 0.501209921355112
+                  },
+                  {
+                    "k": 6,
+                    "win": 29,
+                    "fail": 57,
+                    "winLoss": 0.006281799464230809,
+                    "failLoss": 0.006568341518658675,
+                    "winWork": 267668,
+                    "lossAUC": 0.5238959467634604,
+                    "recentAUC": 0.5408348457350273,
+                    "progressAUC": 0.5372050816696915,
+                    "acceptAUC": 0.500302480338778,
+                    "muAUC": 0.5184513006654567
+                  },
+                  {
+                    "k": 7,
+                    "win": 29,
+                    "fail": 57,
+                    "winLoss": 0.002096402320214843,
+                    "failLoss": 0.003169854884740168,
+                    "winWork": 311531,
+                    "lossAUC": 0.5511191772534786,
+                    "recentAUC": 0.5656382335148215,
+                    "progressAUC": 0.5644283121597096,
+                    "acceptAUC": 0.5096793708408953,
+                    "muAUC": 0.4534180278281912
+                  },
+                  {
+                    "k": 8,
+                    "win": 29,
+                    "fail": 57,
+                    "winLoss": 0.000594950941729873,
+                    "failLoss": 0.0017319585378116034,
+                    "winWork": 355445,
+                    "lossAUC": 0.6279491833030854,
+                    "recentAUC": 0.6442831215970962,
+                    "progressAUC": 0.6303690260133091,
+                    "acceptAUC": 0.5553539019963702,
+                    "muAUC": 0.5632183908045978
+                  },
+                  {
+                    "k": 9,
+                    "win": 29,
+                    "fail": 57,
+                    "winLoss": 0.00010722541517972094,
+                    "failLoss": 0.0009723724561189211,
+                    "winWork": 399461,
+                    "lossAUC": 0.6539624924379915,
+                    "recentAUC": 0.6612220205686631,
+                    "progressAUC": 0.6491228070175439,
+                    "acceptAUC": 0.5698729582577133,
+                    "muAUC": 0.5677555958862673
+                  },
+                  {
+                    "k": 10,
+                    "win": 29,
+                    "fail": 57,
+                    "winLoss": 0.00004756576493192414,
+                    "failLoss": 0.0005439977149889581,
+                    "winWork": 443477,
+                    "lossAUC": 0.7162734422262553,
+                    "recentAUC": 0.7555958862673926,
+                    "progressAUC": 0.7156684815486993,
+                    "acceptAUC": 0.663641863278887,
+                    "muAUC": 0.6536600120992135
+                  },
+                  {
+                    "k": 12,
+                    "win": 27,
+                    "fail": 57,
+                    "winLoss": 9.90205217052688e-7,
+                    "failLoss": 0.0003221442056003677,
+                    "winWork": 533227,
+                    "lossAUC": 0.8232618583495777,
+                    "recentAUC": 0.8239116309291747,
+                    "progressAUC": 0.8096166341780376,
+                    "acceptAUC": 0.859324236517219,
+                    "muAUC": 0.861598440545809
+                  },
+                  {
+                    "k": 14,
+                    "win": 21,
+                    "fail": 57,
+                    "winLoss": 2.103774901225022e-9,
+                    "failLoss": 0.0002538833372394777,
+                    "winWork": 613858,
+                    "lossAUC": 0.9306599832915623,
+                    "recentAUC": 0.9440267335004178,
+                    "progressAUC": 0.9147869674185464,
+                    "acceptAUC": 0.7685881370091896,
+                    "muAUC": 0.8475355054302423
+                  },
+                  {
+                    "k": 16,
+                    "win": 17,
+                    "fail": 57,
+                    "winLoss": 9.984364224990956e-14,
+                    "failLoss": 0.00019397040768577128,
+                    "winWork": 674366,
+                    "lossAUC": 0.9680082559339526,
+                    "recentAUC": 0.9834881320949433,
+                    "progressAUC": 0.9607843137254902,
+                    "acceptAUC": 0.8390092879256965,
+                    "muAUC": 0.9246646026831785
+                  }
+                ],
+                "finalNonwinning": {
+                  "medianLoss": 0.00010007625038795152,
+                  "acceptedLast": 39,
+                  "n": 57,
+                  "medianLastRelativeDrop": 0.0038839327994650108,
+                  "medianMu": 0.001524157902758726,
+                  "finalSmooth": 0
+                },
+                "fixed": {
+                  "firstStartMedianWork": 781169.5,
+                  "completeWins": 20
+                }
+              },
+              {
+                "n": 9,
+                "curve": [
+                  {
+                    "k": 1,
+                    "win": 17,
+                    "fail": 177,
+                    "winLoss": 0.23314390048398514,
+                    "failLoss": 0.251576375039474,
+                    "winWork": 79113,
+                    "lossAUC": 0.6121635094715853,
+                    "recentAUC": 0.5739448321701562,
+                    "progressAUC": 0.5739448321701562,
+                    "acceptAUC": 0.5,
+                    "muAUC": 0.5
+                  },
+                  {
+                    "k": 2,
+                    "win": 17,
+                    "fail": 177,
+                    "winLoss": 0.17688345137873066,
+                    "failLoss": 0.18102986937059082,
+                    "winWork": 154163,
+                    "lossAUC": 0.6068461282818212,
+                    "recentAUC": 0.5819209039548022,
+                    "progressAUC": 0.5819209039548022,
+                    "acceptAUC": 0.5,
+                    "muAUC": 0.5
+                  },
+                  {
+                    "k": 3,
+                    "win": 17,
+                    "fail": 177,
+                    "winLoss": 0.09590164019525228,
+                    "failLoss": 0.12345092865627232,
+                    "winWork": 229213,
+                    "lossAUC": 0.5952143569292124,
+                    "recentAUC": 0.555333998005982,
+                    "progressAUC": 0.555333998005982,
+                    "acceptAUC": 0.5,
+                    "muAUC": 0.5
+                  },
+                  {
+                    "k": 4,
+                    "win": 17,
+                    "fail": 177,
+                    "winLoss": 0.04740718035127636,
+                    "failLoss": 0.07453220433272363,
+                    "winWork": 304263,
+                    "lossAUC": 0.5945496842804918,
+                    "recentAUC": 0.548687271518777,
+                    "progressAUC": 0.548687271518777,
+                    "acceptAUC": 0.5,
+                    "muAUC": 0.5
+                  },
+                  {
+                    "k": 5,
+                    "win": 17,
+                    "fail": 177,
+                    "winLoss": 0.02510694439351048,
+                    "failLoss": 0.04421331291289881,
+                    "winWork": 379313,
+                    "lossAUC": 0.6108341641741443,
+                    "recentAUC": 0.5440345629777334,
+                    "progressAUC": 0.5546693253572615,
+                    "acceptAUC": 0.5056497175141242,
+                    "muAUC": 0.5112994350282486
+                  },
+                  {
+                    "k": 6,
+                    "win": 17,
+                    "fail": 177,
+                    "winLoss": 0.011893262729694055,
+                    "failLoss": 0.028043830593829738,
+                    "winWork": 454363,
+                    "lossAUC": 0.6227982718511134,
+                    "recentAUC": 0.5792622133599202,
+                    "progressAUC": 0.5812562313060817,
+                    "acceptAUC": 0.5169491525423728,
+                    "muAUC": 0.5310734463276836
+                  },
+                  {
+                    "k": 7,
+                    "win": 17,
+                    "fail": 177,
+                    "winLoss": 0.005790321614689826,
+                    "failLoss": 0.017986486838983743,
+                    "winWork": 529413,
+                    "lossAUC": 0.6719840478564307,
+                    "recentAUC": 0.6876038551013626,
+                    "progressAUC": 0.6537055500166168,
+                    "acceptAUC": 0.5310734463276836,
+                    "muAUC": 0.5438683948155534
+                  },
+                  {
+                    "k": 8,
+                    "win": 17,
+                    "fail": 177,
+                    "winLoss": 0.004399692488410889,
+                    "failLoss": 0.011263591905290957,
+                    "winWork": 605378,
+                    "lossAUC": 0.7195081422399469,
+                    "recentAUC": 0.7364572947823197,
+                    "progressAUC": 0.6939182452642074,
+                    "acceptAUC": 0.556497175141243,
+                    "muAUC": 0.514456630109671
+                  },
+                  {
+                    "k": 9,
+                    "win": 17,
+                    "fail": 177,
+                    "winLoss": 0.0006850067525913815,
+                    "failLoss": 0.007764690032773821,
+                    "winWork": 681343,
+                    "lossAUC": 0.7823197075440346,
+                    "recentAUC": 0.8195413758723828,
+                    "progressAUC": 0.7706879361914257,
+                    "acceptAUC": 0.5739448321701562,
+                    "muAUC": 0.46992356264539714
+                  },
+                  {
+                    "k": 10,
+                    "win": 17,
+                    "fail": 177,
+                    "winLoss": 0.000017269698401498336,
+                    "failLoss": 0.003610261598133697,
+                    "winWork": 757308,
+                    "lossAUC": 0.8896643403123962,
+                    "recentAUC": 0.9079428381522101,
+                    "progressAUC": 0.8720505151213027,
+                    "acceptAUC": 0.6194749086075108,
+                    "muAUC": 0.6056829511465603
+                  },
+                  {
+                    "k": 12,
+                    "win": 17,
+                    "fail": 177,
+                    "winLoss": 4.913422390186268e-7,
+                    "failLoss": 0.0015665997087097076,
+                    "winWork": 911237,
+                    "lossAUC": 0.9308740445330674,
+                    "recentAUC": 0.9438351611831174,
+                    "progressAUC": 0.9172482552342971,
+                    "acceptAUC": 0.7768361581920904,
+                    "muAUC": 0.8783649052841476
+                  },
+                  {
+                    "k": 14,
+                    "win": 14,
+                    "fail": 177,
+                    "winLoss": 1.7045618456608072e-12,
+                    "failLoss": 0.0008891907614300663,
+                    "winWork": 1066805.5,
+                    "lossAUC": 0.9991928974979822,
+                    "recentAUC": 0.9971751412429378,
+                    "progressAUC": 0.9979822437449556,
+                    "acceptAUC": 0.8785310734463276,
+                    "muAUC": 0.9509685230024214
+                  },
+                  {
+                    "k": 16,
+                    "win": 6,
+                    "fail": 177,
+                    "winLoss": 2.0926069362236376e-19,
+                    "failLoss": 0.000526157431820382,
+                    "winWork": 1228762.5,
+                    "lossAUC": 1,
+                    "recentAUC": 1,
+                    "progressAUC": 1,
+                    "acceptAUC": 0.8700564971751412,
+                    "muAUC": 0.9811676082862523
+                  }
+                ],
+                "finalNonwinning": {
+                  "medianLoss": 0.0004281669302656379,
+                  "acceptedLast": 120,
+                  "n": 177,
+                  "medianLastRelativeDrop": 0.02528427249061077,
+                  "medianMu": 0.0004572473708276178,
+                  "finalSmooth": 0
+                },
+                "fixed": {
+                  "firstStartMedianWork": 1168090.5,
+                  "completeWins": 4
+                }
+              }
+            ]
+          },
+          "decision": "Do not promote a regulator from diagnostic curves. Late progress has signal but costs substantial work, short caps interrupt all observed original wins, denominator margin not established as stall signal. Freeze fresh experiment only after choosing simple controls; no new holdout run."
         }
       ]
     }

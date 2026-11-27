@@ -483,3 +483,17 @@ Six parent programs retained from seven accepted depth-four sequences (includes 
 | RANDOM | 11/32 | 1,650,002 | 19/32 | 5,067,532 |
 
 Fixed = 2M+4096. R0–R4 = frozen structural rank, TOP=R0, NEXT=R1, WORST=R4, FIRST insertion, RANDOM seeded draw (both NEXT). AC = A/C descendant split, MIX = top/runner-up split, TOP4+4 = same top chart split. First phase 1M work and 2048 rotations, second remaining work and 2048 rotations; compile charged again and RNG advanced to restart 4. Unused rotations forfeited. No phase-two run if first succeeds. Same split for all portfolios; TOP alone uses original cumulative quotas. A/C descendants have different sampled spectra, so AC is related-chart rather than provably identical-chart control. Reflected variants are relabelings, not independent search. Score uses generic port-Jacobian condition (100 Jacobi pivot iterations, no convergence audit) and approximate transport wedge count, not actual full LM Jacobian. Both deeper contracts synthesized, but the prior strong conditioning association did not establish reliable selection on this corpus. No learning or timing, no global real chart proof. No calibrated amortization. Reproduce `node quality_givens.cjs` then `node rotation_quality.cjs`.
+
+
+## Experiment 12 — diagnostic trajectory pass (not a holdout)
+
+[Protocol](ROTATION_TRAJECTORY_DIAGNOSTIC.md) · [Read-only observer](trace_quality.cjs) · [Summary and raw trace index](results/rotation_trajectory_summary.json).
+
+Replay Exp 11 FIRST/TOP on 83000–83031 at both budgets. All 128 runs match prior success, final loss, work and rotations exactly. 404 observed starts, 6,897 completed trials, 15,168 events including attempted steps. Observer excluded from old ledger and decisions. All fixed work-truncated starts marked censored; rotation-only nonwinning trajectories are quota/damping limited, not proved local minima. All 32 cases diagnostic forever.
+
+| n | Rotation-only successful/nonwinning starts | Median successful work | Median nonwinning work | Successes beyond 256 rotations | Successes beyond 1M work |
+|---|---:|---:|---:|---:|---:|
+| 8 | 29/57 | 680390 | 818118 | 29/29 | 0/29 |
+| 9 | 17/177 | 1138038 | 1179256 | 17/17 | 14/17 |
+
+At n=9, prefix trial 4/6/8 full-loss AUC 0.595/0.623/0.720; cumulative log-loss/work 0.549/0.581/0.694. Normalized dependent-denominator margin AUC 0.498/0.463/0.417, no positive evidence for low-margin stall discrimination. Exploratory curves at trial 10: n=9 full-loss AUC 0.890, recent four-trial log-loss/work AUC 0.908, median successful work 757,308; all 17 observed wins still represented. At n=8 trial 10 recent AUC 0.756. Later points survivor-conditioned. 120/177 n=9 nonwinning trajectories accepted their last completed step, median final relative full-loss decrease 0.0253; not all are stagnant. 14/17 observed n=9 winning starts took >1M work. Short-leash interruption count not counterfactual short-leash solve rate. No regulator rule frozen or tested; mandatory future controls short fixed quota and classical racing, plus unchanged baseline. No learned selector or fresh numerical performance claim. Reproduce `node trace_quality.cjs`.

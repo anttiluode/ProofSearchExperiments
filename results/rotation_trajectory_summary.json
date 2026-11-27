@@ -1,0 +1,1332 @@
+{
+  "protocolCommit": "568d157d3a4bfbe90335e98e140229477c8e7005",
+  "observerCommit": "9a78ad16b5f19d9d31feea7b4a6c3d377a9233a7",
+  "originalSolverCommit": "8b6a9815b706a406cb77e48bc8e6ae3b9a849288",
+  "summary": [
+    {
+      "n": 8,
+      "mode": "FIRST",
+      "rotationOnly": {
+        "starts": 37,
+        "wins": 16,
+        "fail": 21,
+        "winWork": 694335,
+        "failWork": 818118,
+        "winTrials": 16,
+        "failTrials": 21,
+        "winRotations": 378.5,
+        "failRotations": 491,
+        "winBeyond": [
+          {
+            "cap": 200,
+            "count": 16
+          },
+          {
+            "cap": 256,
+            "count": 16
+          },
+          {
+            "cap": 512,
+            "count": 0
+          }
+        ],
+        "winBeyond1M": 0,
+        "pref": [
+          {
+            "k": 4,
+            "wins": 16,
+            "fail": 21,
+            "excludedWins": 0,
+            "excludedFail": 0,
+            "fields": {
+              "progress": {
+                "win": 11.608511352204982,
+                "fail": 11.22155436428727,
+                "auc": 0.5148809523809523
+              },
+              "loss": {
+                "win": 3.216529080681772,
+                "fail": 3.1699471786442945,
+                "auc": 0.4494047619047619
+              },
+              "grad": {
+                "win": 2.023431911379668,
+                "fail": 2.1528568495447664,
+                "auc": 0.41369047619047616
+              },
+              "margin": {
+                "win": 0.884815389138709,
+                "fail": 0.8839611431400349,
+                "auc": 0.5029761904761905
+              },
+              "port": {
+                "win": 0.059514341939790646,
+                "fail": 0.0423911574368509,
+                "auc": 0.5476190476190477
+              },
+              "work": {
+                "win": 177320,
+                "fail": 178668,
+                "auc": 0.47767857142857145
+              }
+            }
+          },
+          {
+            "k": 6,
+            "wins": 16,
+            "fail": 21,
+            "excludedWins": 0,
+            "excludedFail": 0,
+            "fields": {
+              "progress": {
+                "win": 15.277182037634358,
+                "fail": 14.59982390983957,
+                "auc": 0.5208333333333334
+              },
+              "loss": {
+                "win": 5.084875093484372,
+                "fail": 5.022798141810792,
+                "auc": 0.4851190476190476
+              },
+              "grad": {
+                "win": 3.208368192616149,
+                "fail": 2.875473295323877,
+                "auc": 0.49107142857142855
+              },
+              "margin": {
+                "win": 0.8985910513184452,
+                "fail": 0.8482364671542719,
+                "auc": 0.5357142857142857
+              },
+              "port": {
+                "win": 0.06296481874945782,
+                "fail": 0.0276563402777209,
+                "auc": 0.5208333333333334
+              },
+              "work": {
+                "win": 266980,
+                "fail": 266700,
+                "auc": 0.4880952380952381
+              }
+            }
+          },
+          {
+            "k": 8,
+            "wins": 16,
+            "fail": 21,
+            "excludedWins": 0,
+            "excludedFail": 0,
+            "fields": {
+              "progress": {
+                "win": 17.193081982160784,
+                "fail": 14.379005401184694,
+                "auc": 0.5863095238095238
+              },
+              "loss": {
+                "win": 7.270751328234381,
+                "fail": 6.672804591637507,
+                "auc": 0.5714285714285714
+              },
+              "grad": {
+                "win": 3.80549643731308,
+                "fail": 4.161932161773683,
+                "auc": 0.43452380952380953
+              },
+              "margin": {
+                "win": 0.8823412584533905,
+                "fail": 0.8771932118491623,
+                "auc": 0.5357142857142857
+              },
+              "port": {
+                "win": 0.07917936950196679,
+                "fail": 0.05576840518923156,
+                "auc": 0.6845238095238095
+              },
+              "work": {
+                "win": 353662,
+                "fail": 355598,
+                "auc": 0.41517857142857145
+              }
+            }
+          }
+        ]
+      },
+      "fixed": {
+        "starts": 33,
+        "wins": 10,
+        "censored": 6,
+        "completedNonwinning": 17
+      }
+    },
+    {
+      "n": 8,
+      "mode": "TOP",
+      "rotationOnly": {
+        "starts": 49,
+        "wins": 13,
+        "fail": 36,
+        "winWork": 680390,
+        "failWork": 818828,
+        "winTrials": 16,
+        "failTrials": 22,
+        "winRotations": 376,
+        "failRotations": 519,
+        "winBeyond": [
+          {
+            "cap": 200,
+            "count": 13
+          },
+          {
+            "cap": 256,
+            "count": 13
+          },
+          {
+            "cap": 512,
+            "count": 1
+          }
+        ],
+        "winBeyond1M": 0,
+        "pref": [
+          {
+            "k": 4,
+            "wins": 13,
+            "fail": 36,
+            "excludedWins": 0,
+            "excludedFail": 0,
+            "fields": {
+              "progress": {
+                "win": 12.690499487623354,
+                "fail": 11.946821492179609,
+                "auc": 0.6089743589743589
+              },
+              "loss": {
+                "win": 3.785378554163072,
+                "fail": 3.4136136778716075,
+                "auc": 0.6025641025641025
+              },
+              "grad": {
+                "win": 2.2684342099777157,
+                "fail": 2.2135571891007455,
+                "auc": 0.5726495726495726
+              },
+              "margin": {
+                "win": 0.7948221367155552,
+                "fail": 0.8805933303090949,
+                "auc": 0.36324786324786323
+              },
+              "port": {
+                "win": 0.02717680599908057,
+                "fail": 0.028170471832612884,
+                "auc": 0.5405982905982906
+              },
+              "work": {
+                "win": 181701,
+                "fail": 178385,
+                "auc": 0.6826923076923077
+              }
+            }
+          },
+          {
+            "k": 6,
+            "wins": 13,
+            "fail": 36,
+            "excludedWins": 0,
+            "excludedFail": 0,
+            "fields": {
+              "progress": {
+                "win": 13.460082392221059,
+                "fail": 14.050892331176302,
+                "auc": 0.532051282051282
+              },
+              "loss": {
+                "win": 4.886789185201638,
+                "fail": 5.048845247823805,
+                "auc": 0.5427350427350427
+              },
+              "grad": {
+                "win": 3.050991502985999,
+                "fail": 2.928213453275013,
+                "auc": 0.5897435897435898
+              },
+              "margin": {
+                "win": 0.8045835328224911,
+                "fail": 0.8715205861418764,
+                "auc": 0.45085470085470086
+              },
+              "port": {
+                "win": 0.03657903636118671,
+                "fail": 0.0220703016335985,
+                "auc": 0.6431623931623932
+              },
+              "work": {
+                "win": 271173,
+                "fail": 265715,
+                "auc": 0.6538461538461539
+              }
+            }
+          },
+          {
+            "k": 8,
+            "wins": 13,
+            "fail": 36,
+            "excludedWins": 0,
+            "excludedFail": 0,
+            "fields": {
+              "progress": {
+                "win": 18.157591005411675,
+                "fail": 14.216966362354576,
+                "auc": 0.6837606837606838
+              },
+              "loss": {
+                "win": 7.650708959559487,
+                "fail": 6.325365753531821,
+                "auc": 0.6858974358974359
+              },
+              "grad": {
+                "win": 3.935653202936762,
+                "fail": 3.813875183064441,
+                "auc": 0.6068376068376068
+              },
+              "margin": {
+                "win": 0.7936135876431709,
+                "fail": 0.8934435437664383,
+                "auc": 0.42948717948717946
+              },
+              "port": {
+                "win": 0.08184146574721542,
+                "fail": 0.051377814111848774,
+                "auc": 0.7008547008547008
+              },
+              "work": {
+                "win": 360645,
+                "fail": 354824,
+                "auc": 0.6848290598290598
+              }
+            }
+          }
+        ]
+      },
+      "fixed": {
+        "starts": 31,
+        "wins": 10,
+        "censored": 6,
+        "completedNonwinning": 15
+      }
+    },
+    {
+      "n": 8,
+      "mode": "both",
+      "rotationOnly": {
+        "starts": 86,
+        "wins": 29,
+        "fail": 57,
+        "winWork": 680390,
+        "failWork": 818118,
+        "winTrials": 16,
+        "failTrials": 22,
+        "winRotations": 376,
+        "failRotations": 519,
+        "winBeyond": [
+          {
+            "cap": 200,
+            "count": 29
+          },
+          {
+            "cap": 256,
+            "count": 29
+          },
+          {
+            "cap": 512,
+            "count": 1
+          }
+        ],
+        "winBeyond1M": 0,
+        "pref": [
+          {
+            "k": 4,
+            "wins": 29,
+            "fail": 57,
+            "excludedWins": 0,
+            "excludedFail": 0,
+            "fields": {
+              "progress": {
+                "win": 12.690499487623354,
+                "fail": 11.891735600876975,
+                "auc": 0.5662431941923775
+              },
+              "loss": {
+                "win": 3.3455040809599867,
+                "fail": 3.395953375952051,
+                "auc": 0.5287356321839081
+              },
+              "grad": {
+                "win": 2.0827267561180576,
+                "fail": 2.1978310631907028,
+                "auc": 0.4730792498487598
+              },
+              "margin": {
+                "win": 0.8414741660747119,
+                "fail": 0.8818729504476988,
+                "auc": 0.4470659407138536
+              },
+              "port": {
+                "win": 0.03759664475520322,
+                "fail": 0.033321195590295456,
+                "auc": 0.543859649122807
+              },
+              "work": {
+                "win": 179585,
+                "fail": 178385,
+                "auc": 0.55837870538415
+              }
+            }
+          },
+          {
+            "k": 6,
+            "wins": 29,
+            "fail": 57,
+            "excludedWins": 0,
+            "excludedFail": 0,
+            "fields": {
+              "progress": {
+                "win": 13.68009758697354,
+                "fail": 14.155830956649993,
+                "auc": 0.5372050816696915
+              },
+              "loss": {
+                "win": 5.070098800656201,
+                "fail": 5.025493910824101,
+                "auc": 0.5238959467634604
+              },
+              "grad": {
+                "win": 3.050991502985999,
+                "fail": 2.8966688853327405,
+                "auc": 0.557773744706594
+              },
+              "margin": {
+                "win": 0.8548504683042814,
+                "fail": 0.861380311627764,
+                "auc": 0.4863883847549909
+              },
+              "port": {
+                "win": 0.04248850067131005,
+                "fail": 0.025624850250381363,
+                "auc": 0.5904416212946159
+              },
+              "work": {
+                "win": 267668,
+                "fail": 265715,
+                "auc": 0.5535390199637024
+              }
+            }
+          },
+          {
+            "k": 8,
+            "wins": 29,
+            "fail": 57,
+            "excludedWins": 0,
+            "excludedFail": 0,
+            "fields": {
+              "progress": {
+                "win": 17.521111531272464,
+                "fail": 14.28676777383069,
+                "auc": 0.6303690260133091
+              },
+              "loss": {
+                "win": 7.427031606692068,
+                "fail": 6.358502408036284,
+                "auc": 0.6279491833030852
+              },
+              "grad": {
+                "win": 3.935653202936762,
+                "fail": 3.8418006380408327,
+                "auc": 0.514821536600121
+              },
+              "margin": {
+                "win": 0.8551664645503588,
+                "fail": 0.8771932118491623,
+                "auc": 0.4900181488203267
+              },
+              "port": {
+                "win": 0.08151240580475837,
+                "fail": 0.05232224298273156,
+                "auc": 0.6938898971566848
+              },
+              "work": {
+                "win": 355445,
+                "fail": 355305,
+                "auc": 0.514216575922565
+              }
+            }
+          }
+        ]
+      },
+      "fixed": {
+        "starts": 64,
+        "wins": 20,
+        "censored": 12,
+        "completedNonwinning": 32
+      }
+    },
+    {
+      "n": 9,
+      "mode": "FIRST",
+      "rotationOnly": {
+        "starts": 96,
+        "wins": 8,
+        "fail": 88,
+        "winWork": 1071450,
+        "failWork": 1168462,
+        "winTrials": 14.5,
+        "failTrials": 17,
+        "winRotations": 434.5,
+        "failRotations": 507,
+        "winBeyond": [
+          {
+            "cap": 200,
+            "count": 8
+          },
+          {
+            "cap": 256,
+            "count": 8
+          },
+          {
+            "cap": 512,
+            "count": 0
+          }
+        ],
+        "winBeyond1M": 6,
+        "pref": [
+          {
+            "k": 4,
+            "wins": 8,
+            "fail": 88,
+            "excludedWins": 0,
+            "excludedFail": 0,
+            "fields": {
+              "progress": {
+                "win": 7.22450191174897,
+                "fail": 5.096546685069291,
+                "auc": 0.6704545454545454
+              },
+              "loss": {
+                "win": 3.3767367511694584,
+                "fail": 2.5176526298203497,
+                "auc": 0.7230113636363636
+              },
+              "grad": {
+                "win": 2.002281154864902,
+                "fail": 1.7503316324083102,
+                "auc": 0.7400568181818182
+              },
+              "margin": {
+                "win": 0.9176263916130095,
+                "fail": 0.9278769182009503,
+                "auc": 0.4758522727272727
+              },
+              "port": {
+                "win": 0.07040053092334142,
+                "fail": 0.02153380948844262,
+                "auc": 0.6661931818181818
+              },
+              "work": {
+                "win": 303081.5,
+                "fail": 304814,
+                "auc": 0.4666193181818182
+              }
+            }
+          },
+          {
+            "k": 6,
+            "wins": 8,
+            "fail": 88,
+            "excludedWins": 0,
+            "excludedFail": 0,
+            "fields": {
+              "progress": {
+                "win": 7.100729668111541,
+                "fail": 5.72990137068822,
+                "auc": 0.6363636363636364
+              },
+              "loss": {
+                "win": 4.825262998532487,
+                "fail": 3.613095637986082,
+                "auc": 0.7116477272727273
+              },
+              "grad": {
+                "win": 2.9164612497898914,
+                "fail": 2.2695297531903327,
+                "auc": 0.7727272727272727
+              },
+              "margin": {
+                "win": 0.8870242721370762,
+                "fail": 0.9354626219019293,
+                "auc": 0.39204545454545453
+              },
+              "port": {
+                "win": 0.029980539969918677,
+                "fail": 0.026876887121414048,
+                "auc": 0.5440340909090909
+              },
+              "work": {
+                "win": 452861,
+                "fail": 455902.5,
+                "auc": 0.44176136363636365
+              }
+            }
+          },
+          {
+            "k": 8,
+            "wins": 8,
+            "fail": 88,
+            "excludedWins": 0,
+            "excludedFail": 0,
+            "fields": {
+              "progress": {
+                "win": 6.947964346910631,
+                "fail": 5.832098092150648,
+                "auc": 0.6917613636363636
+              },
+              "loss": {
+                "win": 5.7155679118017195,
+                "fail": 4.507831894473432,
+                "auc": 0.7372159090909091
+              },
+              "grad": {
+                "win": 3.8682499587799275,
+                "fail": 2.9019565324351326,
+                "auc": 0.7386363636363636
+              },
+              "margin": {
+                "win": 0.8003474247161577,
+                "fail": 0.9374591823661087,
+                "auc": 0.3210227272727273
+              },
+              "port": {
+                "win": 0.0901449480418673,
+                "fail": 0.03192472098638764,
+                "auc": 0.6065340909090909
+              },
+              "work": {
+                "win": 605066,
+                "fail": 606922,
+                "auc": 0.5007102272727273
+              }
+            }
+          }
+        ]
+      },
+      "fixed": {
+        "starts": 30,
+        "wins": 2,
+        "censored": 14,
+        "completedNonwinning": 14
+      }
+    },
+    {
+      "n": 9,
+      "mode": "TOP",
+      "rotationOnly": {
+        "starts": 98,
+        "wins": 9,
+        "fail": 89,
+        "winWork": 1164049,
+        "failWork": 1192625,
+        "winTrials": 15,
+        "failTrials": 17,
+        "winRotations": 449,
+        "failRotations": 507,
+        "winBeyond": [
+          {
+            "cap": 200,
+            "count": 9
+          },
+          {
+            "cap": 256,
+            "count": 9
+          },
+          {
+            "cap": 512,
+            "count": 0
+          }
+        ],
+        "winBeyond1M": 8,
+        "pref": [
+          {
+            "k": 4,
+            "wins": 9,
+            "fail": 89,
+            "excludedWins": 0,
+            "excludedFail": 0,
+            "fields": {
+              "progress": {
+                "win": 5.386454011008969,
+                "fail": 5.340315125673537,
+                "auc": 0.4332084893882647
+              },
+              "loss": {
+                "win": 2.5668480798673627,
+                "fail": 2.7294449303258523,
+                "auc": 0.46441947565543074
+              },
+              "grad": {
+                "win": 2.0500399127493436,
+                "fail": 1.8812718012959047,
+                "auc": 0.5443196004993758
+              },
+              "margin": {
+                "win": 0.8491418525081189,
+                "fail": 0.861665142417157,
+                "auc": 0.5318352059925093
+              },
+              "port": {
+                "win": 0.034671299627314356,
+                "fail": 0.03217392416829682,
+                "auc": 0.5530586766541823
+              },
+              "work": {
+                "win": 304263,
+                "fail": 309047,
+                "auc": 0.4132334581772784
+              }
+            }
+          },
+          {
+            "k": 6,
+            "wins": 9,
+            "fail": 89,
+            "excludedWins": 0,
+            "excludedFail": 0,
+            "fields": {
+              "progress": {
+                "win": 5.955404098602966,
+                "fail": 5.443460300465094,
+                "auc": 0.5318352059925093
+              },
+              "loss": {
+                "win": 3.5823430275363597,
+                "fail": 3.5739866143834553,
+                "auc": 0.5455680399500624
+              },
+              "grad": {
+                "win": 2.4203695596569323,
+                "fail": 2.35840423048789,
+                "auc": 0.5393258426966292
+              },
+              "margin": {
+                "win": 0.8640744892796067,
+                "fail": 0.8520551423991921,
+                "auc": 0.5343320848938826
+              },
+              "port": {
+                "win": 0.04348031230743172,
+                "fail": 0.024443468720546552,
+                "auc": 0.6766541822721598
+              },
+              "work": {
+                "win": 454363,
+                "fail": 460569,
+                "auc": 0.4132334581772784
+              }
+            }
+          },
+          {
+            "k": 8,
+            "wins": 9,
+            "fail": 89,
+            "excludedWins": 0,
+            "excludedFail": 0,
+            "fields": {
+              "progress": {
+                "win": 7.241787682979669,
+                "fail": 5.630453637561473,
+                "auc": 0.7166042446941323
+              },
+              "loss": {
+                "win": 5.40346864265105,
+                "fail": 4.4861797102218,
+                "auc": 0.7066167290886392
+              },
+              "grad": {
+                "win": 2.9366994108283,
+                "fail": 2.9462425439231734,
+                "auc": 0.5468164794007491
+              },
+              "margin": {
+                "win": 0.8734725188175904,
+                "fail": 0.8620291860195404,
+                "auc": 0.5418227215980025
+              },
+              "port": {
+                "win": 0.04808592222188903,
+                "fail": 0.02216096812722688,
+                "auc": 0.6267166042446941
+              },
+              "work": {
+                "win": 605378,
+                "fail": 610122,
+                "auc": 0.41947565543071164
+              }
+            }
+          }
+        ]
+      },
+      "fixed": {
+        "starts": 30,
+        "wins": 2,
+        "censored": 14,
+        "completedNonwinning": 14
+      }
+    },
+    {
+      "n": 9,
+      "mode": "both",
+      "rotationOnly": {
+        "starts": 194,
+        "wins": 17,
+        "fail": 177,
+        "winWork": 1138038,
+        "failWork": 1179256,
+        "winTrials": 15,
+        "failTrials": 17,
+        "winRotations": 449,
+        "failRotations": 507,
+        "winBeyond": [
+          {
+            "cap": 200,
+            "count": 17
+          },
+          {
+            "cap": 256,
+            "count": 17
+          },
+          {
+            "cap": 512,
+            "count": 0
+          }
+        ],
+        "winBeyond1M": 14,
+        "pref": [
+          {
+            "k": 4,
+            "wins": 17,
+            "fail": 177,
+            "excludedWins": 0,
+            "excludedFail": 0,
+            "fields": {
+              "progress": {
+                "win": 5.678538684411175,
+                "fail": 5.2153307637880895,
+                "auc": 0.548687271518777
+              },
+              "loss": {
+                "win": 3.048981577549537,
+                "fail": 2.596523974077182,
+                "auc": 0.5945496842804918
+              },
+              "grad": {
+                "win": 2.0308596988583707,
+                "fail": 1.78749114279722,
+                "auc": 0.6334330342306415
+              },
+              "margin": {
+                "win": 0.917208483366515,
+                "fail": 0.8970822191078756,
+                "auc": 0.49750747756729813
+              },
+              "port": {
+                "win": 0.04947679277444344,
+                "fail": 0.026675100332971633,
+                "auc": 0.6124958457959455
+              },
+              "work": {
+                "win": 304263,
+                "fail": 304814,
+                "auc": 0.4627783316716517
+              }
+            }
+          },
+          {
+            "k": 6,
+            "wins": 17,
+            "fail": 177,
+            "excludedWins": 0,
+            "excludedFail": 0,
+            "fields": {
+              "progress": {
+                "win": 6.026291902020163,
+                "fail": 5.625673400575327,
+                "auc": 0.5812562313060817
+              },
+              "loss": {
+                "win": 4.431783196360707,
+                "fail": 3.5739866143834553,
+                "auc": 0.6227982718511134
+              },
+              "grad": {
+                "win": 2.726788213427781,
+                "fail": 2.2918423671326464,
+                "auc": 0.650049850448654
+              },
+              "margin": {
+                "win": 0.8868128361750037,
+                "fail": 0.9057886940857569,
+                "auc": 0.46294449983383185
+              },
+              "port": {
+                "win": 0.04348031230743172,
+                "fail": 0.026873273296712845,
+                "auc": 0.6071784646061814
+              },
+              "work": {
+                "win": 454363,
+                "fail": 456006,
+                "auc": 0.45928880026586905
+              }
+            }
+          },
+          {
+            "k": 8,
+            "wins": 17,
+            "fail": 177,
+            "excludedWins": 0,
+            "excludedFail": 0,
+            "fields": {
+              "progress": {
+                "win": 7.16397829807148,
+                "fail": 5.646986447071147,
+                "auc": 0.6939182452642074
+              },
+              "loss": {
+                "win": 5.426220629497797,
+                "fail": 4.4861797102218,
+                "auc": 0.7195081422399469
+              },
+              "grad": {
+                "win": 3.0295616228121864,
+                "fail": 2.931794212660382,
+                "auc": 0.6374210701229645
+              },
+              "margin": {
+                "win": 0.8695793453597012,
+                "fail": 0.9040455349583225,
+                "auc": 0.4167497507477567
+              },
+              "port": {
+                "win": 0.0546330667246161,
+                "fail": 0.027686829928738128,
+                "auc": 0.6161515453639083
+              },
+              "work": {
+                "win": 605378,
+                "fail": 607308,
+                "auc": 0.4803921568627451
+              }
+            }
+          }
+        ]
+      },
+      "fixed": {
+        "starts": 60,
+        "wins": 4,
+        "censored": 28,
+        "completedNonwinning": 28
+      }
+    }
+  ],
+  "replay": {
+    "rows": 128,
+    "mismatches": [],
+    "events": 15168,
+    "trials": 6897,
+    "starts": 404
+  },
+  "exploratoryCurves": [
+    {
+      "n": 8,
+      "curve": [
+        {
+          "k": 1,
+          "win": 29,
+          "fail": 57,
+          "winLoss": 0.18496477524478092,
+          "failLoss": 0.18209640762490842,
+          "winWork": 47639,
+          "lossAUC": 0.4476709013914096,
+          "recentAUC": 0.5184513006654567,
+          "progressAUC": 0.5184513006654567,
+          "acceptAUC": 0.5,
+          "muAUC": 0.5
+        },
+        {
+          "k": 2,
+          "win": 29,
+          "fail": 57,
+          "winLoss": 0.12160512804608167,
+          "failLoss": 0.11472546500749703,
+          "winWork": 91655,
+          "lossAUC": 0.4936479128856624,
+          "recentAUC": 0.5396249243799153,
+          "progressAUC": 0.5396249243799153,
+          "acceptAUC": 0.5,
+          "muAUC": 0.5
+        },
+        {
+          "k": 3,
+          "win": 29,
+          "fail": 57,
+          "winLoss": 0.06238080849669809,
+          "failLoss": 0.06429645488643078,
+          "winWork": 135569,
+          "lossAUC": 0.5081669691470054,
+          "recentAUC": 0.5505142165759226,
+          "progressAUC": 0.5505142165759226,
+          "acceptAUC": 0.5,
+          "muAUC": 0.5
+        },
+        {
+          "k": 4,
+          "win": 29,
+          "fail": 57,
+          "winLoss": 0.03524244563352378,
+          "failLoss": 0.033508592652475466,
+          "winWork": 179585,
+          "lossAUC": 0.5287356321839081,
+          "recentAUC": 0.5662431941923775,
+          "progressAUC": 0.5662431941923775,
+          "acceptAUC": 0.5,
+          "muAUC": 0.5087719298245614
+        },
+        {
+          "k": 5,
+          "win": 29,
+          "fail": 57,
+          "winLoss": 0.01144182723248204,
+          "failLoss": 0.014032288764148228,
+          "winWork": 223499,
+          "lossAUC": 0.5372050816696915,
+          "recentAUC": 0.5620084694494858,
+          "progressAUC": 0.5547489413188142,
+          "acceptAUC": 0.5087719298245614,
+          "muAUC": 0.501209921355112
+        },
+        {
+          "k": 6,
+          "win": 29,
+          "fail": 57,
+          "winLoss": 0.006281799464230809,
+          "failLoss": 0.006568341518658675,
+          "winWork": 267668,
+          "lossAUC": 0.5238959467634604,
+          "recentAUC": 0.5408348457350273,
+          "progressAUC": 0.5372050816696915,
+          "acceptAUC": 0.500302480338778,
+          "muAUC": 0.5184513006654567
+        },
+        {
+          "k": 7,
+          "win": 29,
+          "fail": 57,
+          "winLoss": 0.002096402320214843,
+          "failLoss": 0.003169854884740168,
+          "winWork": 311531,
+          "lossAUC": 0.5511191772534786,
+          "recentAUC": 0.5656382335148215,
+          "progressAUC": 0.5644283121597096,
+          "acceptAUC": 0.5096793708408953,
+          "muAUC": 0.4534180278281912
+        },
+        {
+          "k": 8,
+          "win": 29,
+          "fail": 57,
+          "winLoss": 0.000594950941729873,
+          "failLoss": 0.0017319585378116034,
+          "winWork": 355445,
+          "lossAUC": 0.6279491833030854,
+          "recentAUC": 0.6442831215970962,
+          "progressAUC": 0.6303690260133091,
+          "acceptAUC": 0.5553539019963702,
+          "muAUC": 0.5632183908045978
+        },
+        {
+          "k": 9,
+          "win": 29,
+          "fail": 57,
+          "winLoss": 0.00010722541517972094,
+          "failLoss": 0.0009723724561189211,
+          "winWork": 399461,
+          "lossAUC": 0.6539624924379915,
+          "recentAUC": 0.6612220205686631,
+          "progressAUC": 0.6491228070175439,
+          "acceptAUC": 0.5698729582577133,
+          "muAUC": 0.5677555958862673
+        },
+        {
+          "k": 10,
+          "win": 29,
+          "fail": 57,
+          "winLoss": 0.00004756576493192414,
+          "failLoss": 0.0005439977149889581,
+          "winWork": 443477,
+          "lossAUC": 0.7162734422262553,
+          "recentAUC": 0.7555958862673926,
+          "progressAUC": 0.7156684815486993,
+          "acceptAUC": 0.663641863278887,
+          "muAUC": 0.6536600120992135
+        },
+        {
+          "k": 12,
+          "win": 27,
+          "fail": 57,
+          "winLoss": 9.90205217052688e-7,
+          "failLoss": 0.0003221442056003677,
+          "winWork": 533227,
+          "lossAUC": 0.8232618583495777,
+          "recentAUC": 0.8239116309291747,
+          "progressAUC": 0.8096166341780376,
+          "acceptAUC": 0.859324236517219,
+          "muAUC": 0.861598440545809
+        },
+        {
+          "k": 14,
+          "win": 21,
+          "fail": 57,
+          "winLoss": 2.103774901225022e-9,
+          "failLoss": 0.0002538833372394777,
+          "winWork": 613858,
+          "lossAUC": 0.9306599832915623,
+          "recentAUC": 0.9440267335004178,
+          "progressAUC": 0.9147869674185464,
+          "acceptAUC": 0.7685881370091896,
+          "muAUC": 0.8475355054302423
+        },
+        {
+          "k": 16,
+          "win": 17,
+          "fail": 57,
+          "winLoss": 9.984364224990956e-14,
+          "failLoss": 0.00019397040768577128,
+          "winWork": 674366,
+          "lossAUC": 0.9680082559339526,
+          "recentAUC": 0.9834881320949433,
+          "progressAUC": 0.9607843137254902,
+          "acceptAUC": 0.8390092879256965,
+          "muAUC": 0.9246646026831785
+        }
+      ],
+      "finalNonwinning": {
+        "medianLoss": 0.00010007625038795152,
+        "acceptedLast": 39,
+        "n": 57,
+        "medianLastRelativeDrop": 0.0038839327994650108,
+        "medianMu": 0.001524157902758726,
+        "finalSmooth": 0
+      },
+      "fixed": {
+        "firstStartMedianWork": 781169.5,
+        "completeWins": 20
+      }
+    },
+    {
+      "n": 9,
+      "curve": [
+        {
+          "k": 1,
+          "win": 17,
+          "fail": 177,
+          "winLoss": 0.23314390048398514,
+          "failLoss": 0.251576375039474,
+          "winWork": 79113,
+          "lossAUC": 0.6121635094715853,
+          "recentAUC": 0.5739448321701562,
+          "progressAUC": 0.5739448321701562,
+          "acceptAUC": 0.5,
+          "muAUC": 0.5
+        },
+        {
+          "k": 2,
+          "win": 17,
+          "fail": 177,
+          "winLoss": 0.17688345137873066,
+          "failLoss": 0.18102986937059082,
+          "winWork": 154163,
+          "lossAUC": 0.6068461282818212,
+          "recentAUC": 0.5819209039548022,
+          "progressAUC": 0.5819209039548022,
+          "acceptAUC": 0.5,
+          "muAUC": 0.5
+        },
+        {
+          "k": 3,
+          "win": 17,
+          "fail": 177,
+          "winLoss": 0.09590164019525228,
+          "failLoss": 0.12345092865627232,
+          "winWork": 229213,
+          "lossAUC": 0.5952143569292124,
+          "recentAUC": 0.555333998005982,
+          "progressAUC": 0.555333998005982,
+          "acceptAUC": 0.5,
+          "muAUC": 0.5
+        },
+        {
+          "k": 4,
+          "win": 17,
+          "fail": 177,
+          "winLoss": 0.04740718035127636,
+          "failLoss": 0.07453220433272363,
+          "winWork": 304263,
+          "lossAUC": 0.5945496842804918,
+          "recentAUC": 0.548687271518777,
+          "progressAUC": 0.548687271518777,
+          "acceptAUC": 0.5,
+          "muAUC": 0.5
+        },
+        {
+          "k": 5,
+          "win": 17,
+          "fail": 177,
+          "winLoss": 0.02510694439351048,
+          "failLoss": 0.04421331291289881,
+          "winWork": 379313,
+          "lossAUC": 0.6108341641741443,
+          "recentAUC": 0.5440345629777334,
+          "progressAUC": 0.5546693253572615,
+          "acceptAUC": 0.5056497175141242,
+          "muAUC": 0.5112994350282486
+        },
+        {
+          "k": 6,
+          "win": 17,
+          "fail": 177,
+          "winLoss": 0.011893262729694055,
+          "failLoss": 0.028043830593829738,
+          "winWork": 454363,
+          "lossAUC": 0.6227982718511134,
+          "recentAUC": 0.5792622133599202,
+          "progressAUC": 0.5812562313060817,
+          "acceptAUC": 0.5169491525423728,
+          "muAUC": 0.5310734463276836
+        },
+        {
+          "k": 7,
+          "win": 17,
+          "fail": 177,
+          "winLoss": 0.005790321614689826,
+          "failLoss": 0.017986486838983743,
+          "winWork": 529413,
+          "lossAUC": 0.6719840478564307,
+          "recentAUC": 0.6876038551013626,
+          "progressAUC": 0.6537055500166168,
+          "acceptAUC": 0.5310734463276836,
+          "muAUC": 0.5438683948155534
+        },
+        {
+          "k": 8,
+          "win": 17,
+          "fail": 177,
+          "winLoss": 0.004399692488410889,
+          "failLoss": 0.011263591905290957,
+          "winWork": 605378,
+          "lossAUC": 0.7195081422399469,
+          "recentAUC": 0.7364572947823197,
+          "progressAUC": 0.6939182452642074,
+          "acceptAUC": 0.556497175141243,
+          "muAUC": 0.514456630109671
+        },
+        {
+          "k": 9,
+          "win": 17,
+          "fail": 177,
+          "winLoss": 0.0006850067525913815,
+          "failLoss": 0.007764690032773821,
+          "winWork": 681343,
+          "lossAUC": 0.7823197075440346,
+          "recentAUC": 0.8195413758723828,
+          "progressAUC": 0.7706879361914257,
+          "acceptAUC": 0.5739448321701562,
+          "muAUC": 0.46992356264539714
+        },
+        {
+          "k": 10,
+          "win": 17,
+          "fail": 177,
+          "winLoss": 0.000017269698401498336,
+          "failLoss": 0.003610261598133697,
+          "winWork": 757308,
+          "lossAUC": 0.8896643403123962,
+          "recentAUC": 0.9079428381522101,
+          "progressAUC": 0.8720505151213027,
+          "acceptAUC": 0.6194749086075108,
+          "muAUC": 0.6056829511465603
+        },
+        {
+          "k": 12,
+          "win": 17,
+          "fail": 177,
+          "winLoss": 4.913422390186268e-7,
+          "failLoss": 0.0015665997087097076,
+          "winWork": 911237,
+          "lossAUC": 0.9308740445330674,
+          "recentAUC": 0.9438351611831174,
+          "progressAUC": 0.9172482552342971,
+          "acceptAUC": 0.7768361581920904,
+          "muAUC": 0.8783649052841476
+        },
+        {
+          "k": 14,
+          "win": 14,
+          "fail": 177,
+          "winLoss": 1.7045618456608072e-12,
+          "failLoss": 0.0008891907614300663,
+          "winWork": 1066805.5,
+          "lossAUC": 0.9991928974979822,
+          "recentAUC": 0.9971751412429378,
+          "progressAUC": 0.9979822437449556,
+          "acceptAUC": 0.8785310734463276,
+          "muAUC": 0.9509685230024214
+        },
+        {
+          "k": 16,
+          "win": 6,
+          "fail": 177,
+          "winLoss": 2.0926069362236376e-19,
+          "failLoss": 0.000526157431820382,
+          "winWork": 1228762.5,
+          "lossAUC": 1,
+          "recentAUC": 1,
+          "progressAUC": 1,
+          "acceptAUC": 0.8700564971751412,
+          "muAUC": 0.9811676082862523
+        }
+      ],
+      "finalNonwinning": {
+        "medianLoss": 0.0004281669302656379,
+        "acceptedLast": 120,
+        "n": 177,
+        "medianLastRelativeDrop": 0.02528427249061077,
+        "medianMu": 0.0004572473708276178,
+        "finalSmooth": 0
+      },
+      "fixed": {
+        "firstStartMedianWork": 1168090.5,
+        "completeWins": 4
+      }
+    }
+  ],
+  "rawFiles": [
+    "rotation_trajectory_diag_00.json",
+    "rotation_trajectory_diag_01.json",
+    "rotation_trajectory_diag_02.json",
+    "rotation_trajectory_diag_03.json"
+  ],
+  "limitations": [
+    "All matrices diagnostic; no new holdout or online reader tested.",
+    "Two charts and both budgets on same 32 matrices; repeated starts correlated, not independent samples. Rotation-only runs stop at first success; unvisited starts missing. Fixed work-aborted starts censored. Nonwinning quota-limited trajectories not proven dead basins.",
+    "Observer computations excluded from original ledger; original success/loss/work/rotation match 128/128. Future online reader work must be charged.",
+    "Post-protocol additional curves (trials 1–16 and recent four-trial log-loss/work) exploratory, survivor-conditioned. At trial 10 all observed rotation-only winners still represented; late curves exclude already-solved starts. Gradient measured pretrial; margin normalized, not absolute couplings. AUC descriptive, no uncertainty or generalization claim.",
+    "Short cap counts are retrospective interruptions of original trajectories, not performance of new short-cap policy; original smooth transition depends on quota. No threshold selected or frozen here.",
+    "A/C equivalence not formally proved in this pass. No cost/timing comparison with other implementations."
+  ]
+}
