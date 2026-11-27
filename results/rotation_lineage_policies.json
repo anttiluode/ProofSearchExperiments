@@ -1,0 +1,123 @@
+{
+  "policies": {
+    "source": "A",
+    "insertion": "A",
+    "terms": "A",
+    "condition": "A",
+    "random": "D",
+    "randomRule": "fixed preselected D, uniform expectation separately"
+  },
+  "rank": [
+    {
+      "mode": "A",
+      "n": 24,
+      "success": 19,
+      "meanWork": 731274.125,
+      "streams": [
+        {
+          "stream": 0,
+          "success": 10,
+          "meanWork": 776575.8333333334
+        },
+        {
+          "stream": 1,
+          "success": 9,
+          "meanWork": 685972.4166666666
+        }
+      ]
+    },
+    {
+      "mode": "E",
+      "n": 24,
+      "success": 18,
+      "meanWork": 797875.3333333334,
+      "streams": [
+        {
+          "stream": 0,
+          "success": 8,
+          "meanWork": 999418.5
+        },
+        {
+          "stream": 1,
+          "success": 10,
+          "meanWork": 596332.1666666666
+        }
+      ]
+    },
+    {
+      "mode": "F",
+      "n": 24,
+      "success": 18,
+      "meanWork": 948357.75,
+      "streams": [
+        {
+          "stream": 0,
+          "success": 10,
+          "meanWork": 922409.1666666666
+        },
+        {
+          "stream": 1,
+          "success": 8,
+          "meanWork": 974306.3333333334
+        }
+      ]
+    },
+    {
+      "mode": "B",
+      "n": 24,
+      "success": 17,
+      "meanWork": 865586.25,
+      "streams": [
+        {
+          "stream": 0,
+          "success": 8,
+          "meanWork": 867195.3333333334
+        },
+        {
+          "stream": 1,
+          "success": 9,
+          "meanWork": 863977.1666666666
+        }
+      ]
+    },
+    {
+      "mode": "D",
+      "n": 24,
+      "success": 17,
+      "meanWork": 869939.375,
+      "streams": [
+        {
+          "stream": 0,
+          "success": 8,
+          "meanWork": 871020.75
+        },
+        {
+          "stream": 1,
+          "success": 9,
+          "meanWork": 868858
+        }
+      ]
+    },
+    {
+      "mode": "C",
+      "n": 24,
+      "success": 17,
+      "meanWork": 991017.9583333334,
+      "streams": [
+        {
+          "stream": 0,
+          "success": 9,
+          "meanWork": 949833.6666666666
+        },
+        {
+          "stream": 1,
+          "success": 8,
+          "meanWork": 1032202.25
+        }
+      ]
+    }
+  ],
+  "sourceBill": 124897219,
+  "selectionRule": "maximum source successes, then minimum mean modeled work, then insertion order; policies frozen before target runs",
+  "randomControl": "uniform expectation across all six lineages is primary; D is a fixed comparator, not an independently sampled random draw"
+}
