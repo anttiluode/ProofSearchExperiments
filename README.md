@@ -77,7 +77,7 @@ The experiment also generates a large full-context Lean source locally. The comp
 node check_lean.cjs
 ```
 
-The checker must see Lean accept 64 compact terms and 2 generic macros, and reject the deliberately wrong witness with a type-mismatch diagnostic. **Lean was unavailable in the execution environment; actual kernel status is not claimed here.** A GitHub Actions workflow is included to run the check.
+The checker must see Lean accept 64 compact terms and 2 generic macros, and reject the deliberately wrong witness with a type-mismatch diagnostic. Lean was unavailable in the initial execution environment. **The subsequent [GitHub Actions run](https://github.com/anttiluode/ProofSearchExperiments/actions/runs/45964571503) completed successfully:** the pinned Lean kernel accepted all 64 compact terms and 2 generic macros, and rejected the wrong-witness control. This is a check of compact certificates under their used hypotheses, not a verification of the full-context source or of general Lean search performance.
 
 ## Next useful gate
 
