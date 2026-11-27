@@ -458,3 +458,28 @@ Six parent programs retained from seven accepted depth-four sequences (includes 
 | OLD-END | — | 26/48 | 1,295,696 | 39/48 | 2,747,112 |
 
 48 fresh target matrices, n=7/8, four child contracts, 768 evaluations plus 144 source runs. Uniform expected target successes 29.67/48 fixed and 40.83/48 rotation-only; oracle union 44/48 and 47/48 (not deployable policy). Source-to-target rank Spearman 0.029 fixed and 0.086 rotation-only (six organs, descriptive). Source selection did not identify best target parent; no incremental transfer benefit established. All 60 witnesses and 360 chart derivative audits passed, max derivative 3.348561921572784e-10; all 912 numerical returned paths verified and caps/ledger sums checked; maximum sampled response error 3.8429756988392296e-14, max chart leakage 9.613894400882401e-17. B/D can be near equivalent parameterizations; no guarantee six distinct mathematical maps. Target library selected before source fitness evaluation, no actual learned pruning. No wall time, comparable symbolic/numeric amortization, hardware or global real chart proof. 10b not run. Reproduce `node lineage_givens.cjs` then `node rotation_lineage.cjs`.
+
+
+## Experiment 11 — deeper structural quality and equal-budget portfolio
+
+[Protocol](ROTATION_QUALITY_PROTOCOL.md) · [Synthesis/profile](quality_givens.cjs) · [Frozen library](results/rotation_quality_library.json) · [Benchmark](rotation_quality.cjs) · [Summary](results/rotation_quality_summary.json) · [Audit](results/rotation_quality_audit.json) · [Lean polynomial obligations](results/RotationQualityObligations.lean).
+
+10a CI passed. B/D exact disjoint commuting dedup; A/C same sampled parent spectra retained for related-chart control (not an equivalence proof). 15 successful reuse searches from triple44/triple45 parents produce triple55 and quad55, plus membership-preserving reflected output variants: 30 audited programs, ten spectrum/commutation representatives. Both new contracts have seven free factors and eight physical rotations. Profile score frozen before target generation; B descendant ranked first and F second for both. All 32 fresh witnesses and 160 chart derivative audits passed, maximum derivative 1.7313137590235784e-10; all 633 numerical subsolve paths independently verified, max sampled response error 1.170061828153941e-13, max pruned leakage 9.457491955621042e-17. 512 aggregate rows, all caps/ledger sums checked.
+
+| Arm | Fixed solved | Mean work | Rotation-only solved | Mean work |
+|---|---:|---:|---:|---:|
+| R0 | 12/32 | 1,616,148 | 22/32 | 4,834,005 |
+| R1 | 11/32 | 1,650,002 | 19/32 | 5,067,532 |
+| R2 | 11/32 | 1,591,530 | 23/32 | 4,615,727 |
+| R3 | 9/32 | 1,797,419 | 23/32 | 4,911,265 |
+| R4 | 12/32 | 1,571,718 | 25/32 | 4,054,139 |
+| TOP4+4 | 9/32 | 1,688,678 | 23/32 | 4,775,046 |
+| AC | 9/32 | 1,714,834 | 22/32 | 4,466,878 |
+| MIX | 8/32 | 1,696,223 | 21/32 | 4,856,359 |
+| TOP | 12/32 | 1,616,148 | 22/32 | 4,834,005 |
+| NEXT | 11/32 | 1,650,002 | 19/32 | 5,067,532 |
+| WORST | 12/32 | 1,571,718 | 25/32 | 4,054,139 |
+| FIRST | 12/32 | 1,653,089 | 24/32 | 4,364,717 |
+| RANDOM | 11/32 | 1,650,002 | 19/32 | 5,067,532 |
+
+Fixed = 2M+4096. R0–R4 = frozen structural rank, TOP=R0, NEXT=R1, WORST=R4, FIRST insertion, RANDOM seeded draw (both NEXT). AC = A/C descendant split, MIX = top/runner-up split, TOP4+4 = same top chart split. First phase 1M work and 2048 rotations, second remaining work and 2048 rotations; compile charged again and RNG advanced to restart 4. Unused rotations forfeited. No phase-two run if first succeeds. Same split for all portfolios; TOP alone uses original cumulative quotas. A/C descendants have different sampled spectra, so AC is related-chart rather than provably identical-chart control. Reflected variants are relabelings, not independent search. Score uses generic port-Jacobian condition (100 Jacobi pivot iterations, no convergence audit) and approximate transport wedge count, not actual full LM Jacobian. Both deeper contracts synthesized, but the prior strong conditioning association did not establish reliable selection on this corpus. No learning or timing, no global real chart proof. No calibrated amortization. Reproduce `node quality_givens.cjs` then `node rotation_quality.cjs`.

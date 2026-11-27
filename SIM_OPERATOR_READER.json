@@ -1,6 +1,6 @@
 {
   "format": "SIM-inspired experimental history, not Google's CRSI optimizer",
-  "next_id": 17,
+  "next_id": 18,
   "problems": [
     {
       "id": 1,
@@ -17152,6 +17152,630 @@
           ],
           "source_development": 124897219,
           "decision": "Do not promote source-measured parent selection: frozen source winner equals insertion order and both static proxies. Keep reusable chart library and report target oracle only as diagnostic. No learned selector or calibrated cost break-even."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "root_cause": "10a source fitness failed and condition correlation based on duplicate related charts; test deeper two-generation charts with dedup and matched work portfolio.",
+      "attempts": [
+        {
+          "intervention": "11 static quality score and matched 4+4 portfolios",
+          "protocol_commit": "d00a57a5934c7d75ac5b767790abd7aa24f439cf",
+          "predictions": {
+            "P1": {
+              "predicted": [
+                "B/D commuting dedup",
+                "selected program audits"
+              ],
+              "fixed": [
+                "B/D commuting dedup",
+                "selected program audits"
+              ],
+              "missed": []
+            },
+            "P2": {
+              "predicted": [
+                "triple55",
+                "quad55"
+              ],
+              "fixed": [
+                "triple55",
+                "quad55"
+              ],
+              "missed": []
+            },
+            "P3": {
+              "predicted": [
+                83000,
+                83001,
+                83002,
+                83003,
+                83004,
+                83005,
+                83006,
+                83007,
+                83008,
+                83009,
+                83010,
+                83011,
+                83012,
+                83013,
+                83014,
+                83015,
+                83016,
+                83017,
+                83018,
+                83019,
+                83020,
+                83021,
+                83022,
+                83023,
+                83024,
+                83025,
+                83026,
+                83027,
+                83028,
+                83029,
+                83030,
+                83031
+              ],
+              "fixed": [
+                83000,
+                83001,
+                83002,
+                83003,
+                83004,
+                83005,
+                83006,
+                83007,
+                83008,
+                83009,
+                83010,
+                83011,
+                83012,
+                83013,
+                83014,
+                83015,
+                83016,
+                83017,
+                83018,
+                83019,
+                83020,
+                83021,
+                83022,
+                83023,
+                83024,
+                83025,
+                83026,
+                83027,
+                83028,
+                83029,
+                83030,
+                83031
+              ],
+              "missed": []
+            }
+          },
+          "observed": [
+            {
+              "budget": 2000000,
+              "stats": [
+                {
+                  "budget": 2000000,
+                  "group": "all",
+                  "mode": "R0",
+                  "n": 32,
+                  "success": 12,
+                  "meanWork": 1616148.375,
+                  "meanRotations": 789.40625,
+                  "meanStarts": 1.90625
+                },
+                {
+                  "budget": 2000000,
+                  "group": "all",
+                  "mode": "R1",
+                  "n": 32,
+                  "success": 11,
+                  "meanWork": 1650002.21875,
+                  "meanRotations": 800.34375,
+                  "meanStarts": 2
+                },
+                {
+                  "budget": 2000000,
+                  "group": "all",
+                  "mode": "R2",
+                  "n": 32,
+                  "success": 11,
+                  "meanWork": 1591530.34375,
+                  "meanRotations": 777.5625,
+                  "meanStarts": 1.90625
+                },
+                {
+                  "budget": 2000000,
+                  "group": "all",
+                  "mode": "R3",
+                  "n": 32,
+                  "success": 9,
+                  "meanWork": 1797419.15625,
+                  "meanRotations": 910.40625,
+                  "meanStarts": 2.15625
+                },
+                {
+                  "budget": 2000000,
+                  "group": "all",
+                  "mode": "R4",
+                  "n": 32,
+                  "success": 12,
+                  "meanWork": 1571717.96875,
+                  "meanRotations": 743,
+                  "meanStarts": 1.84375
+                },
+                {
+                  "budget": 2000000,
+                  "group": "all",
+                  "mode": "TOP4+4",
+                  "n": 32,
+                  "success": 9,
+                  "meanWork": 1688677.75,
+                  "meanRotations": 813.8125,
+                  "meanStarts": 2.28125
+                },
+                {
+                  "budget": 2000000,
+                  "group": "all",
+                  "mode": "AC",
+                  "n": 32,
+                  "success": 9,
+                  "meanWork": 1714834.1875,
+                  "meanRotations": 838.6875,
+                  "meanStarts": 2.40625
+                },
+                {
+                  "budget": 2000000,
+                  "group": "all",
+                  "mode": "MIX",
+                  "n": 32,
+                  "success": 8,
+                  "meanWork": 1696223.34375,
+                  "meanRotations": 819.28125,
+                  "meanStarts": 2.3125
+                },
+                {
+                  "budget": 2000000,
+                  "group": "all",
+                  "mode": "TOP",
+                  "n": 32,
+                  "success": 12,
+                  "meanWork": 1616148.375,
+                  "meanRotations": 789.40625,
+                  "meanStarts": 1.90625
+                },
+                {
+                  "budget": 2000000,
+                  "group": "all",
+                  "mode": "NEXT",
+                  "n": 32,
+                  "success": 11,
+                  "meanWork": 1650002.21875,
+                  "meanRotations": 800.34375,
+                  "meanStarts": 2
+                },
+                {
+                  "budget": 2000000,
+                  "group": "all",
+                  "mode": "WORST",
+                  "n": 32,
+                  "success": 12,
+                  "meanWork": 1571717.96875,
+                  "meanRotations": 743,
+                  "meanStarts": 1.84375
+                },
+                {
+                  "budget": 2000000,
+                  "group": "all",
+                  "mode": "FIRST",
+                  "n": 32,
+                  "success": 12,
+                  "meanWork": 1653088.75,
+                  "meanRotations": 810.78125,
+                  "meanStarts": 1.96875
+                },
+                {
+                  "budget": 2000000,
+                  "group": "all",
+                  "mode": "RANDOM",
+                  "n": 32,
+                  "success": 11,
+                  "meanWork": 1650002.21875,
+                  "meanRotations": 800.34375,
+                  "meanStarts": 2
+                }
+              ],
+              "pairs": [
+                {
+                  "a": "MIX",
+                  "b": "TOP4+4",
+                  "wins": [],
+                  "losses": [
+                    83015
+                  ]
+                },
+                {
+                  "a": "MIX",
+                  "b": "AC",
+                  "wins": [
+                    83000,
+                    83008,
+                    83014
+                  ],
+                  "losses": [
+                    83001,
+                    83005,
+                    83007,
+                    83027
+                  ]
+                },
+                {
+                  "a": "MIX",
+                  "b": "TOP",
+                  "wins": [
+                    83006
+                  ],
+                  "losses": [
+                    83002,
+                    83005,
+                    83007,
+                    83019,
+                    83024
+                  ]
+                },
+                {
+                  "a": "AC",
+                  "b": "TOP4+4",
+                  "wins": [
+                    83001,
+                    83005,
+                    83007,
+                    83027
+                  ],
+                  "losses": [
+                    83000,
+                    83008,
+                    83014,
+                    83015
+                  ]
+                },
+                {
+                  "a": "TOP",
+                  "b": "WORST",
+                  "wins": [
+                    83005,
+                    83010,
+                    83019,
+                    83024
+                  ],
+                  "losses": [
+                    83001,
+                    83012,
+                    83015,
+                    83027
+                  ]
+                },
+                {
+                  "a": "TOP",
+                  "b": "FIRST",
+                  "wins": [
+                    83000,
+                    83004,
+                    83005,
+                    83008,
+                    83019,
+                    83024
+                  ],
+                  "losses": [
+                    83001,
+                    83006,
+                    83012,
+                    83015,
+                    83026,
+                    83027
+                  ]
+                }
+              ],
+              "correlations": [
+                {
+                  "group": "triple55",
+                  "rank": [
+                    "R0",
+                    "R1",
+                    "R2",
+                    "R4",
+                    "R3"
+                  ],
+                  "spearman": 0.9,
+                  "successOnly": 0.7071067811865475
+                },
+                {
+                  "group": "quad55",
+                  "rank": [
+                    "R4",
+                    "R2",
+                    "R0",
+                    "R1",
+                    "R3"
+                  ],
+                  "spearman": -0.3,
+                  "successOnly": -0.22360679774997896
+                }
+              ],
+              "uniformExpectedSuccess": 11,
+              "uniformExpectedWork": 1645363.6125,
+              "oracle": 22
+            },
+            {
+              "budget": null,
+              "stats": [
+                {
+                  "budget": null,
+                  "group": "all",
+                  "mode": "R0",
+                  "n": 32,
+                  "success": 22,
+                  "meanWork": 4834004.625,
+                  "meanRotations": 2274.1875,
+                  "meanStarts": 4.59375
+                },
+                {
+                  "budget": null,
+                  "group": "all",
+                  "mode": "R1",
+                  "n": 32,
+                  "success": 19,
+                  "meanWork": 5067532.40625,
+                  "meanRotations": 2423.96875,
+                  "meanStarts": 4.90625
+                },
+                {
+                  "budget": null,
+                  "group": "all",
+                  "mode": "R2",
+                  "n": 32,
+                  "success": 23,
+                  "meanWork": 4615726.53125,
+                  "meanRotations": 2193.96875,
+                  "meanStarts": 4.46875
+                },
+                {
+                  "budget": null,
+                  "group": "all",
+                  "mode": "R3",
+                  "n": 32,
+                  "success": 23,
+                  "meanWork": 4911265.1875,
+                  "meanRotations": 2387.96875,
+                  "meanStarts": 4.8125
+                },
+                {
+                  "budget": null,
+                  "group": "all",
+                  "mode": "R4",
+                  "n": 32,
+                  "success": 25,
+                  "meanWork": 4054139.15625,
+                  "meanRotations": 1835,
+                  "meanStarts": 3.75
+                },
+                {
+                  "budget": null,
+                  "group": "all",
+                  "mode": "TOP4+4",
+                  "n": 32,
+                  "success": 23,
+                  "meanWork": 4775046.09375,
+                  "meanRotations": 2250.875,
+                  "meanStarts": 4.5625
+                },
+                {
+                  "budget": null,
+                  "group": "all",
+                  "mode": "AC",
+                  "n": 32,
+                  "success": 22,
+                  "meanWork": 4466878.25,
+                  "meanRotations": 2077.8125,
+                  "meanStarts": 4.25
+                },
+                {
+                  "budget": null,
+                  "group": "all",
+                  "mode": "MIX",
+                  "n": 32,
+                  "success": 21,
+                  "meanWork": 4856359.28125,
+                  "meanRotations": 2289.09375,
+                  "meanStarts": 4.65625
+                },
+                {
+                  "budget": null,
+                  "group": "all",
+                  "mode": "TOP",
+                  "n": 32,
+                  "success": 22,
+                  "meanWork": 4834004.625,
+                  "meanRotations": 2274.1875,
+                  "meanStarts": 4.59375
+                },
+                {
+                  "budget": null,
+                  "group": "all",
+                  "mode": "NEXT",
+                  "n": 32,
+                  "success": 19,
+                  "meanWork": 5067532.40625,
+                  "meanRotations": 2423.96875,
+                  "meanStarts": 4.90625
+                },
+                {
+                  "budget": null,
+                  "group": "all",
+                  "mode": "WORST",
+                  "n": 32,
+                  "success": 25,
+                  "meanWork": 4054139.15625,
+                  "meanRotations": 1835,
+                  "meanStarts": 3.75
+                },
+                {
+                  "budget": null,
+                  "group": "all",
+                  "mode": "FIRST",
+                  "n": 32,
+                  "success": 24,
+                  "meanWork": 4364716.625,
+                  "meanRotations": 2036.90625,
+                  "meanStarts": 4.15625
+                },
+                {
+                  "budget": null,
+                  "group": "all",
+                  "mode": "RANDOM",
+                  "n": 32,
+                  "success": 19,
+                  "meanWork": 5067532.40625,
+                  "meanRotations": 2423.96875,
+                  "meanStarts": 4.90625
+                }
+              ],
+              "pairs": [
+                {
+                  "a": "MIX",
+                  "b": "TOP4+4",
+                  "wins": [
+                    83001,
+                    83003
+                  ],
+                  "losses": [
+                    83025,
+                    83027,
+                    83030,
+                    83031
+                  ]
+                },
+                {
+                  "a": "MIX",
+                  "b": "AC",
+                  "wins": [
+                    83016,
+                    83019,
+                    83024
+                  ],
+                  "losses": [
+                    83013,
+                    83027,
+                    83028,
+                    83031
+                  ]
+                },
+                {
+                  "a": "MIX",
+                  "b": "TOP",
+                  "wins": [
+                    83001,
+                    83003,
+                    83016
+                  ],
+                  "losses": [
+                    83025,
+                    83027,
+                    83030,
+                    83031
+                  ]
+                },
+                {
+                  "a": "AC",
+                  "b": "TOP4+4",
+                  "wins": [
+                    83001,
+                    83003,
+                    83013,
+                    83028
+                  ],
+                  "losses": [
+                    83016,
+                    83019,
+                    83024,
+                    83025,
+                    83030
+                  ]
+                },
+                {
+                  "a": "TOP",
+                  "b": "WORST",
+                  "wins": [
+                    83019,
+                    83026,
+                    83030
+                  ],
+                  "losses": [
+                    83001,
+                    83003,
+                    83013,
+                    83016,
+                    83020,
+                    83028
+                  ]
+                },
+                {
+                  "a": "TOP",
+                  "b": "FIRST",
+                  "wins": [
+                    83019,
+                    83022,
+                    83030
+                  ],
+                  "losses": [
+                    83001,
+                    83003,
+                    83013,
+                    83018,
+                    83028
+                  ]
+                }
+              ],
+              "correlations": [
+                {
+                  "group": "triple55",
+                  "rank": [
+                    "R4",
+                    "R0",
+                    "R3",
+                    "R2",
+                    "R1"
+                  ],
+                  "spearman": -0.4,
+                  "successOnly": -0.5642880936468347
+                },
+                {
+                  "group": "quad55",
+                  "rank": [
+                    "R4",
+                    "R2",
+                    "R3",
+                    "R0",
+                    "R1"
+                  ],
+                  "spearman": -0.8,
+                  "successOnly": -0.7181848464596079
+                }
+              ],
+              "uniformExpectedSuccess": 22.4,
+              "uniformExpectedWork": 4696533.58125,
+              "oracle": 30
+            }
+          ],
+          "source_development": 0,
+          "decision": "Do not promote static quality score or mixed-organ portfolio on these results; retain successful multi-generation synthesis. Distinguish exact commutation from sampled spectrum clustering; no neural routing yet."
         }
       ]
     }
