@@ -50,3 +50,4 @@ jobs:
           lean results/RotationAlgebra.lean
           lean results/RotationRuleObligations.lean
           lean results/RotationDiscoveryObligations.lean
+          lean results/RotationReuseObligations.lean
