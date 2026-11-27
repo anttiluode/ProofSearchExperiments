@@ -1,0 +1,3675 @@
+{
+  "protocolCommit": "0e3bc10e104834a32ce27f7e9e699c99ac873d72",
+  "codeCommit": "dcd2acf5f453bb0ed8593de66b3fb1275eb8b018",
+  "baselineReplay": 64,
+  "rows": 512,
+  "audits": 32,
+  "stats": [
+    {
+      "n": 8,
+      "budget": 2000000,
+      "mode": "BASE-512",
+      "success": 4,
+      "meanWork": 1683723.5,
+      "meanRotations": 1018.625,
+      "meanStarts": 2.5,
+      "meanSelection": 0,
+      "switches": 0,
+      "workCaps": 12
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "mode": "LOCAL-512",
+      "success": 4,
+      "meanWork": 1683727.6875,
+      "meanRotations": 1017.1875,
+      "meanStarts": 2.5,
+      "meanSelection": 45,
+      "switches": 0,
+      "workCaps": 12
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "mode": "SHORT-384",
+      "success": 4,
+      "meanWork": 1822900.5,
+      "meanRotations": 1087.6875,
+      "meanStarts": 3.5,
+      "meanSelection": 48.5,
+      "switches": 0,
+      "workCaps": 12
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "mode": "LONG-1024",
+      "success": 7,
+      "meanWork": 1501479.0625,
+      "meanRotations": 939.75,
+      "meanStarts": 1.5625,
+      "meanSelection": 40.9375,
+      "switches": 0,
+      "workCaps": 9
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "mode": "UNLEASH",
+      "success": 8,
+      "meanWork": 1520542.75,
+      "meanRotations": 920.3125,
+      "meanStarts": 2.125,
+      "meanSelection": 67.375,
+      "switches": 0,
+      "workCaps": 8
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "mode": "HALVE-LOSS",
+      "success": 5,
+      "meanWork": 1794271,
+      "meanRotations": 1120,
+      "meanStarts": 2.6875,
+      "meanSelection": 55.4375,
+      "switches": 8,
+      "workCaps": 11
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "mode": "SUSPEND-LOSS",
+      "success": 5,
+      "meanWork": 1794099.4375,
+      "meanRotations": 1128.9375,
+      "meanStarts": 2,
+      "meanSelection": 107.0625,
+      "switches": 19,
+      "workCaps": 11
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "mode": "SUSPEND-PROGRESS",
+      "success": 8,
+      "meanWork": 1700706.75,
+      "meanRotations": 1053.4375,
+      "meanStarts": 2,
+      "meanSelection": 281.375,
+      "switches": 45,
+      "workCaps": 8
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "mode": "BASE-512",
+      "success": 9,
+      "meanWork": 2972464.8125,
+      "meanRotations": 1812.75,
+      "meanStarts": 3.8125,
+      "meanSelection": 0,
+      "switches": 0,
+      "workCaps": 7
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "mode": "LOCAL-512",
+      "success": 8,
+      "meanWork": 2959049.6875,
+      "meanRotations": 1808.125,
+      "meanStarts": 4,
+      "meanSelection": 79.75,
+      "switches": 0,
+      "workCaps": 8
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "mode": "SHORT-384",
+      "success": 7,
+      "meanWork": 3142329.3125,
+      "meanRotations": 1873.125,
+      "meanStarts": 5.3125,
+      "meanSelection": 83.25,
+      "switches": 0,
+      "workCaps": 9
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "mode": "LONG-1024",
+      "success": 9,
+      "meanWork": 2436860.6875,
+      "meanRotations": 1549,
+      "meanStarts": 2,
+      "meanSelection": 67.5625,
+      "switches": 0,
+      "workCaps": 7
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "mode": "UNLEASH",
+      "success": 10,
+      "meanWork": 2452517.875,
+      "meanRotations": 1476.5,
+      "meanStarts": 3,
+      "meanSelection": 114.3125,
+      "switches": 0,
+      "workCaps": 6
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "mode": "HALVE-LOSS",
+      "success": 8,
+      "meanWork": 3014848.5,
+      "meanRotations": 1863.6875,
+      "meanStarts": 3.8125,
+      "meanSelection": 92.25,
+      "switches": 14,
+      "workCaps": 8
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "mode": "SUSPEND-LOSS",
+      "success": 9,
+      "meanWork": 2759960.1875,
+      "meanRotations": 1723.5625,
+      "meanStarts": 2.875,
+      "meanSelection": 150.9375,
+      "switches": 23,
+      "workCaps": 7
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "mode": "SUSPEND-PROGRESS",
+      "success": 9,
+      "meanWork": 2580121.125,
+      "meanRotations": 1602.75,
+      "meanStarts": 2.875,
+      "meanSelection": 425.9375,
+      "switches": 68,
+      "workCaps": 7
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "mode": "BASE-512",
+      "success": 2,
+      "meanWork": 1877551.125,
+      "meanRotations": 797.75,
+      "meanStarts": 1.875,
+      "meanSelection": 0,
+      "switches": 0,
+      "workCaps": 14
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "mode": "LOCAL-512",
+      "success": 2,
+      "meanWork": 1877554.6875,
+      "meanRotations": 797.75,
+      "meanStarts": 1.875,
+      "meanSelection": 28.25,
+      "switches": 0,
+      "workCaps": 14
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "mode": "SHORT-384",
+      "success": 1,
+      "meanWork": 1930964.25,
+      "meanRotations": 796.75,
+      "meanStarts": 2.875,
+      "meanSelection": 28.75,
+      "switches": 0,
+      "workCaps": 15
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "mode": "LONG-1024",
+      "success": 5,
+      "meanWork": 1836171.4375,
+      "meanRotations": 845.5625,
+      "meanStarts": 1.0625,
+      "meanSelection": 29.25,
+      "switches": 0,
+      "workCaps": 11
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "mode": "UNLEASH",
+      "success": 3,
+      "meanWork": 1846789.1875,
+      "meanRotations": 780.5625,
+      "meanStarts": 1.8125,
+      "meanSelection": 37.3125,
+      "switches": 0,
+      "workCaps": 13
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "mode": "HALVE-LOSS",
+      "success": 4,
+      "meanWork": 1926262,
+      "meanRotations": 853.0625,
+      "meanStarts": 2,
+      "meanSelection": 36.0625,
+      "switches": 6,
+      "workCaps": 12
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "mode": "SUSPEND-LOSS",
+      "success": 4,
+      "meanWork": 1926265.5,
+      "meanRotations": 853.0625,
+      "meanStarts": 2,
+      "meanSelection": 60.5625,
+      "switches": 6,
+      "workCaps": 12
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "mode": "SUSPEND-PROGRESS",
+      "success": 3,
+      "meanWork": 1927736.5625,
+      "meanRotations": 826.875,
+      "meanStarts": 2,
+      "meanSelection": 167.75,
+      "switches": 23,
+      "workCaps": 13
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "mode": "BASE-512",
+      "success": 7,
+      "meanWork": 3440344.1875,
+      "meanRotations": 1474,
+      "meanStarts": 3.3125,
+      "meanSelection": 0,
+      "switches": 0,
+      "workCaps": 9
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "mode": "LOCAL-512",
+      "success": 7,
+      "meanWork": 3440365.375,
+      "meanRotations": 1474,
+      "meanStarts": 3.3125,
+      "meanSelection": 52,
+      "switches": 0,
+      "workCaps": 9
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "mode": "SHORT-384",
+      "success": 2,
+      "meanWork": 3724456.5,
+      "meanRotations": 1535.5625,
+      "meanStarts": 4.625,
+      "meanSelection": 55.125,
+      "switches": 0,
+      "workCaps": 14
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "mode": "LONG-1024",
+      "success": 6,
+      "meanWork": 3190917.8125,
+      "meanRotations": 1480.9375,
+      "meanStarts": 1.6875,
+      "meanSelection": 51.4375,
+      "switches": 0,
+      "workCaps": 10
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "mode": "UNLEASH",
+      "success": 8,
+      "meanWork": 3247987.125,
+      "meanRotations": 1389.5,
+      "meanStarts": 2.9375,
+      "meanSelection": 87.125,
+      "switches": 0,
+      "workCaps": 8
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "mode": "HALVE-LOSS",
+      "success": 6,
+      "meanWork": 3329162.4375,
+      "meanRotations": 1451.375,
+      "meanStarts": 3.25,
+      "meanSelection": 56.625,
+      "switches": 7,
+      "workCaps": 10
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "mode": "SUSPEND-LOSS",
+      "success": 6,
+      "meanWork": 3329167.5,
+      "meanRotations": 1515.9375,
+      "meanStarts": 2,
+      "meanSelection": 100.875,
+      "switches": 17,
+      "workCaps": 10
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "mode": "SUSPEND-PROGRESS",
+      "success": 6,
+      "meanWork": 3426011.125,
+      "meanRotations": 1570.8125,
+      "meanStarts": 2,
+      "meanSelection": 322.125,
+      "switches": 66,
+      "workCaps": 10
+    }
+  ],
+  "pairs": [
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "BASE-512",
+      "b": "LOCAL-512",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "BASE-512",
+      "b": "SHORT-384",
+      "wins": [
+        84000
+      ],
+      "losses": [
+        84001
+      ],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "BASE-512",
+      "b": "LONG-1024",
+      "wins": [],
+      "losses": [
+        84005,
+        84010,
+        84011
+      ],
+      "net": -3
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "BASE-512",
+      "b": "UNLEASH",
+      "wins": [],
+      "losses": [
+        84001,
+        84005,
+        84010,
+        84015
+      ],
+      "net": -4
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "BASE-512",
+      "b": "HALVE-LOSS",
+      "wins": [
+        84002,
+        84008,
+        84012
+      ],
+      "losses": [
+        84001,
+        84005,
+        84010,
+        84011
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "BASE-512",
+      "b": "SUSPEND-LOSS",
+      "wins": [
+        84002,
+        84008,
+        84012
+      ],
+      "losses": [
+        84001,
+        84005,
+        84010,
+        84011
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "BASE-512",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [],
+      "losses": [
+        84001,
+        84005,
+        84011,
+        84015
+      ],
+      "net": -4
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "LOCAL-512",
+      "b": "BASE-512",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "LOCAL-512",
+      "b": "SHORT-384",
+      "wins": [
+        84000
+      ],
+      "losses": [
+        84001
+      ],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "LOCAL-512",
+      "b": "LONG-1024",
+      "wins": [],
+      "losses": [
+        84005,
+        84010,
+        84011
+      ],
+      "net": -3
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "LOCAL-512",
+      "b": "UNLEASH",
+      "wins": [],
+      "losses": [
+        84001,
+        84005,
+        84010,
+        84015
+      ],
+      "net": -4
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "LOCAL-512",
+      "b": "HALVE-LOSS",
+      "wins": [
+        84002,
+        84008,
+        84012
+      ],
+      "losses": [
+        84001,
+        84005,
+        84010,
+        84011
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "LOCAL-512",
+      "b": "SUSPEND-LOSS",
+      "wins": [
+        84002,
+        84008,
+        84012
+      ],
+      "losses": [
+        84001,
+        84005,
+        84010,
+        84011
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "LOCAL-512",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [],
+      "losses": [
+        84001,
+        84005,
+        84011,
+        84015
+      ],
+      "net": -4
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "SHORT-384",
+      "b": "BASE-512",
+      "wins": [
+        84001
+      ],
+      "losses": [
+        84000
+      ],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "SHORT-384",
+      "b": "LOCAL-512",
+      "wins": [
+        84001
+      ],
+      "losses": [
+        84000
+      ],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "SHORT-384",
+      "b": "LONG-1024",
+      "wins": [
+        84001
+      ],
+      "losses": [
+        84000,
+        84005,
+        84010,
+        84011
+      ],
+      "net": -3
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "SHORT-384",
+      "b": "UNLEASH",
+      "wins": [],
+      "losses": [
+        84000,
+        84005,
+        84010,
+        84015
+      ],
+      "net": -4
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "SHORT-384",
+      "b": "HALVE-LOSS",
+      "wins": [
+        84002,
+        84008,
+        84012
+      ],
+      "losses": [
+        84000,
+        84005,
+        84010,
+        84011
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "SHORT-384",
+      "b": "SUSPEND-LOSS",
+      "wins": [
+        84002,
+        84008,
+        84012
+      ],
+      "losses": [
+        84000,
+        84005,
+        84010,
+        84011
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "SHORT-384",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [],
+      "losses": [
+        84000,
+        84005,
+        84011,
+        84015
+      ],
+      "net": -4
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "LONG-1024",
+      "b": "BASE-512",
+      "wins": [
+        84005,
+        84010,
+        84011
+      ],
+      "losses": [],
+      "net": 3
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "LONG-1024",
+      "b": "LOCAL-512",
+      "wins": [
+        84005,
+        84010,
+        84011
+      ],
+      "losses": [],
+      "net": 3
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "LONG-1024",
+      "b": "SHORT-384",
+      "wins": [
+        84000,
+        84005,
+        84010,
+        84011
+      ],
+      "losses": [
+        84001
+      ],
+      "net": 3
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "LONG-1024",
+      "b": "UNLEASH",
+      "wins": [
+        84011
+      ],
+      "losses": [
+        84001,
+        84015
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "LONG-1024",
+      "b": "HALVE-LOSS",
+      "wins": [
+        84002,
+        84008,
+        84012
+      ],
+      "losses": [
+        84001
+      ],
+      "net": 2
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "LONG-1024",
+      "b": "SUSPEND-LOSS",
+      "wins": [
+        84002,
+        84008,
+        84012
+      ],
+      "losses": [
+        84001
+      ],
+      "net": 2
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "LONG-1024",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [
+        84010
+      ],
+      "losses": [
+        84001,
+        84015
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "UNLEASH",
+      "b": "BASE-512",
+      "wins": [
+        84001,
+        84005,
+        84010,
+        84015
+      ],
+      "losses": [],
+      "net": 4
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "UNLEASH",
+      "b": "LOCAL-512",
+      "wins": [
+        84001,
+        84005,
+        84010,
+        84015
+      ],
+      "losses": [],
+      "net": 4
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "UNLEASH",
+      "b": "SHORT-384",
+      "wins": [
+        84000,
+        84005,
+        84010,
+        84015
+      ],
+      "losses": [],
+      "net": 4
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "UNLEASH",
+      "b": "LONG-1024",
+      "wins": [
+        84001,
+        84015
+      ],
+      "losses": [
+        84011
+      ],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "UNLEASH",
+      "b": "HALVE-LOSS",
+      "wins": [
+        84002,
+        84008,
+        84012,
+        84015
+      ],
+      "losses": [
+        84011
+      ],
+      "net": 3
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "UNLEASH",
+      "b": "SUSPEND-LOSS",
+      "wins": [
+        84002,
+        84008,
+        84012,
+        84015
+      ],
+      "losses": [
+        84011
+      ],
+      "net": 3
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "UNLEASH",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [
+        84010
+      ],
+      "losses": [
+        84011
+      ],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "HALVE-LOSS",
+      "b": "BASE-512",
+      "wins": [
+        84001,
+        84005,
+        84010,
+        84011
+      ],
+      "losses": [
+        84002,
+        84008,
+        84012
+      ],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "HALVE-LOSS",
+      "b": "LOCAL-512",
+      "wins": [
+        84001,
+        84005,
+        84010,
+        84011
+      ],
+      "losses": [
+        84002,
+        84008,
+        84012
+      ],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "HALVE-LOSS",
+      "b": "SHORT-384",
+      "wins": [
+        84000,
+        84005,
+        84010,
+        84011
+      ],
+      "losses": [
+        84002,
+        84008,
+        84012
+      ],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "HALVE-LOSS",
+      "b": "LONG-1024",
+      "wins": [
+        84001
+      ],
+      "losses": [
+        84002,
+        84008,
+        84012
+      ],
+      "net": -2
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "HALVE-LOSS",
+      "b": "UNLEASH",
+      "wins": [
+        84011
+      ],
+      "losses": [
+        84002,
+        84008,
+        84012,
+        84015
+      ],
+      "net": -3
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "HALVE-LOSS",
+      "b": "SUSPEND-LOSS",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "HALVE-LOSS",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [
+        84010
+      ],
+      "losses": [
+        84002,
+        84008,
+        84012,
+        84015
+      ],
+      "net": -3
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "SUSPEND-LOSS",
+      "b": "BASE-512",
+      "wins": [
+        84001,
+        84005,
+        84010,
+        84011
+      ],
+      "losses": [
+        84002,
+        84008,
+        84012
+      ],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "SUSPEND-LOSS",
+      "b": "LOCAL-512",
+      "wins": [
+        84001,
+        84005,
+        84010,
+        84011
+      ],
+      "losses": [
+        84002,
+        84008,
+        84012
+      ],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "SUSPEND-LOSS",
+      "b": "SHORT-384",
+      "wins": [
+        84000,
+        84005,
+        84010,
+        84011
+      ],
+      "losses": [
+        84002,
+        84008,
+        84012
+      ],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "SUSPEND-LOSS",
+      "b": "LONG-1024",
+      "wins": [
+        84001
+      ],
+      "losses": [
+        84002,
+        84008,
+        84012
+      ],
+      "net": -2
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "SUSPEND-LOSS",
+      "b": "UNLEASH",
+      "wins": [
+        84011
+      ],
+      "losses": [
+        84002,
+        84008,
+        84012,
+        84015
+      ],
+      "net": -3
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "SUSPEND-LOSS",
+      "b": "HALVE-LOSS",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "SUSPEND-LOSS",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [
+        84010
+      ],
+      "losses": [
+        84002,
+        84008,
+        84012,
+        84015
+      ],
+      "net": -3
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "BASE-512",
+      "wins": [
+        84001,
+        84005,
+        84011,
+        84015
+      ],
+      "losses": [],
+      "net": 4
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "LOCAL-512",
+      "wins": [
+        84001,
+        84005,
+        84011,
+        84015
+      ],
+      "losses": [],
+      "net": 4
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "SHORT-384",
+      "wins": [
+        84000,
+        84005,
+        84011,
+        84015
+      ],
+      "losses": [],
+      "net": 4
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "LONG-1024",
+      "wins": [
+        84001,
+        84015
+      ],
+      "losses": [
+        84010
+      ],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "UNLEASH",
+      "wins": [
+        84011
+      ],
+      "losses": [
+        84010
+      ],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "HALVE-LOSS",
+      "wins": [
+        84002,
+        84008,
+        84012,
+        84015
+      ],
+      "losses": [
+        84010
+      ],
+      "net": 3
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "SUSPEND-LOSS",
+      "wins": [
+        84002,
+        84008,
+        84012,
+        84015
+      ],
+      "losses": [
+        84010
+      ],
+      "net": 3
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "BASE-512",
+      "b": "LOCAL-512",
+      "wins": [
+        84013
+      ],
+      "losses": [],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "BASE-512",
+      "b": "SHORT-384",
+      "wins": [
+        84000,
+        84013
+      ],
+      "losses": [],
+      "net": 2
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "BASE-512",
+      "b": "LONG-1024",
+      "wins": [
+        84006,
+        84013
+      ],
+      "losses": [
+        84010,
+        84015
+      ],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "BASE-512",
+      "b": "UNLEASH",
+      "wins": [
+        84006,
+        84011,
+        84013
+      ],
+      "losses": [
+        84003,
+        84009,
+        84010,
+        84015
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "BASE-512",
+      "b": "HALVE-LOSS",
+      "wins": [
+        84006,
+        84008,
+        84012
+      ],
+      "losses": [
+        84003,
+        84010
+      ],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "BASE-512",
+      "b": "SUSPEND-LOSS",
+      "wins": [
+        84006,
+        84013
+      ],
+      "losses": [
+        84010,
+        84015
+      ],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "BASE-512",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [
+        84006,
+        84013
+      ],
+      "losses": [
+        84010,
+        84015
+      ],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "LOCAL-512",
+      "b": "BASE-512",
+      "wins": [],
+      "losses": [
+        84013
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "LOCAL-512",
+      "b": "SHORT-384",
+      "wins": [
+        84000
+      ],
+      "losses": [],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "LOCAL-512",
+      "b": "LONG-1024",
+      "wins": [
+        84006
+      ],
+      "losses": [
+        84010,
+        84015
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "LOCAL-512",
+      "b": "UNLEASH",
+      "wins": [
+        84006,
+        84011
+      ],
+      "losses": [
+        84003,
+        84009,
+        84010,
+        84015
+      ],
+      "net": -2
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "LOCAL-512",
+      "b": "HALVE-LOSS",
+      "wins": [
+        84006,
+        84008,
+        84012
+      ],
+      "losses": [
+        84003,
+        84010,
+        84013
+      ],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "LOCAL-512",
+      "b": "SUSPEND-LOSS",
+      "wins": [
+        84006
+      ],
+      "losses": [
+        84010,
+        84015
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "LOCAL-512",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [
+        84006
+      ],
+      "losses": [
+        84010,
+        84015
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "SHORT-384",
+      "b": "BASE-512",
+      "wins": [],
+      "losses": [
+        84000,
+        84013
+      ],
+      "net": -2
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "SHORT-384",
+      "b": "LOCAL-512",
+      "wins": [],
+      "losses": [
+        84000
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "SHORT-384",
+      "b": "LONG-1024",
+      "wins": [
+        84006
+      ],
+      "losses": [
+        84000,
+        84010,
+        84015
+      ],
+      "net": -2
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "SHORT-384",
+      "b": "UNLEASH",
+      "wins": [
+        84006,
+        84011
+      ],
+      "losses": [
+        84000,
+        84003,
+        84009,
+        84010,
+        84015
+      ],
+      "net": -3
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "SHORT-384",
+      "b": "HALVE-LOSS",
+      "wins": [
+        84006,
+        84008,
+        84012
+      ],
+      "losses": [
+        84000,
+        84003,
+        84010,
+        84013
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "SHORT-384",
+      "b": "SUSPEND-LOSS",
+      "wins": [
+        84006
+      ],
+      "losses": [
+        84000,
+        84010,
+        84015
+      ],
+      "net": -2
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "SHORT-384",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [
+        84006
+      ],
+      "losses": [
+        84000,
+        84010,
+        84015
+      ],
+      "net": -2
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "LONG-1024",
+      "b": "BASE-512",
+      "wins": [
+        84010,
+        84015
+      ],
+      "losses": [
+        84006,
+        84013
+      ],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "LONG-1024",
+      "b": "LOCAL-512",
+      "wins": [
+        84010,
+        84015
+      ],
+      "losses": [
+        84006
+      ],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "LONG-1024",
+      "b": "SHORT-384",
+      "wins": [
+        84000,
+        84010,
+        84015
+      ],
+      "losses": [
+        84006
+      ],
+      "net": 2
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "LONG-1024",
+      "b": "UNLEASH",
+      "wins": [
+        84011
+      ],
+      "losses": [
+        84003,
+        84009
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "LONG-1024",
+      "b": "HALVE-LOSS",
+      "wins": [
+        84008,
+        84012,
+        84015
+      ],
+      "losses": [
+        84003,
+        84013
+      ],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "LONG-1024",
+      "b": "SUSPEND-LOSS",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "LONG-1024",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "UNLEASH",
+      "b": "BASE-512",
+      "wins": [
+        84003,
+        84009,
+        84010,
+        84015
+      ],
+      "losses": [
+        84006,
+        84011,
+        84013
+      ],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "UNLEASH",
+      "b": "LOCAL-512",
+      "wins": [
+        84003,
+        84009,
+        84010,
+        84015
+      ],
+      "losses": [
+        84006,
+        84011
+      ],
+      "net": 2
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "UNLEASH",
+      "b": "SHORT-384",
+      "wins": [
+        84000,
+        84003,
+        84009,
+        84010,
+        84015
+      ],
+      "losses": [
+        84006,
+        84011
+      ],
+      "net": 3
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "UNLEASH",
+      "b": "LONG-1024",
+      "wins": [
+        84003,
+        84009
+      ],
+      "losses": [
+        84011
+      ],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "UNLEASH",
+      "b": "HALVE-LOSS",
+      "wins": [
+        84008,
+        84009,
+        84012,
+        84015
+      ],
+      "losses": [
+        84011,
+        84013
+      ],
+      "net": 2
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "UNLEASH",
+      "b": "SUSPEND-LOSS",
+      "wins": [
+        84003,
+        84009
+      ],
+      "losses": [
+        84011
+      ],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "UNLEASH",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [
+        84003,
+        84009
+      ],
+      "losses": [
+        84011
+      ],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "HALVE-LOSS",
+      "b": "BASE-512",
+      "wins": [
+        84003,
+        84010
+      ],
+      "losses": [
+        84006,
+        84008,
+        84012
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "HALVE-LOSS",
+      "b": "LOCAL-512",
+      "wins": [
+        84003,
+        84010,
+        84013
+      ],
+      "losses": [
+        84006,
+        84008,
+        84012
+      ],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "HALVE-LOSS",
+      "b": "SHORT-384",
+      "wins": [
+        84000,
+        84003,
+        84010,
+        84013
+      ],
+      "losses": [
+        84006,
+        84008,
+        84012
+      ],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "HALVE-LOSS",
+      "b": "LONG-1024",
+      "wins": [
+        84003,
+        84013
+      ],
+      "losses": [
+        84008,
+        84012,
+        84015
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "HALVE-LOSS",
+      "b": "UNLEASH",
+      "wins": [
+        84011,
+        84013
+      ],
+      "losses": [
+        84008,
+        84009,
+        84012,
+        84015
+      ],
+      "net": -2
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "HALVE-LOSS",
+      "b": "SUSPEND-LOSS",
+      "wins": [
+        84003,
+        84013
+      ],
+      "losses": [
+        84008,
+        84012,
+        84015
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "HALVE-LOSS",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [
+        84003,
+        84013
+      ],
+      "losses": [
+        84008,
+        84012,
+        84015
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "SUSPEND-LOSS",
+      "b": "BASE-512",
+      "wins": [
+        84010,
+        84015
+      ],
+      "losses": [
+        84006,
+        84013
+      ],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "SUSPEND-LOSS",
+      "b": "LOCAL-512",
+      "wins": [
+        84010,
+        84015
+      ],
+      "losses": [
+        84006
+      ],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "SUSPEND-LOSS",
+      "b": "SHORT-384",
+      "wins": [
+        84000,
+        84010,
+        84015
+      ],
+      "losses": [
+        84006
+      ],
+      "net": 2
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "SUSPEND-LOSS",
+      "b": "LONG-1024",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "SUSPEND-LOSS",
+      "b": "UNLEASH",
+      "wins": [
+        84011
+      ],
+      "losses": [
+        84003,
+        84009
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "SUSPEND-LOSS",
+      "b": "HALVE-LOSS",
+      "wins": [
+        84008,
+        84012,
+        84015
+      ],
+      "losses": [
+        84003,
+        84013
+      ],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "SUSPEND-LOSS",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "BASE-512",
+      "wins": [
+        84010,
+        84015
+      ],
+      "losses": [
+        84006,
+        84013
+      ],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "LOCAL-512",
+      "wins": [
+        84010,
+        84015
+      ],
+      "losses": [
+        84006
+      ],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "SHORT-384",
+      "wins": [
+        84000,
+        84010,
+        84015
+      ],
+      "losses": [
+        84006
+      ],
+      "net": 2
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "LONG-1024",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "UNLEASH",
+      "wins": [
+        84011
+      ],
+      "losses": [
+        84003,
+        84009
+      ],
+      "net": -1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "HALVE-LOSS",
+      "wins": [
+        84008,
+        84012,
+        84015
+      ],
+      "losses": [
+        84003,
+        84013
+      ],
+      "net": 1
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "SUSPEND-LOSS",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "BASE-512",
+      "b": "LOCAL-512",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "BASE-512",
+      "b": "SHORT-384",
+      "wins": [
+        84018
+      ],
+      "losses": [],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "BASE-512",
+      "b": "LONG-1024",
+      "wins": [],
+      "losses": [
+        84020,
+        84022,
+        84024
+      ],
+      "net": -3
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "BASE-512",
+      "b": "UNLEASH",
+      "wins": [],
+      "losses": [
+        84024
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "BASE-512",
+      "b": "HALVE-LOSS",
+      "wins": [],
+      "losses": [
+        84024,
+        84025
+      ],
+      "net": -2
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "BASE-512",
+      "b": "SUSPEND-LOSS",
+      "wins": [],
+      "losses": [
+        84024,
+        84025
+      ],
+      "net": -2
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "BASE-512",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [],
+      "losses": [
+        84024
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "LOCAL-512",
+      "b": "BASE-512",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "LOCAL-512",
+      "b": "SHORT-384",
+      "wins": [
+        84018
+      ],
+      "losses": [],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "LOCAL-512",
+      "b": "LONG-1024",
+      "wins": [],
+      "losses": [
+        84020,
+        84022,
+        84024
+      ],
+      "net": -3
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "LOCAL-512",
+      "b": "UNLEASH",
+      "wins": [],
+      "losses": [
+        84024
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "LOCAL-512",
+      "b": "HALVE-LOSS",
+      "wins": [],
+      "losses": [
+        84024,
+        84025
+      ],
+      "net": -2
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "LOCAL-512",
+      "b": "SUSPEND-LOSS",
+      "wins": [],
+      "losses": [
+        84024,
+        84025
+      ],
+      "net": -2
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "LOCAL-512",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [],
+      "losses": [
+        84024
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "SHORT-384",
+      "b": "BASE-512",
+      "wins": [],
+      "losses": [
+        84018
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "SHORT-384",
+      "b": "LOCAL-512",
+      "wins": [],
+      "losses": [
+        84018
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "SHORT-384",
+      "b": "LONG-1024",
+      "wins": [],
+      "losses": [
+        84018,
+        84020,
+        84022,
+        84024
+      ],
+      "net": -4
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "SHORT-384",
+      "b": "UNLEASH",
+      "wins": [],
+      "losses": [
+        84018,
+        84024
+      ],
+      "net": -2
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "SHORT-384",
+      "b": "HALVE-LOSS",
+      "wins": [],
+      "losses": [
+        84018,
+        84024,
+        84025
+      ],
+      "net": -3
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "SHORT-384",
+      "b": "SUSPEND-LOSS",
+      "wins": [],
+      "losses": [
+        84018,
+        84024,
+        84025
+      ],
+      "net": -3
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "SHORT-384",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [],
+      "losses": [
+        84018,
+        84024
+      ],
+      "net": -2
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "LONG-1024",
+      "b": "BASE-512",
+      "wins": [
+        84020,
+        84022,
+        84024
+      ],
+      "losses": [],
+      "net": 3
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "LONG-1024",
+      "b": "LOCAL-512",
+      "wins": [
+        84020,
+        84022,
+        84024
+      ],
+      "losses": [],
+      "net": 3
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "LONG-1024",
+      "b": "SHORT-384",
+      "wins": [
+        84018,
+        84020,
+        84022,
+        84024
+      ],
+      "losses": [],
+      "net": 4
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "LONG-1024",
+      "b": "UNLEASH",
+      "wins": [
+        84020,
+        84022
+      ],
+      "losses": [],
+      "net": 2
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "LONG-1024",
+      "b": "HALVE-LOSS",
+      "wins": [
+        84020,
+        84022
+      ],
+      "losses": [
+        84025
+      ],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "LONG-1024",
+      "b": "SUSPEND-LOSS",
+      "wins": [
+        84020,
+        84022
+      ],
+      "losses": [
+        84025
+      ],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "LONG-1024",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [
+        84020,
+        84022
+      ],
+      "losses": [],
+      "net": 2
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "UNLEASH",
+      "b": "BASE-512",
+      "wins": [
+        84024
+      ],
+      "losses": [],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "UNLEASH",
+      "b": "LOCAL-512",
+      "wins": [
+        84024
+      ],
+      "losses": [],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "UNLEASH",
+      "b": "SHORT-384",
+      "wins": [
+        84018,
+        84024
+      ],
+      "losses": [],
+      "net": 2
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "UNLEASH",
+      "b": "LONG-1024",
+      "wins": [],
+      "losses": [
+        84020,
+        84022
+      ],
+      "net": -2
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "UNLEASH",
+      "b": "HALVE-LOSS",
+      "wins": [],
+      "losses": [
+        84025
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "UNLEASH",
+      "b": "SUSPEND-LOSS",
+      "wins": [],
+      "losses": [
+        84025
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "UNLEASH",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "HALVE-LOSS",
+      "b": "BASE-512",
+      "wins": [
+        84024,
+        84025
+      ],
+      "losses": [],
+      "net": 2
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "HALVE-LOSS",
+      "b": "LOCAL-512",
+      "wins": [
+        84024,
+        84025
+      ],
+      "losses": [],
+      "net": 2
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "HALVE-LOSS",
+      "b": "SHORT-384",
+      "wins": [
+        84018,
+        84024,
+        84025
+      ],
+      "losses": [],
+      "net": 3
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "HALVE-LOSS",
+      "b": "LONG-1024",
+      "wins": [
+        84025
+      ],
+      "losses": [
+        84020,
+        84022
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "HALVE-LOSS",
+      "b": "UNLEASH",
+      "wins": [
+        84025
+      ],
+      "losses": [],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "HALVE-LOSS",
+      "b": "SUSPEND-LOSS",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "HALVE-LOSS",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [
+        84025
+      ],
+      "losses": [],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "SUSPEND-LOSS",
+      "b": "BASE-512",
+      "wins": [
+        84024,
+        84025
+      ],
+      "losses": [],
+      "net": 2
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "SUSPEND-LOSS",
+      "b": "LOCAL-512",
+      "wins": [
+        84024,
+        84025
+      ],
+      "losses": [],
+      "net": 2
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "SUSPEND-LOSS",
+      "b": "SHORT-384",
+      "wins": [
+        84018,
+        84024,
+        84025
+      ],
+      "losses": [],
+      "net": 3
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "SUSPEND-LOSS",
+      "b": "LONG-1024",
+      "wins": [
+        84025
+      ],
+      "losses": [
+        84020,
+        84022
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "SUSPEND-LOSS",
+      "b": "UNLEASH",
+      "wins": [
+        84025
+      ],
+      "losses": [],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "SUSPEND-LOSS",
+      "b": "HALVE-LOSS",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "SUSPEND-LOSS",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [
+        84025
+      ],
+      "losses": [],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "BASE-512",
+      "wins": [
+        84024
+      ],
+      "losses": [],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "LOCAL-512",
+      "wins": [
+        84024
+      ],
+      "losses": [],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "SHORT-384",
+      "wins": [
+        84018,
+        84024
+      ],
+      "losses": [],
+      "net": 2
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "LONG-1024",
+      "wins": [],
+      "losses": [
+        84020,
+        84022
+      ],
+      "net": -2
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "UNLEASH",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "HALVE-LOSS",
+      "wins": [],
+      "losses": [
+        84025
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "SUSPEND-LOSS",
+      "wins": [],
+      "losses": [
+        84025
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "BASE-512",
+      "b": "LOCAL-512",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "BASE-512",
+      "b": "SHORT-384",
+      "wins": [
+        84018,
+        84019,
+        84022,
+        84024,
+        84031
+      ],
+      "losses": [],
+      "net": 5
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "BASE-512",
+      "b": "LONG-1024",
+      "wins": [
+        84019,
+        84031
+      ],
+      "losses": [
+        84025
+      ],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "BASE-512",
+      "b": "UNLEASH",
+      "wins": [],
+      "losses": [
+        84025
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "BASE-512",
+      "b": "HALVE-LOSS",
+      "wins": [
+        84019,
+        84031
+      ],
+      "losses": [
+        84025
+      ],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "BASE-512",
+      "b": "SUSPEND-LOSS",
+      "wins": [
+        84019,
+        84031
+      ],
+      "losses": [
+        84025
+      ],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "BASE-512",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [
+        84019,
+        84031
+      ],
+      "losses": [
+        84025
+      ],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "LOCAL-512",
+      "b": "BASE-512",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "LOCAL-512",
+      "b": "SHORT-384",
+      "wins": [
+        84018,
+        84019,
+        84022,
+        84024,
+        84031
+      ],
+      "losses": [],
+      "net": 5
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "LOCAL-512",
+      "b": "LONG-1024",
+      "wins": [
+        84019,
+        84031
+      ],
+      "losses": [
+        84025
+      ],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "LOCAL-512",
+      "b": "UNLEASH",
+      "wins": [],
+      "losses": [
+        84025
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "LOCAL-512",
+      "b": "HALVE-LOSS",
+      "wins": [
+        84019,
+        84031
+      ],
+      "losses": [
+        84025
+      ],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "LOCAL-512",
+      "b": "SUSPEND-LOSS",
+      "wins": [
+        84019,
+        84031
+      ],
+      "losses": [
+        84025
+      ],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "LOCAL-512",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [
+        84019,
+        84031
+      ],
+      "losses": [
+        84025
+      ],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "SHORT-384",
+      "b": "BASE-512",
+      "wins": [],
+      "losses": [
+        84018,
+        84019,
+        84022,
+        84024,
+        84031
+      ],
+      "net": -5
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "SHORT-384",
+      "b": "LOCAL-512",
+      "wins": [],
+      "losses": [
+        84018,
+        84019,
+        84022,
+        84024,
+        84031
+      ],
+      "net": -5
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "SHORT-384",
+      "b": "LONG-1024",
+      "wins": [],
+      "losses": [
+        84018,
+        84022,
+        84024,
+        84025
+      ],
+      "net": -4
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "SHORT-384",
+      "b": "UNLEASH",
+      "wins": [],
+      "losses": [
+        84018,
+        84019,
+        84022,
+        84024,
+        84025,
+        84031
+      ],
+      "net": -6
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "SHORT-384",
+      "b": "HALVE-LOSS",
+      "wins": [],
+      "losses": [
+        84018,
+        84022,
+        84024,
+        84025
+      ],
+      "net": -4
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "SHORT-384",
+      "b": "SUSPEND-LOSS",
+      "wins": [],
+      "losses": [
+        84018,
+        84022,
+        84024,
+        84025
+      ],
+      "net": -4
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "SHORT-384",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [],
+      "losses": [
+        84018,
+        84022,
+        84024,
+        84025
+      ],
+      "net": -4
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "LONG-1024",
+      "b": "BASE-512",
+      "wins": [
+        84025
+      ],
+      "losses": [
+        84019,
+        84031
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "LONG-1024",
+      "b": "LOCAL-512",
+      "wins": [
+        84025
+      ],
+      "losses": [
+        84019,
+        84031
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "LONG-1024",
+      "b": "SHORT-384",
+      "wins": [
+        84018,
+        84022,
+        84024,
+        84025
+      ],
+      "losses": [],
+      "net": 4
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "LONG-1024",
+      "b": "UNLEASH",
+      "wins": [],
+      "losses": [
+        84019,
+        84031
+      ],
+      "net": -2
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "LONG-1024",
+      "b": "HALVE-LOSS",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "LONG-1024",
+      "b": "SUSPEND-LOSS",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "LONG-1024",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "UNLEASH",
+      "b": "BASE-512",
+      "wins": [
+        84025
+      ],
+      "losses": [],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "UNLEASH",
+      "b": "LOCAL-512",
+      "wins": [
+        84025
+      ],
+      "losses": [],
+      "net": 1
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "UNLEASH",
+      "b": "SHORT-384",
+      "wins": [
+        84018,
+        84019,
+        84022,
+        84024,
+        84025,
+        84031
+      ],
+      "losses": [],
+      "net": 6
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "UNLEASH",
+      "b": "LONG-1024",
+      "wins": [
+        84019,
+        84031
+      ],
+      "losses": [],
+      "net": 2
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "UNLEASH",
+      "b": "HALVE-LOSS",
+      "wins": [
+        84019,
+        84031
+      ],
+      "losses": [],
+      "net": 2
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "UNLEASH",
+      "b": "SUSPEND-LOSS",
+      "wins": [
+        84019,
+        84031
+      ],
+      "losses": [],
+      "net": 2
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "UNLEASH",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [
+        84019,
+        84031
+      ],
+      "losses": [],
+      "net": 2
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "HALVE-LOSS",
+      "b": "BASE-512",
+      "wins": [
+        84025
+      ],
+      "losses": [
+        84019,
+        84031
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "HALVE-LOSS",
+      "b": "LOCAL-512",
+      "wins": [
+        84025
+      ],
+      "losses": [
+        84019,
+        84031
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "HALVE-LOSS",
+      "b": "SHORT-384",
+      "wins": [
+        84018,
+        84022,
+        84024,
+        84025
+      ],
+      "losses": [],
+      "net": 4
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "HALVE-LOSS",
+      "b": "LONG-1024",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "HALVE-LOSS",
+      "b": "UNLEASH",
+      "wins": [],
+      "losses": [
+        84019,
+        84031
+      ],
+      "net": -2
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "HALVE-LOSS",
+      "b": "SUSPEND-LOSS",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "HALVE-LOSS",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "SUSPEND-LOSS",
+      "b": "BASE-512",
+      "wins": [
+        84025
+      ],
+      "losses": [
+        84019,
+        84031
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "SUSPEND-LOSS",
+      "b": "LOCAL-512",
+      "wins": [
+        84025
+      ],
+      "losses": [
+        84019,
+        84031
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "SUSPEND-LOSS",
+      "b": "SHORT-384",
+      "wins": [
+        84018,
+        84022,
+        84024,
+        84025
+      ],
+      "losses": [],
+      "net": 4
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "SUSPEND-LOSS",
+      "b": "LONG-1024",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "SUSPEND-LOSS",
+      "b": "UNLEASH",
+      "wins": [],
+      "losses": [
+        84019,
+        84031
+      ],
+      "net": -2
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "SUSPEND-LOSS",
+      "b": "HALVE-LOSS",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "SUSPEND-LOSS",
+      "b": "SUSPEND-PROGRESS",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "BASE-512",
+      "wins": [
+        84025
+      ],
+      "losses": [
+        84019,
+        84031
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "LOCAL-512",
+      "wins": [
+        84025
+      ],
+      "losses": [
+        84019,
+        84031
+      ],
+      "net": -1
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "SHORT-384",
+      "wins": [
+        84018,
+        84022,
+        84024,
+        84025
+      ],
+      "losses": [],
+      "net": 4
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "LONG-1024",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "UNLEASH",
+      "wins": [],
+      "losses": [
+        84019,
+        84031
+      ],
+      "net": -2
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "HALVE-LOSS",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "a": "SUSPEND-PROGRESS",
+      "b": "SUSPEND-LOSS",
+      "wins": [],
+      "losses": [],
+      "net": 0
+    }
+  ],
+  "predictions": {
+    "P1_long": true,
+    "P1_unleash": false,
+    "P2_n8": true,
+    "P2_n9": false,
+    "P3_n8": true,
+    "P3_n9": true
+  },
+  "longWins": [
+    {
+      "n": 8,
+      "budget": 2000000,
+      "mode": "UNLEASH",
+      "seed": 84001,
+      "rot": 565,
+      "k": 24,
+      "work": 1754159
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "mode": "LONG-1024",
+      "seed": 84005,
+      "rot": 514,
+      "k": 22,
+      "work": 912631
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "mode": "UNLEASH",
+      "seed": 84005,
+      "rot": 514,
+      "k": 22,
+      "work": 912643
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "mode": "LONG-1024",
+      "seed": 84010,
+      "rot": 560,
+      "k": 24,
+      "work": 974476
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "mode": "UNLEASH",
+      "seed": 84010,
+      "rot": 560,
+      "k": 24,
+      "work": 974512
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "mode": "LONG-1024",
+      "seed": 84011,
+      "rot": 744,
+      "k": 32,
+      "work": 1198604
+    },
+    {
+      "n": 8,
+      "budget": 2000000,
+      "mode": "UNLEASH",
+      "seed": 84015,
+      "rot": 542,
+      "k": 23,
+      "work": 1747723
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "mode": "LONG-1024",
+      "seed": 84001,
+      "rot": 565,
+      "k": 24,
+      "work": 2457215
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "mode": "UNLEASH",
+      "seed": 84001,
+      "rot": 565,
+      "k": 24,
+      "work": 1754159
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "mode": "UNLEASH",
+      "seed": 84003,
+      "rot": 542,
+      "k": 23,
+      "work": 3365421
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "mode": "LONG-1024",
+      "seed": 84005,
+      "rot": 514,
+      "k": 22,
+      "work": 912631
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "mode": "UNLEASH",
+      "seed": 84005,
+      "rot": 514,
+      "k": 22,
+      "work": 912643
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "mode": "UNLEASH",
+      "seed": 84009,
+      "rot": 565,
+      "k": 24,
+      "work": 3546181
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "mode": "LONG-1024",
+      "seed": 84010,
+      "rot": 560,
+      "k": 24,
+      "work": 974476
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "mode": "UNLEASH",
+      "seed": 84010,
+      "rot": 560,
+      "k": 24,
+      "work": 974512
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "mode": "LONG-1024",
+      "seed": 84011,
+      "rot": 744,
+      "k": 32,
+      "work": 1198604
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "mode": "LONG-1024",
+      "seed": 84015,
+      "rot": 542,
+      "k": 23,
+      "work": 2507199
+    },
+    {
+      "n": 8,
+      "budget": 4000000,
+      "mode": "UNLEASH",
+      "seed": 84015,
+      "rot": 542,
+      "k": 23,
+      "work": 1747723
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "mode": "LONG-1024",
+      "seed": 84020,
+      "rot": 791,
+      "k": 27,
+      "work": 1833351
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "mode": "LONG-1024",
+      "seed": 84022,
+      "rot": 878,
+      "k": 30,
+      "work": 1997000
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "mode": "LONG-1024",
+      "seed": 84024,
+      "rot": 617,
+      "k": 21,
+      "work": 1508206
+    },
+    {
+      "n": 9,
+      "budget": 2000000,
+      "mode": "UNLEASH",
+      "seed": 84024,
+      "rot": 617,
+      "k": 21,
+      "work": 1508254
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "mode": "LONG-1024",
+      "seed": 84020,
+      "rot": 791,
+      "k": 27,
+      "work": 1833351
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "mode": "UNLEASH",
+      "seed": 84020,
+      "rot": 710,
+      "k": 24,
+      "work": 2980906
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "mode": "LONG-1024",
+      "seed": 84022,
+      "rot": 878,
+      "k": 30,
+      "work": 1997000
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "mode": "LONG-1024",
+      "seed": 84024,
+      "rot": 617,
+      "k": 21,
+      "work": 1508206
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "mode": "UNLEASH",
+      "seed": 84024,
+      "rot": 617,
+      "k": 21,
+      "work": 1508254
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "mode": "LONG-1024",
+      "seed": 84025,
+      "rot": 652,
+      "k": 22,
+      "work": 3675427
+    },
+    {
+      "n": 9,
+      "budget": 4000000,
+      "mode": "UNLEASH",
+      "seed": 84025,
+      "rot": 652,
+      "k": 22,
+      "work": 2683041
+    }
+  ],
+  "verifyMax": {
+    "err": 3.651400169878292e-15,
+    "orth": 3.1086244689504383e-15,
+    "ports": 0,
+    "sym": 6.550315845288424e-16,
+    "resp": 3.422531464562005e-14
+  },
+  "maxLeak": 6.822130008662102e-17,
+  "maxDerivative": 6.957421305742174e-11,
+  "rawFiles": [
+    "rotation_regulator_target_00.json",
+    "rotation_regulator_target_01.json",
+    "rotation_regulator_target_02.json",
+    "rotation_regulator_target_03.json",
+    "rotation_regulator_target_04.json",
+    "rotation_regulator_target_05.json",
+    "rotation_regulator_target_06.json",
+    "rotation_regulator_target_07.json"
+  ],
+  "limitations": [
+    "Gate 11 compact baseline rows substituted for oversized Gate 12 trace files; Gate 12 had already established exact equality.",
+    "Separate local 512 stage differs from original cumulative schedule; compare adaptive arms against matched local controls.",
+    "Only final paths independently verified, not every intermediate state. No Lean certificate or hardware.",
+    "Ledger is modeled work, not runtime; scheduling overhead partially modeled, memory and verification outside ledger.",
+    "Progress rate charges completed numerical trial work, not all scheduler/seed overhead; probe and choice costs remain in global ledger.",
+    "At most two live states, terminated states retained for logging in wrapper; memory not benchmarked."
+  ]
+}
