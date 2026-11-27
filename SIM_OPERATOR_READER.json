@@ -1,6 +1,6 @@
 {
   "format": "SIM-inspired experimental history, not Google's CRSI optimizer",
-  "next_id": 21,
+  "next_id": 22,
   "problems": [
     {
       "id": 1,
@@ -18634,6 +18634,116 @@
           },
           "decision": "Conditional algebra and local differentiation validated; no global coverage or efficient LM claim. Do not open 14b with dense forward mode: arithmetic cost is high and not directly comparable to old partial ledger. Optimize local pullback/sparse frame transport on old diagnostic cases first. Keep full acceptance rows and independent verification.",
           "limitations": "Witness uses extracted core orthogonal matrix and spin direction, not inversion to all explicit angles; 4 generic positive-angle samples per case/depth, no singular stratum guarantee; no numerical path certificate or fresh numerical solve; dense work includes verification and omits some operations."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "root_cause": "14a dense AD differentiates diagnostic and dense matrix products; max-norm pivot basis completion introduces discrete changes inside finite LM trial steps. Neon proposed Lie tangent specialization and smooth local frame continuation.",
+      "attempts": [
+        {
+          "intervention": "14a-fast sparse tangent pullback and retained-frame local continuation",
+          "protocol_commit": "ed72c2a1826cdd8dca368835c1052bdf6f401021",
+          "code_commit": "9187ec0ff27dac8afede9b9cf3f15a5440ce1ff7",
+          "predicted": {
+            "reference": "256/256 <=1e-12",
+            "finite": "100/100",
+            "cost": "median below FIRST both stages"
+          },
+          "observed": {
+            "summary_commit": "f1d208d2cb15d51dc1c3a3cb9cc08991065aec1a",
+            "reference": "256/256",
+            "max_reference": 3.4861002973229914e-15,
+            "max_lie": 4.338751580235112e-14,
+            "max_local_derivative": 5.5542574317613e-9,
+            "finite_pass": 100,
+            "old_switch_cases": 84,
+            "old_switch_events": 170,
+            "max_old_jump": 0.8374386958264944,
+            "max_local_jump": 0.035534936869730235,
+            "min_completion": 0.44149029013840857,
+            "max_rebase": 2.7463411661780188e-15,
+            "median_cost": [
+              112598,
+              115450.5
+            ],
+            "median_baseline": [
+              74900.5,
+              77220
+            ],
+            "cost_wins": [
+              0,
+              0
+            ]
+          },
+          "decision": "Local frame fix validated on sampled finite paths; sparse tangent still through Q and too expensive. Preserve failed cost prediction. Implement prefix-only analytic wedge generators.",
+          "limitations": "20 subdivisions per 100 steps; unbalanced old corpus; conditional smoothness only, no global bound. Full-stage trial metric smoke bug fixed before complete diagnostic. Partial ledger."
+        },
+        {
+          "intervention": "14a-tier prefix-only tangent and endpoint Lie wedges, cached endpoint, explicit core/port suffix transport",
+          "protocol_commit": "50137aaf56d06afb4e0bee811cd4b79c82a1670f",
+          "code_commit": "045a81279a7e724f8148b531c0b388bc3258574e",
+          "predicted": {
+            "reference": "256/256 <=1e-12",
+            "cost": "median below FIRST both stages"
+          },
+          "observed": {
+            "summary_commit": "c812d36675098f22d744393147751b6b3a50be74",
+            "reference": "256/256",
+            "max_derivative": 3.4763858458575214e-14,
+            "median_cost": [
+              74369,
+              78506.5
+            ],
+            "median_baseline": [
+              74900.5,
+              77220
+            ],
+            "cost_wins": [
+              32,
+              29
+            ],
+            "topology_exploratory": [
+              {
+                "type": "triple55",
+                "smooth": true,
+                "n": 32,
+                "median": 70857,
+                "baseline": 75555,
+                "wins": 20,
+                "medianDelta": -4700
+              },
+              {
+                "type": "triple55",
+                "smooth": false,
+                "n": 32,
+                "median": 73603,
+                "baseline": 78216,
+                "wins": 20,
+                "medianDelta": -3834
+              },
+              {
+                "type": "quad55",
+                "smooth": true,
+                "n": 32,
+                "median": 79569,
+                "baseline": 74315,
+                "wins": 12,
+                "medianDelta": 5254
+              },
+              {
+                "type": "quad55",
+                "smooth": false,
+                "n": 32,
+                "median": 84490.5,
+                "baseline": 76706,
+                "wins": 9,
+                "medianDelta": 7546.5
+              }
+            ]
+          },
+          "decision": "Cost target not passed (full stage median above FIRST). Do not open 85000 holdout. Triple55 cheaper on median in both stages, quad55 more expensive; descriptive diagnostic not a frozen selector. Still need physical Givens path/rotation accounting and production trial/state implementation. Consider combining wedge coefficient accumulation or exact residual-basis/Gram reduction before fresh test.",
+          "limitations": "One-step matched-endpoint tests only; no convergence result. Cost partial, cached endpoint for tier/FIRST, sparse prior comparator rebuilt it; no runtime or physical rotation cap comparison."
         }
       ]
     }
