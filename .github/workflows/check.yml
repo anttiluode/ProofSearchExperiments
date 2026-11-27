@@ -19,9 +19,17 @@ jobs:
           node phase_buckets.cjs
           node accounting_audit.cjs
           node emit_lean.cjs
+          node fatigue.cjs
+          node fatigue_dp.cjs
       - name: Install pinned Lean via elan
         run: |
           curl -sSf https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh | sh -s -- -y --default-toolchain none
           echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
       - name: Verify Lean certificates and wrong-witness control
-        run: node check_lean.cjs
+        run: |
+          node check_lean.cjs
+          lean results/FatigueCertificates.lean
+          lean results/FatigueDP.lean
+          echo 'Lean accepted fatigue scheduler and suffix-elimination certificates.'
+          if lean results/FatigueWrongWitness.lean > wrong.log 2>&1; then cat wrong.log; exit 1; fi
+          grep -i 'type mismatch' wrong.log
