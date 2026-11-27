@@ -202,3 +202,25 @@ Every selected result (144 paths including unchanged roots) independently checke
 Symbolic Lean source checks the general nested conjugation composition under associative multiplication and transpose-reversal axioms and two Pythagorean integer identities; it does not kernel-check the numerical matrix paths. Reproduce: `node rotation_orbit.cjs`; `lean results/RotationAlgebra.lean`. SIM case-level outcomes added retrospectively, with predicted case IDs explicitly null for previous runs. Future predictions must be registered before evaluation.
 
 The main architectural distinction: a rotation program can have several equivalent symbolic representations, while response-equivalent physical matrices can have different costs. An eventual e-graph should not attach a single physical matrix or cost as an invariant of the entire response-equivalence class; physical realization representatives must remain available to extraction.
+
+
+## Experiment 7b — continuous rotations and constrained topology
+
+[Interactive page](https://anttiluode.github.io/ProofSearchExperiments/continuous.html) · [Frozen protocol and first forward predictions](ROTATION_CONTINUOUS_PROTOCOL.md) · [Least-squares follow-up](ROTATION_LM_PROTOCOL.md) · [Raw pivot data](results/rotation_continuous.json) · [Raw LM data](results/rotation_lm.json).
+
+Continuous source-aligned internal tridiagonalization (not full Cameron synthesis) reduces the 12 dense 7a matrices from 15/21/28 off-diagonal edges to 9/11/13 for 4/5/6 internal resonators. Preregistered P1 incorrectly predicted <=2n: all 12 literally missed, because the direct source-load edge was omitted in the count. Correct bound is 2n+1 (n-1 internal path edges, 1 source, n load, 1 direct). P2 (canonical start fails noncanonical mask) hit all 24 registered IDs. These are structural predictions, not evidence for a learned proposer.
+
+24 constructed feasible target masks (chain plus one or two internal chords), integer couplings, required edges nonzero, forbidden relative maximum <=1e-8, max/min required <=10. Start from canonical reduction of the feasible target. Solvers see only start matrix and mask, not the witness. No sign constraints. No industrial filter measurements. All successful/failed returned realizations retain orthogonal similarity within numerical tolerance, fixed ports and sampled two-port response. Failure is not infeasibility.
+
+| Arm | Success /24 | Mean squared objective | Mean candidate rotations | Mean modeled work |
+|---|---:|---:|---:|---:|
+| Canonical | 0 | 0.0458021 | 0 | 29 |
+| Internal permutations | 0 | 0.0230066 | 0 | 27997 |
+| Strict greedy pivot | 1 | 0.0082901 | 1116 | 166802 |
+| Bounded best-first pivot | 3 | 0.0065668 | 3652 | 1297859 |
+| Coordinate descent | 0 | 0.00036175 | 3851 | 450740 |
+| Damped least squares (follow-up) | 17 | 0.00025333 | 1215 | 755251 |
+
+LM uses finite-difference Jacobian on the internal rotation manifold, damped normal equations, two deterministic starts, same 4096 rotation cap and success thresholds. All trial prefix states are eligible as best results, including intermediate stages of rejected multi-rotation trials; accepted full updates are downhill. Nonmonotone selected paths therefore do not establish that uphill accepted optimization steps are necessary. Best-first uses a linear frontier scan; costs are modeled heterogeneous operations, not wall-clock comparisons. LM ledger includes Jacobian and normal-equation/linear solve work; independent dense reconstruction and response diagnostics recorded separately. Search/generation/verification and implementation overhead are not fully metered. Numeric checks are double precision, not kernel-certified exact matrix equality. Previously verified Lean abstract nested conjugation law (7a CI run 45976077248) remains unchanged.
+
+Seven LM misses remain: 61001, 61003, 61006, 61007, 61008, 61013, 61022. They are diagnostic targets, not a future held-out test set. No full e-graph, learned pivot macros, SIM optimizer, actual TWC execution or real hardware. Next: frozen new source/target split, stronger numerical baseline (analytic Jacobian/multistart) and composable parameterized pivot motifs; only claim savings if full development and verification bill is earned back. Reproduce `node rotation_continuous.cjs` and `node rotation_lm.cjs`.
