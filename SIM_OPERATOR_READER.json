@@ -1,6 +1,6 @@
 {
   "format": "SIM-inspired experimental history, not Google's CRSI optimizer",
-  "next_id": 6,
+  "next_id": 7,
   "problems": [
     {
       "id": 1,
@@ -867,6 +867,250 @@
             }
           ],
           "decision": "Use rational Givens as strong exact control; design untouched harder topology/cost constraints before testing macro learning or equality saturation."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "root_cause": "Rational-only pivot generation excluded most continuous Givens angles; canonical sparsity and target-mask realization are different tasks.",
+      "attempts": [
+        {
+          "intervention": "Continuous source-aligned tridiagonal reduction plus constrained pivot search",
+          "domain": "TWC-derived symmetric coupling matrices; dense 52000–52011, constrained 61000–61023",
+          "rationale": "Remove Pythagorean bottleneck and test prescribed physical topology",
+          "protocol_commit": "bcb5f8961120f7aff75416acecd8e28650f57d56",
+          "predictions": [
+            {
+              "id": "P1",
+              "claim": "at most 2n couplings",
+              "predicted_ids": [
+                52000,
+                52001,
+                52002,
+                52003,
+                52004,
+                52005,
+                52006,
+                52007,
+                52008,
+                52009,
+                52010,
+                52011
+              ],
+              "fixed": [],
+              "missed": [
+                52000,
+                52001,
+                52002,
+                52003,
+                52004,
+                52005,
+                52006,
+                52007,
+                52008,
+                52009,
+                52010,
+                52011
+              ],
+              "reason": "Forgot direct source-load edge; correct count 2n+1; no output relabeling."
+            },
+            {
+              "id": "P2",
+              "claim": "canonical start fails prescribed topology",
+              "predicted_ids": [
+                61000,
+                61001,
+                61002,
+                61003,
+                61004,
+                61005,
+                61006,
+                61007,
+                61008,
+                61009,
+                61010,
+                61011,
+                61012,
+                61013,
+                61014,
+                61015,
+                61016,
+                61017,
+                61018,
+                61019,
+                61020,
+                61021,
+                61022,
+                61023
+              ],
+              "fixed": [
+                61000,
+                61001,
+                61002,
+                61003,
+                61004,
+                61005,
+                61006,
+                61007,
+                61008,
+                61009,
+                61010,
+                61011,
+                61012,
+                61013,
+                61014,
+                61015,
+                61016,
+                61017,
+                61018,
+                61019,
+                61020,
+                61021,
+                61022,
+                61023
+              ],
+              "missed": []
+            }
+          ],
+          "observed": [
+            {
+              "mode": "canonical",
+              "success": 0,
+              "successIds": [],
+              "meanLoss": 0.04580206079168301,
+              "meanForbidden": 2.4166666666666665,
+              "meanMissing": 1.5,
+              "meanRotations": 0,
+              "meanWork": 28.833333333333332,
+              "nonmonotoneSuccess": 0,
+              "maxResponse": 0
+            },
+            {
+              "mode": "perm",
+              "success": 0,
+              "successIds": [],
+              "meanLoss": 0.023006620338905905,
+              "meanForbidden": 2.4166666666666665,
+              "meanMissing": 1.5,
+              "meanRotations": 0,
+              "meanWork": 27996.833333333332,
+              "nonmonotoneSuccess": 0,
+              "maxResponse": 2.8609792490763984e-17
+            },
+            {
+              "mode": "greedy",
+              "success": 1,
+              "successIds": [
+                61002
+              ],
+              "meanLoss": 0.008290097756803548,
+              "meanForbidden": 4.625,
+              "meanMissing": 0.5,
+              "meanRotations": 1115.625,
+              "meanWork": 166802.125,
+              "nonmonotoneSuccess": 0,
+              "maxResponse": 2.7336071744532853e-16
+            },
+            {
+              "mode": "best",
+              "success": 3,
+              "successIds": [
+                61002,
+                61008,
+                61014
+              ],
+              "meanLoss": 0.006566839183489392,
+              "meanForbidden": 4.333333333333333,
+              "meanMissing": 0.08333333333333333,
+              "meanRotations": 3652.4166666666665,
+              "meanWork": 1297859.2916666667,
+              "nonmonotoneSuccess": 2,
+              "maxResponse": 1.2412670766236366e-16
+            },
+            {
+              "mode": "coord",
+              "success": 0,
+              "successIds": [],
+              "meanLoss": 0.0003617493169208828,
+              "meanForbidden": 12,
+              "meanMissing": 0,
+              "meanRotations": 3850.8333333333335,
+              "meanWork": 450739.5416666667,
+              "nonmonotoneSuccess": 0,
+              "maxResponse": 2.9021254948827473e-16
+            }
+          ],
+          "decision": "Keep canonical reduction as primitive; compare stronger local optimization."
+        },
+        {
+          "intervention": "Damped least squares over internal rotations",
+          "domain": "Same constrained cases, diagnostic replay",
+          "rationale": "Use full local residual Jacobian instead of single edge-pivot selection",
+          "predicted_ids": null,
+          "case_audit": {
+            "fixed": [
+              61000,
+              61002,
+              61004,
+              61005,
+              61009,
+              61010,
+              61011,
+              61012,
+              61014,
+              61015,
+              61016,
+              61017,
+              61018,
+              61019,
+              61020,
+              61021,
+              61023
+            ],
+            "missed": [
+              61001,
+              61003,
+              61006,
+              61007,
+              61008,
+              61013,
+              61022
+            ],
+            "note": "Retrospective success IDs; not forward predictions."
+          },
+          "observed": [
+            {
+              "mode": "lm",
+              "success": 17,
+              "successIds": [
+                61000,
+                61002,
+                61004,
+                61005,
+                61009,
+                61010,
+                61011,
+                61012,
+                61014,
+                61015,
+                61016,
+                61017,
+                61018,
+                61019,
+                61020,
+                61021,
+                61023
+              ],
+              "meanLoss": 0.0002533280695179796,
+              "meanForbidden": 4.416666666666667,
+              "meanMissing": 0,
+              "meanRotations": 1214.75,
+              "meanWork": 755251.4166666666,
+              "nonmonotoneSuccess": 17,
+              "maxResponse": 3.510833468576701e-16
+            }
+          ],
+          "decision": "Promote to mandatory baseline. Seven misses remain unproved infeasible; target generator proves feasible. Do not start macro training on these diagnostic targets."
         }
       ]
     }
