@@ -1,6 +1,6 @@
 {
   "format": "SIM-inspired experimental history, not Google's CRSI optimizer",
-  "next_id": 20,
+  "next_id": 21,
   "problems": [
     {
       "id": 1,
@@ -18591,6 +18591,49 @@
           },
           "decision": "No general reader promotion. Narrow n8/2M progress-racing gain over fixed controls and loss-racing, but ties UNLEASH with greater mean work; n9 fails to transfer. Hard leash truncates actual successful trajectories; one rejected LM trial is not a terminal signal: damping can recover after two rejected trials (84020,84022). Archive failures; use fresh seeds for any next experiment. Consider cheaper reader or exact internal elimination; do not tune Gate 13 holdout.",
           "limitations": "Gate 11 compact baseline substituted for inaccessible large Gate 12 trace files; Gate 12 had established equality. Verification outside modeled ledger, not runtime, no formal floating-point certificate. Terminated states retained for logging; no memory claim."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "root_cause": "Gate 13 scheduling gains cannot remove expensive full-dimensional numerical steps. Neon proposed conditional exact elimination of pendant internal edges using stabilizer subspaces after port compilation; internal constraints are quadratic, not the original linear port grammar.",
+      "attempts": [
+        {
+          "intervention": "14a dense differentiable reference chart with mask-only degree-one peeling, two sign branches per peel, witness-conditioned core reconstruction",
+          "protocol_commit": "1269495a856ddbc9629eee192b2d71d7f8836765",
+          "code_commit": "f22c76ec8a29a1546d6c32f68008ee3c9d04e55e",
+          "predicted": {
+            "generic_pass": "128/128 per depth",
+            "conditional_witness": "32/32 per depth",
+            "frozen_chart_witness": "exploratory",
+            "cost": "unknown; do not infer step cost from cubic factorization alone"
+          },
+          "observed": {
+            "summary_commit": "eaf79e63157f7bf48981b96203fddf3043bfd16e",
+            "generic_pass": "256/256",
+            "conditional_witness": "64/64",
+            "frozen_chart_witness": "64/64",
+            "port_fit": "32/32 restart zero",
+            "max_normalized_derivative": 5.598666341644076e-9,
+            "max_frozen_witness_error": 5.6375956534650054e-14,
+            "max_conditional_witness_error": 1.129622711160712e-13,
+            "max_projected_identity": 2.4424906541753446e-16,
+            "max_generic_port_leak": 4.507078483650556e-17,
+            "dimension_n8": [
+              22,
+              18,
+              15
+            ],
+            "dimension_n9": [
+              28,
+              23,
+              19
+            ],
+            "mean_dense_ad_work_n9_peel2": 941842.96875,
+            "mean_dense_primal_work_n9_peel2": 26660.171875
+          },
+          "decision": "Conditional algebra and local differentiation validated; no global coverage or efficient LM claim. Do not open 14b with dense forward mode: arithmetic cost is high and not directly comparable to old partial ledger. Optimize local pullback/sparse frame transport on old diagnostic cases first. Keep full acceptance rows and independent verification.",
+          "limitations": "Witness uses extracted core orthogonal matrix and spin direction, not inversion to all explicit angles; 4 generic positive-angle samples per case/depth, no singular stratum guarantee; no numerical path certificate or fresh numerical solve; dense work includes verification and omits some operations."
         }
       ]
     }
