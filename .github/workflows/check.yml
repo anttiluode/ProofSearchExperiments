@@ -23,6 +23,7 @@ jobs:
           node fatigue_dp.cjs
           node operator.cjs
           node operator_twc.cjs
+          node operator_index.cjs
       - name: Install pinned Lean via elan
         run: |
           curl -sSf https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh | sh -s -- -y --default-toolchain none
@@ -39,3 +40,5 @@ jobs:
           echo 'Lean accepted 3 learned schemas and 144 target normalizer certificates.'
           if lean results/OperatorWrongOrder.lean > operator_wrong.log 2>&1; then cat operator_wrong.log; exit 1; fi
           grep -Ei 'type mismatch|not definitionally equal' operator_wrong.log
+          lean results/OperatorIndexCertificates.lean
+          echo 'Lean accepted 4 operator schemas and 498 indexed replay certificates.'
