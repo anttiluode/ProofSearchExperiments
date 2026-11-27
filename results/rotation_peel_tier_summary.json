@@ -1,0 +1,95 @@
+{
+  "protocolCommit": "50137aaf56d06afb4e0bee811cd4b79c82a1670f",
+  "codeCommit": "045a81279a7e724f8148b531c0b388bc3258574e",
+  "rawFiles": [
+    "rotation_peel_tier_diag_00.json",
+    "rotation_peel_tier_diag_01.json",
+    "rotation_peel_tier_diag_02.json",
+    "rotation_peel_tier_diag_03.json"
+  ],
+  "rows": 256,
+  "pass": 256,
+  "maxDerivative": 3.4763858458575214e-14,
+  "maxBase": 3.0198066269804257e-15,
+  "cost": [
+    {
+      "smooth": true,
+      "n": 64,
+      "medianTotal": 74369,
+      "medianBaseline": 74900.5,
+      "medianSparse": 112598,
+      "medianModel": 65703.5,
+      "medianTrial": 8467,
+      "medianPairedDelta": -550.5,
+      "wins": 32,
+      "minTotal": 63698,
+      "maxTotal": 84243,
+      "medianLedger": {
+        "rotations": 0,
+        "arithmetic": 33283.5,
+        "angles": 36,
+        "score": 55,
+        "key": 4961.5,
+        "frontier": 0,
+        "permutation": 0,
+        "jacobian": 437,
+        "linear": 22706,
+        "iterations": 1,
+        "restarts": 0,
+        "align": 0,
+        "deriv": 3967.5,
+        "organ": 32,
+        "assembly": 0,
+        "dot": 0,
+        "orthogonalize": 0,
+        "selection": 0,
+        "cache": 193
+      }
+    },
+    {
+      "smooth": false,
+      "n": 64,
+      "medianTotal": 78506.5,
+      "medianBaseline": 77220,
+      "medianSparse": 115450.5,
+      "medianModel": 70312.5,
+      "medianTrial": 8296,
+      "medianPairedDelta": 596.5,
+      "wins": 29,
+      "minTotal": 66241,
+      "maxTotal": 90318,
+      "medianLedger": {
+        "rotations": 0,
+        "arithmetic": 36921,
+        "angles": 36,
+        "score": 55,
+        "key": 4961.5,
+        "frontier": 0,
+        "permutation": 0,
+        "jacobian": 532,
+        "linear": 22706,
+        "iterations": 1,
+        "restarts": 0,
+        "align": 0,
+        "deriv": 4806,
+        "organ": 32,
+        "assembly": 0,
+        "dot": 0,
+        "orthogonalize": 0,
+        "selection": 0,
+        "cache": 193
+      }
+    }
+  ],
+  "predictions": {
+    "reference": true,
+    "cost": false
+  },
+  "limitations": [
+    "Same local frame continuation as 14a-fast; no additional finite-step probes required for unchanged primal chart.",
+    "Cost counts are partial and no runtime measurement, physical rotation accounting or path witness yet. Starting endpoint cached for tier and FIRST; sparse comparator rebuilt endpoint in its model, so comparison to sparse includes benefit from reuse.",
+    "Only one-step numerical LM diagnostics; no trajectory or convergence claim.",
+    "Core transported wedges, prefix-only forward tangents; selected residual entries only in measured step. All-entry audits excluded from step ledger."
+  ],
+  "decision": "Cost prediction not passed in both stages; holdout unopened. Analyze topology-dependent cost and reduce repeated wedge accumulation or residual row basis before production."
+}
