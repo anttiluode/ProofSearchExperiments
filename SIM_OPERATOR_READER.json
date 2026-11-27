@@ -1,6 +1,6 @@
 {
   "format": "SIM-inspired experimental history, not Google's CRSI optimizer",
-  "next_id": 14,
+  "next_id": 15,
   "problems": [
     {
       "id": 1,
@@ -14136,6 +14136,515 @@
             }
           ],
           "decision": "Compare new smooth chart against old smooth only on rank-two supported pairs; retain negative and unsupported results. Five supplied rules compose; not general theorem discovery. Lean obligations source pending kernel execution.",
+          "source_development": 0
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "root_cause": "7i supplied singleton formula and left double overlap union constraints; test bounded automatic symbolic factor synthesis plus physical angle clipping.",
+      "attempts": [
+        {
+          "intervention": "8a/8b symbolic Givens program search, frozen discovered charts and fresh double-overlap payoff",
+          "protocol_commit": "9728c8b5fc1d7071ccce126379ce413673b6a073",
+          "predictions": {
+            "P1": {
+              "predicted": [
+                "disjoint22",
+                "nested13",
+                "singleton22",
+                "double33",
+                "double34",
+                "double44"
+              ],
+              "fixed": [
+                "disjoint22",
+                "nested13",
+                "singleton22",
+                "double33",
+                "double34",
+                "double44"
+              ],
+              "missed": []
+            },
+            "P2": {
+              "predicted": [
+                "disjoint22",
+                "nested13",
+                "singleton22",
+                "double33",
+                "double34",
+                "double44"
+              ],
+              "fixed": [
+                "disjoint22",
+                "nested13",
+                "singleton22",
+                "double33",
+                "double34",
+                "double44"
+              ],
+              "missed": []
+            },
+            "P3": {
+              "predicted": [
+                79000,
+                79001,
+                79002,
+                79003,
+                79004,
+                79005,
+                79006,
+                79007,
+                79008,
+                79009,
+                79010,
+                79011,
+                79012,
+                79013,
+                79014,
+                79015,
+                79016,
+                79017,
+                79018,
+                79019,
+                79020,
+                79021,
+                79022,
+                79023,
+                79024,
+                79025,
+                79026,
+                79027,
+                79028,
+                79029,
+                79030,
+                79031,
+                79032,
+                79033,
+                79034,
+                79035,
+                79036,
+                79037,
+                79038,
+                79039,
+                79040,
+                79041,
+                79042,
+                79043,
+                79044,
+                79045,
+                79046,
+                79047
+              ],
+              "fixed": [
+                79000,
+                79001,
+                79002,
+                79003,
+                79004,
+                79005,
+                79006,
+                79007,
+                79008,
+                79009,
+                79010,
+                79011,
+                79012,
+                79013,
+                79014,
+                79015,
+                79016,
+                79017,
+                79018,
+                79019,
+                79020,
+                79021,
+                79022,
+                79023,
+                79024,
+                79025,
+                79026,
+                79027,
+                79028,
+                79029,
+                79030,
+                79031,
+                79032,
+                79033,
+                79034,
+                79035,
+                79036,
+                79037,
+                79038,
+                79039,
+                79040,
+                79041,
+                79042,
+                79043,
+                79044,
+                79045,
+                79046,
+                79047
+              ],
+              "missed": []
+            }
+          },
+          "observed": [
+            {
+              "budget": 2000000,
+              "group": "all",
+              "mode": "OLD-S",
+              "n": 48,
+              "success": 18,
+              "meanWork": 1518814.0625,
+              "meanDimension": 17.208333333333332,
+              "meanPruned": 5.125,
+              "vsOld": {
+                "wins": [],
+                "losses": []
+              },
+              "vsSynth": {
+                "wins": [
+                  79008,
+                  79025,
+                  79039
+                ],
+                "losses": [
+                  79000,
+                  79002,
+                  79013,
+                  79017,
+                  79018,
+                  79019,
+                  79021,
+                  79024,
+                  79029,
+                  79030,
+                  79031,
+                  79033,
+                  79036,
+                  79037,
+                  79038,
+                  79042,
+                  79046
+                ]
+              }
+            },
+            {
+              "budget": 2000000,
+              "group": "all",
+              "mode": "OLD-P",
+              "n": 48,
+              "success": 18,
+              "meanWork": 1519309.4791666667,
+              "meanDimension": 17.208333333333332,
+              "meanPruned": 5.125,
+              "vsOld": {
+                "wins": [],
+                "losses": []
+              },
+              "vsSynth": {
+                "wins": [
+                  79008,
+                  79025,
+                  79039
+                ],
+                "losses": [
+                  79000,
+                  79002,
+                  79013,
+                  79017,
+                  79018,
+                  79019,
+                  79021,
+                  79024,
+                  79029,
+                  79030,
+                  79031,
+                  79033,
+                  79036,
+                  79037,
+                  79038,
+                  79042,
+                  79046
+                ]
+              }
+            },
+            {
+              "budget": 2000000,
+              "group": "all",
+              "mode": "SYN-S",
+              "n": 48,
+              "success": 32,
+              "meanWork": 1111814.25,
+              "meanDimension": 14.270833333333334,
+              "meanPruned": 8.0625,
+              "vsOld": {
+                "wins": [
+                  79000,
+                  79002,
+                  79013,
+                  79017,
+                  79018,
+                  79019,
+                  79021,
+                  79024,
+                  79029,
+                  79030,
+                  79031,
+                  79033,
+                  79036,
+                  79037,
+                  79038,
+                  79042,
+                  79046
+                ],
+                "losses": [
+                  79008,
+                  79025,
+                  79039
+                ]
+              },
+              "vsSynth": {
+                "wins": [],
+                "losses": []
+              }
+            },
+            {
+              "budget": 2000000,
+              "group": "all",
+              "mode": "SYN-P",
+              "n": 48,
+              "success": 26,
+              "meanWork": 1329234.7708333333,
+              "meanDimension": 14.270833333333334,
+              "meanPruned": 8.0625,
+              "vsOld": {
+                "wins": [
+                  79002,
+                  79009,
+                  79010,
+                  79013,
+                  79017,
+                  79018,
+                  79019,
+                  79021,
+                  79024,
+                  79029,
+                  79030,
+                  79031,
+                  79033,
+                  79037
+                ],
+                "losses": [
+                  79008,
+                  79011,
+                  79023,
+                  79025,
+                  79027,
+                  79039
+                ]
+              },
+              "vsSynth": {
+                "wins": [
+                  79009,
+                  79010
+                ],
+                "losses": [
+                  79000,
+                  79011,
+                  79023,
+                  79027,
+                  79036,
+                  79038,
+                  79042,
+                  79046
+                ]
+              }
+            },
+            {
+              "budget": null,
+              "group": "all",
+              "mode": "OLD-S",
+              "n": 48,
+              "success": 29,
+              "meanWork": 3251092.4166666665,
+              "meanDimension": 17.208333333333332,
+              "meanPruned": 5.125,
+              "vsOld": {
+                "wins": [],
+                "losses": []
+              },
+              "vsSynth": {
+                "wins": [
+                  79009,
+                  79022,
+                  79025,
+                  79039
+                ],
+                "losses": [
+                  79000,
+                  79002,
+                  79013,
+                  79019,
+                  79026,
+                  79030,
+                  79032,
+                  79036,
+                  79038,
+                  79040,
+                  79041,
+                  79043,
+                  79045,
+                  79046
+                ]
+              }
+            },
+            {
+              "budget": null,
+              "group": "all",
+              "mode": "OLD-P",
+              "n": 48,
+              "success": 29,
+              "meanWork": 3254073.5,
+              "meanDimension": 17.208333333333332,
+              "meanPruned": 5.125,
+              "vsOld": {
+                "wins": [],
+                "losses": []
+              },
+              "vsSynth": {
+                "wins": [
+                  79009,
+                  79022,
+                  79025,
+                  79039
+                ],
+                "losses": [
+                  79000,
+                  79002,
+                  79013,
+                  79019,
+                  79026,
+                  79030,
+                  79032,
+                  79036,
+                  79038,
+                  79040,
+                  79041,
+                  79043,
+                  79045,
+                  79046
+                ]
+              }
+            },
+            {
+              "budget": null,
+              "group": "all",
+              "mode": "SYN-S",
+              "n": 48,
+              "success": 39,
+              "meanWork": 1630939.25,
+              "meanDimension": 14.270833333333334,
+              "meanPruned": 8.0625,
+              "vsOld": {
+                "wins": [
+                  79000,
+                  79002,
+                  79013,
+                  79019,
+                  79026,
+                  79030,
+                  79032,
+                  79036,
+                  79038,
+                  79040,
+                  79041,
+                  79043,
+                  79045,
+                  79046
+                ],
+                "losses": [
+                  79009,
+                  79022,
+                  79025,
+                  79039
+                ]
+              },
+              "vsSynth": {
+                "wins": [],
+                "losses": []
+              }
+            },
+            {
+              "budget": null,
+              "group": "all",
+              "mode": "SYN-P",
+              "n": 48,
+              "success": 32,
+              "meanWork": 2394478.9375,
+              "meanDimension": 14.270833333333334,
+              "meanPruned": 8.0625,
+              "vsOld": {
+                "wins": [
+                  79002,
+                  79010,
+                  79013,
+                  79019,
+                  79030,
+                  79032,
+                  79040,
+                  79041,
+                  79043,
+                  79045
+                ],
+                "losses": [
+                  79011,
+                  79022,
+                  79023,
+                  79025,
+                  79027,
+                  79039,
+                  79042
+                ]
+              },
+              "vsSynth": {
+                "wins": [
+                  79009,
+                  79010
+                ],
+                "losses": [
+                  79000,
+                  79011,
+                  79023,
+                  79026,
+                  79027,
+                  79036,
+                  79038,
+                  79042,
+                  79046
+                ]
+              }
+            }
+          ],
+          "discovery_costs": {
+            "guided": {
+              "candidates": 9677,
+              "polyAdd": 7111,
+              "polyMul": 14942,
+              "numericChecks": 72,
+              "numericOps": 287424
+            },
+            "unranked": {
+              "candidates": 10091,
+              "polyAdd": 7275,
+              "polyMul": 15322,
+              "numericChecks": 72,
+              "numericOps": 287424
+            }
+          },
+          "decision": "Promote discovered double-overlap chart on this corpus; retain unranked search as strong baseline, no claim of guided superiority. Physical clipping ablation is not consistently beneficial. No global surjectivity or independent theorem-invention claim.",
           "source_development": 0
         }
       ]

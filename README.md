@@ -364,3 +364,36 @@ Fixed = 2M work and 4096 rotations. F8 frozen 7g full baseline; INIT8 full LM fr
 | NEW-S | 26/60 | 1,324,891 | 32/60 | 2,042,677 | 15/36 |
 
 Fixed = 2M work + 4096 rotations, rotation-only = 4096. Rank-two paired set excludes rank-one rows unsupported by OLD-D/S. Rank-one uses exact signed-permutation starts, unlike canonicalized rank-two cases. New direct/smooth share 7h cached LM and acceptance, with actual dependent factor rotations charged. Double overlap remains union confinement. Single coupled branch covers sign-equivalent magnitudes, not all sign-sensitive solutions. Near-zero floating Gram/rank inputs unsupported. The Lean source contains conditional scalar cancellation/nonmixing lemmas and concrete integer premises; it is not a full formalization of real orthogonal invariance or all emitted chart traces. No local Lean executable; CI command added, kernel result not claimed here. Partial work model, no runtime or hardware. Reproduce `node rotation_rules.cjs`; compact rows omit paths, reproducible from exported run().
+
+
+## Experiment 8 — bounded symbolic program synthesis
+
+[Protocol](ROTATION_DISCOVERY_PROTOCOL.md) · [Discovery engine](discover_givens.cjs) · [Frozen program library](results/rotation_discovery_library.json) · [Numerical compiler](rotation_discovery.cjs) · [Summary](results/rotation_discovery_summary.json) · [Audit](results/rotation_discovery_audit.json) · [Lean polynomial obligations](results/RotationDiscoveryObligations.lean).
+
+8a/8b: both guided and unranked search found all six requested programs, including a four-rotation/three-free-parameter double-overlap program with intermediate annihilation, and its (3,4)/(4,4) extensions. No supplied overlap formula in the engine; grammar, aligned anchors, target dimension and conservative denominator test supplied. Exact integer expanded polynomial coefficients vanish on every forbidden coordinate; 12 generic samples per accepted program pass full local rank and central derivative checks. Not a global coverage proof, no claim mathematical novelty or unbounded symbolic search. Both searches prune support-unchanged steps (including dependent steps) and reject dependent steps with zero coefficient; these extra conservative restrictions not specified in frozen protocol. Both extension searches use guided prefix. Discovery ledger:
+
+| Task | Search | Found | Candidate expansions | Polynomial add/multiply term operations | Numerical checks work |
+|---|---|---|---:|---:|---:|
+| disjoint22 | guided | yes | 180 | 162 | 9888 |
+| disjoint22 | unranked | yes | 348 | 162 | 9888 |
+| nested13 | guided | yes | 15 | 40 | 1764 |
+| nested13 | unranked | yes | 69 | 188 | 1764 |
+| singleton22 | guided | yes | 81 | 232 | 3996 |
+| singleton22 | unranked | yes | 273 | 628 | 3996 |
+| double33 | guided | yes | 9276 | 21273 | 40620 |
+| double33 | unranked | yes | 9276 | 21273 | 40620 |
+| double34 | guided | yes | 50 | 149 | 83112 |
+| double34 | unranked | yes | 50 | 149 | 83112 |
+| double44 | guided | yes | 75 | 197 | 148044 |
+| double44 | unranked | yes | 75 | 197 | 148044 |
+
+Frozen library committed before new numerical cases. 48 fresh feasible cases (79000–79047), n=6/7/8 and double overlap (3,3),(3,4),(4,4). 384 runs, all returned paths independently verified, max sampled response error 8.941790276351704e-14; all 48 witness checks and derivative audits passed (max normalized derivative error 6.955633729806944e-11), max pruned endpoint leakage 9.613805565641387e-17. All caps and ledger sums checked.
+
+| Arm | Fixed | Mean work | Rotation-only | Mean work |
+|---|---:|---:|---:|---:|
+| OLD-S | 18/48 | 1,518,814 | 29/48 | 3,251,092 |
+| OLD-P | 18/48 | 1,519,309 | 29/48 | 3,254,074 |
+| SYN-S | 32/48 | 1,111,814 | 39/48 | 1,630,939 |
+| SYN-P | 26/48 | 1,329,235 | 32/48 | 2,394,479 |
+
+Fixed = 2M work + 4096 rotations. OLD-S is frozen 7i union chart, OLD-P same with factor norm clip, SYN-S discovered chart with parameter clip, SYN-P discovered chart with differential and finite wrapped factor displacement cap. The latter is not an invariant SO(n) geodesic norm. No singleton regression diagnostic in this run; physical clip benefit not established. Different chart anchor selection/initialization is a remaining confound. Discovery cost tracked separately because symbolic terms and numerical ledger are not calibrated comparable units; no reliable break-even count. No actual wall-time or hardware. Lean file checks concrete symbolic forbidden polynomial identities, not real interpretation/global coverage. Reproduce `node discover_givens.cjs` (frozen library can be regenerated) and `node rotation_discovery.cjs`. Compact rows omit paths, reproducible from exported run().

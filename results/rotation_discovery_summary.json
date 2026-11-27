@@ -1,0 +1,1942 @@
+{
+  "protocolCommit": "9728c8b5fc1d7071ccce126379ce413673b6a073",
+  "libraryCommit": "7dc76947c0b541ae577a352c8136b872fd5cf506",
+  "codeCommit": "f652fe8a74c5b5bf8e02ab2b3e6f634b9b36f883",
+  "rows": 384,
+  "summary": [
+    {
+      "budget": 2000000,
+      "group": "all",
+      "mode": "OLD-S",
+      "n": 48,
+      "success": 18,
+      "meanWork": 1518814.0625,
+      "meanDimension": 17.208333333333332,
+      "meanPruned": 5.125,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79008,
+          79025,
+          79039
+        ],
+        "losses": [
+          79000,
+          79002,
+          79013,
+          79017,
+          79018,
+          79019,
+          79021,
+          79024,
+          79029,
+          79030,
+          79031,
+          79033,
+          79036,
+          79037,
+          79038,
+          79042,
+          79046
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "all",
+      "mode": "OLD-P",
+      "n": 48,
+      "success": 18,
+      "meanWork": 1519309.4791666667,
+      "meanDimension": 17.208333333333332,
+      "meanPruned": 5.125,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79008,
+          79025,
+          79039
+        ],
+        "losses": [
+          79000,
+          79002,
+          79013,
+          79017,
+          79018,
+          79019,
+          79021,
+          79024,
+          79029,
+          79030,
+          79031,
+          79033,
+          79036,
+          79037,
+          79038,
+          79042,
+          79046
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "all",
+      "mode": "SYN-S",
+      "n": 48,
+      "success": 32,
+      "meanWork": 1111814.25,
+      "meanDimension": 14.270833333333334,
+      "meanPruned": 8.0625,
+      "vsOld": {
+        "wins": [
+          79000,
+          79002,
+          79013,
+          79017,
+          79018,
+          79019,
+          79021,
+          79024,
+          79029,
+          79030,
+          79031,
+          79033,
+          79036,
+          79037,
+          79038,
+          79042,
+          79046
+        ],
+        "losses": [
+          79008,
+          79025,
+          79039
+        ]
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "all",
+      "mode": "SYN-P",
+      "n": 48,
+      "success": 26,
+      "meanWork": 1329234.7708333333,
+      "meanDimension": 14.270833333333334,
+      "meanPruned": 8.0625,
+      "vsOld": {
+        "wins": [
+          79002,
+          79009,
+          79010,
+          79013,
+          79017,
+          79018,
+          79019,
+          79021,
+          79024,
+          79029,
+          79030,
+          79031,
+          79033,
+          79037
+        ],
+        "losses": [
+          79008,
+          79011,
+          79023,
+          79025,
+          79027,
+          79039
+        ]
+      },
+      "vsSynth": {
+        "wins": [
+          79009,
+          79010
+        ],
+        "losses": [
+          79000,
+          79011,
+          79023,
+          79027,
+          79036,
+          79038,
+          79042,
+          79046
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 6,
+      "mode": "OLD-S",
+      "n": 16,
+      "success": 11,
+      "meanWork": 1045442.1875,
+      "meanDimension": 12.875,
+      "meanPruned": 3.125,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79008
+        ],
+        "losses": [
+          79000,
+          79002,
+          79013
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 6,
+      "mode": "OLD-P",
+      "n": 16,
+      "success": 11,
+      "meanWork": 1047129.9375,
+      "meanDimension": 12.875,
+      "meanPruned": 3.125,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79008
+        ],
+        "losses": [
+          79000,
+          79002,
+          79013
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 6,
+      "mode": "SYN-S",
+      "n": 16,
+      "success": 13,
+      "meanWork": 748806.875,
+      "meanDimension": 9.9375,
+      "meanPruned": 6.0625,
+      "vsOld": {
+        "wins": [
+          79000,
+          79002,
+          79013
+        ],
+        "losses": [
+          79008
+        ]
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 6,
+      "mode": "SYN-P",
+      "n": 16,
+      "success": 13,
+      "meanWork": 717143.4375,
+      "meanDimension": 9.9375,
+      "meanPruned": 6.0625,
+      "vsOld": {
+        "wins": [
+          79002,
+          79009,
+          79010,
+          79013
+        ],
+        "losses": [
+          79008,
+          79011
+        ]
+      },
+      "vsSynth": {
+        "wins": [
+          79009,
+          79010
+        ],
+        "losses": [
+          79000,
+          79011
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 7,
+      "mode": "OLD-S",
+      "n": 16,
+      "success": 6,
+      "meanWork": 1590146.9375,
+      "meanDimension": 16.875,
+      "meanPruned": 5.125,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79025
+        ],
+        "losses": [
+          79017,
+          79018,
+          79019,
+          79021,
+          79024,
+          79029,
+          79030,
+          79031
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 7,
+      "mode": "OLD-P",
+      "n": 16,
+      "success": 6,
+      "meanWork": 1589924.1875,
+      "meanDimension": 16.875,
+      "meanPruned": 5.125,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79025
+        ],
+        "losses": [
+          79017,
+          79018,
+          79019,
+          79021,
+          79024,
+          79029,
+          79030,
+          79031
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 7,
+      "mode": "SYN-S",
+      "n": 16,
+      "success": 13,
+      "meanWork": 963701.875,
+      "meanDimension": 13.9375,
+      "meanPruned": 8.0625,
+      "vsOld": {
+        "wins": [
+          79017,
+          79018,
+          79019,
+          79021,
+          79024,
+          79029,
+          79030,
+          79031
+        ],
+        "losses": [
+          79025
+        ]
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 7,
+      "mode": "SYN-P",
+      "n": 16,
+      "success": 11,
+      "meanWork": 1314230.625,
+      "meanDimension": 13.9375,
+      "meanPruned": 8.0625,
+      "vsOld": {
+        "wins": [
+          79017,
+          79018,
+          79019,
+          79021,
+          79024,
+          79029,
+          79030,
+          79031
+        ],
+        "losses": [
+          79023,
+          79025,
+          79027
+        ]
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": [
+          79023,
+          79027
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 8,
+      "mode": "OLD-S",
+      "n": 16,
+      "success": 1,
+      "meanWork": 1920853.0625,
+      "meanDimension": 21.875,
+      "meanPruned": 7.125,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79039
+        ],
+        "losses": [
+          79033,
+          79036,
+          79037,
+          79038,
+          79042,
+          79046
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 8,
+      "mode": "OLD-P",
+      "n": 16,
+      "success": 1,
+      "meanWork": 1920874.3125,
+      "meanDimension": 21.875,
+      "meanPruned": 7.125,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79039
+        ],
+        "losses": [
+          79033,
+          79036,
+          79037,
+          79038,
+          79042,
+          79046
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 8,
+      "mode": "SYN-S",
+      "n": 16,
+      "success": 6,
+      "meanWork": 1622934,
+      "meanDimension": 18.9375,
+      "meanPruned": 10.0625,
+      "vsOld": {
+        "wins": [
+          79033,
+          79036,
+          79037,
+          79038,
+          79042,
+          79046
+        ],
+        "losses": [
+          79039
+        ]
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": 8,
+      "mode": "SYN-P",
+      "n": 16,
+      "success": 2,
+      "meanWork": 1956330.25,
+      "meanDimension": 18.9375,
+      "meanPruned": 10.0625,
+      "vsOld": {
+        "wins": [
+          79033,
+          79037
+        ],
+        "losses": [
+          79039
+        ]
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": [
+          79036,
+          79038,
+          79042,
+          79046
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t0",
+      "mode": "OLD-S",
+      "n": 18,
+      "success": 7,
+      "meanWork": 1454878.4444444445,
+      "meanDimension": 15.333333333333334,
+      "meanPruned": 7,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79025
+        ],
+        "losses": [
+          79000,
+          79019,
+          79031,
+          79038
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t0",
+      "mode": "OLD-P",
+      "n": 18,
+      "success": 7,
+      "meanWork": 1455691.2222222222,
+      "meanDimension": 15.333333333333334,
+      "meanPruned": 7,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79025
+        ],
+        "losses": [
+          79000,
+          79019,
+          79031,
+          79038
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t0",
+      "mode": "SYN-S",
+      "n": 18,
+      "success": 10,
+      "meanWork": 1232434.6666666667,
+      "meanDimension": 13.333333333333334,
+      "meanPruned": 9,
+      "vsOld": {
+        "wins": [
+          79000,
+          79019,
+          79031,
+          79038
+        ],
+        "losses": [
+          79025
+        ]
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t0",
+      "mode": "SYN-P",
+      "n": 18,
+      "success": 9,
+      "meanWork": 1213809.5555555555,
+      "meanDimension": 13.333333333333334,
+      "meanPruned": 9,
+      "vsOld": {
+        "wins": [
+          79009,
+          79019,
+          79031
+        ],
+        "losses": [
+          79025
+        ]
+      },
+      "vsSynth": {
+        "wins": [
+          79009
+        ],
+        "losses": [
+          79000,
+          79038
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t1",
+      "mode": "OLD-S",
+      "n": 15,
+      "success": 6,
+      "meanWork": 1553369.0666666667,
+      "meanDimension": 17.333333333333332,
+      "meanPruned": 5,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79039
+        ],
+        "losses": [
+          79013,
+          79017,
+          79029,
+          79033,
+          79036,
+          79042
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t1",
+      "mode": "OLD-P",
+      "n": 15,
+      "success": 6,
+      "meanWork": 1553783.5333333334,
+      "meanDimension": 17.333333333333332,
+      "meanPruned": 5,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79039
+        ],
+        "losses": [
+          79013,
+          79017,
+          79029,
+          79033,
+          79036,
+          79042
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t1",
+      "mode": "SYN-S",
+      "n": 15,
+      "success": 11,
+      "meanWork": 1023886.9333333333,
+      "meanDimension": 14.333333333333334,
+      "meanPruned": 8,
+      "vsOld": {
+        "wins": [
+          79013,
+          79017,
+          79029,
+          79033,
+          79036,
+          79042
+        ],
+        "losses": [
+          79039
+        ]
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t1",
+      "mode": "SYN-P",
+      "n": 15,
+      "success": 9,
+      "meanWork": 1387891.7333333334,
+      "meanDimension": 14.333333333333334,
+      "meanPruned": 8,
+      "vsOld": {
+        "wins": [
+          79010,
+          79013,
+          79017,
+          79029,
+          79033
+        ],
+        "losses": [
+          79023,
+          79039
+        ]
+      },
+      "vsSynth": {
+        "wins": [
+          79010
+        ],
+        "losses": [
+          79023,
+          79036,
+          79042
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t2",
+      "mode": "OLD-S",
+      "n": 15,
+      "success": 5,
+      "meanWork": 1560981.8,
+      "meanDimension": 19.333333333333332,
+      "meanPruned": 3,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79008
+        ],
+        "losses": [
+          79002,
+          79018,
+          79021,
+          79024,
+          79030,
+          79037,
+          79046
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t2",
+      "mode": "OLD-P",
+      "n": 15,
+      "success": 5,
+      "meanWork": 1561177.3333333333,
+      "meanDimension": 19.333333333333332,
+      "meanPruned": 3,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79008
+        ],
+        "losses": [
+          79002,
+          79018,
+          79021,
+          79024,
+          79030,
+          79037,
+          79046
+        ]
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t2",
+      "mode": "SYN-S",
+      "n": 15,
+      "success": 11,
+      "meanWork": 1054997.0666666667,
+      "meanDimension": 15.333333333333334,
+      "meanPruned": 7,
+      "vsOld": {
+        "wins": [
+          79002,
+          79018,
+          79021,
+          79024,
+          79030,
+          79037,
+          79046
+        ],
+        "losses": [
+          79008
+        ]
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": 2000000,
+      "group": "t2",
+      "mode": "SYN-P",
+      "n": 15,
+      "success": 8,
+      "meanWork": 1409088.0666666667,
+      "meanDimension": 15.333333333333334,
+      "meanPruned": 7,
+      "vsOld": {
+        "wins": [
+          79002,
+          79018,
+          79021,
+          79024,
+          79030,
+          79037
+        ],
+        "losses": [
+          79008,
+          79011,
+          79027
+        ]
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": [
+          79011,
+          79027,
+          79046
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "all",
+      "mode": "OLD-S",
+      "n": 48,
+      "success": 29,
+      "meanWork": 3251092.4166666665,
+      "meanDimension": 17.208333333333332,
+      "meanPruned": 5.125,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79009,
+          79022,
+          79025,
+          79039
+        ],
+        "losses": [
+          79000,
+          79002,
+          79013,
+          79019,
+          79026,
+          79030,
+          79032,
+          79036,
+          79038,
+          79040,
+          79041,
+          79043,
+          79045,
+          79046
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "all",
+      "mode": "OLD-P",
+      "n": 48,
+      "success": 29,
+      "meanWork": 3254073.5,
+      "meanDimension": 17.208333333333332,
+      "meanPruned": 5.125,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79009,
+          79022,
+          79025,
+          79039
+        ],
+        "losses": [
+          79000,
+          79002,
+          79013,
+          79019,
+          79026,
+          79030,
+          79032,
+          79036,
+          79038,
+          79040,
+          79041,
+          79043,
+          79045,
+          79046
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "all",
+      "mode": "SYN-S",
+      "n": 48,
+      "success": 39,
+      "meanWork": 1630939.25,
+      "meanDimension": 14.270833333333334,
+      "meanPruned": 8.0625,
+      "vsOld": {
+        "wins": [
+          79000,
+          79002,
+          79013,
+          79019,
+          79026,
+          79030,
+          79032,
+          79036,
+          79038,
+          79040,
+          79041,
+          79043,
+          79045,
+          79046
+        ],
+        "losses": [
+          79009,
+          79022,
+          79025,
+          79039
+        ]
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "all",
+      "mode": "SYN-P",
+      "n": 48,
+      "success": 32,
+      "meanWork": 2394478.9375,
+      "meanDimension": 14.270833333333334,
+      "meanPruned": 8.0625,
+      "vsOld": {
+        "wins": [
+          79002,
+          79010,
+          79013,
+          79019,
+          79030,
+          79032,
+          79040,
+          79041,
+          79043,
+          79045
+        ],
+        "losses": [
+          79011,
+          79022,
+          79023,
+          79025,
+          79027,
+          79039,
+          79042
+        ]
+      },
+      "vsSynth": {
+        "wins": [
+          79009,
+          79010
+        ],
+        "losses": [
+          79000,
+          79011,
+          79023,
+          79026,
+          79027,
+          79036,
+          79038,
+          79042,
+          79046
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": 6,
+      "mode": "OLD-S",
+      "n": 16,
+      "success": 12,
+      "meanWork": 1369168.25,
+      "meanDimension": 12.875,
+      "meanPruned": 3.125,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79009
+        ],
+        "losses": [
+          79000,
+          79002,
+          79013
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": 6,
+      "mode": "OLD-P",
+      "n": 16,
+      "success": 12,
+      "meanWork": 1373482.25,
+      "meanDimension": 12.875,
+      "meanPruned": 3.125,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79009
+        ],
+        "losses": [
+          79000,
+          79002,
+          79013
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": 6,
+      "mode": "SYN-S",
+      "n": 16,
+      "success": 14,
+      "meanWork": 797801.4375,
+      "meanDimension": 9.9375,
+      "meanPruned": 6.0625,
+      "vsOld": {
+        "wins": [
+          79000,
+          79002,
+          79013
+        ],
+        "losses": [
+          79009
+        ]
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": 6,
+      "mode": "SYN-P",
+      "n": 16,
+      "success": 14,
+      "meanWork": 897150.4375,
+      "meanDimension": 9.9375,
+      "meanPruned": 6.0625,
+      "vsOld": {
+        "wins": [
+          79002,
+          79010,
+          79013
+        ],
+        "losses": [
+          79011
+        ]
+      },
+      "vsSynth": {
+        "wins": [
+          79009,
+          79010
+        ],
+        "losses": [
+          79000,
+          79011
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": 7,
+      "mode": "OLD-S",
+      "n": 16,
+      "success": 13,
+      "meanWork": 2594744.375,
+      "meanDimension": 16.875,
+      "meanPruned": 5.125,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79022,
+          79025
+        ],
+        "losses": [
+          79019,
+          79026,
+          79030
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": 7,
+      "mode": "OLD-P",
+      "n": 16,
+      "success": 13,
+      "meanWork": 2596784.25,
+      "meanDimension": 16.875,
+      "meanPruned": 5.125,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79022,
+          79025
+        ],
+        "losses": [
+          79019,
+          79026,
+          79030
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": 7,
+      "mode": "SYN-S",
+      "n": 16,
+      "success": 14,
+      "meanWork": 1101740.625,
+      "meanDimension": 13.9375,
+      "meanPruned": 8.0625,
+      "vsOld": {
+        "wins": [
+          79019,
+          79026,
+          79030
+        ],
+        "losses": [
+          79022,
+          79025
+        ]
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": 7,
+      "mode": "SYN-P",
+      "n": 16,
+      "success": 11,
+      "meanWork": 1843038.0625,
+      "meanDimension": 13.9375,
+      "meanPruned": 8.0625,
+      "vsOld": {
+        "wins": [
+          79019,
+          79030
+        ],
+        "losses": [
+          79022,
+          79023,
+          79025,
+          79027
+        ]
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": [
+          79023,
+          79026,
+          79027
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": 8,
+      "mode": "OLD-S",
+      "n": 16,
+      "success": 4,
+      "meanWork": 5789364.625,
+      "meanDimension": 21.875,
+      "meanPruned": 7.125,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79039
+        ],
+        "losses": [
+          79032,
+          79036,
+          79038,
+          79040,
+          79041,
+          79043,
+          79045,
+          79046
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": 8,
+      "mode": "OLD-P",
+      "n": 16,
+      "success": 4,
+      "meanWork": 5791954,
+      "meanDimension": 21.875,
+      "meanPruned": 7.125,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79039
+        ],
+        "losses": [
+          79032,
+          79036,
+          79038,
+          79040,
+          79041,
+          79043,
+          79045,
+          79046
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": 8,
+      "mode": "SYN-S",
+      "n": 16,
+      "success": 11,
+      "meanWork": 2993275.6875,
+      "meanDimension": 18.9375,
+      "meanPruned": 10.0625,
+      "vsOld": {
+        "wins": [
+          79032,
+          79036,
+          79038,
+          79040,
+          79041,
+          79043,
+          79045,
+          79046
+        ],
+        "losses": [
+          79039
+        ]
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": 8,
+      "mode": "SYN-P",
+      "n": 16,
+      "success": 7,
+      "meanWork": 4443248.3125,
+      "meanDimension": 18.9375,
+      "meanPruned": 10.0625,
+      "vsOld": {
+        "wins": [
+          79032,
+          79040,
+          79041,
+          79043,
+          79045
+        ],
+        "losses": [
+          79039,
+          79042
+        ]
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": [
+          79036,
+          79038,
+          79042,
+          79046
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t0",
+      "mode": "OLD-S",
+      "n": 18,
+      "success": 10,
+      "meanWork": 2781859.277777778,
+      "meanDimension": 15.333333333333334,
+      "meanPruned": 7,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79009,
+          79022,
+          79025
+        ],
+        "losses": [
+          79000,
+          79019,
+          79032,
+          79038,
+          79041
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t0",
+      "mode": "OLD-P",
+      "n": 18,
+      "success": 10,
+      "meanWork": 2783524.388888889,
+      "meanDimension": 15.333333333333334,
+      "meanPruned": 7,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79009,
+          79022,
+          79025
+        ],
+        "losses": [
+          79000,
+          79019,
+          79032,
+          79038,
+          79041
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t0",
+      "mode": "SYN-S",
+      "n": 18,
+      "success": 12,
+      "meanWork": 1832776.3333333333,
+      "meanDimension": 13.333333333333334,
+      "meanPruned": 9,
+      "vsOld": {
+        "wins": [
+          79000,
+          79019,
+          79032,
+          79038,
+          79041
+        ],
+        "losses": [
+          79009,
+          79022,
+          79025
+        ]
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "t0",
+      "mode": "SYN-P",
+      "n": 18,
+      "success": 11,
+      "meanWork": 2127779.9444444445,
+      "meanDimension": 13.333333333333334,
+      "meanPruned": 9,
+      "vsOld": {
+        "wins": [
+          79019,
+          79032,
+          79041
+        ],
+        "losses": [
+          79022,
+          79025
+        ]
+      },
+      "vsSynth": {
+        "wins": [
+          79009
+        ],
+        "losses": [
+          79000,
+          79038
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t1",
+      "mode": "OLD-S",
+      "n": 15,
+      "success": 10,
+      "meanWork": 2852187.533333333,
+      "meanDimension": 17.333333333333332,
+      "meanPruned": 5,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79039
+        ],
+        "losses": [
+          79013,
+          79026,
+          79036,
+          79045
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t1",
+      "mode": "OLD-P",
+      "n": 15,
+      "success": 10,
+      "meanWork": 2857038,
+      "meanDimension": 17.333333333333332,
+      "meanPruned": 5,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [
+          79039
+        ],
+        "losses": [
+          79013,
+          79026,
+          79036,
+          79045
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t1",
+      "mode": "SYN-S",
+      "n": 15,
+      "success": 13,
+      "meanWork": 1451776.1333333333,
+      "meanDimension": 14.333333333333334,
+      "meanPruned": 8,
+      "vsOld": {
+        "wins": [
+          79013,
+          79026,
+          79036,
+          79045
+        ],
+        "losses": [
+          79039
+        ]
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "t1",
+      "mode": "SYN-P",
+      "n": 15,
+      "success": 10,
+      "meanWork": 2520314.466666667,
+      "meanDimension": 14.333333333333334,
+      "meanPruned": 8,
+      "vsOld": {
+        "wins": [
+          79010,
+          79013,
+          79045
+        ],
+        "losses": [
+          79023,
+          79039,
+          79042
+        ]
+      },
+      "vsSynth": {
+        "wins": [
+          79010
+        ],
+        "losses": [
+          79023,
+          79026,
+          79036,
+          79042
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t2",
+      "mode": "OLD-S",
+      "n": 15,
+      "success": 9,
+      "meanWork": 4213077.066666666,
+      "meanDimension": 19.333333333333332,
+      "meanPruned": 3,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": [
+          79002,
+          79030,
+          79040,
+          79043,
+          79046
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t2",
+      "mode": "OLD-P",
+      "n": 15,
+      "success": 9,
+      "meanWork": 4215767.933333334,
+      "meanDimension": 19.333333333333332,
+      "meanPruned": 3,
+      "vsOld": {
+        "wins": [],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": [
+          79002,
+          79030,
+          79040,
+          79043,
+          79046
+        ]
+      }
+    },
+    {
+      "budget": null,
+      "group": "t2",
+      "mode": "SYN-S",
+      "n": 15,
+      "success": 14,
+      "meanWork": 1567897.8666666667,
+      "meanDimension": 15.333333333333334,
+      "meanPruned": 7,
+      "vsOld": {
+        "wins": [
+          79002,
+          79030,
+          79040,
+          79043,
+          79046
+        ],
+        "losses": []
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": []
+      }
+    },
+    {
+      "budget": null,
+      "group": "t2",
+      "mode": "SYN-P",
+      "n": 15,
+      "success": 11,
+      "meanWork": 2588682.2,
+      "meanDimension": 15.333333333333334,
+      "meanPruned": 7,
+      "vsOld": {
+        "wins": [
+          79002,
+          79030,
+          79040,
+          79043
+        ],
+        "losses": [
+          79011,
+          79027
+        ]
+      },
+      "vsSynth": {
+        "wins": [],
+        "losses": [
+          79011,
+          79027,
+          79046
+        ]
+      }
+    }
+  ],
+  "verifyMax": {
+    "err": 3.1787438178741324e-15,
+    "orth": 3.6637359812630166e-15,
+    "ports": 0,
+    "sym": 5.142085587737567e-16,
+    "resp": 8.941790276351704e-14,
+    "denseMultiplyTerms": 394000,
+    "responseSolves": 10
+  },
+  "maxDerivative": 6.955633729806944e-11,
+  "maxLeak": 9.613805565641387e-17,
+  "predictions": {
+    "P1": {
+      "predicted": [
+        "disjoint22",
+        "nested13",
+        "singleton22",
+        "double33",
+        "double34",
+        "double44"
+      ],
+      "fixed": [
+        "disjoint22",
+        "nested13",
+        "singleton22",
+        "double33",
+        "double34",
+        "double44"
+      ],
+      "missed": []
+    },
+    "P2": {
+      "predicted": [
+        "disjoint22",
+        "nested13",
+        "singleton22",
+        "double33",
+        "double34",
+        "double44"
+      ],
+      "fixed": [
+        "disjoint22",
+        "nested13",
+        "singleton22",
+        "double33",
+        "double34",
+        "double44"
+      ],
+      "missed": []
+    },
+    "P3": {
+      "predicted": [
+        79000,
+        79001,
+        79002,
+        79003,
+        79004,
+        79005,
+        79006,
+        79007,
+        79008,
+        79009,
+        79010,
+        79011,
+        79012,
+        79013,
+        79014,
+        79015,
+        79016,
+        79017,
+        79018,
+        79019,
+        79020,
+        79021,
+        79022,
+        79023,
+        79024,
+        79025,
+        79026,
+        79027,
+        79028,
+        79029,
+        79030,
+        79031,
+        79032,
+        79033,
+        79034,
+        79035,
+        79036,
+        79037,
+        79038,
+        79039,
+        79040,
+        79041,
+        79042,
+        79043,
+        79044,
+        79045,
+        79046,
+        79047
+      ],
+      "fixed": [
+        79000,
+        79001,
+        79002,
+        79003,
+        79004,
+        79005,
+        79006,
+        79007,
+        79008,
+        79009,
+        79010,
+        79011,
+        79012,
+        79013,
+        79014,
+        79015,
+        79016,
+        79017,
+        79018,
+        79019,
+        79020,
+        79021,
+        79022,
+        79023,
+        79024,
+        79025,
+        79026,
+        79027,
+        79028,
+        79029,
+        79030,
+        79031,
+        79032,
+        79033,
+        79034,
+        79035,
+        79036,
+        79037,
+        79038,
+        79039,
+        79040,
+        79041,
+        79042,
+        79043,
+        79044,
+        79045,
+        79046,
+        79047
+      ],
+      "missed": []
+    }
+  },
+  "rawFiles": [
+    "rotation_discovery_target_00.json",
+    "rotation_discovery_target_01.json",
+    "rotation_discovery_target_02.json",
+    "rotation_discovery_target_03.json",
+    "rotation_discovery_target_04.json",
+    "rotation_discovery_target_05.json"
+  ],
+  "discoveryAudit": [
+    {
+      "name": "disjoint22",
+      "free": 2,
+      "rank": 2,
+      "derivative": 1.1042067260547128e-10,
+      "leak": 0,
+      "zeroRows": 4,
+      "ledger": {
+        "candidates": 0,
+        "polyAdd": 2,
+        "polyMul": 4,
+        "numericChecks": 12,
+        "numericOps": 9888
+      }
+    },
+    {
+      "name": "nested13",
+      "free": 1,
+      "rank": 1,
+      "derivative": 9.939682410475825e-11,
+      "leak": 0,
+      "zeroRows": 2,
+      "ledger": {
+        "candidates": 0,
+        "polyAdd": 1,
+        "polyMul": 2,
+        "numericChecks": 12,
+        "numericOps": 1764
+      }
+    },
+    {
+      "name": "singleton22",
+      "free": 1,
+      "rank": 1,
+      "derivative": 1.6633044941372077e-10,
+      "leak": 5.551115123125783e-17,
+      "zeroRows": 2,
+      "ledger": {
+        "candidates": 0,
+        "polyAdd": 4,
+        "polyMul": 10,
+        "numericChecks": 12,
+        "numericOps": 3996
+      }
+    },
+    {
+      "name": "double33",
+      "free": 3,
+      "rank": 3,
+      "derivative": 1.5856187196572336e-10,
+      "leak": 4.5820660357196196e-17,
+      "zeroRows": 2,
+      "ledger": {
+        "candidates": 0,
+        "polyAdd": 9,
+        "polyMul": 20,
+        "numericChecks": 12,
+        "numericOps": 40620
+      }
+    },
+    {
+      "name": "double34",
+      "free": 4,
+      "rank": 4,
+      "derivative": 1.6755352660879907e-10,
+      "leak": 4.795797854556669e-17,
+      "zeroRows": 3,
+      "ledger": {
+        "candidates": 0,
+        "polyAdd": 10,
+        "polyMul": 22,
+        "numericChecks": 12,
+        "numericOps": 83112
+      }
+    },
+    {
+      "name": "double44",
+      "free": 5,
+      "rank": 5,
+      "derivative": 1.112463177133094e-10,
+      "leak": 3.5149257791662227e-17,
+      "zeroRows": 4,
+      "ledger": {
+        "candidates": 0,
+        "polyAdd": 11,
+        "polyMul": 24,
+        "numericChecks": 12,
+        "numericOps": 148044
+      }
+    }
+  ],
+  "costs": {
+    "guided": {
+      "candidates": 9677,
+      "polyAdd": 7111,
+      "polyMul": 14942,
+      "numericChecks": 72,
+      "numericOps": 287424
+    },
+    "unranked": {
+      "candidates": 10091,
+      "polyAdd": 7275,
+      "polyMul": 15322,
+      "numericChecks": 72,
+      "numericOps": 287424
+    }
+  },
+  "limitations": [
+    "Bounded search with supplied Givens grammar, target dimensions, nonzero-domain assumptions and anchor selection; no claim independent theorem invention or novelty.",
+    "Both searches use support-changing pruning, including dependent steps; zero input coefficient disallowed; guided beam is not complete. Extensions use guided core prefix for both searches.",
+    "Generic rank checks are local and do not establish surjectivity or all sign chambers.",
+    "Symbolic inverse normalizations treated as independent nonzero symbols; exact expanded polynomial zero is sufficient, not complete modulo unit-circle relations.",
+    "Discovery and numerical ledgers use different modeled units; no rigorous amortization or runtime claim.",
+    "Synthetic chart changes anchor choice/initialization relative to old chart; no matched-initialization control here. Physical clip tested on double-overlap slice only, not the 7i singleton regression cases.",
+    "Lean polynomial source added; CI status separate. No formal proof of real interpretation or global chart coverage; no hardware."
+  ]
+}
