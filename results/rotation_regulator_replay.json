@@ -1,0 +1,518 @@
+{
+  "source": "Gate 11 compact rows previously replayed by Gate 12",
+  "matches": 64,
+  "checks": [
+    {
+      "seed": 83000,
+      "budget": 2000000,
+      "success": false,
+      "loss": 0.0000014827810275300689,
+      "work": 2000000,
+      "rotations": 1122
+    },
+    {
+      "seed": 83001,
+      "budget": 2000000,
+      "success": true,
+      "loss": 1.6301640571229637e-19,
+      "work": 884897,
+      "rotations": 474
+    },
+    {
+      "seed": 83002,
+      "budget": 2000000,
+      "success": true,
+      "loss": 4.7760936106984406e-20,
+      "work": 1402483,
+      "rotations": 833
+    },
+    {
+      "seed": 83003,
+      "budget": 2000000,
+      "success": false,
+      "loss": 0.000003060467881158272,
+      "work": 2000000,
+      "rotations": 1237
+    },
+    {
+      "seed": 83000,
+      "budget": null,
+      "success": true,
+      "loss": 6.743686353139596e-24,
+      "work": 3173707,
+      "rotations": 1825
+    },
+    {
+      "seed": 83001,
+      "budget": null,
+      "success": true,
+      "loss": 1.6301640571229637e-19,
+      "work": 884897,
+      "rotations": 474
+    },
+    {
+      "seed": 83002,
+      "budget": null,
+      "success": true,
+      "loss": 4.7760936106984406e-20,
+      "work": 1402483,
+      "rotations": 833
+    },
+    {
+      "seed": 83003,
+      "budget": null,
+      "success": true,
+      "loss": 3.742324122476446e-22,
+      "work": 2330192,
+      "rotations": 1444
+    },
+    {
+      "seed": 83004,
+      "budget": 2000000,
+      "success": false,
+      "loss": 2.7896656828886464e-9,
+      "work": 1999999,
+      "rotations": 1145
+    },
+    {
+      "seed": 83005,
+      "budget": 2000000,
+      "success": false,
+      "loss": 5.08014993677709e-7,
+      "work": 2000000,
+      "rotations": 1168
+    },
+    {
+      "seed": 83006,
+      "budget": 2000000,
+      "success": true,
+      "loss": 2.7539910481034224e-19,
+      "work": 579502,
+      "rotations": 313
+    },
+    {
+      "seed": 83007,
+      "budget": 2000000,
+      "success": true,
+      "loss": 4.16878837865575e-19,
+      "work": 676979,
+      "rotations": 382
+    },
+    {
+      "seed": 83004,
+      "budget": null,
+      "success": true,
+      "loss": 2.101053189806008e-25,
+      "work": 3277050,
+      "rotations": 1940
+    },
+    {
+      "seed": 83005,
+      "budget": null,
+      "success": true,
+      "loss": 3.2231592316752326e-23,
+      "work": 2520514,
+      "rotations": 1467
+    },
+    {
+      "seed": 83006,
+      "budget": null,
+      "success": true,
+      "loss": 2.7539910481034224e-19,
+      "work": 579502,
+      "rotations": 313
+    },
+    {
+      "seed": 83007,
+      "budget": null,
+      "success": true,
+      "loss": 4.16878837865575e-19,
+      "work": 676979,
+      "rotations": 382
+    },
+    {
+      "seed": 83008,
+      "budget": 2000000,
+      "success": false,
+      "loss": 0.00004804408500647022,
+      "work": 1999999,
+      "rotations": 1214
+    },
+    {
+      "seed": 83009,
+      "budget": 2000000,
+      "success": true,
+      "loss": 2.797644700763739e-22,
+      "work": 486184,
+      "rotations": 268
+    },
+    {
+      "seed": 83010,
+      "budget": 2000000,
+      "success": true,
+      "loss": 3.733032724049156e-20,
+      "work": 1717267,
+      "rotations": 925
+    },
+    {
+      "seed": 83011,
+      "budget": 2000000,
+      "success": true,
+      "loss": 1.494020934793488e-23,
+      "work": 671871,
+      "rotations": 383
+    },
+    {
+      "seed": 83008,
+      "budget": null,
+      "success": true,
+      "loss": 4.140366302008093e-21,
+      "work": 3984164,
+      "rotations": 2413
+    },
+    {
+      "seed": 83009,
+      "budget": null,
+      "success": true,
+      "loss": 2.797644700763739e-22,
+      "work": 486184,
+      "rotations": 268
+    },
+    {
+      "seed": 83010,
+      "budget": null,
+      "success": true,
+      "loss": 3.733032724049156e-20,
+      "work": 1717267,
+      "rotations": 925
+    },
+    {
+      "seed": 83011,
+      "budget": null,
+      "success": true,
+      "loss": 1.494020934793488e-23,
+      "work": 671871,
+      "rotations": 383
+    },
+    {
+      "seed": 83012,
+      "budget": 2000000,
+      "success": true,
+      "loss": 1.645517097692439e-19,
+      "work": 1493560,
+      "rotations": 856
+    },
+    {
+      "seed": 83013,
+      "budget": 2000000,
+      "success": false,
+      "loss": 2.872665460914446e-18,
+      "work": 2000000,
+      "rotations": 1214
+    },
+    {
+      "seed": 83014,
+      "budget": 2000000,
+      "success": true,
+      "loss": 5.224007633815715e-20,
+      "work": 1597633,
+      "rotations": 948
+    },
+    {
+      "seed": 83015,
+      "budget": 2000000,
+      "success": true,
+      "loss": 2.6083253305742654e-18,
+      "work": 1344928,
+      "rotations": 787
+    },
+    {
+      "seed": 83012,
+      "budget": null,
+      "success": true,
+      "loss": 1.645517097692439e-19,
+      "work": 1493560,
+      "rotations": 856
+    },
+    {
+      "seed": 83013,
+      "budget": null,
+      "success": true,
+      "loss": 1.1958370916783156e-19,
+      "work": 2508985,
+      "rotations": 1513
+    },
+    {
+      "seed": 83014,
+      "budget": null,
+      "success": true,
+      "loss": 5.224007633815715e-20,
+      "work": 1597633,
+      "rotations": 948
+    },
+    {
+      "seed": 83015,
+      "budget": null,
+      "success": true,
+      "loss": 2.6083253305742654e-18,
+      "work": 1344928,
+      "rotations": 787
+    },
+    {
+      "seed": 83016,
+      "budget": 2000000,
+      "success": false,
+      "loss": 0.00007465227933524024,
+      "work": 2000000,
+      "rotations": 871
+    },
+    {
+      "seed": 83017,
+      "budget": 2000000,
+      "success": false,
+      "loss": 0.0016951169687320427,
+      "work": 1999999,
+      "rotations": 842
+    },
+    {
+      "seed": 83018,
+      "budget": 2000000,
+      "success": false,
+      "loss": 0.000004527476539948865,
+      "work": 1999999,
+      "rotations": 841
+    },
+    {
+      "seed": 83019,
+      "budget": 2000000,
+      "success": false,
+      "loss": 0.00009493117931881203,
+      "work": 2000000,
+      "rotations": 842
+    },
+    {
+      "seed": 83016,
+      "budget": null,
+      "success": false,
+      "loss": 0.0000019735007549318318,
+      "work": 9613015,
+      "rotations": 4087
+    },
+    {
+      "seed": 83017,
+      "budget": null,
+      "success": false,
+      "loss": 0.00041205538707064283,
+      "work": 8896196,
+      "rotations": 4087
+    },
+    {
+      "seed": 83018,
+      "budget": null,
+      "success": true,
+      "loss": 1.3631851294531833e-16,
+      "work": 5687565,
+      "rotations": 2449
+    },
+    {
+      "seed": 83019,
+      "budget": null,
+      "success": false,
+      "loss": 0.00005816575333112844,
+      "work": 9752189,
+      "rotations": 4087
+    },
+    {
+      "seed": 83020,
+      "budget": 2000000,
+      "success": false,
+      "loss": 0.000027249394667455973,
+      "work": 2000000,
+      "rotations": 842
+    },
+    {
+      "seed": 83021,
+      "budget": 2000000,
+      "success": false,
+      "loss": 9.11471256313127e-13,
+      "work": 2000000,
+      "rotations": 899
+    },
+    {
+      "seed": 83022,
+      "budget": 2000000,
+      "success": false,
+      "loss": 0.0002724495144832081,
+      "work": 1999999,
+      "rotations": 813
+    },
+    {
+      "seed": 83023,
+      "budget": 2000000,
+      "success": false,
+      "loss": 0.0004281669302656379,
+      "work": 2000000,
+      "rotations": 841
+    },
+    {
+      "seed": 83020,
+      "budget": null,
+      "success": false,
+      "loss": 0.000001963567506637879,
+      "work": 9203237,
+      "rotations": 4087
+    },
+    {
+      "seed": 83021,
+      "budget": null,
+      "success": true,
+      "loss": 3.968727967449914e-22,
+      "work": 2130599,
+      "rotations": 957
+    },
+    {
+      "seed": 83022,
+      "budget": null,
+      "success": false,
+      "loss": 0.0000010811675095686485,
+      "work": 9230614,
+      "rotations": 4087
+    },
+    {
+      "seed": 83023,
+      "budget": null,
+      "success": false,
+      "loss": 0.00013504261197428856,
+      "work": 9260837,
+      "rotations": 4086
+    },
+    {
+      "seed": 83024,
+      "budget": 2000000,
+      "success": false,
+      "loss": 0.0000030191707709190704,
+      "work": 1999999,
+      "rotations": 813
+    },
+    {
+      "seed": 83025,
+      "budget": 2000000,
+      "success": false,
+      "loss": 0.00006033598980208994,
+      "work": 1999999,
+      "rotations": 813
+    },
+    {
+      "seed": 83026,
+      "budget": 2000000,
+      "success": true,
+      "loss": 5.897855748246487e-19,
+      "work": 1069401,
+      "rotations": 422
+    },
+    {
+      "seed": 83027,
+      "budget": 2000000,
+      "success": true,
+      "loss": 3.139283748182469e-17,
+      "work": 974144,
+      "rotations": 393
+    },
+    {
+      "seed": 83024,
+      "budget": null,
+      "success": true,
+      "loss": 4.1819612996738976e-20,
+      "work": 5800410,
+      "rotations": 2508
+    },
+    {
+      "seed": 83025,
+      "budget": null,
+      "success": true,
+      "loss": 5.0459388323966865e-17,
+      "work": 9428416,
+      "rotations": 4029
+    },
+    {
+      "seed": 83026,
+      "budget": null,
+      "success": true,
+      "loss": 5.897855748246487e-19,
+      "work": 1069401,
+      "rotations": 422
+    },
+    {
+      "seed": 83027,
+      "budget": null,
+      "success": true,
+      "loss": 3.139283748182469e-17,
+      "work": 974144,
+      "rotations": 393
+    },
+    {
+      "seed": 83028,
+      "budget": 2000000,
+      "success": false,
+      "loss": 0.00011828004098710859,
+      "work": 2000000,
+      "rotations": 929
+    },
+    {
+      "seed": 83029,
+      "budget": 2000000,
+      "success": false,
+      "loss": 0.0004074415711646315,
+      "work": 1999998,
+      "rotations": 831
+    },
+    {
+      "seed": 83030,
+      "budget": 2000000,
+      "success": false,
+      "loss": 0.0025059626065948486,
+      "work": 2000000,
+      "rotations": 842
+    },
+    {
+      "seed": 83031,
+      "budget": 2000000,
+      "success": false,
+      "loss": 4.020111093857562e-11,
+      "work": 2000000,
+      "rotations": 842
+    },
+    {
+      "seed": 83028,
+      "budget": null,
+      "success": true,
+      "loss": 2.908960634330207e-19,
+      "work": 9293865,
+      "rotations": 4058
+    },
+    {
+      "seed": 83029,
+      "budget": null,
+      "success": false,
+      "loss": 0.00016036289116578393,
+      "work": 9349398,
+      "rotations": 4086
+    },
+    {
+      "seed": 83030,
+      "budget": null,
+      "success": false,
+      "loss": 0.00010459029379241462,
+      "work": 9184435,
+      "rotations": 4087
+    },
+    {
+      "seed": 83031,
+      "budget": null,
+      "success": true,
+      "loss": 1.026661849178545e-18,
+      "work": 2146695,
+      "rotations": 900
+    }
+  ]
+}
