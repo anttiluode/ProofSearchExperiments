@@ -347,3 +347,20 @@ Fixed = 2M work and 4096 rotations. Scaled rotation-only caps 4096/5735/7646 for
 | COMP-G8S | 21/24 | 17/24 | 8/24 | 46/72 | 991,640 | 48/72 | 1,492,579 |
 
 Fixed = 2M work and 4096 rotations. F8 frozen 7g full baseline; INIT8 full LM from same chart seed states with same L2 clipping/batch scoring as compiled arms; NL8 local affine numerical nullspace step with no exact retraction (drift recorded); COMP-U8 unpruned; COMP-G8 pruned; COMP-G8S pruned plus smooth continuation, all eight starts. Compiler/seed costs charged to INIT8 and NL8 too. General overlap confines span to union only, not individual supports. This is automatic schema compilation, not automated invention of theorems. Support obligations checked by separate deterministic set-propagation audit, not Lean. Rank-one/empty/degenerate supports not validated. Source fitting zero; engineering cost excluded. Modeled work is partial, not runtime. No hardware or Lean numerical proof. Reproduce `node rotation_compiler.cjs`; compact rows omit paths, reproducible from exported run().
+
+
+## Experiment 7i — composable support rules
+
+[Protocol](ROTATION_RULES_PROTOCOL.md) · [Code](rotation_rules.cjs) · [Summary](results/rotation_rules_summary.json) · [Audit](results/rotation_rules_audit.json) · [Checked rule traces](results/rotation_rules_obligations.json) · [Lean obligation source](results/RotationRuleObligations.lean).
+
+72 fresh feasible cases (78000–78071), six topology families, n=6/7/8; 18 integer negative controls (78100–78117). Five supplied rules compose into chart factors, including a one-variable two-rotation singleton-overlap cancellation and rank-one identical support expansion. No topology label passed to the reader. All 72 witness checks and derivative audits passed (max normalized derivative error 8.121848872456718e-11); 72 separately checked rule traces; maximum pruned endpoint leakage 8.881784197001253e-17. 720 result rows, 48 explicitly unsupported old rank-one rows, 672 numerical feasible runs and 18 negative baseline paths verified (max sampled response error 6.271868408591812e-14). All 18 exact integer certificates independently checked, zero rotations, no false rejections among 72 feasible inputs. F8 failed all negative controls. Exact contradiction applies to exact target support, not arbitrary numerical tolerances.
+
+| Arm | Rank-two fixed | Mean work | Rank-two rotation-only | Mean work | Singleton fixed |
+|---|---:|---:|---:|---:|---:|
+| F8 | 9/60 | 1,826,766 | 12/60 | 4,300,017 | 3/36 |
+| OLD-D | 12/60 | 1,785,741 | 12/60 | 3,304,753 | 4/36 |
+| OLD-S | 23/60 | 1,456,425 | 28/60 | 2,742,008 | 12/36 |
+| NEW-D | 20/60 | 1,575,380 | 21/60 | 2,405,978 | 12/36 |
+| NEW-S | 26/60 | 1,324,891 | 32/60 | 2,042,677 | 15/36 |
+
+Fixed = 2M work + 4096 rotations, rotation-only = 4096. Rank-two paired set excludes rank-one rows unsupported by OLD-D/S. Rank-one uses exact signed-permutation starts, unlike canonicalized rank-two cases. New direct/smooth share 7h cached LM and acceptance, with actual dependent factor rotations charged. Double overlap remains union confinement. Single coupled branch covers sign-equivalent magnitudes, not all sign-sensitive solutions. Near-zero floating Gram/rank inputs unsupported. The Lean source contains conditional scalar cancellation/nonmixing lemmas and concrete integer premises; it is not a full formalization of real orthogonal invariance or all emitted chart traces. No local Lean executable; CI command added, kernel result not claimed here. Partial work model, no runtime or hardware. Reproduce `node rotation_rules.cjs`; compact rows omit paths, reproducible from exported run().

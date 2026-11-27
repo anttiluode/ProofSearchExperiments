@@ -48,3 +48,4 @@ jobs:
           lean results/OperatorIndexCertificates.lean
           echo 'Lean accepted 4 operator schemas and 498 indexed replay certificates.'
           lean results/RotationAlgebra.lean
+          lean results/RotationRuleObligations.lean
