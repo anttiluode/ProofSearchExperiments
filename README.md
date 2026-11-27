@@ -114,3 +114,24 @@ lean results/FatigueDP.lean
 ```
 
 [Raw scheduler rows](results/fatigue_rows.json) · [Summary](results/fatigue_summary.json) · [Exact elimination rows](results/fatigue_dp.json) · [297 distinct scheduler/exact-DFS certificates](results/FatigueCertificates.lean) · [120 suffix-elimination certificates](results/FatigueDP.lean) · [Wrong-witness control](results/FatigueWrongWitness.lean). The initial JavaScript experiment checked every certificate against supplied facts and compared complete search to independent Boolean relation composition. Lean CI separately checks the compact terms using the used hypotheses. Replay traces are the first positive-labelled case in each family, not cherry-picked examples. Next gate: non-cycle joins with larger treewidth and nested rule derivations, compare optimized exact elimination/tabling before growing the library. SIM remains out of scope until the fast/medium layers earn their place.
+
+
+## Experiment 6 — symbolic operator crystallization and TWC bridge
+
+[Interactive operator laboratory](https://anttiluode.github.io/ProofSearchExperiments/operators.html) · [Frozen symbolic protocol](OPERATOR_PROTOCOL.md) · [TWC bridge protocol](OPERATOR_TWC_PROTOCOL.md) · [TWC ancestor](https://github.com/anttiluode/transientwavecompiler).
+
+The engine uses noncommutative multiplication, inverse and identity. The primitive normalizer constructs exact rewrite traces, while an independent signed-word stack decides free-group equality. From 48 source expressions, whole-trace parameterization (renaming symbolic atoms to variables, preserving repeated identity) found three schemas, each seen 16 times. They are the product-of-conjugates identity (7 primitive steps), inverse cancellation (5), and inverse product of inverses (3). No hand-supplied composite rules, no induction, no arbitrary subtree anti-unification. The frozen target consists of 72 expressions with new atom names, longer conjugate products, mixed inverse compositions and random trees; familiar motifs are intentionally shared. All 72 target equalities have exact replay-checked certificates in both arms. The independent oracle distinguishes all 72 unequal goals. Bounded explicit rewrite-graph BFS (256 expanded states) is a weak exploratory control, not an e-graph or egg BackoffScheduler.
+
+| Target family (24 each) | Primitive steps | Macro steps | Primitive ledger | Macro ledger |
+|---|---:|---:|---:|---:|
+| Conjugation | 15.00 | 9.00 | 115.50 | 272.50 |
+| Mixed inverse | 12.50 | 3.50 | 81.50 | 120.00 |
+| Random | 6.21 | 6.21 | 60.79 | 207.88 |
+| All | 11.24 | 6.24 | 85.93 | 200.13 |
+
+84 macro hits. Development ledger 4111 units (source solving, replay and extraction); no break-even because target ledger increases. The proof application count is compressed, not a measured Lean runtime improvement. The ledger counts tree visits, match recursion, index probes, rewrite steps and replay steps; it omits allocations, serialization, some internal primitive scans and Lean process/kernel costs. The full accounting is therefore incomplete, not a CPU benchmark. Even under this partial ledger the learned library loses. Free-group normalization is a strong exact control; arbitrary infinite syntax is not evidence of intractability. The next question is whether a compiled discrimination index and real non-normalizing cost search can justify the macros; no e-graph, backoff/fatigue, macro eviction or SIM optimizer implemented in this round.
+
+### TWC-derived bridge
+The frozen macro0 matches the product of two conjugated operators without new training. On 32 seeded symmetric integer matrix pairs, an exact rational 3-4-5 internal orthogonal rotation yields identical direct and fused products (BigInt arithmetic); five dense matrix multiplications become three, tying the hand-fused identity. Separately the rotation fixes source/load ports and exactly preserves U and q; the numerical S11/S21 comparison on five normalized frequencies per single symmetric A gives max difference 4.71e-16. The product AB need not be symmetric: this is **not** a WaveProgram legality check, actual TWC execution or physical hardware result. No topology optimization or novel algebra claim.
+
+Reproduce: `node operator.cjs`, `node operator_twc.cjs`, `lean results/OperatorCertificates.lean`. [Raw symbolic results](results/operator_raw.json) · [TWC bridge results](results/operator_twc.json) · [Lean source](results/OperatorCertificates.lean) · [Wrong-order control](results/OperatorWrongOrder.lean). CI checks the three abstract schemas and 144 target normalizer certificates under explicit algebra axioms.
