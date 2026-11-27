@@ -1,6 +1,6 @@
 {
   "format": "SIM-inspired experimental history, not Google's CRSI optimizer",
-  "next_id": 19,
+  "next_id": 20,
   "problems": [
     {
       "id": 1,
@@ -18482,6 +18482,115 @@
             ]
           },
           "decision": "Do not promote a regulator from diagnostic curves. Late progress has signal but costs substantial work, short caps interrupt all observed original wins, denominator margin not established as stall signal. Freeze fresh experiment only after choosing simple controls; no new holdout run."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "root_cause": "Gate 12 late predictive information costs substantial modeled work; cumulative quota couples allocation to objective transition. Gate 13 isolates local stage schedule and tests whether extension and preserved-state selection improve equal-budget solves.",
+      "attempts": [
+        {
+          "intervention": "13 frozen independent leash, loss/progress racing, matched fixed controls",
+          "protocol_commit": "0e3bc10e104834a32ce27f7e9e699c99ac873d72",
+          "code_commit": "dcd2acf5f453bb0ed8593de66b3fb1275eb8b018",
+          "rationale": "Separate simple extra descent from reader-guided allocation; do not kill the interlock. Probe length n=9/2M reduced to six to fit budget.",
+          "predicted": {
+            "P1_long": true,
+            "P1_unleash": true,
+            "P2_n8": true,
+            "P2_n9": true,
+            "P3_n8": true,
+            "P3_n9": true
+          },
+          "observed": {
+            "summary_commit": "b536972d4506c5bdd0a59e52dc47987434ec53a0",
+            "cases": 32,
+            "rows": 512,
+            "baseline_replay": 64,
+            "columns": [
+              "n8_2M",
+              "n8_4M",
+              "n9_2M",
+              "n9_4M"
+            ],
+            "solved": {
+              "BASE-512": [
+                4,
+                9,
+                2,
+                7
+              ],
+              "LOCAL-512": [
+                4,
+                8,
+                2,
+                7
+              ],
+              "SHORT-384": [
+                4,
+                7,
+                1,
+                2
+              ],
+              "LONG-1024": [
+                7,
+                9,
+                5,
+                6
+              ],
+              "UNLEASH": [
+                8,
+                10,
+                3,
+                8
+              ],
+              "HALVE-LOSS": [
+                5,
+                8,
+                4,
+                6
+              ],
+              "SUSPEND-LOSS": [
+                5,
+                9,
+                4,
+                6
+              ],
+              "SUSPEND-PROGRESS": [
+                8,
+                9,
+                3,
+                6
+              ]
+            },
+            "prediction_pass": {
+              "P1_long": true,
+              "P1_unleash": false,
+              "P2_n8": true,
+              "P2_n9": false,
+              "P3_n8": true,
+              "P3_n9": true
+            },
+            "matched_failure_examples": [
+              {
+                "seed": 84020,
+                "unleash_stop_trial": 18,
+                "long_win_trial": 27,
+                "long_win_work": 1833351
+              },
+              {
+                "seed": 84022,
+                "unleash_stop_trial": 22,
+                "long_win_trial": 30,
+                "long_win_work": 1997000
+              }
+            ],
+            "max_response_error": 3.422531464562005e-14,
+            "max_leak": 6.822130008662102e-17,
+            "max_derivative": 6.957421305742174e-11
+          },
+          "decision": "No general reader promotion. Narrow n8/2M progress-racing gain over fixed controls and loss-racing, but ties UNLEASH with greater mean work; n9 fails to transfer. Hard leash truncates actual successful trajectories; one rejected LM trial is not a terminal signal: damping can recover after two rejected trials (84020,84022). Archive failures; use fresh seeds for any next experiment. Consider cheaper reader or exact internal elimination; do not tune Gate 13 holdout.",
+          "limitations": "Gate 11 compact baseline substituted for inaccessible large Gate 12 trace files; Gate 12 had established equality. Verification outside modeled ledger, not runtime, no formal floating-point certificate. Terminated states retained for logging; no memory claim."
         }
       ]
     }
