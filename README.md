@@ -135,3 +135,29 @@ The engine uses noncommutative multiplication, inverse and identity. The primiti
 The frozen macro0 matches the product of two conjugated operators without new training. On 32 seeded symmetric integer matrix pairs, an exact rational 3-4-5 internal orthogonal rotation yields identical direct and fused products (BigInt arithmetic); five dense matrix multiplications become three, tying the hand-fused identity. Separately the rotation fixes source/load ports and exactly preserves U and q; the numerical S11/S21 comparison on five normalized frequencies per single symmetric A gives max difference 4.71e-16. The product AB need not be symmetric: this is **not** a WaveProgram legality check, actual TWC execution or physical hardware result. No topology optimization or novel algebra claim.
 
 Reproduce: `node operator.cjs`, `node operator_twc.cjs`, `lean results/OperatorCertificates.lean`. [Raw symbolic results](results/operator_raw.json) · [TWC bridge results](results/operator_twc.json) · [Lean source](results/OperatorCertificates.lean) · [Wrong-order control](results/OperatorWrongOrder.lean). CI checks the three abstract schemas and 144 target normalizer certificates under explicit algebra axioms.
+
+
+## Experiment 6b — shared matching ledger and composable macro ports
+
+[Interactive operator laboratory](https://anttiluode.github.io/ProofSearchExperiments/operators.html) · [Frozen follow-up protocol](OPERATOR_INDEX_PROTOCOL.md) · [Results](results/operator_index.json).
+
+Neon's audit identified two real issues in Experiment 6: primitive pattern comparisons were not charged comparably to macro matching; the mined conjugation rule emitted a right-associated result that could not feed its own left-associated input. The original result remains in the previous section. This follow-up replays the **same 72 target cases**, not a fresh independent test. All primitive and macro rules now share explicit patterns, recursive binding, repeated-variable equality and substitution counters; both engines emit replay-checked proof traces. A bottom-up macro prepass preserves useful wrappers before normalizing. Two exact lookup engines (root-bucket scan and prefix discrimination trie) are matched against their own primitive-only controls.
+
+The machine recognizes the repeated outer wrapper in the original macro, constructs a compatible output by regrouping the interior, and searches for an associativity-only proof. It derives macro3 from macro0 plus two association rewrites (9 primitive steps in total):
+
+`((R⁻¹ A) R) ((R⁻¹ B) R) = (R⁻¹ (AB)) R`.
+
+The grouped result can feed the same macro recursively; no new axioms or hand-supplied composite law. The structural wrapper heuristic itself is programmed, not learned. Whole-trace mining remains unchanged; automatic interior-subtree mining is not implemented.
+
+| Matched lookup | Primitive only | Original macros | Compatible macros |
+|---|---:|---:|---:|
+| Root-bucket scan | 2119.35 | 1745.92 | 1670.92 |
+| Prefix trie | 2467.54 | 2144.72 | 2048.89 |
+
+Values are mean **modeled ledger units**, not elapsed time. All 72 solve in all six arms. Compatible scan reduces mean charged work 21.2% vs its matched primitive scan, while compatible trie reduces 17.0% vs matched primitive trie. The small trie loses to the simple scan: query subtrees are re-encoded and wildcard paths traversed. It is not a production Lean DiscrTree, and does not establish constant-time lookup. The accounting includes visits, path traversals, tree copying, index build, encoding, probes, matching/equality, substitution, size checks and replay, but not every sort/filter, allocation or kernel runtime. Per-problem index build is charged (a persistent index could amortize this). Random-family macro scan incurs overhead; no benefit without motif hits.
+
+A separate fresh length stress test (2–12 conjugates, 11 chain lengths) demonstrates self-composition. At length 12 the matched scan primitive arm uses 67 proof applications / 28403 ledger units; original macro scan uses 61 / 28637 (one hit); compatible scan uses 23 / 11988 (11 successive macro hits). This is a designed structural extrapolation, not a random held-out generalization test.
+
+The variant derivation and schema replay ledger is 1021; the original mining bill is 4111 **under the older, noncomparable ledger**. We do not claim a fully measured developmental break-even. The signed-word decision oracle remains a stronger specialized baseline when a proof-producing trace is unnecessary. Expanded macro proofs still require Lean kernel checking; proof applications are not actual kernel reductions. Full e-graph, rotational commutation and interior discovery remain future work.
+
+Reproduce: `node operator_index.cjs` after `node operator.cjs`; `lean results/OperatorIndexCertificates.lean`. CI checks 4 schemas and 498 target/stress certificates. No new TWC numerical test or hardware claim in this patch.
