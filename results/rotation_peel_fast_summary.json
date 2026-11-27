@@ -1,0 +1,112 @@
+{
+  "protocolCommit": "ed72c2a1826cdd8dca368835c1052bdf6f401021",
+  "codeCommit": "9187ec0ff27dac8afede9b9cf3f15a5440ce1ff7",
+  "rawFiles": [
+    "rotation_peel_fast_diag_00.json",
+    "rotation_peel_fast_diag_01.json",
+    "rotation_peel_fast_diag_02.json",
+    "rotation_peel_fast_diag_03.json"
+  ],
+  "rows": 256,
+  "pass": 256,
+  "maxReference": 3.4861002973229914e-15,
+  "maxLie": 4.338751580235112e-14,
+  "maxSkew": 4.2243986086987206e-14,
+  "maxLocalDerivative": 5.5542574317613e-9,
+  "maxLocalBase": 3.0198066269804257e-15,
+  "maxPrimalReference": 3.739698609263685e-16,
+  "finite": {
+    "n": 100,
+    "pass": 100,
+    "oldSwitchCases": 84,
+    "oldSwitchEvents": 170,
+    "maxOldJump": 0.8374386958264944,
+    "maxLocalJump": 0.035534936869730235,
+    "minCompletion": 0.44149029013840857,
+    "maxRebase": 2.7463411661780188e-15,
+    "maxOrth": 1.2254086634300165e-14,
+    "maxLeak": 6.661338147750939e-17
+  },
+  "cost": [
+    {
+      "smooth": true,
+      "n": 64,
+      "medianTotal": 112598,
+      "medianBaseline": 74900.5,
+      "medianModel": 104018.5,
+      "medianTrial": 8473.5,
+      "medianInitial": 8237.5,
+      "medianBaselineModel": 68828.5,
+      "medianBaselineTrial": 6072,
+      "maxEndpointMatch": 7.105427357601002e-16,
+      "wins": 0,
+      "medianLedger": {
+        "rotations": 0,
+        "arithmetic": 57336,
+        "angles": 48,
+        "score": 55,
+        "key": 17649,
+        "frontier": 0,
+        "permutation": 0,
+        "jacobian": 437,
+        "linear": 22706,
+        "iterations": 1,
+        "restarts": 0,
+        "align": 0,
+        "deriv": 5679,
+        "organ": 32,
+        "assembly": 0,
+        "dot": 0,
+        "orthogonalize": 0,
+        "selection": 42,
+        "cache": 193
+      }
+    },
+    {
+      "smooth": false,
+      "n": 64,
+      "medianTotal": 115450.5,
+      "medianBaseline": 77220,
+      "medianModel": 107146.5,
+      "medianTrial": 8295,
+      "medianInitial": 8237.5,
+      "medianBaselineModel": 71327,
+      "medianBaselineTrial": 5893,
+      "maxEndpointMatch": 7.105427357601002e-16,
+      "wins": 0,
+      "medianLedger": {
+        "rotations": 0,
+        "arithmetic": 59450.5,
+        "angles": 48,
+        "score": 55,
+        "key": 17649,
+        "frontier": 0,
+        "permutation": 0,
+        "jacobian": 532,
+        "linear": 22706,
+        "iterations": 1,
+        "restarts": 0,
+        "align": 0,
+        "deriv": 6629.5,
+        "organ": 32,
+        "assembly": 0,
+        "dot": 0,
+        "orthogonalize": 0,
+        "selection": 42,
+        "cache": 193
+      }
+    }
+  ],
+  "predictions": {
+    "reference": true,
+    "localFinite": true,
+    "cost": false
+  },
+  "limitations": [
+    "Sparse forward tangents still propagate through Q, not a fully tier-specialized generator implementation. Explicit Lie form is independently audited outside the charged step; production-equivalent residual pullback uses dQ and BQ.",
+    "Local continuation projects retained complement vectors and has singularity guards, not globally smooth transport. Finite probes sample 20 subdivisions, not proof between them. The 100 fixed probes cover all n8 cases and nine n9 cases, not balanced.",
+    "Costs compare same starting endpoint, unchanged residual/hinge and Cholesky; original physical rotation ledger vs dense chart arithmetic differs, not a fully calibrated wall-time or path budget. No actual iterative solve.",
+    "Full-stage cost meter initially lacked trial metric, fixed before complete diagnostic batches. Original files untouched."
+  ],
+  "decision": "Reference and local continuation checks pass, cost prediction fails. Keep 85000 holdout unopened; next specialize core tangent and exploit small projected basis for spin/port."
+}
