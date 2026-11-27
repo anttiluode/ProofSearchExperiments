@@ -533,3 +533,20 @@ Counts out of 16. All arms retain unchanged numerical metric/verification. All n
 | 9 | 2 | 19 | 64/64 | 26,660 | 941,843 |
 
 The dense chart maps projected domain leaf axes to a free unit direction and successive signed normalized projected matrix images; residual SO core completes orientation. It kills projected internal constraints, not all original forbidden row entries. Full acceptance rows remain mandatory. Reference arithmetic count includes diagnostic checks and dense forward differentiation, omits some orientation and bookkeeping costs, not calibrated to the old partial LM ledger. No claim of faster solve. Witness extracts spin direction and residual core matrix, rather than inverting all explicit angular coordinates. Four positive-angle generic samples per case/depth, no exhaustive singularity or global surjectivity claim. No new target generation, numerical LM solves, Lean certificates or hardware. Reproduce `node rotation_peel_diagnostic.cjs`. Gate 14b remains unopened; optimize analytic pullback on diagnostics first.
+
+
+## Experiment 14a-fast / 14a-tier — local frame continuation and Lie generators (diagnostic only)
+
+[Fast protocol](ROTATION_PEEL_FAST_PROTOCOL.md) · [Fast code](rotation_peel_fast.cjs) · [Fast summary](results/rotation_peel_fast_summary.json) · [Tier protocol](ROTATION_PEEL_TIER_PROTOCOL.md) · [Tier code](rotation_peel_tier.cjs) · [Tier summary](results/rotation_peel_tier_summary.json).
+
+Reused all 256 frozen generic coordinates and signs on 83000–83031. Sparse orthogonal pullback agrees with dense AD (max normalized error 3.487e-15); independent commutator audit 4.339e-14. Retained local frames project old complement vectors against new prefixes without pivot reselection, fail on singular projections. All 256 local derivative audits pass (max 5.555e-9). 100 length-0.5 random finite paths, 20 subdivisions: old max-pivot completion switched in 84 cases, 170 events, max adjacent normalized matrix jump 0.837439. Local max jump 0.035535, min completion norm 0.44149, max rebase error 2.747e-15, all 100 pass. Not a proof of global smoothness; probes unbalanced (16 n8 and 9 n9 seeds).
+
+Tier specialization differentiates only port/spin prefixes; local frame derivative uses skew coefficients H[j,i]=q_j dot dq_i for fixed prefix i and j>i. Explicit core/port Givens suffix transport, residual commutator wedges, no dense AD of Q or endpoint in measured model. All 256 comparisons to sparse local Jacobian passed (max 3.477e-14).
+
+| n9 PEEL2 matched endpoint, 64 samples per stage | Smooth median work | Full median work |
+|---|---:|---:|
+| FIRST | 74,900.5 | 77,220 |
+| Sparse pullback | 112,598 | 115,450.5 |
+| Tier Lie generators | 74,369 | 78,506.5 |
+
+Tier wins 32/64 smooth and 29/64 full; median paired differences -550.5 and +596.5. Frozen median-below-FIRST-in-both-stages prediction fails. Exploratory triple55 median 70,857/73,603 vs FIRST 75,555/78,216; quad55 79,569/84,490.5 vs FIRST 74,315/76,706. No general cost advantage or selection claim. Same starting endpoint and exact existing residual/hinge and Cholesky; modeled scalar counts partial, no runtime, no physical rotation/path budget for reduced chart. Tier/FIRST reuse cached endpoint, sparse comparator rebuilds in model; not pure derivative-only speedup. Full-stage metric smoke fix before complete batches. No iterative production LM or new numerical solves. Reproduce `node rotation_peel_fast.cjs` and `node rotation_peel_tier.cjs`. Gate 14b holdout remains unopened.
