@@ -517,3 +517,19 @@ Fresh seeds 84000–84031, 16 per size, FIRST chart, two budgets, eight arms, 51
 | SUSPEND-PROGRESS | 8 | 9 | 3 | 6 |
 
 Counts out of 16. All arms retain unchanged numerical metric/verification. All new arms share stage switch at 256 local rotations or original nonquota triggers. BASE retains original cumulative schedule. P1 long passes, P1 unleash fails; P2 n8 passes, n9 fails; P3 both pass. No general regulator promotion. n8/2M progress racer wins four and loses one against each loss racer, wins two and loses one against LONG, but ties UNLEASH in success with mean work 1.701M vs 1.521M. n9/2M LONG wins 5 vs LOCAL 2, UNLEASH 3. Matched initial trajectory 84020 UNLEASH stops after rejected trial 18 while LONG recovers after trial 19 rejection and succeeds at trial 27 (1,833,351 work). 84022 UNLEASH stops at trial 22 rejection; LONG recovers after trial 23 rejection and succeeds at trial 30 (1,997,000 work). Do not treat rejected LM steps as death of the basin. No fitting or generalization from 16 cases per slice. Modeled work is partial, not runtime; verifier and memory outside ledger, terminated states retained for logging. No Lean certificate for numerical realizations. Gate 13 corpus diagnostic forever for future design. Reproduce `node rotation_regulator.cjs`.
+
+
+## Experiment 14a — conditional internal leaf stabilizer chart (diagnostic only)
+
+[Protocol](ROTATION_PEEL_DIAGNOSTIC.md) · [Dense analytic reference](rotation_peel_diagnostic.cjs) · [Summary](results/rotation_peel_summary.json).
+
+32 old 83000–83031 cases, FIRST frozen port program, degree-one chain selected from mask alone. For each of two peel depths: 32/32 conditional witness reconstructions, 32/32 frozen-port-chart witness reconstructions, 128/128 generic local derivative/identity/orthogonality/port audits. All 32 port fits reached squared residual below 1e-29 on initial deterministic start. Maximum normalized actual witness reconstruction error 5.638e-14, conditional witness error 1.130e-13, generic projected constraint 2.443e-16, generic port leakage 4.508e-17, central derivative disagreement 5.599e-9. No sampled finite-difference frame branch crossings.
+
+| Size | Depth | Free dimension | Generic audits | Mean dense primal arithmetic count | Mean dense AD count |
+|---|---:|---:|---:|---:|---:|
+| 8 | 1 | 18 | 64/64 | 18,094 | 590,425 |
+| 8 | 2 | 15 | 64/64 | 18,102 | 496,861 |
+| 9 | 1 | 23 | 64/64 | 26,817 | 1,138,479 |
+| 9 | 2 | 19 | 64/64 | 26,660 | 941,843 |
+
+The dense chart maps projected domain leaf axes to a free unit direction and successive signed normalized projected matrix images; residual SO core completes orientation. It kills projected internal constraints, not all original forbidden row entries. Full acceptance rows remain mandatory. Reference arithmetic count includes diagnostic checks and dense forward differentiation, omits some orientation and bookkeeping costs, not calibrated to the old partial LM ledger. No claim of faster solve. Witness extracts spin direction and residual core matrix, rather than inverting all explicit angular coordinates. Four positive-angle generic samples per case/depth, no exhaustive singularity or global surjectivity claim. No new target generation, numerical LM solves, Lean certificates or hardware. Reproduce `node rotation_peel_diagnostic.cjs`. Gate 14b remains unopened; optimize analytic pullback on diagnostics first.
