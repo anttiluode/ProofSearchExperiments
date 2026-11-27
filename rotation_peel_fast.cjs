@@ -108,7 +108,7 @@ function cost(api,p,c,x,depth,sign,z,smooth){
  let f=api.f,init=f.ledger(),model=f.ledger(),trial=f.ledger(),baseModel=f.ledger(),baseTrial=f.ledger(),aux=f.ledger(),d=x.length,N=p.n+2;
  let initial=chart(api,p,c,x,depth,sign,false,z.frames,init);f.metric(initial.A,p,init);
  model.iterations++;model.cache++;let a=chart(api,p,c,x,depth,sign,true,z.frames,model),m=residualModel(f,p,c,a,d,smooth,model),dx=clipped(f,m,model);
- let b=chart(api,p,c,x.map((v,i)=>{trial.linear++;return v+dx[i]}),depth,sign,false,z.frames,trial);f.metric(b.A,p,trial);f.leak(b,c,p,trial);f.value(b,p,c,true,smooth,trial);trial.frontier++;
+ let b=chart(api,p,c,x.map((v,i)=>{trial.linear++;return v+dx[i]}),depth,sign,false,z.frames,trial);b.m=f.metric(b.A,p,trial);f.leak(b,c,p,trial);f.value(b,p,c,true,smooth,trial);trial.frontier++;
  // Same endpoint, express it in the old base/port coordinates. This preparation is excluded from step costs.
  let W=Array.from({length:p.n},(_,i)=>i+1).filter(i=>!c.proof.anchors.includes(i)),U=Array.from({length:N},(_,i)=>Array.from({length:N},(_,j)=>+(i===j)));
  for(let i=0;i<W.length;i++)for(let j=0;j<W.length;j++)U[W[i]][W[j]]=z.U[i][j];
