@@ -307,3 +307,25 @@ The full classical kernel wins the primary hard-cell endpoint; online blocks do 
 | RB | 1/32 | 0/32 | 0/32 | 1/96 | 1/96 | 2,079,338 |
 
 P8C+ caches residual/Jacobian/gradient/undamped Gram across rejected same-state steps. DIAG pure diagonal; D+F diagonal with full fallback; PCG3 matrix-free diagonally preconditioned CG with three inner iterations; B/RB exact five-plane block-diagonal solve with targeted/random selection and scalar diagonal elsewhere. All approximations except DIAG share full fallback on two stalls or low loss. Cache hits check state identity. No training. Cached full LM wins; approximate steps save work but fail to retain convergence. No n=8 cases solved by any arm under either budget, so apparent scaling savings cannot be claimed as successful solve acceleration. Same 4096 rotation cap and full-plane updates penalize methods needing more iterations; fixed PCG iteration limit and fallback choices are not optimized. No residual-correction arm, source Gram or hardware. Ledger partial, not wall time; allocations and JS operations not exhaustively accounted. Numerical checks not Lean certificates. Do not tune on these fresh cases then call them holdout. Reproduce `node rotation_precision.cjs`; compact rows omit paths, reproducible from exported run().
+
+
+## Experiment 7g — exact degree-two port chart and objective continuation
+
+[Protocol](ROTATION_GEOMETRY_PROTOCOL.md) · [Code](rotation_geometry.cjs) · [Summary and compact raw file index](results/rotation_geometry_summary.json) · [Baseline/generator/derivative audit](results/rotation_geometry_audit.json).
+
+96 fresh disjoint degree-two layouts, 76000–76095, 32 per n=6/7/8, half square by count and half overdetermined by count. The exact SO(n) chart first aligns orthogonal port vectors, then represents allowed rotations as (I2 + U) followed by two disjoint port splitting rotations; U in SO(n-2). Effective dimensions 8/12/17 instead of 15/21/28. All 96 witness checks passed; 96 transported analytic derivative audits passed, maximum normalized error 8.270212584935315e-11. All 16 F8 baseline replays matched 7f exactly. 2,880 target runs (10 arms × 96 × 3 caps), all paths verified, maximum sampled response error 1.15299373825458e-13; maximum chart endpoint forbidden port leakage 4.732902273682635e-17. All budget caps/ledger sums checked.
+
+| Arm | n=6 fixed | n=7 fixed | n=8 fixed | Fixed total | Fixed mean work | 4096 only total | Scaled rotations only total |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| F8 | 11/32 | 2/32 | 0/32 | 13/96 | 1,836,706 | 20/96 | 24/96 |
+| F2 | 7/32 | 0/32 | 0/32 | 7/96 | 1,621,022 | 8/96 | 8/96 |
+| B2 | 7/32 | 0/32 | 0/32 | 7/96 | 1,579,646 | 8/96 | 8/96 |
+| T2 | 5/32 | 1/32 | 0/32 | 6/96 | 1,636,583 | 7/96 | 7/96 |
+| G2 | 6/32 | 9/32 | 2/32 | 17/96 | 1,126,363 | 17/96 | 17/96 |
+| G8 | 16/32 | 15/32 | 3/32 | 34/96 | 1,496,029 | 38/96 | 40/96 |
+| PERM | 6/32 | 5/32 | 2/32 | 13/96 | 1,146,490 | 13/96 | 13/96 |
+| SMOOTH | 4/32 | 11/32 | 2/32 | 17/96 | 1,086,568 | 20/96 | 20/96 |
+| BAND | 5/32 | 10/32 | 3/32 | 18/96 | 1,109,930 | 18/96 | 18/96 |
+| HOMO | 5/32 | 10/32 | 2/32 | 17/96 | 1,099,765 | 20/96 | 20/96 |
+
+Fixed = 2M work and 4096 rotations. Scaled rotation-only caps 4096/5735/7646 for n=6/7/8 (ceil 4096*d/15). F8/F2 legacy cached full LM eight/two starts; B2 batch score; T2 adds Euclidean clip; G2/G8 exact chart two/eight starts; PERM second-start signed permutation; SMOOTH/BAND/HOMO continuation on G2. Full metrics remain final acceptance; weighted intermediate objectives do not count as solutions. Square by equation count does not establish independent rank or a homotopy path; no claim that every failure is a local minimum. Chart restricted to disjoint degree-two supports, with different required initialization. BAND second stage already restores all forbidden weights in these chain masks; HOMO uses fixed canonical-input magnitude. Two-start 120-attempt ceilings may bind before rotation quotas. Signed permutations sampled, not exhaustive. Source fitting zero; engineering cost excluded. Partial modeled work, no runtime benchmark, no Lean numerical certificate or hardware. Reproduce `node rotation_geometry.cjs`; compact rows omit paths, reproducible from exported run().
