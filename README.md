@@ -84,3 +84,33 @@ The checker must see Lean accept 64 compact terms and 2 generic macros, and reje
 Move beyond graph reachability: coupled recursive rules with multiple unresolved variables, where exact closure is genuinely expensive. Compare compressed messages against sparse exact lists/bitsets at equal communication and compute budgets. Keep all verification exact, and do not give a learned head credit for a task already solved by a direct join.
 
 The central question remains: can the reader recognize the shape of an expensive computation for less than it costs to perform that computation?
+
+## Experiment 5 — coupled Horn strategy fatigue (November 27)
+
+[Interactive replay](https://anttiluode.github.io/ProofSearchExperiments/) (also open `index.html` locally), [frozen protocol](FATIGUE_PROTOCOL.md), [suffix-elimination protocol](FATIGUE_DP_PROTOCOL.md). Lineage: [CombinatoryPlayClaude](https://github.com/anttiluode/CombinatoryPlayClaude), [CombinatoryPlaySol](https://github.com/anttiluode/CombinatoryPlaySol), [Sweep](https://github.com/anttiluode/Sweep), [AliveAI](https://github.com/anttiluode/AliveAI).
+
+240 cases: 120 positive, 120 paired negative, 40 of each per sparse/dense/parity family; four competing rules, 3–5 variables and 12 possible values. Exact indexed DFS lanes retain a stack for each (rule, initial witness), with exact last-variable intersection. All arms use the same expansion and proof validation. A conflict is an empty next mask or empty closing intersection, not merely an unfinished proof. C/D use pre-selection penalty with lazy recovery; D's context is just the first bound witness. F's discounted failure count is the same update before clipping; it reproduced D here, not evidence for a distinct dynamical mechanism. B2 randomly chooses a live lane without discarding search state. No semantic embedding, actual learned routing, bidirectional recursion, macro extraction, or LLM proposer is implemented in this pilot.
+
+| Arm | Positive solved @256 live steps | @1024 | Mean ledger @256 (all 240 cases) |
+|---|---:|---:|---:|
+| Static priority A | 93/120 | 106/120 | 8727 |
+| Round-robin B1 | 120/120 | 120/120 | 2088 |
+| Random B2 | 120/120 | 120/120 | 4741 |
+| Global fatigue C | 120/120 | 120/120 | 10673 |
+| Contextual fatigue D | 106/120 | 120/120 | 13249 |
+| Discounted failure F | 106/120 | 120/120 | 13249 |
+| Ordered indexed DFS J | 93/120 | 106/120 | 3609 |
+| Exact suffix elimination (uncapped follow-up) | 120/120 | n/a | 845 |
+
+Every scheduler has zero false certificates; 75/120 negatives are exhausted at 256, 93/120 at 1024. The oracle decides all negatives independently; timeout is not a proof of impossibility. On the difficult parity family A solved 13/40, C/B1/B2 40/40, D/F 26/40 at 256. C reduced mean live steps across all cases from 145 to 109 but paid for score evaluations and repeated lane inspections. Fairness won the complete modeled ledger. **Do not promote fatigue into Arm E on this evidence.** The direct suffix elimination follow-up decides every case, including all 120 negatives, without backtracking; cyclic binary joins have bounded treewidth. That control is structurally stronger than scheduler improvements in this grammar. Its ledger uses lazy per-rule index construction, unlike the scheduler's eager outgoing/incoming indexes, which is an honest implementation advantage but not a matched microbenchmark. The original arms scan lanes to select a score; a more optimized heap may alter absolute costs. Counts are heterogeneous modeled units, not timing; independent validation is charged per premise rather than each raw membership-loop iteration, and data generation/oracle cost is excluded. No claim of asymptotic superiority beyond this grammar.
+
+Reproduce with Node.js:
+
+```sh
+node fatigue.cjs
+node fatigue_dp.cjs
+lean results/FatigueCertificates.lean
+lean results/FatigueDP.lean
+```
+
+[Raw scheduler rows](results/fatigue_rows.json) · [Summary](results/fatigue_summary.json) · [Exact elimination rows](results/fatigue_dp.json) · [297 distinct scheduler/exact-DFS certificates](results/FatigueCertificates.lean) · [120 suffix-elimination certificates](results/FatigueDP.lean) · [Wrong-witness control](results/FatigueWrongWitness.lean). The initial JavaScript experiment checked every certificate against supplied facts and compared complete search to independent Boolean relation composition. Lean CI separately checks the compact terms using the used hypotheses. Replay traces are the first positive-labelled case in each family, not cherry-picked examples. Next gate: non-cycle joins with larger treewidth and nested rule derivations, compare optimized exact elimination/tabling before growing the library. SIM remains out of scope until the fast/medium layers earn their place.
