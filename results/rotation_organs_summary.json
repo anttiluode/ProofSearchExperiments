@@ -1,0 +1,2510 @@
+{
+  "sourceCommit": "fe973cebe2ad6e6c31158400e30f0e2cd4cc6d75",
+  "development": 341396208,
+  "summary": [
+    {
+      "budget": null,
+      "mode": "P2",
+      "n": 96,
+      "success": 29,
+      "meanWork": 1049550.25,
+      "meanRotations": 831.7916666666666,
+      "breakEven": null
+    },
+    {
+      "budget": null,
+      "mode": "P8",
+      "n": 96,
+      "success": 62,
+      "meanWork": 2351064.0833333335,
+      "meanRotations": 1982.375,
+      "breakEven": null
+    },
+    {
+      "budget": null,
+      "mode": "A8",
+      "n": 96,
+      "success": 56,
+      "meanWork": 2946874.875,
+      "meanRotations": 2324.2395833333335,
+      "breakEven": null
+    },
+    {
+      "budget": null,
+      "mode": "V",
+      "n": 96,
+      "success": 59,
+      "meanWork": 2628145.1875,
+      "meanRotations": 2144.21875,
+      "breakEven": null
+    },
+    {
+      "budget": null,
+      "mode": "R",
+      "n": 96,
+      "success": 63,
+      "meanWork": 2285577.8645833335,
+      "meanRotations": 1933.8645833333333,
+      "breakEven": 5214
+    },
+    {
+      "budget": null,
+      "mode": "M",
+      "n": 96,
+      "success": 63,
+      "meanWork": 2273435.1979166665,
+      "meanRotations": 1917.9270833333333,
+      "breakEven": 4398
+    },
+    {
+      "budget": null,
+      "mode": "ShM",
+      "n": 96,
+      "success": 62,
+      "meanWork": 2339937.25,
+      "meanRotations": 1977.6666666666667,
+      "breakEven": 30683
+    },
+    {
+      "budget": null,
+      "mode": "S0",
+      "n": 96,
+      "success": 64,
+      "meanWork": 2209262.0729166665,
+      "meanRotations": 1947.5104166666667,
+      "breakEven": 2408
+    },
+    {
+      "budget": null,
+      "mode": "S1",
+      "n": 96,
+      "success": 68,
+      "meanWork": 2071887.3125,
+      "meanRotations": 1780.3645833333333,
+      "breakEven": 1223
+    },
+    {
+      "budget": null,
+      "mode": "ShS",
+      "n": 96,
+      "success": 64,
+      "meanWork": 2206845.09375,
+      "meanRotations": 1932.0625,
+      "breakEven": 2368
+    },
+    {
+      "budget": null,
+      "mode": "X",
+      "n": 96,
+      "success": 63,
+      "meanWork": 2282970.0625,
+      "meanRotations": 1909.6145833333333,
+      "breakEven": 5014
+    },
+    {
+      "budget": 2000000,
+      "mode": "P2",
+      "n": 96,
+      "success": 29,
+      "meanWork": 910952.3958333334,
+      "meanRotations": 752.8958333333334,
+      "breakEven": null
+    },
+    {
+      "budget": 2000000,
+      "mode": "P8",
+      "n": 96,
+      "success": 49,
+      "meanWork": 1217293.09375,
+      "meanRotations": 1116.4270833333333,
+      "breakEven": null
+    },
+    {
+      "budget": 2000000,
+      "mode": "A8",
+      "n": 96,
+      "success": 44,
+      "meanWork": 1402140.9375,
+      "meanRotations": 1195.3541666666667,
+      "breakEven": null
+    },
+    {
+      "budget": 2000000,
+      "mode": "V",
+      "n": 96,
+      "success": 47,
+      "meanWork": 1256021.4583333333,
+      "meanRotations": 1143.2604166666667,
+      "breakEven": null
+    },
+    {
+      "budget": 2000000,
+      "mode": "R",
+      "n": 96,
+      "success": 50,
+      "meanWork": 1191305.0833333333,
+      "meanRotations": 1098.1458333333333,
+      "breakEven": 13137
+    },
+    {
+      "budget": 2000000,
+      "mode": "M",
+      "n": 96,
+      "success": 50,
+      "meanWork": 1179725.8020833333,
+      "meanRotations": 1082.59375,
+      "breakEven": 9088
+    },
+    {
+      "budget": 2000000,
+      "mode": "ShM",
+      "n": 96,
+      "success": 50,
+      "meanWork": 1216816.3229166667,
+      "meanRotations": 1119.5416666666667,
+      "breakEven": 716060
+    },
+    {
+      "budget": 2000000,
+      "mode": "S0",
+      "n": 96,
+      "success": 53,
+      "meanWork": 1221904.09375,
+      "meanRotations": 1184.03125,
+      "breakEven": null
+    },
+    {
+      "budget": 2000000,
+      "mode": "S1",
+      "n": 96,
+      "success": 57,
+      "meanWork": 1099929.9479166667,
+      "meanRotations": 1036.53125,
+      "breakEven": 2909
+    },
+    {
+      "budget": 2000000,
+      "mode": "ShS",
+      "n": 96,
+      "success": 54,
+      "meanWork": 1210737.8333333333,
+      "meanRotations": 1160.5833333333333,
+      "breakEven": 52080
+    },
+    {
+      "budget": 2000000,
+      "mode": "X",
+      "n": 96,
+      "success": 56,
+      "meanWork": 1105367.15625,
+      "meanRotations": 1033.2916666666667,
+      "breakEven": 3051
+    }
+  ],
+  "pairs": [
+    {
+      "budget": null,
+      "mode": "P2",
+      "fixed": [],
+      "lost": [
+        73000,
+        73004,
+        73009,
+        73011,
+        73013,
+        73014,
+        73015,
+        73016,
+        73019,
+        73027,
+        73029,
+        73030,
+        73034,
+        73037,
+        73038,
+        73041,
+        73042,
+        73045,
+        73048,
+        73053,
+        73054,
+        73057,
+        73060,
+        73067,
+        73068,
+        73069,
+        73070,
+        73074,
+        73077,
+        73081,
+        73086,
+        73092,
+        73093
+      ]
+    },
+    {
+      "budget": null,
+      "mode": "P8",
+      "fixed": [],
+      "lost": []
+    },
+    {
+      "budget": null,
+      "mode": "A8",
+      "fixed": [
+        73065,
+        73085
+      ],
+      "lost": [
+        73013,
+        73037,
+        73041,
+        73045,
+        73069,
+        73077,
+        73081,
+        73093
+      ]
+    },
+    {
+      "budget": null,
+      "mode": "V",
+      "fixed": [
+        73061,
+        73085
+      ],
+      "lost": [
+        73037,
+        73045,
+        73060,
+        73077,
+        73081
+      ]
+    },
+    {
+      "budget": null,
+      "mode": "R",
+      "fixed": [
+        73063
+      ],
+      "lost": []
+    },
+    {
+      "budget": null,
+      "mode": "M",
+      "fixed": [
+        73063
+      ],
+      "lost": []
+    },
+    {
+      "budget": null,
+      "mode": "ShM",
+      "fixed": [],
+      "lost": []
+    },
+    {
+      "budget": null,
+      "mode": "S0",
+      "fixed": [
+        73005,
+        73017,
+        73024,
+        73025,
+        73033,
+        73056,
+        73058,
+        73061,
+        73071,
+        73083,
+        73095
+      ],
+      "lost": [
+        73000,
+        73014,
+        73015,
+        73019,
+        73027,
+        73030,
+        73040,
+        73067,
+        73069
+      ]
+    },
+    {
+      "budget": null,
+      "mode": "S1",
+      "fixed": [
+        73005,
+        73017,
+        73024,
+        73025,
+        73033,
+        73036,
+        73056,
+        73058,
+        73061,
+        73071,
+        73083,
+        73095
+      ],
+      "lost": [
+        73015,
+        73019,
+        73027,
+        73040,
+        73067,
+        73069
+      ]
+    },
+    {
+      "budget": null,
+      "mode": "ShS",
+      "fixed": [
+        73017,
+        73024,
+        73025,
+        73033,
+        73036,
+        73056,
+        73058,
+        73061,
+        73071,
+        73083,
+        73085,
+        73095
+      ],
+      "lost": [
+        73014,
+        73015,
+        73019,
+        73027,
+        73029,
+        73030,
+        73040,
+        73053,
+        73067,
+        73069
+      ]
+    },
+    {
+      "budget": null,
+      "mode": "X",
+      "fixed": [
+        73005,
+        73017,
+        73023,
+        73024,
+        73025,
+        73036,
+        73056,
+        73058,
+        73061,
+        73071,
+        73083,
+        73085
+      ],
+      "lost": [
+        73015,
+        73019,
+        73027,
+        73037,
+        73045,
+        73057,
+        73067,
+        73069,
+        73072,
+        73081,
+        73093
+      ]
+    },
+    {
+      "budget": 2000000,
+      "mode": "P2",
+      "fixed": [],
+      "lost": [
+        73000,
+        73004,
+        73013,
+        73014,
+        73016,
+        73027,
+        73029,
+        73030,
+        73038,
+        73048,
+        73053,
+        73054,
+        73057,
+        73060,
+        73068,
+        73069,
+        73070,
+        73077,
+        73086,
+        73092
+      ]
+    },
+    {
+      "budget": 2000000,
+      "mode": "P8",
+      "fixed": [],
+      "lost": []
+    },
+    {
+      "budget": 2000000,
+      "mode": "A8",
+      "fixed": [
+        73009,
+        73065,
+        73085
+      ],
+      "lost": [
+        73000,
+        73013,
+        73016,
+        73044,
+        73053,
+        73064,
+        73069,
+        73077
+      ]
+    },
+    {
+      "budget": 2000000,
+      "mode": "V",
+      "fixed": [],
+      "lost": [
+        73060,
+        73077
+      ]
+    },
+    {
+      "budget": 2000000,
+      "mode": "R",
+      "fixed": [
+        73063
+      ],
+      "lost": []
+    },
+    {
+      "budget": 2000000,
+      "mode": "M",
+      "fixed": [
+        73063
+      ],
+      "lost": []
+    },
+    {
+      "budget": 2000000,
+      "mode": "ShM",
+      "fixed": [
+        73034
+      ],
+      "lost": []
+    },
+    {
+      "budget": 2000000,
+      "mode": "S0",
+      "fixed": [
+        73005,
+        73009,
+        73017,
+        73024,
+        73033,
+        73034,
+        73041,
+        73042,
+        73056,
+        73058,
+        73061,
+        73071,
+        73081,
+        73095
+      ],
+      "lost": [
+        73000,
+        73014,
+        73027,
+        73030,
+        73040,
+        73053,
+        73069,
+        73070,
+        73073,
+        73077
+      ]
+    },
+    {
+      "budget": 2000000,
+      "mode": "S1",
+      "fixed": [
+        73005,
+        73009,
+        73017,
+        73024,
+        73025,
+        73034,
+        73036,
+        73041,
+        73042,
+        73056,
+        73058,
+        73061,
+        73071,
+        73095
+      ],
+      "lost": [
+        73027,
+        73040,
+        73053,
+        73057,
+        73069,
+        73077
+      ]
+    },
+    {
+      "budget": 2000000,
+      "mode": "ShS",
+      "fixed": [
+        73009,
+        73017,
+        73024,
+        73033,
+        73034,
+        73036,
+        73041,
+        73056,
+        73058,
+        73061,
+        73071,
+        73074,
+        73081,
+        73085,
+        73093,
+        73095
+      ],
+      "lost": [
+        73014,
+        73026,
+        73027,
+        73029,
+        73030,
+        73040,
+        73053,
+        73069,
+        73070,
+        73073,
+        73077
+      ]
+    },
+    {
+      "budget": 2000000,
+      "mode": "X",
+      "fixed": [
+        73005,
+        73009,
+        73017,
+        73023,
+        73025,
+        73034,
+        73036,
+        73041,
+        73042,
+        73056,
+        73058,
+        73061,
+        73071
+      ],
+      "lost": [
+        73027,
+        73053,
+        73057,
+        73069,
+        73072,
+        73077
+      ]
+    }
+  ],
+  "cells": [
+    {
+      "budget": null,
+      "mode": "P2",
+      "cell": 0,
+      "n": 12,
+      "success": 7,
+      "meanWork": 162504.33333333334
+    },
+    {
+      "budget": null,
+      "mode": "P2",
+      "cell": 1,
+      "n": 12,
+      "success": 4,
+      "meanWork": 715183.4166666666
+    },
+    {
+      "budget": null,
+      "mode": "P2",
+      "cell": 2,
+      "n": 12,
+      "success": 4,
+      "meanWork": 658528.4166666666
+    },
+    {
+      "budget": null,
+      "mode": "P2",
+      "cell": 3,
+      "n": 12,
+      "success": 0,
+      "meanWork": 2493169
+    },
+    {
+      "budget": null,
+      "mode": "P2",
+      "cell": 4,
+      "n": 12,
+      "success": 7,
+      "meanWork": 169924.33333333334
+    },
+    {
+      "budget": null,
+      "mode": "P2",
+      "cell": 5,
+      "n": 12,
+      "success": 1,
+      "meanWork": 1069345.3333333333
+    },
+    {
+      "budget": null,
+      "mode": "P2",
+      "cell": 6,
+      "n": 12,
+      "success": 6,
+      "meanWork": 563708.25
+    },
+    {
+      "budget": null,
+      "mode": "P2",
+      "cell": 7,
+      "n": 12,
+      "success": 0,
+      "meanWork": 2564038.9166666665
+    },
+    {
+      "budget": null,
+      "mode": "P8",
+      "cell": 0,
+      "n": 12,
+      "success": 10,
+      "meanWork": 419307.6666666667
+    },
+    {
+      "budget": null,
+      "mode": "P8",
+      "cell": 1,
+      "n": 12,
+      "success": 8,
+      "meanWork": 2120488.5833333335
+    },
+    {
+      "budget": null,
+      "mode": "P8",
+      "cell": 2,
+      "n": 12,
+      "success": 7,
+      "meanWork": 2111724.0833333335
+    },
+    {
+      "budget": null,
+      "mode": "P8",
+      "cell": 3,
+      "n": 12,
+      "success": 4,
+      "meanWork": 5236317.333333333
+    },
+    {
+      "budget": null,
+      "mode": "P8",
+      "cell": 4,
+      "n": 12,
+      "success": 11,
+      "meanWork": 271216
+    },
+    {
+      "budget": null,
+      "mode": "P8",
+      "cell": 5,
+      "n": 12,
+      "success": 9,
+      "meanWork": 2331060.1666666665
+    },
+    {
+      "budget": null,
+      "mode": "P8",
+      "cell": 6,
+      "n": 12,
+      "success": 12,
+      "meanWork": 680353.3333333334
+    },
+    {
+      "budget": null,
+      "mode": "P8",
+      "cell": 7,
+      "n": 12,
+      "success": 1,
+      "meanWork": 5638045.5
+    },
+    {
+      "budget": null,
+      "mode": "A8",
+      "cell": 0,
+      "n": 12,
+      "success": 10,
+      "meanWork": 1509826.5833333333
+    },
+    {
+      "budget": null,
+      "mode": "A8",
+      "cell": 1,
+      "n": 12,
+      "success": 7,
+      "meanWork": 2915141
+    },
+    {
+      "budget": null,
+      "mode": "A8",
+      "cell": 2,
+      "n": 12,
+      "success": 7,
+      "meanWork": 2111724.0833333335
+    },
+    {
+      "budget": null,
+      "mode": "A8",
+      "cell": 3,
+      "n": 12,
+      "success": 4,
+      "meanWork": 5236317.333333333
+    },
+    {
+      "budget": null,
+      "mode": "A8",
+      "cell": 4,
+      "n": 12,
+      "success": 11,
+      "meanWork": 927556.3333333334
+    },
+    {
+      "budget": null,
+      "mode": "A8",
+      "cell": 5,
+      "n": 12,
+      "success": 4,
+      "meanWork": 4556034.833333333
+    },
+    {
+      "budget": null,
+      "mode": "A8",
+      "cell": 6,
+      "n": 12,
+      "success": 12,
+      "meanWork": 680353.3333333334
+    },
+    {
+      "budget": null,
+      "mode": "A8",
+      "cell": 7,
+      "n": 12,
+      "success": 1,
+      "meanWork": 5638045.5
+    },
+    {
+      "budget": null,
+      "mode": "V",
+      "cell": 0,
+      "n": 12,
+      "success": 10,
+      "meanWork": 661571.8333333334
+    },
+    {
+      "budget": null,
+      "mode": "V",
+      "cell": 1,
+      "n": 12,
+      "success": 7,
+      "meanWork": 3185678.75
+    },
+    {
+      "budget": null,
+      "mode": "V",
+      "cell": 2,
+      "n": 12,
+      "success": 7,
+      "meanWork": 2111724.0833333335
+    },
+    {
+      "budget": null,
+      "mode": "V",
+      "cell": 3,
+      "n": 12,
+      "success": 4,
+      "meanWork": 5236317.333333333
+    },
+    {
+      "budget": null,
+      "mode": "V",
+      "cell": 4,
+      "n": 12,
+      "success": 10,
+      "meanWork": 534141.75
+    },
+    {
+      "budget": null,
+      "mode": "V",
+      "cell": 5,
+      "n": 12,
+      "success": 8,
+      "meanWork": 2977328.9166666665
+    },
+    {
+      "budget": null,
+      "mode": "V",
+      "cell": 6,
+      "n": 12,
+      "success": 12,
+      "meanWork": 680353.3333333334
+    },
+    {
+      "budget": null,
+      "mode": "V",
+      "cell": 7,
+      "n": 12,
+      "success": 1,
+      "meanWork": 5638045.5
+    },
+    {
+      "budget": null,
+      "mode": "R",
+      "cell": 0,
+      "n": 12,
+      "success": 10,
+      "meanWork": 419411.6666666667
+    },
+    {
+      "budget": null,
+      "mode": "R",
+      "cell": 1,
+      "n": 12,
+      "success": 8,
+      "meanWork": 2120690.5833333335
+    },
+    {
+      "budget": null,
+      "mode": "R",
+      "cell": 2,
+      "n": 12,
+      "success": 7,
+      "meanWork": 2111896.0833333335
+    },
+    {
+      "budget": null,
+      "mode": "R",
+      "cell": 3,
+      "n": 12,
+      "success": 4,
+      "meanWork": 5236619.333333333
+    },
+    {
+      "budget": null,
+      "mode": "R",
+      "cell": 4,
+      "n": 12,
+      "success": 11,
+      "meanWork": 262135.5
+    },
+    {
+      "budget": null,
+      "mode": "R",
+      "cell": 5,
+      "n": 12,
+      "success": 9,
+      "meanWork": 2331262.1666666665
+    },
+    {
+      "budget": null,
+      "mode": "R",
+      "cell": 6,
+      "n": 12,
+      "success": 12,
+      "meanWork": 611307.75
+    },
+    {
+      "budget": null,
+      "mode": "R",
+      "cell": 7,
+      "n": 12,
+      "success": 2,
+      "meanWork": 5191299.833333333
+    },
+    {
+      "budget": null,
+      "mode": "M",
+      "cell": 0,
+      "n": 12,
+      "success": 10,
+      "meanWork": 419309.6666666667
+    },
+    {
+      "budget": null,
+      "mode": "M",
+      "cell": 1,
+      "n": 12,
+      "success": 8,
+      "meanWork": 2120490.5833333335
+    },
+    {
+      "budget": null,
+      "mode": "M",
+      "cell": 2,
+      "n": 12,
+      "success": 7,
+      "meanWork": 2111726.0833333335
+    },
+    {
+      "budget": null,
+      "mode": "M",
+      "cell": 3,
+      "n": 12,
+      "success": 4,
+      "meanWork": 5236319.333333333
+    },
+    {
+      "budget": null,
+      "mode": "M",
+      "cell": 4,
+      "n": 12,
+      "success": 11,
+      "meanWork": 226814.91666666666
+    },
+    {
+      "budget": null,
+      "mode": "M",
+      "cell": 5,
+      "n": 12,
+      "success": 9,
+      "meanWork": 2331062.1666666665
+    },
+    {
+      "budget": null,
+      "mode": "M",
+      "cell": 6,
+      "n": 12,
+      "success": 12,
+      "meanWork": 575224.1666666666
+    },
+    {
+      "budget": null,
+      "mode": "M",
+      "cell": 7,
+      "n": 12,
+      "success": 2,
+      "meanWork": 5166534.666666667
+    },
+    {
+      "budget": null,
+      "mode": "ShM",
+      "cell": 0,
+      "n": 12,
+      "success": 10,
+      "meanWork": 433674.5
+    },
+    {
+      "budget": null,
+      "mode": "ShM",
+      "cell": 1,
+      "n": 12,
+      "success": 8,
+      "meanWork": 2120490.5833333335
+    },
+    {
+      "budget": null,
+      "mode": "ShM",
+      "cell": 2,
+      "n": 12,
+      "success": 7,
+      "meanWork": 2056521.5
+    },
+    {
+      "budget": null,
+      "mode": "ShM",
+      "cell": 3,
+      "n": 12,
+      "success": 4,
+      "meanWork": 5188128.416666667
+    },
+    {
+      "budget": null,
+      "mode": "ShM",
+      "cell": 4,
+      "n": 12,
+      "success": 11,
+      "meanWork": 271218
+    },
+    {
+      "budget": null,
+      "mode": "ShM",
+      "cell": 5,
+      "n": 12,
+      "success": 9,
+      "meanWork": 2331062.1666666665
+    },
+    {
+      "budget": null,
+      "mode": "ShM",
+      "cell": 6,
+      "n": 12,
+      "success": 12,
+      "meanWork": 680355.3333333334
+    },
+    {
+      "budget": null,
+      "mode": "ShM",
+      "cell": 7,
+      "n": 12,
+      "success": 1,
+      "meanWork": 5638047.5
+    },
+    {
+      "budget": null,
+      "mode": "S0",
+      "cell": 0,
+      "n": 12,
+      "success": 10,
+      "meanWork": 650106
+    },
+    {
+      "budget": null,
+      "mode": "S0",
+      "cell": 1,
+      "n": 12,
+      "success": 11,
+      "meanWork": 1433175.9166666667
+    },
+    {
+      "budget": null,
+      "mode": "S0",
+      "cell": 2,
+      "n": 12,
+      "success": 8,
+      "meanWork": 1544613.0833333333
+    },
+    {
+      "budget": null,
+      "mode": "S0",
+      "cell": 3,
+      "n": 12,
+      "success": 2,
+      "meanWork": 5297926.416666667
+    },
+    {
+      "budget": null,
+      "mode": "S0",
+      "cell": 4,
+      "n": 12,
+      "success": 11,
+      "meanWork": 295493.6666666667
+    },
+    {
+      "budget": null,
+      "mode": "S0",
+      "cell": 5,
+      "n": 12,
+      "success": 10,
+      "meanWork": 2194383.5
+    },
+    {
+      "budget": null,
+      "mode": "S0",
+      "cell": 6,
+      "n": 12,
+      "success": 10,
+      "meanWork": 1319505.25
+    },
+    {
+      "budget": null,
+      "mode": "S0",
+      "cell": 7,
+      "n": 12,
+      "success": 2,
+      "meanWork": 4938892.75
+    },
+    {
+      "budget": null,
+      "mode": "S1",
+      "cell": 0,
+      "n": 12,
+      "success": 11,
+      "meanWork": 430331.0833333333
+    },
+    {
+      "budget": null,
+      "mode": "S1",
+      "cell": 1,
+      "n": 12,
+      "success": 11,
+      "meanWork": 1351213.75
+    },
+    {
+      "budget": null,
+      "mode": "S1",
+      "cell": 2,
+      "n": 12,
+      "success": 8,
+      "meanWork": 1544613.0833333333
+    },
+    {
+      "budget": null,
+      "mode": "S1",
+      "cell": 3,
+      "n": 12,
+      "success": 2,
+      "meanWork": 5297926.416666667
+    },
+    {
+      "budget": null,
+      "mode": "S1",
+      "cell": 4,
+      "n": 12,
+      "success": 12,
+      "meanWork": 336637
+    },
+    {
+      "budget": null,
+      "mode": "S1",
+      "cell": 5,
+      "n": 12,
+      "success": 10,
+      "meanWork": 2194383.5
+    },
+    {
+      "budget": null,
+      "mode": "S1",
+      "cell": 6,
+      "n": 12,
+      "success": 12,
+      "meanWork": 481100.9166666667
+    },
+    {
+      "budget": null,
+      "mode": "S1",
+      "cell": 7,
+      "n": 12,
+      "success": 2,
+      "meanWork": 4938892.75
+    },
+    {
+      "budget": null,
+      "mode": "ShS",
+      "cell": 0,
+      "n": 12,
+      "success": 11,
+      "meanWork": 430331.0833333333
+    },
+    {
+      "budget": null,
+      "mode": "ShS",
+      "cell": 1,
+      "n": 12,
+      "success": 11,
+      "meanWork": 1433175.9166666667
+    },
+    {
+      "budget": null,
+      "mode": "ShS",
+      "cell": 2,
+      "n": 12,
+      "success": 8,
+      "meanWork": 1698192.0833333333
+    },
+    {
+      "budget": null,
+      "mode": "ShS",
+      "cell": 3,
+      "n": 12,
+      "success": 2,
+      "meanWork": 5297926.416666667
+    },
+    {
+      "budget": null,
+      "mode": "ShS",
+      "cell": 4,
+      "n": 12,
+      "success": 12,
+      "meanWork": 336637
+    },
+    {
+      "budget": null,
+      "mode": "ShS",
+      "cell": 5,
+      "n": 12,
+      "success": 8,
+      "meanWork": 2200100.25
+    },
+    {
+      "budget": null,
+      "mode": "ShS",
+      "cell": 6,
+      "n": 12,
+      "success": 10,
+      "meanWork": 1319505.25
+    },
+    {
+      "budget": null,
+      "mode": "ShS",
+      "cell": 7,
+      "n": 12,
+      "success": 2,
+      "meanWork": 4938892.75
+    },
+    {
+      "budget": null,
+      "mode": "X",
+      "cell": 0,
+      "n": 12,
+      "success": 11,
+      "meanWork": 812211.5
+    },
+    {
+      "budget": null,
+      "mode": "X",
+      "cell": 1,
+      "n": 12,
+      "success": 8,
+      "meanWork": 2062335.0833333333
+    },
+    {
+      "budget": null,
+      "mode": "X",
+      "cell": 2,
+      "n": 12,
+      "success": 8,
+      "meanWork": 1544615.0833333333
+    },
+    {
+      "budget": null,
+      "mode": "X",
+      "cell": 3,
+      "n": 12,
+      "success": 2,
+      "meanWork": 5297928.416666667
+    },
+    {
+      "budget": null,
+      "mode": "X",
+      "cell": 4,
+      "n": 12,
+      "success": 12,
+      "meanWork": 303732.9166666667
+    },
+    {
+      "budget": null,
+      "mode": "X",
+      "cell": 5,
+      "n": 12,
+      "success": 8,
+      "meanWork": 2981524
+    },
+    {
+      "budget": null,
+      "mode": "X",
+      "cell": 6,
+      "n": 12,
+      "success": 12,
+      "meanWork": 417157.75
+    },
+    {
+      "budget": null,
+      "mode": "X",
+      "cell": 7,
+      "n": 12,
+      "success": 2,
+      "meanWork": 4844255.75
+    },
+    {
+      "budget": 2000000,
+      "mode": "P2",
+      "cell": 0,
+      "n": 12,
+      "success": 7,
+      "meanWork": 162504.33333333334
+    },
+    {
+      "budget": 2000000,
+      "mode": "P2",
+      "cell": 1,
+      "n": 12,
+      "success": 4,
+      "meanWork": 715183.4166666666
+    },
+    {
+      "budget": 2000000,
+      "mode": "P2",
+      "cell": 2,
+      "n": 12,
+      "success": 4,
+      "meanWork": 658528.4166666666
+    },
+    {
+      "budget": 2000000,
+      "mode": "P2",
+      "cell": 3,
+      "n": 12,
+      "success": 0,
+      "meanWork": 1952518.9166666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "P2",
+      "cell": 4,
+      "n": 12,
+      "success": 7,
+      "meanWork": 169924.33333333334
+    },
+    {
+      "budget": 2000000,
+      "mode": "P2",
+      "cell": 5,
+      "n": 12,
+      "success": 1,
+      "meanWork": 1069345.3333333333
+    },
+    {
+      "budget": 2000000,
+      "mode": "P2",
+      "cell": 6,
+      "n": 12,
+      "success": 6,
+      "meanWork": 563708.25
+    },
+    {
+      "budget": 2000000,
+      "mode": "P2",
+      "cell": 7,
+      "n": 12,
+      "success": 0,
+      "meanWork": 1995906.1666666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "P8",
+      "cell": 0,
+      "n": 12,
+      "success": 10,
+      "meanWork": 419307.6666666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "P8",
+      "cell": 1,
+      "n": 12,
+      "success": 5,
+      "meanWork": 1369151.6666666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "P8",
+      "cell": 2,
+      "n": 12,
+      "success": 4,
+      "meanWork": 1422605.25
+    },
+    {
+      "budget": 2000000,
+      "mode": "P8",
+      "cell": 3,
+      "n": 12,
+      "success": 1,
+      "meanWork": 1996771.25
+    },
+    {
+      "budget": 2000000,
+      "mode": "P8",
+      "cell": 4,
+      "n": 12,
+      "success": 11,
+      "meanWork": 271216
+    },
+    {
+      "budget": 2000000,
+      "mode": "P8",
+      "cell": 5,
+      "n": 12,
+      "success": 6,
+      "meanWork": 1578939.9166666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "P8",
+      "cell": 6,
+      "n": 12,
+      "success": 12,
+      "meanWork": 680353.3333333334
+    },
+    {
+      "budget": 2000000,
+      "mode": "P8",
+      "cell": 7,
+      "n": 12,
+      "success": 0,
+      "meanWork": 1999999.6666666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "A8",
+      "cell": 0,
+      "n": 12,
+      "success": 7,
+      "meanWork": 1255016.5833333333
+    },
+    {
+      "budget": 2000000,
+      "mode": "A8",
+      "cell": 1,
+      "n": 12,
+      "success": 7,
+      "meanWork": 1298819.9166666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "A8",
+      "cell": 2,
+      "n": 12,
+      "success": 4,
+      "meanWork": 1422605.25
+    },
+    {
+      "budget": 2000000,
+      "mode": "A8",
+      "cell": 3,
+      "n": 12,
+      "success": 1,
+      "meanWork": 1996771.25
+    },
+    {
+      "budget": 2000000,
+      "mode": "A8",
+      "cell": 4,
+      "n": 12,
+      "success": 10,
+      "meanWork": 802479.1666666666
+    },
+    {
+      "budget": 2000000,
+      "mode": "A8",
+      "cell": 5,
+      "n": 12,
+      "success": 3,
+      "meanWork": 1761082.3333333333
+    },
+    {
+      "budget": 2000000,
+      "mode": "A8",
+      "cell": 6,
+      "n": 12,
+      "success": 12,
+      "meanWork": 680353.3333333334
+    },
+    {
+      "budget": 2000000,
+      "mode": "A8",
+      "cell": 7,
+      "n": 12,
+      "success": 0,
+      "meanWork": 1999999.6666666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "V",
+      "cell": 0,
+      "n": 12,
+      "success": 10,
+      "meanWork": 533876.8333333334
+    },
+    {
+      "budget": 2000000,
+      "mode": "V",
+      "cell": 1,
+      "n": 12,
+      "success": 5,
+      "meanWork": 1369151.6666666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "V",
+      "cell": 2,
+      "n": 12,
+      "success": 4,
+      "meanWork": 1422605.25
+    },
+    {
+      "budget": 2000000,
+      "mode": "V",
+      "cell": 3,
+      "n": 12,
+      "success": 1,
+      "meanWork": 1996771.25
+    },
+    {
+      "budget": 2000000,
+      "mode": "V",
+      "cell": 4,
+      "n": 12,
+      "success": 10,
+      "meanWork": 462133
+    },
+    {
+      "budget": 2000000,
+      "mode": "V",
+      "cell": 5,
+      "n": 12,
+      "success": 5,
+      "meanWork": 1583280.6666666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "V",
+      "cell": 6,
+      "n": 12,
+      "success": 12,
+      "meanWork": 680353.3333333334
+    },
+    {
+      "budget": 2000000,
+      "mode": "V",
+      "cell": 7,
+      "n": 12,
+      "success": 0,
+      "meanWork": 1999999.6666666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "R",
+      "cell": 0,
+      "n": 12,
+      "success": 10,
+      "meanWork": 419411.6666666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "R",
+      "cell": 1,
+      "n": 12,
+      "success": 5,
+      "meanWork": 1369235.3333333333
+    },
+    {
+      "budget": 2000000,
+      "mode": "R",
+      "cell": 2,
+      "n": 12,
+      "success": 4,
+      "meanWork": 1422663
+    },
+    {
+      "budget": 2000000,
+      "mode": "R",
+      "cell": 3,
+      "n": 12,
+      "success": 1,
+      "meanWork": 1996796.0833333333
+    },
+    {
+      "budget": 2000000,
+      "mode": "R",
+      "cell": 4,
+      "n": 12,
+      "success": 11,
+      "meanWork": 262135.5
+    },
+    {
+      "budget": 2000000,
+      "mode": "R",
+      "cell": 5,
+      "n": 12,
+      "success": 6,
+      "meanWork": 1579040.9166666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "R",
+      "cell": 6,
+      "n": 12,
+      "success": 12,
+      "meanWork": 611307.75
+    },
+    {
+      "budget": 2000000,
+      "mode": "R",
+      "cell": 7,
+      "n": 12,
+      "success": 1,
+      "meanWork": 1869850.4166666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "M",
+      "cell": 0,
+      "n": 12,
+      "success": 10,
+      "meanWork": 419309.6666666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "M",
+      "cell": 1,
+      "n": 12,
+      "success": 5,
+      "meanWork": 1369152.1666666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "M",
+      "cell": 2,
+      "n": 12,
+      "success": 4,
+      "meanWork": 1422606.0833333333
+    },
+    {
+      "budget": 2000000,
+      "mode": "M",
+      "cell": 3,
+      "n": 12,
+      "success": 1,
+      "meanWork": 1996771.4166666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "M",
+      "cell": 4,
+      "n": 12,
+      "success": 11,
+      "meanWork": 226814.91666666666
+    },
+    {
+      "budget": 2000000,
+      "mode": "M",
+      "cell": 5,
+      "n": 12,
+      "success": 6,
+      "meanWork": 1578940.9166666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "M",
+      "cell": 6,
+      "n": 12,
+      "success": 12,
+      "meanWork": 575224.1666666666
+    },
+    {
+      "budget": 2000000,
+      "mode": "M",
+      "cell": 7,
+      "n": 12,
+      "success": 1,
+      "meanWork": 1848987.0833333333
+    },
+    {
+      "budget": 2000000,
+      "mode": "ShM",
+      "cell": 0,
+      "n": 12,
+      "success": 10,
+      "meanWork": 433674.5
+    },
+    {
+      "budget": 2000000,
+      "mode": "ShM",
+      "cell": 1,
+      "n": 12,
+      "success": 5,
+      "meanWork": 1369152.1666666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "ShM",
+      "cell": 2,
+      "n": 12,
+      "success": 5,
+      "meanWork": 1404395.6666666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "ShM",
+      "cell": 3,
+      "n": 12,
+      "success": 1,
+      "meanWork": 1996794.1666666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "ShM",
+      "cell": 4,
+      "n": 12,
+      "success": 11,
+      "meanWork": 271218
+    },
+    {
+      "budget": 2000000,
+      "mode": "ShM",
+      "cell": 5,
+      "n": 12,
+      "success": 6,
+      "meanWork": 1578940.9166666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "ShM",
+      "cell": 6,
+      "n": 12,
+      "success": 12,
+      "meanWork": 680355.3333333334
+    },
+    {
+      "budget": 2000000,
+      "mode": "ShM",
+      "cell": 7,
+      "n": 12,
+      "success": 0,
+      "meanWork": 1999999.8333333333
+    },
+    {
+      "budget": 2000000,
+      "mode": "S0",
+      "cell": 0,
+      "n": 12,
+      "success": 10,
+      "meanWork": 650106
+    },
+    {
+      "budget": 2000000,
+      "mode": "S0",
+      "cell": 1,
+      "n": 12,
+      "success": 9,
+      "meanWork": 1221623.3333333333
+    },
+    {
+      "budget": 2000000,
+      "mode": "S0",
+      "cell": 2,
+      "n": 12,
+      "success": 7,
+      "meanWork": 1150787.0833333333
+    },
+    {
+      "budget": 2000000,
+      "mode": "S0",
+      "cell": 3,
+      "n": 12,
+      "success": 0,
+      "meanWork": 1999999.6666666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "S0",
+      "cell": 4,
+      "n": 12,
+      "success": 11,
+      "meanWork": 295493.6666666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "S0",
+      "cell": 5,
+      "n": 12,
+      "success": 5,
+      "meanWork": 1522337
+    },
+    {
+      "budget": 2000000,
+      "mode": "S0",
+      "cell": 6,
+      "n": 12,
+      "success": 9,
+      "meanWork": 1112773.6666666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "S0",
+      "cell": 7,
+      "n": 12,
+      "success": 2,
+      "meanWork": 1822112.3333333333
+    },
+    {
+      "budget": 2000000,
+      "mode": "S1",
+      "cell": 0,
+      "n": 12,
+      "success": 11,
+      "meanWork": 430331.0833333333
+    },
+    {
+      "budget": 2000000,
+      "mode": "S1",
+      "cell": 1,
+      "n": 12,
+      "success": 8,
+      "meanWork": 1056134.5
+    },
+    {
+      "budget": 2000000,
+      "mode": "S1",
+      "cell": 2,
+      "n": 12,
+      "success": 7,
+      "meanWork": 1150787.0833333333
+    },
+    {
+      "budget": 2000000,
+      "mode": "S1",
+      "cell": 3,
+      "n": 12,
+      "success": 0,
+      "meanWork": 1999999.6666666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "S1",
+      "cell": 4,
+      "n": 12,
+      "success": 12,
+      "meanWork": 336637
+    },
+    {
+      "budget": 2000000,
+      "mode": "S1",
+      "cell": 5,
+      "n": 12,
+      "success": 5,
+      "meanWork": 1522337
+    },
+    {
+      "budget": 2000000,
+      "mode": "S1",
+      "cell": 6,
+      "n": 12,
+      "success": 12,
+      "meanWork": 481100.9166666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "S1",
+      "cell": 7,
+      "n": 12,
+      "success": 2,
+      "meanWork": 1822112.3333333333
+    },
+    {
+      "budget": 2000000,
+      "mode": "ShS",
+      "cell": 0,
+      "n": 12,
+      "success": 11,
+      "meanWork": 430331.0833333333
+    },
+    {
+      "budget": 2000000,
+      "mode": "ShS",
+      "cell": 1,
+      "n": 12,
+      "success": 9,
+      "meanWork": 1221623.3333333333
+    },
+    {
+      "budget": 2000000,
+      "mode": "ShS",
+      "cell": 2,
+      "n": 12,
+      "success": 6,
+      "meanWork": 1189374
+    },
+    {
+      "budget": 2000000,
+      "mode": "ShS",
+      "cell": 3,
+      "n": 12,
+      "success": 0,
+      "meanWork": 1999999.6666666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "ShS",
+      "cell": 4,
+      "n": 12,
+      "success": 12,
+      "meanWork": 336637
+    },
+    {
+      "budget": 2000000,
+      "mode": "ShS",
+      "cell": 5,
+      "n": 12,
+      "success": 5,
+      "meanWork": 1573051.5833333333
+    },
+    {
+      "budget": 2000000,
+      "mode": "ShS",
+      "cell": 6,
+      "n": 12,
+      "success": 9,
+      "meanWork": 1112773.6666666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "ShS",
+      "cell": 7,
+      "n": 12,
+      "success": 2,
+      "meanWork": 1822112.3333333333
+    },
+    {
+      "budget": 2000000,
+      "mode": "X",
+      "cell": 0,
+      "n": 12,
+      "success": 10,
+      "meanWork": 680604.25
+    },
+    {
+      "budget": 2000000,
+      "mode": "X",
+      "cell": 1,
+      "n": 12,
+      "success": 8,
+      "meanWork": 1056135.75
+    },
+    {
+      "budget": 2000000,
+      "mode": "X",
+      "cell": 2,
+      "n": 12,
+      "success": 7,
+      "meanWork": 1150787.9166666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "X",
+      "cell": 3,
+      "n": 12,
+      "success": 0,
+      "meanWork": 2000000
+    },
+    {
+      "budget": 2000000,
+      "mode": "X",
+      "cell": 4,
+      "n": 12,
+      "success": 12,
+      "meanWork": 303732.9166666667
+    },
+    {
+      "budget": 2000000,
+      "mode": "X",
+      "cell": 5,
+      "n": 12,
+      "success": 5,
+      "meanWork": 1522337.5833333333
+    },
+    {
+      "budget": 2000000,
+      "mode": "X",
+      "cell": 6,
+      "n": 12,
+      "success": 12,
+      "meanWork": 417157.75
+    },
+    {
+      "budget": 2000000,
+      "mode": "X",
+      "cell": 7,
+      "n": 12,
+      "success": 2,
+      "meanWork": 1712181.0833333333
+    }
+  ],
+  "verifyMax": {
+    "err": 6.908054375445418e-15,
+    "orth": 4.6629367034256575e-15,
+    "ports": 0,
+    "sym": 6.908054375445419e-16,
+    "resp": 9.812143617288284e-14,
+    "denseMultiplyTerms": 590336,
+    "responseSolves": 10
+  },
+  "generationMax": {
+    "err": 7.47939721852737e-16,
+    "orth": 1.3322676295501878e-15,
+    "ports": 0,
+    "sym": 2.4671622769447924e-16,
+    "resp": 1.2393921230563367e-14,
+    "denseMultiplyTerms": 7168,
+    "responseSolves": 10
+  },
+  "predictions": {
+    "P1": {
+      "predicted": [
+        73000,
+        73001,
+        73002,
+        73003,
+        73004,
+        73005,
+        73006,
+        73007,
+        73008,
+        73009,
+        73010,
+        73011,
+        73012,
+        73013,
+        73014,
+        73015,
+        73016,
+        73017,
+        73018,
+        73019,
+        73020,
+        73021,
+        73022,
+        73023,
+        73024,
+        73025,
+        73026,
+        73027,
+        73028,
+        73029,
+        73030,
+        73031,
+        73032,
+        73033,
+        73034,
+        73035,
+        73036,
+        73037,
+        73038,
+        73039,
+        73040,
+        73041,
+        73042,
+        73043,
+        73044,
+        73045,
+        73046,
+        73047,
+        73048,
+        73049,
+        73050,
+        73051,
+        73052,
+        73053,
+        73054,
+        73055,
+        73056,
+        73057,
+        73058,
+        73059,
+        73060,
+        73061,
+        73062,
+        73063,
+        73064,
+        73065,
+        73066,
+        73067,
+        73068,
+        73069,
+        73070,
+        73071,
+        73072,
+        73073,
+        73074,
+        73075,
+        73076,
+        73077,
+        73078,
+        73079,
+        73080,
+        73081,
+        73082,
+        73083,
+        73084,
+        73085,
+        73086,
+        73087,
+        73088,
+        73089,
+        73090,
+        73091,
+        73092,
+        73093,
+        73094,
+        73095
+      ],
+      "fixed": [
+        73000,
+        73001,
+        73002,
+        73003,
+        73004,
+        73005,
+        73006,
+        73007,
+        73008,
+        73009,
+        73010,
+        73011,
+        73012,
+        73013,
+        73014,
+        73015,
+        73016,
+        73017,
+        73018,
+        73019,
+        73020,
+        73021,
+        73022,
+        73023,
+        73024,
+        73025,
+        73026,
+        73027,
+        73028,
+        73029,
+        73030,
+        73031,
+        73032,
+        73033,
+        73034,
+        73035,
+        73036,
+        73037,
+        73038,
+        73039,
+        73040,
+        73041,
+        73042,
+        73043,
+        73044,
+        73045,
+        73046,
+        73047,
+        73048,
+        73049,
+        73050,
+        73051,
+        73052,
+        73053,
+        73054,
+        73055,
+        73056,
+        73057,
+        73058,
+        73059,
+        73060,
+        73061,
+        73062,
+        73063,
+        73064,
+        73065,
+        73066,
+        73067,
+        73068,
+        73069,
+        73070,
+        73071,
+        73072,
+        73073,
+        73074,
+        73075,
+        73076,
+        73077,
+        73078,
+        73079,
+        73080,
+        73081,
+        73082,
+        73083,
+        73084,
+        73085,
+        73086,
+        73087,
+        73088,
+        73089,
+        73090,
+        73091,
+        73092,
+        73093,
+        73094,
+        73095
+      ],
+      "missed": []
+    },
+    "P2": {
+      "predicted": [
+        73000,
+        73001,
+        73002,
+        73003,
+        73004,
+        73005,
+        73006,
+        73007,
+        73008,
+        73009,
+        73010,
+        73011,
+        73012,
+        73013,
+        73014,
+        73015,
+        73016,
+        73017,
+        73018,
+        73019,
+        73020,
+        73021,
+        73022,
+        73023,
+        73024,
+        73025,
+        73026,
+        73027,
+        73028,
+        73029,
+        73030,
+        73031,
+        73032,
+        73033,
+        73034,
+        73035,
+        73036,
+        73037,
+        73038,
+        73039,
+        73040,
+        73041,
+        73042,
+        73043,
+        73044,
+        73045,
+        73046,
+        73047,
+        73048,
+        73049,
+        73050,
+        73051,
+        73052,
+        73053,
+        73054,
+        73055,
+        73056,
+        73057,
+        73058,
+        73059,
+        73060,
+        73061,
+        73062,
+        73063,
+        73064,
+        73065,
+        73066,
+        73067,
+        73068,
+        73069,
+        73070,
+        73071,
+        73072,
+        73073,
+        73074,
+        73075,
+        73076,
+        73077,
+        73078,
+        73079,
+        73080,
+        73081,
+        73082,
+        73083,
+        73084,
+        73085,
+        73086,
+        73087,
+        73088,
+        73089,
+        73090,
+        73091,
+        73092,
+        73093,
+        73094,
+        73095
+      ],
+      "fixed": [
+        73000,
+        73001,
+        73002,
+        73003,
+        73004,
+        73005,
+        73006,
+        73007,
+        73008,
+        73009,
+        73010,
+        73011,
+        73012,
+        73013,
+        73014,
+        73015,
+        73016,
+        73017,
+        73018,
+        73019,
+        73020,
+        73021,
+        73022,
+        73023,
+        73024,
+        73025,
+        73026,
+        73027,
+        73028,
+        73029,
+        73030,
+        73031,
+        73032,
+        73033,
+        73034,
+        73035,
+        73036,
+        73037,
+        73038,
+        73039,
+        73040,
+        73041,
+        73042,
+        73043,
+        73044,
+        73045,
+        73046,
+        73047,
+        73048,
+        73049,
+        73050,
+        73051,
+        73052,
+        73053,
+        73054,
+        73055,
+        73056,
+        73057,
+        73058,
+        73059,
+        73060,
+        73061,
+        73062,
+        73063,
+        73064,
+        73065,
+        73066,
+        73067,
+        73068,
+        73069,
+        73070,
+        73071,
+        73072,
+        73073,
+        73074,
+        73075,
+        73076,
+        73077,
+        73078,
+        73079,
+        73080,
+        73081,
+        73082,
+        73083,
+        73084,
+        73085,
+        73086,
+        73087,
+        73088,
+        73089,
+        73090,
+        73091,
+        73092,
+        73093,
+        73094,
+        73095
+      ],
+      "missed": []
+    },
+    "nonemptyMotifIds": [
+      73004,
+      73006,
+      73007,
+      73012,
+      73014,
+      73015,
+      73020,
+      73022,
+      73023,
+      73028,
+      73030,
+      73031,
+      73036,
+      73038,
+      73039,
+      73044,
+      73046,
+      73047,
+      73052,
+      73054,
+      73055,
+      73060,
+      73062,
+      73063,
+      73068,
+      73070,
+      73071,
+      73076,
+      73078,
+      73079,
+      73084,
+      73086,
+      73087,
+      73092,
+      73094,
+      73095
+    ]
+  },
+  "rows": 2112,
+  "rawFiles": [
+    "rotation_organs_target_00.json",
+    "rotation_organs_target_01.json",
+    "rotation_organs_target_02.json",
+    "rotation_organs_target_03.json",
+    "rotation_organs_target_04.json",
+    "rotation_organs_target_05.json",
+    "rotation_organs_target_06.json",
+    "rotation_organs_target_07.json",
+    "rotation_organs_target_08.json",
+    "rotation_organs_target_09.json",
+    "rotation_organs_target_10.json",
+    "rotation_organs_target_11.json"
+  ]
+}
