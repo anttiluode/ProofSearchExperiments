@@ -1,0 +1,307 @@
+{
+  "multi": [
+    {
+      "neg": false,
+      "n": 64,
+      "top": 64,
+      "shadow": 64,
+      "blind": 1011.6875,
+      "wave": 3699.28125,
+      "guided": 223.875,
+      "combined": 3923.15625,
+      "full": 1804.359375,
+      "proofEdges": 12.0625
+    },
+    {
+      "neg": true,
+      "n": 64,
+      "top": 0,
+      "shadow": 0,
+      "blind": 1804.359375,
+      "wave": 3699.28125,
+      "guided": 1804.359375,
+      "combined": 5503.640625,
+      "full": 1804.359375,
+      "proofEdges": 0
+    }
+  ],
+  "phase": [
+    {
+      "N": 512,
+      "D": 64,
+      "k": 2,
+      "top": 63,
+      "positive": 1.0136502054604313,
+      "negative": -0.005648756922049094,
+      "codebookBytes": 1572864,
+      "encodingAdds": 6144
+    },
+    {
+      "N": 512,
+      "D": 64,
+      "k": 4,
+      "top": 34,
+      "positive": 1.0154302196796874,
+      "negative": 0.03794761620035018,
+      "codebookBytes": 1572864,
+      "encodingAdds": 12288
+    },
+    {
+      "N": 512,
+      "D": 64,
+      "k": 8,
+      "top": 14,
+      "positive": 1.0986042236082667,
+      "negative": -0.2524465940734842,
+      "codebookBytes": 1572864,
+      "encodingAdds": 24576
+    },
+    {
+      "N": 512,
+      "D": 64,
+      "k": 16,
+      "top": 7,
+      "positive": 0.46314223132284416,
+      "negative": -0.45741381962722605,
+      "codebookBytes": 1572864,
+      "encodingAdds": 49152
+    },
+    {
+      "N": 512,
+      "D": 64,
+      "k": 32,
+      "top": 9,
+      "positive": 1.3024245337124016,
+      "negative": -0.7679099323517334,
+      "codebookBytes": 1572864,
+      "encodingAdds": 98304
+    },
+    {
+      "N": 512,
+      "D": 64,
+      "k": 64,
+      "top": 8,
+      "positive": -11.10303550674028,
+      "negative": -0.38318599238484957,
+      "codebookBytes": 1572864,
+      "encodingAdds": 196608
+    },
+    {
+      "N": 512,
+      "D": 256,
+      "k": 2,
+      "top": 64,
+      "positive": 1.0017867032637788,
+      "negative": 0.001686292783977023,
+      "codebookBytes": 6291456,
+      "encodingAdds": 24576
+    },
+    {
+      "N": 512,
+      "D": 256,
+      "k": 4,
+      "top": 57,
+      "positive": 1.023773206589062,
+      "negative": -0.0076598705275526925,
+      "codebookBytes": 6291456,
+      "encodingAdds": 49152
+    },
+    {
+      "N": 512,
+      "D": 256,
+      "k": 8,
+      "top": 22,
+      "positive": 0.9617684358399883,
+      "negative": -0.01897813574032539,
+      "codebookBytes": 6291456,
+      "encodingAdds": 98304
+    },
+    {
+      "N": 512,
+      "D": 256,
+      "k": 16,
+      "top": 15,
+      "positive": 1.2124493945040846,
+      "negative": 0.2578207603716755,
+      "codebookBytes": 6291456,
+      "encodingAdds": 196608
+    },
+    {
+      "N": 512,
+      "D": 256,
+      "k": 32,
+      "top": 12,
+      "positive": 0.9103565612337218,
+      "negative": 0.44159595451902955,
+      "codebookBytes": 6291456,
+      "encodingAdds": 393216
+    },
+    {
+      "N": 512,
+      "D": 256,
+      "k": 64,
+      "top": 12,
+      "positive": 3.157332350181563,
+      "negative": 0.12616024448891838,
+      "codebookBytes": 6291456,
+      "encodingAdds": 786432
+    },
+    {
+      "N": 2048,
+      "D": 64,
+      "k": 2,
+      "top": 64,
+      "positive": 1.0192950451929756,
+      "negative": 0.009134690206827105,
+      "codebookBytes": 6291456,
+      "encodingAdds": 6144
+    },
+    {
+      "N": 2048,
+      "D": 64,
+      "k": 4,
+      "top": 34,
+      "positive": 1.0659411755970267,
+      "negative": 0.03225069048071283,
+      "codebookBytes": 6291456,
+      "encodingAdds": 12288
+    },
+    {
+      "N": 2048,
+      "D": 64,
+      "k": 8,
+      "top": 16,
+      "positive": 0.9635947133496435,
+      "negative": -0.2805752185952377,
+      "codebookBytes": 6291456,
+      "encodingAdds": 24576
+    },
+    {
+      "N": 2048,
+      "D": 64,
+      "k": 16,
+      "top": 9,
+      "positive": 2.1651375418042087,
+      "negative": 0.8186919535148959,
+      "codebookBytes": 6291456,
+      "encodingAdds": 49152
+    },
+    {
+      "N": 2048,
+      "D": 64,
+      "k": 32,
+      "top": 7,
+      "positive": -0.3961171631109081,
+      "negative": -0.7605156415335875,
+      "codebookBytes": 6291456,
+      "encodingAdds": 98304
+    },
+    {
+      "N": 2048,
+      "D": 64,
+      "k": 64,
+      "top": 9,
+      "positive": -3.1301506816790834,
+      "negative": -8.061234912336431,
+      "codebookBytes": 6291456,
+      "encodingAdds": 196608
+    },
+    {
+      "N": 2048,
+      "D": 256,
+      "k": 2,
+      "top": 64,
+      "positive": 1.0056596654639964,
+      "negative": -0.015916659042693078,
+      "codebookBytes": 25165824,
+      "encodingAdds": 24576
+    },
+    {
+      "N": 2048,
+      "D": 256,
+      "k": 4,
+      "top": 59,
+      "positive": 1.0509593484234916,
+      "negative": 0.06682934420839451,
+      "codebookBytes": 25165824,
+      "encodingAdds": 49152
+    },
+    {
+      "N": 2048,
+      "D": 256,
+      "k": 8,
+      "top": 29,
+      "positive": 0.9729407783352725,
+      "negative": -0.08192761137722503,
+      "codebookBytes": 25165824,
+      "encodingAdds": 98304
+    },
+    {
+      "N": 2048,
+      "D": 256,
+      "k": 16,
+      "top": 13,
+      "positive": 1.0076762591757544,
+      "negative": -0.29043781389648166,
+      "codebookBytes": 25165824,
+      "encodingAdds": 196608
+    },
+    {
+      "N": 2048,
+      "D": 256,
+      "k": 32,
+      "top": 8,
+      "positive": 0.6043525706373801,
+      "negative": 1.1748511338505214,
+      "codebookBytes": 25165824,
+      "encodingAdds": 393216
+    },
+    {
+      "N": 2048,
+      "D": 256,
+      "k": 64,
+      "top": 9,
+      "positive": 1.583612398851563,
+      "negative": 0.6402240979830449,
+      "codebookBytes": 25165824,
+      "encodingAdds": 786432
+    }
+  ],
+  "motifs": [
+    {
+      "static": 6,
+      "scan": 9.766666666666667,
+      "keyed": 4,
+      "hits": 18
+    },
+    {
+      "static": 6,
+      "scan": 8.033333333333333,
+      "keyed": 2,
+      "hits": 30
+    }
+  ],
+  "policy": {
+    "k": [
+      0,
+      1,
+      2,
+      4,
+      8
+    ],
+    "source": [
+      225.84375,
+      689.4375,
+      689.4375,
+      689.4375,
+      689.4375
+    ],
+    "target": [
+      1013.28125,
+      1476.875,
+      1910.796875,
+      2694.234375,
+      3934.546875
+    ]
+  }
+}
