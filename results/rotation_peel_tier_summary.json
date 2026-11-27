@@ -91,5 +91,43 @@
     "Only one-step numerical LM diagnostics; no trajectory or convergence claim.",
     "Core transported wedges, prefix-only forward tangents; selected residual entries only in measured step. All-entry audits excluded from step ledger."
   ],
-  "decision": "Cost prediction not passed in both stages; holdout unopened. Analyze topology-dependent cost and reduce repeated wedge accumulation or residual row basis before production."
+  "decision": "Cost prediction not passed in both stages; holdout unopened. Analyze topology-dependent cost and reduce repeated wedge accumulation or residual row basis before production.",
+  "exploratoryTopology": [
+    {
+      "type": "triple55",
+      "smooth": true,
+      "n": 32,
+      "median": 70857,
+      "baseline": 75555,
+      "wins": 20,
+      "medianDelta": -4700
+    },
+    {
+      "type": "triple55",
+      "smooth": false,
+      "n": 32,
+      "median": 73603,
+      "baseline": 78216,
+      "wins": 20,
+      "medianDelta": -3834
+    },
+    {
+      "type": "quad55",
+      "smooth": true,
+      "n": 32,
+      "median": 79569,
+      "baseline": 74315,
+      "wins": 12,
+      "medianDelta": 5254
+    },
+    {
+      "type": "quad55",
+      "smooth": false,
+      "n": 32,
+      "median": 84490.5,
+      "baseline": 76706,
+      "wins": 9,
+      "medianDelta": 7546.5
+    }
+  ]
 }
