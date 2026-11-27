@@ -180,3 +180,25 @@ Mean modeled work units, **not timing**. The matched split scan saves 26.3%. The
 At length 12, split scan uses 28,675 units for primitives and 11,555 for composable macros, with unchanged 67 vs 23 proof applications. No end-to-end developmental amortization, wall-clock speedup, or new out-of-distribution claim. The audit is excluded from work counts; it is a separate correctness check and runs in the reproduction script. Small-library split scan is the preferred measured reader for the next experiment. TWC rotation algebra and equality saturation remain future work.
 
 Reproduce: `node operator_index.cjs` then `node operator_lazy.cjs`. The latter regenerates reference proof traces and checks every new trace against them; no additional Lean axiom or new mathematical rule is introduced.
+
+
+## Experiment 7a — exact rational reciprocal realization orbit
+
+[Rotation laboratory](https://anttiluode.github.io/ProofSearchExperiments/rotations.html) · [Frozen protocol](ROTATION_PROTOCOL.md) · [Raw results](results/rotation_orbit.json) · [TWC gauge-capability report](https://github.com/anttiluode/TransientWaveCompiler/blob/agent/tw1a-common-diff-v08/docs/FILTER_TOPOLOGY_GAUGE_CAPABILITY_MAP_2026-08-10.md).
+
+First cost-driven realization experiment, deliberately **not an e-graph**. Four to six internal resonators, with two fixed ports. 24 sparse chains scrambled by 2–3 rational internal rotations, plus 12 dense random matrices. Exact rational BigInt arithmetic, fixed discrete rotation library, strict greedy descent, bounded best-first and breadth-first orbit search, and data-dependent rational Givens elimination. The latter computes a rotation from two current row entries when their squared norm has an integer square root; it does not search the full continuous-angle domain. The objective is lexicographic exact off-diagonal coupling count then selected path length. Reference sparsity is feasible, not an optimality certificate.
+
+| Scrambled sparse (24) | Reference count reached | Mean edges | Mean candidate actions | Mean modeled work |
+|---|---:|---:|---:|---:|
+| Greedy discrete | 19 | 6.625 | 128 | 42916 |
+| Rational Givens | 24 | 6.000 | 6.21 | 3388 |
+| Best-first | 23 | 6.083 | 384 | 129289 |
+| Breadth-first | 6 | 9.167 | 384 | 125514 |
+
+Mean initial count 13.167. Best-first selected a non-decreasing intermediate coupling count on four improved sparse cases (plateau or uphill, not necessarily a strict local minimum). On the dense controls, initial mean 21.333; rational Givens and greedy both reach 20.583, best-first 20.417, breadth-first 20.500. Best-first improves 10/12 vs Givens 9/12, at much greater modeled cost. No global optimum proved. The sparse generator favors exact rational angle recovery; results do not generalize to arbitrary practical topologies.
+
+Every selected result (144 paths including unchanged roots) independently checked by dense accumulated rotation multiplication, symmetry, orthogonality and fixed ports. The internal orthogonal block preserves U and q by construction. Numerical S11/S21 checks at five normalized frequencies show max difference 4.97e-16. These are mathematical coupling-matrix realizations, not actual TWC compiler execution, physical hardware tests, or proof of arbitrary WaveProgram stability. Modeled search ledger excludes independent verification, generation and response diagnostics; no measured timings or full developmental accounting. No macros learned, no fatigue, no equality saturation, no full classical Cameron synthesis, no gauge-alias optimization. The rational Givens result is a mandatory strong control for future harder cases.
+
+Symbolic Lean source checks the general nested conjugation composition under associative multiplication and transpose-reversal axioms and two Pythagorean integer identities; it does not kernel-check the numerical matrix paths. Reproduce: `node rotation_orbit.cjs`; `lean results/RotationAlgebra.lean`. SIM case-level outcomes added retrospectively, with predicted case IDs explicitly null for previous runs. Future predictions must be registered before evaluation.
+
+The main architectural distinction: a rotation program can have several equivalent symbolic representations, while response-equivalent physical matrices can have different costs. An eventual e-graph should not attach a single physical matrix or cost as an invariant of the entire response-equivalence class; physical realization representatives must remain available to extraction.
