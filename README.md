@@ -397,3 +397,44 @@ Frozen library committed before new numerical cases. 48 fresh feasible cases (79
 | SYN-P | 26/48 | 1,329,235 | 32/48 | 2,394,479 |
 
 Fixed = 2M work + 4096 rotations. OLD-S is frozen 7i union chart, OLD-P same with factor norm clip, SYN-S discovered chart with parameter clip, SYN-P discovered chart with differential and finite wrapped factor displacement cap. The latter is not an invariant SO(n) geodesic norm. No singleton regression diagnostic in this run; physical clip benefit not established. Different chart anchor selection/initialization is a remaining confound. Discovery cost tracked separately because symbolic terms and numerical ledger are not calibrated comparable units; no reliable break-even count. No actual wall-time or hardware. Lean file checks concrete symbolic forbidden polynomial identities, not real interpretation/global coverage. Reproduce `node discover_givens.cjs` (frozen library can be regenerated) and `node rotation_discovery.cjs`. Compact rows omit paths, reproducible from exported run().
+
+
+## Experiment 9 — autonomous reuse and organ competition
+
+[Protocol](ROTATION_REUSE_PROTOCOL.md) · [Reuse search](reuse_givens.cjs) · [Frozen library](results/rotation_reuse_library.json) · [Numerical benchmark](rotation_reuse.cjs) · [Summary](results/rotation_reuse_summary.json) · [Audit](results/rotation_reuse_audit.json) · [Lean polynomial obligations](results/RotationReuseObligations.lean).
+
+9a removes explicit target prefixes and excludes the known larger extension solutions from the source library. It enumerates injective anchor-fixed vertex mappings preserving source membership as a subset of target membership, and seeds the root with replayed prefixes from the smaller library. The no-memory best-first control uses identical primitive grammar and priority. Both depth-six targets hit the flat BFS and best-first caps; reuse passes all three <5000 predictions. The smaller double34/double44 are rediscovery tasks, triple44 is an unseen support target. All new programs pass exact symbolic zero and sampled rank/derivative checks. No global surjectivity claim. Ledger includes mapping/replay charges; not every JS operation charged. Not an exhaustive impossibility claim.
+
+| Target | Search | Found | Charged candidates | Polynomial term ops | Priority comparisons | Peak frontier |
+|---|---|---|---:|---:|---:|---:|
+| double34 | BFS | no | 200,000 | 639,902 | 0 | 41,855 |
+| double34 | BEST | yes | 24,660 | 10,688 | 7,235 | 80 |
+| double34 | REUSE | yes | 70 | 246 | 78 | 25 |
+| double44 | BFS | no | 200,000 | 588,431 | 0 | 48,047 |
+| double44 | BEST | no | 200,000 | 55,129 | 36,393 | 51 |
+| double44 | REUSE | yes | 128 | 551 | 177 | 52 |
+| triple44 | BFS | no | 200,000 | 955,664 | 0 | 60,940 |
+| triple44 | BEST | no | 200,000 | 550,676 | 344,604 | 60 |
+| triple44 | REUSE | yes | 120 | 730 | 350 | 38 |
+
+9b: 48 fresh feasible cases (80000–80047), 24 double33 and 24 triple44, n=6/7/8. 480 numerical runs (B duplicates A for triple44, not independent evidence). All 48 witnesses and 72 synthesized-chart derivative audits passed (max 4.617350057856129e-10); all returned paths independently verified, max sampled response error 1.9207031597035173e-13, max chart leakage 9.870924519324027e-17. All caps and ledger sums checked.
+
+| Slice | Arm | Fixed solved | Mean work | Rotation-only solved | Mean work |
+|---|---|---:|---:|---:|---:|
+| all | OLD-S | 23/48 | 1,440,562 | 29/48 | 2,818,311 |
+| all | OLD-INIT | 25/48 | 1,356,107 | 30/48 | 2,478,009 |
+| all | OLD-END | 25/48 | 1,346,944 | 36/48 | 2,604,041 |
+| all | A | 25/48 | 1,369,481 | 36/48 | 2,128,343 |
+| all | B | 29/48 | 1,275,919 | 37/48 | 1,971,137 |
+| double | OLD-S | 10/24 | 1,475,107 | 11/24 | 2,865,978 |
+| double | OLD-INIT | 9/24 | 1,468,858 | 11/24 | 2,721,806 |
+| double | OLD-END | 10/24 | 1,547,836 | 15/24 | 3,190,690 |
+| double | A | 12/24 | 1,352,891 | 15/24 | 2,129,940 |
+| double | B | 16/24 | 1,165,767 | 16/24 | 1,815,528 |
+| triple | OLD-S | 13/24 | 1,406,018 | 18/24 | 2,770,643 |
+| triple | OLD-INIT | 16/24 | 1,243,356 | 19/24 | 2,234,212 |
+| triple | OLD-END | 15/24 | 1,146,052 | 21/24 | 2,017,391 |
+| triple | A | 13/24 | 1,386,070 | 21/24 | 2,126,745 |
+| triple | B | 13/24 | 1,386,070 | 21/24 | 2,126,745 |
+
+Fixed = 2M work + 4096 rotations. OLD-S is frozen 7i union chart, OLD-INIT matches synthesized anchor selection/aligned base and random streams but uses union tail coordinates (different endpoints), OLD-END uses A chart seed endpoints then unrestricted full LM with smooth continuation. A/B use independently found double33 programs from 8; triple44 uses the same discovered chart in both. Numerical comparison does not isolate conditioning from chart-dependent endpoints, no learned selector. Root-prefix reuse is not arbitrary mid-program macro invocation. No runtime, hardware, comparable symbolic/numerical amortization or formal global chart coverage claim. Lean obligations check exact forbidden polynomial identities; CI status separate. Reproduce `node reuse_givens.cjs` and `node rotation_reuse.cjs`. Compact rows omit paths, reproducible from exported run().
