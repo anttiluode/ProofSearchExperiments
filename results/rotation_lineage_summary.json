@@ -1,0 +1,2650 @@
+{
+  "protocolCommit": "319d87b31ffd2c2c1c8a0893f0dcd216e6ac15d7",
+  "libraryCommit": "b3c841fdd20960cd51687dba0dbf86b70dd0cbb5",
+  "policyCommit": "37c8979d76e75ccf119617d38953b3434f5052d5",
+  "sourceRank": [
+    {
+      "mode": "A",
+      "n": 24,
+      "success": 19,
+      "meanWork": 731274.125,
+      "streams": [
+        {
+          "stream": 0,
+          "success": 10,
+          "meanWork": 776575.8333333334
+        },
+        {
+          "stream": 1,
+          "success": 9,
+          "meanWork": 685972.4166666666
+        }
+      ]
+    },
+    {
+      "mode": "E",
+      "n": 24,
+      "success": 18,
+      "meanWork": 797875.3333333334,
+      "streams": [
+        {
+          "stream": 0,
+          "success": 8,
+          "meanWork": 999418.5
+        },
+        {
+          "stream": 1,
+          "success": 10,
+          "meanWork": 596332.1666666666
+        }
+      ]
+    },
+    {
+      "mode": "F",
+      "n": 24,
+      "success": 18,
+      "meanWork": 948357.75,
+      "streams": [
+        {
+          "stream": 0,
+          "success": 10,
+          "meanWork": 922409.1666666666
+        },
+        {
+          "stream": 1,
+          "success": 8,
+          "meanWork": 974306.3333333334
+        }
+      ]
+    },
+    {
+      "mode": "B",
+      "n": 24,
+      "success": 17,
+      "meanWork": 865586.25,
+      "streams": [
+        {
+          "stream": 0,
+          "success": 8,
+          "meanWork": 867195.3333333334
+        },
+        {
+          "stream": 1,
+          "success": 9,
+          "meanWork": 863977.1666666666
+        }
+      ]
+    },
+    {
+      "mode": "D",
+      "n": 24,
+      "success": 17,
+      "meanWork": 869939.375,
+      "streams": [
+        {
+          "stream": 0,
+          "success": 8,
+          "meanWork": 871020.75
+        },
+        {
+          "stream": 1,
+          "success": 9,
+          "meanWork": 868858
+        }
+      ]
+    },
+    {
+      "mode": "C",
+      "n": 24,
+      "success": 17,
+      "meanWork": 991017.9583333334,
+      "streams": [
+        {
+          "stream": 0,
+          "success": 9,
+          "meanWork": 949833.6666666666
+        },
+        {
+          "stream": 1,
+          "success": 8,
+          "meanWork": 1032202.25
+        }
+      ]
+    }
+  ],
+  "policies": {
+    "source": "A",
+    "insertion": "A",
+    "terms": "A",
+    "condition": "A",
+    "random": "D",
+    "randomRule": "fixed preselected D, uniform expectation separately"
+  },
+  "sourceBill": 124897219,
+  "harvest": {
+    "accepted": 7,
+    "ledger": {
+      "candidates": 5100,
+      "polyAdd": 5481,
+      "polyMul": 11446,
+      "numericChecks": 84,
+      "numericOps": 284340
+    },
+    "parents": [
+      {
+        "id": "A",
+        "terms": 10,
+        "condition": 2.0533032018172874
+      },
+      {
+        "id": "B",
+        "terms": 10,
+        "condition": 4.247848069617866
+      },
+      {
+        "id": "C",
+        "terms": 10,
+        "condition": 2.0533032018172874
+      },
+      {
+        "id": "D",
+        "terms": 10,
+        "condition": 4.247848069617866
+      },
+      {
+        "id": "E",
+        "terms": 10,
+        "condition": 3.4440742518018976
+      },
+      {
+        "id": "F",
+        "terms": 10,
+        "condition": 3.3470935153989942
+      }
+    ]
+  },
+  "childDiscovery": [
+    {
+      "parent": "A",
+      "name": "double34",
+      "success": true,
+      "ledger": {
+        "candidates": 30,
+        "polyAdd": 50,
+        "polyMul": 104,
+        "numericChecks": 12,
+        "numericOps": 83112,
+        "mapping": 12,
+        "replay": 8,
+        "priority": 51
+      },
+      "macro": {
+        "source": "A",
+        "map": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "A",
+      "name": "double44",
+      "success": true,
+      "ledger": {
+        "candidates": 68,
+        "polyAdd": 131,
+        "polyMul": 270,
+        "numericChecks": 12,
+        "numericOps": 148044,
+        "mapping": 22,
+        "replay": 16,
+        "priority": 127
+      },
+      "macro": {
+        "source": "A",
+        "map": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "A",
+      "name": "triple44",
+      "success": true,
+      "ledger": {
+        "candidates": 70,
+        "polyAdd": 201,
+        "polyMul": 408,
+        "numericChecks": 12,
+        "numericOps": 146844,
+        "mapping": 18,
+        "replay": 12,
+        "priority": 280
+      },
+      "macro": {
+        "source": "A",
+        "map": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "A",
+      "name": "triple45",
+      "success": true,
+      "ledger": {
+        "candidates": 508,
+        "polyAdd": 2680,
+        "polyMul": 5370,
+        "numericChecks": 12,
+        "numericOps": 238440,
+        "mapping": 23,
+        "replay": 20,
+        "priority": 4780
+      },
+      "macro": {
+        "source": "A",
+        "map": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "B",
+      "name": "double34",
+      "success": true,
+      "ledger": {
+        "candidates": 30,
+        "polyAdd": 50,
+        "polyMul": 104,
+        "numericChecks": 12,
+        "numericOps": 83112,
+        "mapping": 12,
+        "replay": 8,
+        "priority": 38
+      },
+      "macro": {
+        "source": "B",
+        "map": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "B",
+      "name": "double44",
+      "success": true,
+      "ledger": {
+        "candidates": 68,
+        "polyAdd": 131,
+        "polyMul": 270,
+        "numericChecks": 12,
+        "numericOps": 148044,
+        "mapping": 22,
+        "replay": 16,
+        "priority": 125
+      },
+      "macro": {
+        "source": "B",
+        "map": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "B",
+      "name": "triple44",
+      "success": true,
+      "ledger": {
+        "candidates": 70,
+        "polyAdd": 201,
+        "polyMul": 408,
+        "numericChecks": 12,
+        "numericOps": 146844,
+        "mapping": 18,
+        "replay": 12,
+        "priority": 280
+      },
+      "macro": {
+        "source": "B",
+        "map": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "B",
+      "name": "triple45",
+      "success": true,
+      "ledger": {
+        "candidates": 508,
+        "polyAdd": 2680,
+        "polyMul": 5370,
+        "numericChecks": 12,
+        "numericOps": 238440,
+        "mapping": 23,
+        "replay": 20,
+        "priority": 4684
+      },
+      "macro": {
+        "source": "B",
+        "map": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "C",
+      "name": "double34",
+      "success": true,
+      "ledger": {
+        "candidates": 30,
+        "polyAdd": 50,
+        "polyMul": 104,
+        "numericChecks": 12,
+        "numericOps": 83112,
+        "mapping": 12,
+        "replay": 8,
+        "priority": 51
+      },
+      "macro": {
+        "source": "C",
+        "map": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "C",
+      "name": "double44",
+      "success": true,
+      "ledger": {
+        "candidates": 68,
+        "polyAdd": 131,
+        "polyMul": 270,
+        "numericChecks": 12,
+        "numericOps": 148044,
+        "mapping": 22,
+        "replay": 16,
+        "priority": 127
+      },
+      "macro": {
+        "source": "C",
+        "map": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "C",
+      "name": "triple44",
+      "success": true,
+      "ledger": {
+        "candidates": 70,
+        "polyAdd": 201,
+        "polyMul": 408,
+        "numericChecks": 12,
+        "numericOps": 146844,
+        "mapping": 18,
+        "replay": 12,
+        "priority": 280
+      },
+      "macro": {
+        "source": "C",
+        "map": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "C",
+      "name": "triple45",
+      "success": true,
+      "ledger": {
+        "candidates": 508,
+        "polyAdd": 2680,
+        "polyMul": 5370,
+        "numericChecks": 12,
+        "numericOps": 238440,
+        "mapping": 23,
+        "replay": 20,
+        "priority": 4780
+      },
+      "macro": {
+        "source": "C",
+        "map": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "D",
+      "name": "double34",
+      "success": true,
+      "ledger": {
+        "candidates": 30,
+        "polyAdd": 50,
+        "polyMul": 104,
+        "numericChecks": 12,
+        "numericOps": 83112,
+        "mapping": 12,
+        "replay": 8,
+        "priority": 47
+      },
+      "macro": {
+        "source": "D",
+        "map": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "D",
+      "name": "double44",
+      "success": true,
+      "ledger": {
+        "candidates": 68,
+        "polyAdd": 131,
+        "polyMul": 270,
+        "numericChecks": 12,
+        "numericOps": 148044,
+        "mapping": 22,
+        "replay": 16,
+        "priority": 134
+      },
+      "macro": {
+        "source": "D",
+        "map": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "D",
+      "name": "triple44",
+      "success": true,
+      "ledger": {
+        "candidates": 70,
+        "polyAdd": 201,
+        "polyMul": 408,
+        "numericChecks": 12,
+        "numericOps": 146844,
+        "mapping": 18,
+        "replay": 12,
+        "priority": 286
+      },
+      "macro": {
+        "source": "D",
+        "map": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "D",
+      "name": "triple45",
+      "success": true,
+      "ledger": {
+        "candidates": 508,
+        "polyAdd": 2680,
+        "polyMul": 5370,
+        "numericChecks": 12,
+        "numericOps": 238440,
+        "mapping": 23,
+        "replay": 20,
+        "priority": 4835
+      },
+      "macro": {
+        "source": "D",
+        "map": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "E",
+      "name": "double34",
+      "success": true,
+      "ledger": {
+        "candidates": 30,
+        "polyAdd": 50,
+        "polyMul": 104,
+        "numericChecks": 12,
+        "numericOps": 83112,
+        "mapping": 12,
+        "replay": 8,
+        "priority": 47
+      },
+      "macro": {
+        "source": "E",
+        "map": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "E",
+      "name": "double44",
+      "success": true,
+      "ledger": {
+        "candidates": 68,
+        "polyAdd": 131,
+        "polyMul": 270,
+        "numericChecks": 12,
+        "numericOps": 148044,
+        "mapping": 22,
+        "replay": 16,
+        "priority": 134
+      },
+      "macro": {
+        "source": "E",
+        "map": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "E",
+      "name": "triple44",
+      "success": true,
+      "ledger": {
+        "candidates": 70,
+        "polyAdd": 201,
+        "polyMul": 408,
+        "numericChecks": 12,
+        "numericOps": 146844,
+        "mapping": 18,
+        "replay": 12,
+        "priority": 286
+      },
+      "macro": {
+        "source": "E",
+        "map": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "E",
+      "name": "triple45",
+      "success": true,
+      "ledger": {
+        "candidates": 508,
+        "polyAdd": 2680,
+        "polyMul": 5370,
+        "numericChecks": 12,
+        "numericOps": 238440,
+        "mapping": 23,
+        "replay": 20,
+        "priority": 4835
+      },
+      "macro": {
+        "source": "E",
+        "map": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "F",
+      "name": "double34",
+      "success": true,
+      "ledger": {
+        "candidates": 30,
+        "polyAdd": 50,
+        "polyMul": 104,
+        "numericChecks": 12,
+        "numericOps": 83112,
+        "mapping": 12,
+        "replay": 8,
+        "priority": 51
+      },
+      "macro": {
+        "source": "F",
+        "map": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "F",
+      "name": "double44",
+      "success": true,
+      "ledger": {
+        "candidates": 68,
+        "polyAdd": 131,
+        "polyMul": 270,
+        "numericChecks": 12,
+        "numericOps": 148044,
+        "mapping": 22,
+        "replay": 16,
+        "priority": 134
+      },
+      "macro": {
+        "source": "F",
+        "map": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "F",
+      "name": "triple44",
+      "success": true,
+      "ledger": {
+        "candidates": 70,
+        "polyAdd": 201,
+        "polyMul": 408,
+        "numericChecks": 12,
+        "numericOps": 146844,
+        "mapping": 18,
+        "replay": 12,
+        "priority": 286
+      },
+      "macro": {
+        "source": "F",
+        "map": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "length": 4
+      }
+    },
+    {
+      "parent": "F",
+      "name": "triple45",
+      "success": true,
+      "ledger": {
+        "candidates": 508,
+        "polyAdd": 2680,
+        "polyMul": 5370,
+        "numericChecks": 12,
+        "numericOps": 238440,
+        "mapping": 23,
+        "replay": 20,
+        "priority": 4869
+      },
+      "macro": {
+        "source": "F",
+        "map": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "length": 4
+      }
+    }
+  ],
+  "results": [
+    {
+      "budget": 2000000,
+      "stats": [
+        {
+          "budget": 2000000,
+          "group": "all",
+          "mode": "A",
+          "n": 48,
+          "success": 31,
+          "meanWork": 1195977.3333333333,
+          "meanDimension": 17.5,
+          "meanPruned": 8
+        },
+        {
+          "budget": 2000000,
+          "group": "all",
+          "mode": "B",
+          "n": 48,
+          "success": 27,
+          "meanWork": 1375506.0208333333,
+          "meanDimension": 17.5,
+          "meanPruned": 8
+        },
+        {
+          "budget": 2000000,
+          "group": "all",
+          "mode": "C",
+          "n": 48,
+          "success": 33,
+          "meanWork": 1107066.9791666667,
+          "meanDimension": 17.5,
+          "meanPruned": 8
+        },
+        {
+          "budget": 2000000,
+          "group": "all",
+          "mode": "D",
+          "n": 48,
+          "success": 28,
+          "meanWork": 1374995.4375,
+          "meanDimension": 17.5,
+          "meanPruned": 8
+        },
+        {
+          "budget": 2000000,
+          "group": "all",
+          "mode": "E",
+          "n": 48,
+          "success": 28,
+          "meanWork": 1292654.0208333333,
+          "meanDimension": 17.5,
+          "meanPruned": 8
+        },
+        {
+          "budget": 2000000,
+          "group": "all",
+          "mode": "F",
+          "n": 48,
+          "success": 31,
+          "meanWork": 1280192.1666666667,
+          "meanDimension": 17.5,
+          "meanPruned": 8
+        },
+        {
+          "budget": 2000000,
+          "group": "all",
+          "mode": "OLD-INIT",
+          "n": 48,
+          "success": 17,
+          "meanWork": 1579026.9583333333,
+          "meanDimension": 20.5,
+          "meanPruned": 5
+        },
+        {
+          "budget": 2000000,
+          "group": "all",
+          "mode": "OLD-END",
+          "n": 48,
+          "success": 26,
+          "meanWork": 1295695.5,
+          "meanDimension": 24.5,
+          "meanPruned": 0
+        }
+      ],
+      "pairedVsA": [
+        {
+          "mode": "A",
+          "wins": [],
+          "losses": []
+        },
+        {
+          "mode": "B",
+          "wins": [
+            82014,
+            82016,
+            82023,
+            82027,
+            82028,
+            82030,
+            82034,
+            82035,
+            82037,
+            82042
+          ],
+          "losses": [
+            82000,
+            82007,
+            82017,
+            82019,
+            82025,
+            82026,
+            82029,
+            82033,
+            82038,
+            82039,
+            82043,
+            82045,
+            82046,
+            82047
+          ]
+        },
+        {
+          "mode": "C",
+          "wins": [
+            82014,
+            82016,
+            82023,
+            82027,
+            82028,
+            82034,
+            82035,
+            82042
+          ],
+          "losses": [
+            82010,
+            82015,
+            82019,
+            82025,
+            82026,
+            82046
+          ]
+        },
+        {
+          "mode": "D",
+          "wins": [
+            82014,
+            82016,
+            82023,
+            82027,
+            82028,
+            82030,
+            82034,
+            82035,
+            82037,
+            82042
+          ],
+          "losses": [
+            82007,
+            82017,
+            82019,
+            82025,
+            82026,
+            82029,
+            82033,
+            82038,
+            82039,
+            82043,
+            82045,
+            82046,
+            82047
+          ]
+        },
+        {
+          "mode": "E",
+          "wins": [
+            82014,
+            82016,
+            82023,
+            82028,
+            82030,
+            82034,
+            82037,
+            82042
+          ],
+          "losses": [
+            82007,
+            82019,
+            82022,
+            82025,
+            82029,
+            82033,
+            82039,
+            82041,
+            82043,
+            82045,
+            82046
+          ]
+        },
+        {
+          "mode": "F",
+          "wins": [
+            82009,
+            82012,
+            82014,
+            82016,
+            82023,
+            82028,
+            82030,
+            82031,
+            82034,
+            82035,
+            82042
+          ],
+          "losses": [
+            82000,
+            82004,
+            82005,
+            82025,
+            82026,
+            82029,
+            82033,
+            82041,
+            82043,
+            82046,
+            82047
+          ]
+        },
+        {
+          "mode": "OLD-INIT",
+          "wins": [
+            82023,
+            82028,
+            82032,
+            82035,
+            82042
+          ],
+          "losses": [
+            82002,
+            82005,
+            82007,
+            82013,
+            82017,
+            82018,
+            82020,
+            82021,
+            82024,
+            82025,
+            82026,
+            82029,
+            82033,
+            82038,
+            82039,
+            82041,
+            82045,
+            82046,
+            82047
+          ]
+        },
+        {
+          "mode": "OLD-END",
+          "wins": [
+            82009,
+            82023,
+            82030,
+            82032,
+            82034,
+            82042
+          ],
+          "losses": [
+            82000,
+            82020,
+            82025,
+            82026,
+            82029,
+            82033,
+            82039,
+            82043,
+            82045,
+            82046,
+            82047
+          ]
+        }
+      ],
+      "oracle": 44,
+      "uniformExpectedSuccess": 29.666666666666668,
+      "uniformExpectedWork": 1271065.3263888888,
+      "targetRank": [
+        "C",
+        "A",
+        "F",
+        "E",
+        "D",
+        "B"
+      ],
+      "sourceTargetSpearman": 0.02857142857142857,
+      "conditionTargetSpearman": 0.9710083124552245,
+      "sourceSuccessTargetSuccessSpearman": 0.25425669046549126
+    },
+    {
+      "budget": null,
+      "stats": [
+        {
+          "budget": null,
+          "group": "all",
+          "mode": "A",
+          "n": 48,
+          "success": 42,
+          "meanWork": 1741901.5625,
+          "meanDimension": 17.5,
+          "meanPruned": 8
+        },
+        {
+          "budget": null,
+          "group": "all",
+          "mode": "B",
+          "n": 48,
+          "success": 38,
+          "meanWork": 2401389.2708333335,
+          "meanDimension": 17.5,
+          "meanPruned": 8
+        },
+        {
+          "budget": null,
+          "group": "all",
+          "mode": "C",
+          "n": 48,
+          "success": 43,
+          "meanWork": 1682506.3333333333,
+          "meanDimension": 17.5,
+          "meanPruned": 8
+        },
+        {
+          "budget": null,
+          "group": "all",
+          "mode": "D",
+          "n": 48,
+          "success": 38,
+          "meanWork": 2400484.375,
+          "meanDimension": 17.5,
+          "meanPruned": 8
+        },
+        {
+          "budget": null,
+          "group": "all",
+          "mode": "E",
+          "n": 48,
+          "success": 39,
+          "meanWork": 2316950.3958333335,
+          "meanDimension": 17.5,
+          "meanPruned": 8
+        },
+        {
+          "budget": null,
+          "group": "all",
+          "mode": "F",
+          "n": 48,
+          "success": 45,
+          "meanWork": 1828561.75,
+          "meanDimension": 17.5,
+          "meanPruned": 8
+        },
+        {
+          "budget": null,
+          "group": "all",
+          "mode": "OLD-INIT",
+          "n": 48,
+          "success": 32,
+          "meanWork": 3589521.9791666665,
+          "meanDimension": 20.5,
+          "meanPruned": 5
+        },
+        {
+          "budget": null,
+          "group": "all",
+          "mode": "OLD-END",
+          "n": 48,
+          "success": 39,
+          "meanWork": 2747112.3541666665,
+          "meanDimension": 24.5,
+          "meanPruned": 0
+        }
+      ],
+      "pairedVsA": [
+        {
+          "mode": "A",
+          "wins": [],
+          "losses": []
+        },
+        {
+          "mode": "B",
+          "wins": [
+            82012,
+            82016,
+            82030,
+            82037
+          ],
+          "losses": [
+            82009,
+            82025,
+            82029,
+            82032,
+            82033,
+            82036,
+            82045,
+            82046
+          ]
+        },
+        {
+          "mode": "C",
+          "wins": [
+            82016,
+            82030,
+            82037,
+            82040
+          ],
+          "losses": [
+            82015,
+            82019,
+            82025
+          ]
+        },
+        {
+          "mode": "D",
+          "wins": [
+            82012,
+            82016,
+            82030,
+            82037
+          ],
+          "losses": [
+            82009,
+            82025,
+            82029,
+            82032,
+            82033,
+            82036,
+            82045,
+            82046
+          ]
+        },
+        {
+          "mode": "E",
+          "wins": [
+            82016,
+            82030,
+            82037
+          ],
+          "losses": [
+            82009,
+            82019,
+            82025,
+            82031,
+            82041,
+            82046
+          ]
+        },
+        {
+          "mode": "F",
+          "wins": [
+            82012,
+            82016,
+            82030,
+            82037,
+            82040
+          ],
+          "losses": [
+            82032,
+            82036
+          ]
+        },
+        {
+          "mode": "OLD-INIT",
+          "wins": [
+            82030,
+            82037
+          ],
+          "losses": [
+            82002,
+            82005,
+            82020,
+            82024,
+            82025,
+            82027,
+            82029,
+            82031,
+            82036,
+            82039,
+            82041,
+            82047
+          ]
+        },
+        {
+          "mode": "OLD-END",
+          "wins": [
+            82012,
+            82016,
+            82030,
+            82037
+          ],
+          "losses": [
+            82025,
+            82026,
+            82029,
+            82036,
+            82039,
+            82045,
+            82046
+          ]
+        }
+      ],
+      "oracle": 47,
+      "uniformExpectedSuccess": 40.833333333333336,
+      "uniformExpectedWork": 2061965.6145833333,
+      "targetRank": [
+        "F",
+        "C",
+        "A",
+        "E",
+        "D",
+        "B"
+      ],
+      "sourceTargetSpearman": 0.08571428571428572,
+      "conditionTargetSpearman": 0.7944613465542745,
+      "sourceSuccessTargetSuccessSpearman": 0.4383570037596047
+    }
+  ],
+  "summary": [
+    {
+      "budget": 2000000,
+      "group": "all",
+      "mode": "A",
+      "n": 48,
+      "success": 31,
+      "meanWork": 1195977.3333333333,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": 2000000,
+      "group": "all",
+      "mode": "B",
+      "n": 48,
+      "success": 27,
+      "meanWork": 1375506.0208333333,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": 2000000,
+      "group": "all",
+      "mode": "C",
+      "n": 48,
+      "success": 33,
+      "meanWork": 1107066.9791666667,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": 2000000,
+      "group": "all",
+      "mode": "D",
+      "n": 48,
+      "success": 28,
+      "meanWork": 1374995.4375,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": 2000000,
+      "group": "all",
+      "mode": "E",
+      "n": 48,
+      "success": 28,
+      "meanWork": 1292654.0208333333,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": 2000000,
+      "group": "all",
+      "mode": "F",
+      "n": 48,
+      "success": 31,
+      "meanWork": 1280192.1666666667,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": 2000000,
+      "group": "all",
+      "mode": "OLD-INIT",
+      "n": 48,
+      "success": 17,
+      "meanWork": 1579026.9583333333,
+      "meanDimension": 20.5,
+      "meanPruned": 5
+    },
+    {
+      "budget": 2000000,
+      "group": "all",
+      "mode": "OLD-END",
+      "n": 48,
+      "success": 26,
+      "meanWork": 1295695.5,
+      "meanDimension": 24.5,
+      "meanPruned": 0
+    },
+    {
+      "budget": 2000000,
+      "group": 7,
+      "mode": "A",
+      "n": 24,
+      "success": 19,
+      "meanWork": 853806.9583333334,
+      "meanDimension": 15,
+      "meanPruned": 7
+    },
+    {
+      "budget": 2000000,
+      "group": 7,
+      "mode": "B",
+      "n": 24,
+      "success": 18,
+      "meanWork": 1099902.0833333333,
+      "meanDimension": 15,
+      "meanPruned": 7
+    },
+    {
+      "budget": 2000000,
+      "group": 7,
+      "mode": "C",
+      "n": 24,
+      "success": 19,
+      "meanWork": 853138.7083333334,
+      "meanDimension": 15,
+      "meanPruned": 7
+    },
+    {
+      "budget": 2000000,
+      "group": 7,
+      "mode": "D",
+      "n": 24,
+      "success": 19,
+      "meanWork": 1098865.1666666667,
+      "meanDimension": 15,
+      "meanPruned": 7
+    },
+    {
+      "budget": 2000000,
+      "group": 7,
+      "mode": "E",
+      "n": 24,
+      "success": 19,
+      "meanWork": 1002434.4583333334,
+      "meanDimension": 15,
+      "meanPruned": 7
+    },
+    {
+      "budget": 2000000,
+      "group": 7,
+      "mode": "F",
+      "n": 24,
+      "success": 21,
+      "meanWork": 935781.7916666666,
+      "meanDimension": 15,
+      "meanPruned": 7
+    },
+    {
+      "budget": 2000000,
+      "group": 7,
+      "mode": "OLD-INIT",
+      "n": 24,
+      "success": 12,
+      "meanWork": 1355474.5833333333,
+      "meanDimension": 18,
+      "meanPruned": 4
+    },
+    {
+      "budget": 2000000,
+      "group": 7,
+      "mode": "OLD-END",
+      "n": 24,
+      "success": 19,
+      "meanWork": 917475.0833333334,
+      "meanDimension": 21,
+      "meanPruned": 0
+    },
+    {
+      "budget": 2000000,
+      "group": 8,
+      "mode": "A",
+      "n": 24,
+      "success": 12,
+      "meanWork": 1538147.7083333333,
+      "meanDimension": 20,
+      "meanPruned": 9
+    },
+    {
+      "budget": 2000000,
+      "group": 8,
+      "mode": "B",
+      "n": 24,
+      "success": 9,
+      "meanWork": 1651109.9583333333,
+      "meanDimension": 20,
+      "meanPruned": 9
+    },
+    {
+      "budget": 2000000,
+      "group": 8,
+      "mode": "C",
+      "n": 24,
+      "success": 14,
+      "meanWork": 1360995.25,
+      "meanDimension": 20,
+      "meanPruned": 9
+    },
+    {
+      "budget": 2000000,
+      "group": 8,
+      "mode": "D",
+      "n": 24,
+      "success": 9,
+      "meanWork": 1651125.7083333333,
+      "meanDimension": 20,
+      "meanPruned": 9
+    },
+    {
+      "budget": 2000000,
+      "group": 8,
+      "mode": "E",
+      "n": 24,
+      "success": 9,
+      "meanWork": 1582873.5833333333,
+      "meanDimension": 20,
+      "meanPruned": 9
+    },
+    {
+      "budget": 2000000,
+      "group": 8,
+      "mode": "F",
+      "n": 24,
+      "success": 10,
+      "meanWork": 1624602.5416666667,
+      "meanDimension": 20,
+      "meanPruned": 9
+    },
+    {
+      "budget": 2000000,
+      "group": 8,
+      "mode": "OLD-INIT",
+      "n": 24,
+      "success": 5,
+      "meanWork": 1802579.3333333333,
+      "meanDimension": 23,
+      "meanPruned": 6
+    },
+    {
+      "budget": 2000000,
+      "group": 8,
+      "mode": "OLD-END",
+      "n": 24,
+      "success": 7,
+      "meanWork": 1673915.9166666667,
+      "meanDimension": 28,
+      "meanPruned": 0
+    },
+    {
+      "budget": 2000000,
+      "group": "t0",
+      "mode": "A",
+      "n": 12,
+      "success": 5,
+      "meanWork": 1496066.6666666667,
+      "meanDimension": 16.5,
+      "meanPruned": 9
+    },
+    {
+      "budget": 2000000,
+      "group": "t0",
+      "mode": "B",
+      "n": 12,
+      "success": 6,
+      "meanWork": 1381049.5833333333,
+      "meanDimension": 16.5,
+      "meanPruned": 9
+    },
+    {
+      "budget": 2000000,
+      "group": "t0",
+      "mode": "C",
+      "n": 12,
+      "success": 7,
+      "meanWork": 1073280.8333333333,
+      "meanDimension": 16.5,
+      "meanPruned": 9
+    },
+    {
+      "budget": 2000000,
+      "group": "t0",
+      "mode": "D",
+      "n": 12,
+      "success": 7,
+      "meanWork": 1379076.5833333333,
+      "meanDimension": 16.5,
+      "meanPruned": 9
+    },
+    {
+      "budget": 2000000,
+      "group": "t0",
+      "mode": "E",
+      "n": 12,
+      "success": 7,
+      "meanWork": 1341827.4166666667,
+      "meanDimension": 16.5,
+      "meanPruned": 9
+    },
+    {
+      "budget": 2000000,
+      "group": "t0",
+      "mode": "F",
+      "n": 12,
+      "success": 6,
+      "meanWork": 1513207.5,
+      "meanDimension": 16.5,
+      "meanPruned": 9
+    },
+    {
+      "budget": 2000000,
+      "group": "t0",
+      "mode": "OLD-INIT",
+      "n": 12,
+      "success": 5,
+      "meanWork": 1457318.9166666667,
+      "meanDimension": 19.5,
+      "meanPruned": 6
+    },
+    {
+      "budget": 2000000,
+      "group": "t0",
+      "mode": "OLD-END",
+      "n": 12,
+      "success": 4,
+      "meanWork": 1517670.75,
+      "meanDimension": 24.5,
+      "meanPruned": 0
+    },
+    {
+      "budget": 2000000,
+      "group": "t1",
+      "mode": "A",
+      "n": 12,
+      "success": 10,
+      "meanWork": 1031983.5,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": 2000000,
+      "group": "t1",
+      "mode": "B",
+      "n": 12,
+      "success": 6,
+      "meanWork": 1471639.5,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": 2000000,
+      "group": "t1",
+      "mode": "C",
+      "n": 12,
+      "success": 9,
+      "meanWork": 1112324.0833333333,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": 2000000,
+      "group": "t1",
+      "mode": "D",
+      "n": 12,
+      "success": 6,
+      "meanWork": 1471630,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": 2000000,
+      "group": "t1",
+      "mode": "E",
+      "n": 12,
+      "success": 6,
+      "meanWork": 1434961.1666666667,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": 2000000,
+      "group": "t1",
+      "mode": "F",
+      "n": 12,
+      "success": 6,
+      "meanWork": 1430446.1666666667,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": 2000000,
+      "group": "t1",
+      "mode": "OLD-INIT",
+      "n": 12,
+      "success": 1,
+      "meanWork": 1868540,
+      "meanDimension": 21.5,
+      "meanPruned": 4
+    },
+    {
+      "budget": 2000000,
+      "group": "t1",
+      "mode": "OLD-END",
+      "n": 12,
+      "success": 7,
+      "meanWork": 1279550.9166666667,
+      "meanDimension": 24.5,
+      "meanPruned": 0
+    },
+    {
+      "budget": 2000000,
+      "group": "t2",
+      "mode": "A",
+      "n": 12,
+      "success": 8,
+      "meanWork": 1141422.5,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": 2000000,
+      "group": "t2",
+      "mode": "B",
+      "n": 12,
+      "success": 9,
+      "meanWork": 1049362.5,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": 2000000,
+      "group": "t2",
+      "mode": "C",
+      "n": 12,
+      "success": 8,
+      "meanWork": 1238270,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": 2000000,
+      "group": "t2",
+      "mode": "D",
+      "n": 12,
+      "success": 9,
+      "meanWork": 1049362.5,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": 2000000,
+      "group": "t2",
+      "mode": "E",
+      "n": 12,
+      "success": 10,
+      "meanWork": 814470.0833333334,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": 2000000,
+      "group": "t2",
+      "mode": "F",
+      "n": 12,
+      "success": 10,
+      "meanWork": 1187371.25,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": 2000000,
+      "group": "t2",
+      "mode": "OLD-INIT",
+      "n": 12,
+      "success": 4,
+      "meanWork": 1586362.8333333333,
+      "meanDimension": 19.5,
+      "meanPruned": 6
+    },
+    {
+      "budget": 2000000,
+      "group": "t2",
+      "mode": "OLD-END",
+      "n": 12,
+      "success": 9,
+      "meanWork": 1107909.1666666667,
+      "meanDimension": 24.5,
+      "meanPruned": 0
+    },
+    {
+      "budget": 2000000,
+      "group": "t3",
+      "mode": "A",
+      "n": 12,
+      "success": 8,
+      "meanWork": 1114436.6666666667,
+      "meanDimension": 18.5,
+      "meanPruned": 7
+    },
+    {
+      "budget": 2000000,
+      "group": "t3",
+      "mode": "B",
+      "n": 12,
+      "success": 6,
+      "meanWork": 1599972.5,
+      "meanDimension": 18.5,
+      "meanPruned": 7
+    },
+    {
+      "budget": 2000000,
+      "group": "t3",
+      "mode": "C",
+      "n": 12,
+      "success": 9,
+      "meanWork": 1004393,
+      "meanDimension": 18.5,
+      "meanPruned": 7
+    },
+    {
+      "budget": 2000000,
+      "group": "t3",
+      "mode": "D",
+      "n": 12,
+      "success": 6,
+      "meanWork": 1599912.6666666667,
+      "meanDimension": 18.5,
+      "meanPruned": 7
+    },
+    {
+      "budget": 2000000,
+      "group": "t3",
+      "mode": "E",
+      "n": 12,
+      "success": 5,
+      "meanWork": 1579357.4166666667,
+      "meanDimension": 18.5,
+      "meanPruned": 7
+    },
+    {
+      "budget": 2000000,
+      "group": "t3",
+      "mode": "F",
+      "n": 12,
+      "success": 9,
+      "meanWork": 989743.75,
+      "meanDimension": 18.5,
+      "meanPruned": 7
+    },
+    {
+      "budget": 2000000,
+      "group": "t3",
+      "mode": "OLD-INIT",
+      "n": 12,
+      "success": 7,
+      "meanWork": 1403886.0833333333,
+      "meanDimension": 21.5,
+      "meanPruned": 4
+    },
+    {
+      "budget": 2000000,
+      "group": "t3",
+      "mode": "OLD-END",
+      "n": 12,
+      "success": 6,
+      "meanWork": 1277651.1666666667,
+      "meanDimension": 24.5,
+      "meanPruned": 0
+    },
+    {
+      "budget": null,
+      "group": "all",
+      "mode": "A",
+      "n": 48,
+      "success": 42,
+      "meanWork": 1741901.5625,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": null,
+      "group": "all",
+      "mode": "B",
+      "n": 48,
+      "success": 38,
+      "meanWork": 2401389.2708333335,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": null,
+      "group": "all",
+      "mode": "C",
+      "n": 48,
+      "success": 43,
+      "meanWork": 1682506.3333333333,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": null,
+      "group": "all",
+      "mode": "D",
+      "n": 48,
+      "success": 38,
+      "meanWork": 2400484.375,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": null,
+      "group": "all",
+      "mode": "E",
+      "n": 48,
+      "success": 39,
+      "meanWork": 2316950.3958333335,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": null,
+      "group": "all",
+      "mode": "F",
+      "n": 48,
+      "success": 45,
+      "meanWork": 1828561.75,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": null,
+      "group": "all",
+      "mode": "OLD-INIT",
+      "n": 48,
+      "success": 32,
+      "meanWork": 3589521.9791666665,
+      "meanDimension": 20.5,
+      "meanPruned": 5
+    },
+    {
+      "budget": null,
+      "group": "all",
+      "mode": "OLD-END",
+      "n": 48,
+      "success": 39,
+      "meanWork": 2747112.3541666665,
+      "meanDimension": 24.5,
+      "meanPruned": 0
+    },
+    {
+      "budget": null,
+      "group": 7,
+      "mode": "A",
+      "n": 24,
+      "success": 22,
+      "meanWork": 1114760.0416666667,
+      "meanDimension": 15,
+      "meanPruned": 7
+    },
+    {
+      "budget": null,
+      "group": 7,
+      "mode": "B",
+      "n": 24,
+      "success": 23,
+      "meanWork": 1351116.25,
+      "meanDimension": 15,
+      "meanPruned": 7
+    },
+    {
+      "budget": null,
+      "group": 7,
+      "mode": "C",
+      "n": 24,
+      "success": 21,
+      "meanWork": 1188088.0833333333,
+      "meanDimension": 15,
+      "meanPruned": 7
+    },
+    {
+      "budget": null,
+      "group": 7,
+      "mode": "D",
+      "n": 24,
+      "success": 23,
+      "meanWork": 1349404.9583333333,
+      "meanDimension": 15,
+      "meanPruned": 7
+    },
+    {
+      "budget": null,
+      "group": 7,
+      "mode": "E",
+      "n": 24,
+      "success": 21,
+      "meanWork": 1254239.5833333333,
+      "meanDimension": 15,
+      "meanPruned": 7
+    },
+    {
+      "budget": null,
+      "group": 7,
+      "mode": "F",
+      "n": 24,
+      "success": 24,
+      "meanWork": 1057264.0833333333,
+      "meanDimension": 15,
+      "meanPruned": 7
+    },
+    {
+      "budget": null,
+      "group": 7,
+      "mode": "OLD-INIT",
+      "n": 24,
+      "success": 19,
+      "meanWork": 2101360.8333333335,
+      "meanDimension": 18,
+      "meanPruned": 4
+    },
+    {
+      "budget": null,
+      "group": 7,
+      "mode": "OLD-END",
+      "n": 24,
+      "success": 24,
+      "meanWork": 1174010.5,
+      "meanDimension": 21,
+      "meanPruned": 0
+    },
+    {
+      "budget": null,
+      "group": 8,
+      "mode": "A",
+      "n": 24,
+      "success": 20,
+      "meanWork": 2369043.0833333335,
+      "meanDimension": 20,
+      "meanPruned": 9
+    },
+    {
+      "budget": null,
+      "group": 8,
+      "mode": "B",
+      "n": 24,
+      "success": 15,
+      "meanWork": 3451662.2916666665,
+      "meanDimension": 20,
+      "meanPruned": 9
+    },
+    {
+      "budget": null,
+      "group": 8,
+      "mode": "C",
+      "n": 24,
+      "success": 22,
+      "meanWork": 2176924.5833333335,
+      "meanDimension": 20,
+      "meanPruned": 9
+    },
+    {
+      "budget": null,
+      "group": 8,
+      "mode": "D",
+      "n": 24,
+      "success": 15,
+      "meanWork": 3451563.7916666665,
+      "meanDimension": 20,
+      "meanPruned": 9
+    },
+    {
+      "budget": null,
+      "group": 8,
+      "mode": "E",
+      "n": 24,
+      "success": 18,
+      "meanWork": 3379661.2083333335,
+      "meanDimension": 20,
+      "meanPruned": 9
+    },
+    {
+      "budget": null,
+      "group": 8,
+      "mode": "F",
+      "n": 24,
+      "success": 21,
+      "meanWork": 2599859.4166666665,
+      "meanDimension": 20,
+      "meanPruned": 9
+    },
+    {
+      "budget": null,
+      "group": 8,
+      "mode": "OLD-INIT",
+      "n": 24,
+      "success": 13,
+      "meanWork": 5077683.125,
+      "meanDimension": 23,
+      "meanPruned": 6
+    },
+    {
+      "budget": null,
+      "group": 8,
+      "mode": "OLD-END",
+      "n": 24,
+      "success": 15,
+      "meanWork": 4320214.208333333,
+      "meanDimension": 28,
+      "meanPruned": 0
+    },
+    {
+      "budget": null,
+      "group": "t0",
+      "mode": "A",
+      "n": 12,
+      "success": 8,
+      "meanWork": 2408971.1666666665,
+      "meanDimension": 16.5,
+      "meanPruned": 9
+    },
+    {
+      "budget": null,
+      "group": "t0",
+      "mode": "B",
+      "n": 12,
+      "success": 8,
+      "meanWork": 2399227.4166666665,
+      "meanDimension": 16.5,
+      "meanPruned": 9
+    },
+    {
+      "budget": null,
+      "group": "t0",
+      "mode": "C",
+      "n": 12,
+      "success": 10,
+      "meanWork": 1617852.8333333333,
+      "meanDimension": 16.5,
+      "meanPruned": 9
+    },
+    {
+      "budget": null,
+      "group": "t0",
+      "mode": "D",
+      "n": 12,
+      "success": 8,
+      "meanWork": 2396979.1666666665,
+      "meanDimension": 16.5,
+      "meanPruned": 9
+    },
+    {
+      "budget": null,
+      "group": "t0",
+      "mode": "E",
+      "n": 12,
+      "success": 9,
+      "meanWork": 2197278.5833333335,
+      "meanDimension": 16.5,
+      "meanPruned": 9
+    },
+    {
+      "budget": null,
+      "group": "t0",
+      "mode": "F",
+      "n": 12,
+      "success": 9,
+      "meanWork": 2530341.5,
+      "meanDimension": 16.5,
+      "meanPruned": 9
+    },
+    {
+      "budget": null,
+      "group": "t0",
+      "mode": "OLD-INIT",
+      "n": 12,
+      "success": 5,
+      "meanWork": 3550982.5,
+      "meanDimension": 19.5,
+      "meanPruned": 6
+    },
+    {
+      "budget": null,
+      "group": "t0",
+      "mode": "OLD-END",
+      "n": 12,
+      "success": 9,
+      "meanWork": 3422922.3333333335,
+      "meanDimension": 24.5,
+      "meanPruned": 0
+    },
+    {
+      "budget": null,
+      "group": "t1",
+      "mode": "A",
+      "n": 12,
+      "success": 11,
+      "meanWork": 1463490.5833333333,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": null,
+      "group": "t1",
+      "mode": "B",
+      "n": 12,
+      "success": 7,
+      "meanWork": 2956448.9166666665,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": null,
+      "group": "t1",
+      "mode": "C",
+      "n": 12,
+      "success": 11,
+      "meanWork": 1843784.6666666667,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": null,
+      "group": "t1",
+      "mode": "D",
+      "n": 12,
+      "success": 7,
+      "meanWork": 2955001.3333333335,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": null,
+      "group": "t1",
+      "mode": "E",
+      "n": 12,
+      "success": 9,
+      "meanWork": 2752839.3333333335,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": null,
+      "group": "t1",
+      "mode": "F",
+      "n": 12,
+      "success": 12,
+      "meanWork": 2098467.5,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": null,
+      "group": "t1",
+      "mode": "OLD-INIT",
+      "n": 12,
+      "success": 8,
+      "meanWork": 4608467,
+      "meanDimension": 21.5,
+      "meanPruned": 4
+    },
+    {
+      "budget": null,
+      "group": "t1",
+      "mode": "OLD-END",
+      "n": 12,
+      "success": 9,
+      "meanWork": 3274702.5,
+      "meanDimension": 24.5,
+      "meanPruned": 0
+    },
+    {
+      "budget": null,
+      "group": "t2",
+      "mode": "A",
+      "n": 12,
+      "success": 11,
+      "meanWork": 1547631.1666666667,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": null,
+      "group": "t2",
+      "mode": "B",
+      "n": 12,
+      "success": 11,
+      "meanWork": 1533555.0833333333,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": null,
+      "group": "t2",
+      "mode": "C",
+      "n": 12,
+      "success": 12,
+      "meanWork": 1892034.8333333333,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": null,
+      "group": "t2",
+      "mode": "D",
+      "n": 12,
+      "success": 11,
+      "meanWork": 1533555.0833333333,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": null,
+      "group": "t2",
+      "mode": "E",
+      "n": 12,
+      "success": 11,
+      "meanWork": 1128780.4166666667,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": null,
+      "group": "t2",
+      "mode": "F",
+      "n": 12,
+      "success": 12,
+      "meanWork": 1466189,
+      "meanDimension": 17.5,
+      "meanPruned": 8
+    },
+    {
+      "budget": null,
+      "group": "t2",
+      "mode": "OLD-INIT",
+      "n": 12,
+      "success": 11,
+      "meanWork": 2780838.3333333335,
+      "meanDimension": 19.5,
+      "meanPruned": 6
+    },
+    {
+      "budget": null,
+      "group": "t2",
+      "mode": "OLD-END",
+      "n": 12,
+      "success": 10,
+      "meanWork": 1995460.1666666667,
+      "meanDimension": 24.5,
+      "meanPruned": 0
+    },
+    {
+      "budget": null,
+      "group": "t3",
+      "mode": "A",
+      "n": 12,
+      "success": 12,
+      "meanWork": 1547513.3333333333,
+      "meanDimension": 18.5,
+      "meanPruned": 7
+    },
+    {
+      "budget": null,
+      "group": "t3",
+      "mode": "B",
+      "n": 12,
+      "success": 12,
+      "meanWork": 2716325.6666666665,
+      "meanDimension": 18.5,
+      "meanPruned": 7
+    },
+    {
+      "budget": null,
+      "group": "t3",
+      "mode": "C",
+      "n": 12,
+      "success": 10,
+      "meanWork": 1376353,
+      "meanDimension": 18.5,
+      "meanPruned": 7
+    },
+    {
+      "budget": null,
+      "group": "t3",
+      "mode": "D",
+      "n": 12,
+      "success": 12,
+      "meanWork": 2716401.9166666665,
+      "meanDimension": 18.5,
+      "meanPruned": 7
+    },
+    {
+      "budget": null,
+      "group": "t3",
+      "mode": "E",
+      "n": 12,
+      "success": 10,
+      "meanWork": 3188903.25,
+      "meanDimension": 18.5,
+      "meanPruned": 7
+    },
+    {
+      "budget": null,
+      "group": "t3",
+      "mode": "F",
+      "n": 12,
+      "success": 12,
+      "meanWork": 1219249,
+      "meanDimension": 18.5,
+      "meanPruned": 7
+    },
+    {
+      "budget": null,
+      "group": "t3",
+      "mode": "OLD-INIT",
+      "n": 12,
+      "success": 8,
+      "meanWork": 3417800.0833333335,
+      "meanDimension": 21.5,
+      "meanPruned": 4
+    },
+    {
+      "budget": null,
+      "group": "t3",
+      "mode": "OLD-END",
+      "n": 12,
+      "success": 11,
+      "meanWork": 2295364.4166666665,
+      "meanDimension": 24.5,
+      "meanPruned": 0
+    }
+  ],
+  "predictions": {
+    "P1": {
+      "predicted": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "fixed": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "missed": []
+    },
+    "P2": {
+      "predicted": [
+        "A:double34",
+        "A:double44",
+        "A:triple44",
+        "A:triple45",
+        "B:double34",
+        "B:double44",
+        "B:triple44",
+        "B:triple45",
+        "C:double34",
+        "C:double44",
+        "C:triple44",
+        "C:triple45",
+        "D:double34",
+        "D:double44",
+        "D:triple44",
+        "D:triple45",
+        "E:double34",
+        "E:double44",
+        "E:triple44",
+        "E:triple45",
+        "F:double34",
+        "F:double44",
+        "F:triple44",
+        "F:triple45"
+      ],
+      "fixed": [
+        "A:double34",
+        "A:double44",
+        "A:triple44",
+        "A:triple45",
+        "B:double34",
+        "B:double44",
+        "B:triple44",
+        "B:triple45",
+        "C:double34",
+        "C:double44",
+        "C:triple44",
+        "C:triple45",
+        "D:double34",
+        "D:double44",
+        "D:triple44",
+        "D:triple45",
+        "E:double34",
+        "E:double44",
+        "E:triple44",
+        "E:triple45",
+        "F:double34",
+        "F:double44",
+        "F:triple44",
+        "F:triple45"
+      ],
+      "missed": []
+    },
+    "P3": {
+      "predicted": [
+        81000,
+        81001,
+        81002,
+        81003,
+        81004,
+        81005,
+        81006,
+        81007,
+        81008,
+        81009,
+        81010,
+        81011,
+        82000,
+        82001,
+        82002,
+        82003,
+        82004,
+        82005,
+        82006,
+        82007,
+        82008,
+        82009,
+        82010,
+        82011,
+        82012,
+        82013,
+        82014,
+        82015,
+        82016,
+        82017,
+        82018,
+        82019,
+        82020,
+        82021,
+        82022,
+        82023,
+        82024,
+        82025,
+        82026,
+        82027,
+        82028,
+        82029,
+        82030,
+        82031,
+        82032,
+        82033,
+        82034,
+        82035,
+        82036,
+        82037,
+        82038,
+        82039,
+        82040,
+        82041,
+        82042,
+        82043,
+        82044,
+        82045,
+        82046,
+        82047
+      ],
+      "fixed": [
+        81000,
+        81001,
+        81002,
+        81003,
+        81004,
+        81005,
+        81006,
+        81007,
+        81008,
+        81009,
+        81010,
+        81011,
+        82000,
+        82001,
+        82002,
+        82003,
+        82004,
+        82005,
+        82006,
+        82007,
+        82008,
+        82009,
+        82010,
+        82011,
+        82012,
+        82013,
+        82014,
+        82015,
+        82016,
+        82017,
+        82018,
+        82019,
+        82020,
+        82021,
+        82022,
+        82023,
+        82024,
+        82025,
+        82026,
+        82027,
+        82028,
+        82029,
+        82030,
+        82031,
+        82032,
+        82033,
+        82034,
+        82035,
+        82036,
+        82037,
+        82038,
+        82039,
+        82040,
+        82041,
+        82042,
+        82043,
+        82044,
+        82045,
+        82046,
+        82047
+      ],
+      "missed": []
+    }
+  },
+  "verifiedPaths": 912,
+  "maxDerivative": 3.348561921572784e-10,
+  "maxLeak": 9.613894400882401e-17,
+  "verifyMax": {
+    "err": 3.730349362740526e-15,
+    "orth": 3.3306690738754696e-15,
+    "ports": 0,
+    "sym": 5.142085587737567e-16,
+    "resp": 3.8429756988392296e-14,
+    "denseMultiplyTerms": 470000,
+    "responseSolves": 10
+  },
+  "rawFiles": [
+    "rotation_lineage_target_00.json",
+    "rotation_lineage_target_01.json",
+    "rotation_lineage_target_02.json",
+    "rotation_lineage_target_03.json",
+    "rotation_lineage_target_04.json",
+    "rotation_lineage_target_05.json"
+  ],
+  "limitations": [
+    "All four primary source/static/insertion policies select A; zero incremental benefit over static selection, even before source cost. Uniform random expectation is computed over six policies; D is a fixed comparator not a random draw.",
+    "Six sequence variants are not necessarily distinct parameterizations; B/D nearly equivalent observed results. Source stream offset changes restart RNG but first deterministic start is shared.",
+    "Condition proxy is port Jacobian only; all endpoint term counts tie. Source ranking six organs is small, descriptive correlations only.",
+    "Four child contracts equally represented, two sizes; three contracts seen in earlier experiments but matrices fresh, triple45 new contract.",
+    "Child synthesis tests each parent separately, not unrestricted multi-parent search. Child library generated before source ranking; no actual learned online pruning or per-instance selection.",
+    "Source fitness cost includes all 144 modeled numerical runs; independent verification, symbolic search and static proxy operations not calibrated to that ledger. No wall time or hardware.",
+    "Same aligned anchors not same endpoints for OLD-INIT; OLD-END uses A endpoints. Alternative charts differ in seeds/coordinates; no isolation of conditioning from initial geometry.",
+    "Local rank, formal polynomial identities, and numerical checks do not prove global real surjectivity. Lean workflow status separate."
+  ]
+}

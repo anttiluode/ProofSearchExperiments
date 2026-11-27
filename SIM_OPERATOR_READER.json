@@ -1,6 +1,6 @@
 {
   "format": "SIM-inspired experimental history, not Google's CRSI optimizer",
-  "next_id": 16,
+  "next_id": 17,
   "problems": [
     {
       "id": 1,
@@ -16410,6 +16410,748 @@
           ],
           "decision": "Promote reuse on these bounded searches. Keep both double33 organs; no learned selector proven. Compare numerical gains against both matched controls, not only old solver. Triple B duplicates A. No general autonomous theorem discovery or amortization claim.",
           "source_development": 0
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "root_cause": "9 insertion-order ties selected A despite B's diagnostic fitness; test parent fitness transfer with larger organ library and static controls.",
+      "attempts": [
+        {
+          "intervention": "10a six harvested parent organs, two source restart streams, 24 independently synthesized children and frozen policies",
+          "protocol_commit": "319d87b31ffd2c2c1c8a0893f0dcd216e6ac15d7",
+          "predictions": {
+            "P1": {
+              "predicted": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+              ],
+              "fixed": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+              ],
+              "missed": []
+            },
+            "P2": {
+              "predicted": [
+                "A:double34",
+                "A:double44",
+                "A:triple44",
+                "A:triple45",
+                "B:double34",
+                "B:double44",
+                "B:triple44",
+                "B:triple45",
+                "C:double34",
+                "C:double44",
+                "C:triple44",
+                "C:triple45",
+                "D:double34",
+                "D:double44",
+                "D:triple44",
+                "D:triple45",
+                "E:double34",
+                "E:double44",
+                "E:triple44",
+                "E:triple45",
+                "F:double34",
+                "F:double44",
+                "F:triple44",
+                "F:triple45"
+              ],
+              "fixed": [
+                "A:double34",
+                "A:double44",
+                "A:triple44",
+                "A:triple45",
+                "B:double34",
+                "B:double44",
+                "B:triple44",
+                "B:triple45",
+                "C:double34",
+                "C:double44",
+                "C:triple44",
+                "C:triple45",
+                "D:double34",
+                "D:double44",
+                "D:triple44",
+                "D:triple45",
+                "E:double34",
+                "E:double44",
+                "E:triple44",
+                "E:triple45",
+                "F:double34",
+                "F:double44",
+                "F:triple44",
+                "F:triple45"
+              ],
+              "missed": []
+            },
+            "P3": {
+              "predicted": [
+                81000,
+                81001,
+                81002,
+                81003,
+                81004,
+                81005,
+                81006,
+                81007,
+                81008,
+                81009,
+                81010,
+                81011,
+                82000,
+                82001,
+                82002,
+                82003,
+                82004,
+                82005,
+                82006,
+                82007,
+                82008,
+                82009,
+                82010,
+                82011,
+                82012,
+                82013,
+                82014,
+                82015,
+                82016,
+                82017,
+                82018,
+                82019,
+                82020,
+                82021,
+                82022,
+                82023,
+                82024,
+                82025,
+                82026,
+                82027,
+                82028,
+                82029,
+                82030,
+                82031,
+                82032,
+                82033,
+                82034,
+                82035,
+                82036,
+                82037,
+                82038,
+                82039,
+                82040,
+                82041,
+                82042,
+                82043,
+                82044,
+                82045,
+                82046,
+                82047
+              ],
+              "fixed": [
+                81000,
+                81001,
+                81002,
+                81003,
+                81004,
+                81005,
+                81006,
+                81007,
+                81008,
+                81009,
+                81010,
+                81011,
+                82000,
+                82001,
+                82002,
+                82003,
+                82004,
+                82005,
+                82006,
+                82007,
+                82008,
+                82009,
+                82010,
+                82011,
+                82012,
+                82013,
+                82014,
+                82015,
+                82016,
+                82017,
+                82018,
+                82019,
+                82020,
+                82021,
+                82022,
+                82023,
+                82024,
+                82025,
+                82026,
+                82027,
+                82028,
+                82029,
+                82030,
+                82031,
+                82032,
+                82033,
+                82034,
+                82035,
+                82036,
+                82037,
+                82038,
+                82039,
+                82040,
+                82041,
+                82042,
+                82043,
+                82044,
+                82045,
+                82046,
+                82047
+              ],
+              "missed": []
+            }
+          },
+          "observed": [
+            {
+              "budget": 2000000,
+              "stats": [
+                {
+                  "budget": 2000000,
+                  "group": "all",
+                  "mode": "A",
+                  "n": 48,
+                  "success": 31,
+                  "meanWork": 1195977.3333333333,
+                  "meanDimension": 17.5,
+                  "meanPruned": 8
+                },
+                {
+                  "budget": 2000000,
+                  "group": "all",
+                  "mode": "B",
+                  "n": 48,
+                  "success": 27,
+                  "meanWork": 1375506.0208333333,
+                  "meanDimension": 17.5,
+                  "meanPruned": 8
+                },
+                {
+                  "budget": 2000000,
+                  "group": "all",
+                  "mode": "C",
+                  "n": 48,
+                  "success": 33,
+                  "meanWork": 1107066.9791666667,
+                  "meanDimension": 17.5,
+                  "meanPruned": 8
+                },
+                {
+                  "budget": 2000000,
+                  "group": "all",
+                  "mode": "D",
+                  "n": 48,
+                  "success": 28,
+                  "meanWork": 1374995.4375,
+                  "meanDimension": 17.5,
+                  "meanPruned": 8
+                },
+                {
+                  "budget": 2000000,
+                  "group": "all",
+                  "mode": "E",
+                  "n": 48,
+                  "success": 28,
+                  "meanWork": 1292654.0208333333,
+                  "meanDimension": 17.5,
+                  "meanPruned": 8
+                },
+                {
+                  "budget": 2000000,
+                  "group": "all",
+                  "mode": "F",
+                  "n": 48,
+                  "success": 31,
+                  "meanWork": 1280192.1666666667,
+                  "meanDimension": 17.5,
+                  "meanPruned": 8
+                },
+                {
+                  "budget": 2000000,
+                  "group": "all",
+                  "mode": "OLD-INIT",
+                  "n": 48,
+                  "success": 17,
+                  "meanWork": 1579026.9583333333,
+                  "meanDimension": 20.5,
+                  "meanPruned": 5
+                },
+                {
+                  "budget": 2000000,
+                  "group": "all",
+                  "mode": "OLD-END",
+                  "n": 48,
+                  "success": 26,
+                  "meanWork": 1295695.5,
+                  "meanDimension": 24.5,
+                  "meanPruned": 0
+                }
+              ],
+              "pairedVsA": [
+                {
+                  "mode": "A",
+                  "wins": [],
+                  "losses": []
+                },
+                {
+                  "mode": "B",
+                  "wins": [
+                    82014,
+                    82016,
+                    82023,
+                    82027,
+                    82028,
+                    82030,
+                    82034,
+                    82035,
+                    82037,
+                    82042
+                  ],
+                  "losses": [
+                    82000,
+                    82007,
+                    82017,
+                    82019,
+                    82025,
+                    82026,
+                    82029,
+                    82033,
+                    82038,
+                    82039,
+                    82043,
+                    82045,
+                    82046,
+                    82047
+                  ]
+                },
+                {
+                  "mode": "C",
+                  "wins": [
+                    82014,
+                    82016,
+                    82023,
+                    82027,
+                    82028,
+                    82034,
+                    82035,
+                    82042
+                  ],
+                  "losses": [
+                    82010,
+                    82015,
+                    82019,
+                    82025,
+                    82026,
+                    82046
+                  ]
+                },
+                {
+                  "mode": "D",
+                  "wins": [
+                    82014,
+                    82016,
+                    82023,
+                    82027,
+                    82028,
+                    82030,
+                    82034,
+                    82035,
+                    82037,
+                    82042
+                  ],
+                  "losses": [
+                    82007,
+                    82017,
+                    82019,
+                    82025,
+                    82026,
+                    82029,
+                    82033,
+                    82038,
+                    82039,
+                    82043,
+                    82045,
+                    82046,
+                    82047
+                  ]
+                },
+                {
+                  "mode": "E",
+                  "wins": [
+                    82014,
+                    82016,
+                    82023,
+                    82028,
+                    82030,
+                    82034,
+                    82037,
+                    82042
+                  ],
+                  "losses": [
+                    82007,
+                    82019,
+                    82022,
+                    82025,
+                    82029,
+                    82033,
+                    82039,
+                    82041,
+                    82043,
+                    82045,
+                    82046
+                  ]
+                },
+                {
+                  "mode": "F",
+                  "wins": [
+                    82009,
+                    82012,
+                    82014,
+                    82016,
+                    82023,
+                    82028,
+                    82030,
+                    82031,
+                    82034,
+                    82035,
+                    82042
+                  ],
+                  "losses": [
+                    82000,
+                    82004,
+                    82005,
+                    82025,
+                    82026,
+                    82029,
+                    82033,
+                    82041,
+                    82043,
+                    82046,
+                    82047
+                  ]
+                },
+                {
+                  "mode": "OLD-INIT",
+                  "wins": [
+                    82023,
+                    82028,
+                    82032,
+                    82035,
+                    82042
+                  ],
+                  "losses": [
+                    82002,
+                    82005,
+                    82007,
+                    82013,
+                    82017,
+                    82018,
+                    82020,
+                    82021,
+                    82024,
+                    82025,
+                    82026,
+                    82029,
+                    82033,
+                    82038,
+                    82039,
+                    82041,
+                    82045,
+                    82046,
+                    82047
+                  ]
+                },
+                {
+                  "mode": "OLD-END",
+                  "wins": [
+                    82009,
+                    82023,
+                    82030,
+                    82032,
+                    82034,
+                    82042
+                  ],
+                  "losses": [
+                    82000,
+                    82020,
+                    82025,
+                    82026,
+                    82029,
+                    82033,
+                    82039,
+                    82043,
+                    82045,
+                    82046,
+                    82047
+                  ]
+                }
+              ],
+              "oracle": 44,
+              "uniformExpectedSuccess": 29.666666666666668,
+              "uniformExpectedWork": 1271065.3263888888,
+              "targetRank": [
+                "C",
+                "A",
+                "F",
+                "E",
+                "D",
+                "B"
+              ],
+              "sourceTargetSpearman": 0.02857142857142857,
+              "conditionTargetSpearman": 0.9710083124552245,
+              "sourceSuccessTargetSuccessSpearman": 0.25425669046549126
+            },
+            {
+              "budget": null,
+              "stats": [
+                {
+                  "budget": null,
+                  "group": "all",
+                  "mode": "A",
+                  "n": 48,
+                  "success": 42,
+                  "meanWork": 1741901.5625,
+                  "meanDimension": 17.5,
+                  "meanPruned": 8
+                },
+                {
+                  "budget": null,
+                  "group": "all",
+                  "mode": "B",
+                  "n": 48,
+                  "success": 38,
+                  "meanWork": 2401389.2708333335,
+                  "meanDimension": 17.5,
+                  "meanPruned": 8
+                },
+                {
+                  "budget": null,
+                  "group": "all",
+                  "mode": "C",
+                  "n": 48,
+                  "success": 43,
+                  "meanWork": 1682506.3333333333,
+                  "meanDimension": 17.5,
+                  "meanPruned": 8
+                },
+                {
+                  "budget": null,
+                  "group": "all",
+                  "mode": "D",
+                  "n": 48,
+                  "success": 38,
+                  "meanWork": 2400484.375,
+                  "meanDimension": 17.5,
+                  "meanPruned": 8
+                },
+                {
+                  "budget": null,
+                  "group": "all",
+                  "mode": "E",
+                  "n": 48,
+                  "success": 39,
+                  "meanWork": 2316950.3958333335,
+                  "meanDimension": 17.5,
+                  "meanPruned": 8
+                },
+                {
+                  "budget": null,
+                  "group": "all",
+                  "mode": "F",
+                  "n": 48,
+                  "success": 45,
+                  "meanWork": 1828561.75,
+                  "meanDimension": 17.5,
+                  "meanPruned": 8
+                },
+                {
+                  "budget": null,
+                  "group": "all",
+                  "mode": "OLD-INIT",
+                  "n": 48,
+                  "success": 32,
+                  "meanWork": 3589521.9791666665,
+                  "meanDimension": 20.5,
+                  "meanPruned": 5
+                },
+                {
+                  "budget": null,
+                  "group": "all",
+                  "mode": "OLD-END",
+                  "n": 48,
+                  "success": 39,
+                  "meanWork": 2747112.3541666665,
+                  "meanDimension": 24.5,
+                  "meanPruned": 0
+                }
+              ],
+              "pairedVsA": [
+                {
+                  "mode": "A",
+                  "wins": [],
+                  "losses": []
+                },
+                {
+                  "mode": "B",
+                  "wins": [
+                    82012,
+                    82016,
+                    82030,
+                    82037
+                  ],
+                  "losses": [
+                    82009,
+                    82025,
+                    82029,
+                    82032,
+                    82033,
+                    82036,
+                    82045,
+                    82046
+                  ]
+                },
+                {
+                  "mode": "C",
+                  "wins": [
+                    82016,
+                    82030,
+                    82037,
+                    82040
+                  ],
+                  "losses": [
+                    82015,
+                    82019,
+                    82025
+                  ]
+                },
+                {
+                  "mode": "D",
+                  "wins": [
+                    82012,
+                    82016,
+                    82030,
+                    82037
+                  ],
+                  "losses": [
+                    82009,
+                    82025,
+                    82029,
+                    82032,
+                    82033,
+                    82036,
+                    82045,
+                    82046
+                  ]
+                },
+                {
+                  "mode": "E",
+                  "wins": [
+                    82016,
+                    82030,
+                    82037
+                  ],
+                  "losses": [
+                    82009,
+                    82019,
+                    82025,
+                    82031,
+                    82041,
+                    82046
+                  ]
+                },
+                {
+                  "mode": "F",
+                  "wins": [
+                    82012,
+                    82016,
+                    82030,
+                    82037,
+                    82040
+                  ],
+                  "losses": [
+                    82032,
+                    82036
+                  ]
+                },
+                {
+                  "mode": "OLD-INIT",
+                  "wins": [
+                    82030,
+                    82037
+                  ],
+                  "losses": [
+                    82002,
+                    82005,
+                    82020,
+                    82024,
+                    82025,
+                    82027,
+                    82029,
+                    82031,
+                    82036,
+                    82039,
+                    82041,
+                    82047
+                  ]
+                },
+                {
+                  "mode": "OLD-END",
+                  "wins": [
+                    82012,
+                    82016,
+                    82030,
+                    82037
+                  ],
+                  "losses": [
+                    82025,
+                    82026,
+                    82029,
+                    82036,
+                    82039,
+                    82045,
+                    82046
+                  ]
+                }
+              ],
+              "oracle": 47,
+              "uniformExpectedSuccess": 40.833333333333336,
+              "uniformExpectedWork": 2061965.6145833333,
+              "targetRank": [
+                "F",
+                "C",
+                "A",
+                "E",
+                "D",
+                "B"
+              ],
+              "sourceTargetSpearman": 0.08571428571428572,
+              "conditionTargetSpearman": 0.7944613465542745,
+              "sourceSuccessTargetSuccessSpearman": 0.4383570037596047
+            }
+          ],
+          "source_development": 124897219,
+          "decision": "Do not promote source-measured parent selection: frozen source winner equals insertion order and both static proxies. Keep reusable chart library and report target oracle only as diagnostic. No learned selector or calibrated cost break-even."
         }
       ]
     }

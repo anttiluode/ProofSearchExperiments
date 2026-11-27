@@ -438,3 +438,23 @@ Fixed = 2M work + 4096 rotations. OLD-S is frozen 7i union chart, OLD-P same wit
 | triple | B | 13/24 | 1,386,070 | 21/24 | 2,126,745 |
 
 Fixed = 2M work + 4096 rotations. OLD-S is frozen 7i union chart, OLD-INIT matches synthesized anchor selection/aligned base and random streams but uses union tail coordinates (different endpoints), OLD-END uses A chart seed endpoints then unrestricted full LM with smooth continuation. A/B use independently found double33 programs from 8; triple44 uses the same discovered chart in both. Numerical comparison does not isolate conditioning from chart-dependent endpoints, no learned selector. Root-prefix reuse is not arbitrary mid-program macro invocation. No runtime, hardware, comparable symbolic/numerical amortization or formal global chart coverage claim. Lean obligations check exact forbidden polynomial identities; CI status separate. Reproduce `node reuse_givens.cjs` and `node rotation_reuse.cjs`. Compact rows omit paths, reproducible from exported run().
+
+
+## Experiment 10a — lineage fitness transfer
+
+[Protocol](ROTATION_LINEAGE_PROTOCOL.md) · [Harvest and child synthesis](lineage_givens.cjs) · [Frozen library](results/rotation_lineage_library.json) · [Source measurements](results/rotation_lineage_source.json) · [Frozen selection](results/rotation_lineage_policies.json) · [Numerical benchmark](rotation_lineage.cjs) · [Summary](results/rotation_lineage_summary.json) · [Target audit](results/rotation_lineage_audit.json) · [Lean polynomial obligations](results/RotationLineageObligations.lean).
+
+Six parent programs retained from seven accepted depth-four sequences (includes prior A/B). All 24 parent/child combinations synthesized with explicit macro provenance and passed generic rank/derivative and exact symbolic zero checks. Per-parent charged candidates 30/68/70/508 for double34/double44/triple44/triple45. The child library is frozen before numerical source/target evaluation. All parents have ten endpoint polynomial terms, A/C tie for lowest mean sampled port-Jacobian condition. Source 12 fresh n=6 matrices, two restart streams, 144 runs, total modeled work 124,897,219. Source winner A (19/24) is also insertion, terms and condition winner; no added value of source-based policy over static controls. D is fixed comparator, uniform random expectation is averaged across six policies, not an actual random draw.
+
+| Parent/control | Source | Fixed target | Mean work | Rotation-only target | Mean work |
+|---|---:|---:|---:|---:|---:|
+| A | 19/24 | 31/48 | 1,195,977 | 42/48 | 1,741,902 |
+| B | 17/24 | 27/48 | 1,375,506 | 38/48 | 2,401,389 |
+| C | 17/24 | 33/48 | 1,107,067 | 43/48 | 1,682,506 |
+| D | 17/24 | 28/48 | 1,374,995 | 38/48 | 2,400,484 |
+| E | 18/24 | 28/48 | 1,292,654 | 39/48 | 2,316,950 |
+| F | 18/24 | 31/48 | 1,280,192 | 45/48 | 1,828,562 |
+| OLD-INIT | — | 17/48 | 1,579,027 | 32/48 | 3,589,522 |
+| OLD-END | — | 26/48 | 1,295,696 | 39/48 | 2,747,112 |
+
+48 fresh target matrices, n=7/8, four child contracts, 768 evaluations plus 144 source runs. Uniform expected target successes 29.67/48 fixed and 40.83/48 rotation-only; oracle union 44/48 and 47/48 (not deployable policy). Source-to-target rank Spearman 0.029 fixed and 0.086 rotation-only (six organs, descriptive). Source selection did not identify best target parent; no incremental transfer benefit established. All 60 witnesses and 360 chart derivative audits passed, max derivative 3.348561921572784e-10; all 912 numerical returned paths verified and caps/ledger sums checked; maximum sampled response error 3.8429756988392296e-14, max chart leakage 9.613894400882401e-17. B/D can be near equivalent parameterizations; no guarantee six distinct mathematical maps. Target library selected before source fitness evaluation, no actual learned pruning. No wall time, comparable symbolic/numeric amortization, hardware or global real chart proof. 10b not run. Reproduce `node lineage_givens.cjs` then `node rotation_lineage.cjs`.
