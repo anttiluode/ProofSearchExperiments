@@ -2,6 +2,14 @@
 
 Continuation of [ProofSearchExperiment](https://github.com/anttiluode/ProofSearchExperiment). The parent established exact shared-witness gluing, a corrected scheduler, and a Lean interlock. This repo asks whether approximate readers can cheaply recognize a proof before constructing it.
 
+## The story of November 27, 2026 — from proof folding to internal geometry
+
+**[Read the complete research diary: The shape of unfinished computation](STORY_OF_TODAY.md).** It follows the morning [singular repository](https://github.com/anttiluode/ProofSearchExperiment), the protein-folding analogy, the P-KAS/Deerskin/Kartiokello lineage, the Sol–Neon manual adversarial relay, Google's [SIM paper](https://arxiv.org/abs/2611.18856), the gravity and global-workspace preprints, the TWC bridge, the symbolic discovery and reuse results, and the evening's quadratic stabilizer charts.
+
+The strongest recurring result was not that approximate readers beat exact computation. Often they did not. Rather, when a reusable exact structure could be identified and compiled, it sometimes removed computation instead of merely rearranging it. Bounded symbolic reuse found triple44 in 120 charged candidates where flat BFS and best-first hit 200,000. The final internal chart reduced the n=9 numerical dimension from 28 to 19, reconstructed all tested witnesses and exposed a substantial artificial coordinate discontinuity. Local frame continuation repaired it in 100/100 sampled paths. The specialized reduced-chart iteration reached approximate modeled cost parity, **not** a demonstrated speed or solve-rate advantage.
+
+**Evening pause:** Gate 14a-tier is documented, the full-stage cost prediction failed, and the fresh 85000–85031 holdout remains unopened. A production path/rotation interlock and full-trajectory evaluation remain future work. The research diary is a narrative; the protocols, raw receipts, failed predictions and detailed qualifications below are the authoritative experiment records. No claim of global proof-search performance, novel mathematics relative to the specialist literature, or commercial value.
+
 ## Results (first CPU run)
 
 Protocols: [initial](PROTOCOL.md), [post-pilot phase follow-up](PHASE_FOLLOWUP_PROTOCOL.md). Raw rows and reproducible scripts are committed. No neural training, no GPU, no claim of general Lean performance.
