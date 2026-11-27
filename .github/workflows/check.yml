@@ -26,6 +26,8 @@ jobs:
           node operator_index.cjs
           node operator_lazy.cjs
           node rotation_orbit.cjs
+          node rotation_continuous.cjs
+          node rotation_lm.cjs
       - name: Install pinned Lean via elan
         run: |
           curl -sSf https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh | sh -s -- -y --default-toolchain none
