@@ -7,7 +7,7 @@ function load(source,discovery){
   source=source.replace(anchor,"let index=seed-(seed>=84000?84000:83000),n=8+Math.floor(index/16)");
   const m={exports:{}},g={exports:{}};
   new Function("module","require",discovery)(g,{});
-  new Function("module","require",source+"\nObject.assign(module.exports,{work,metered,BUDGET,rng,compile,seedState,value,modelH,diag,block,dot,trialChart,leak});")(m,{});
+  new Function("module","require",source+"\nObject.assign(module.exports,{work,metered,BUDGET,rng,compile,seedState,value,modelH,diag,block,dot,trialChart,leak,rotate});")(m,{});
   m.exports.setEvaluator(g.exports.evalProgram);
   return m.exports;
 }
@@ -110,6 +110,9 @@ function run(f,lib,ids){
     for(let budget of [2000000,4000000])for(let arm of arms){
       let z=regulate(f,p,item,arm,budget);
       if(z.work>budget||z.rotations>4096||f.work(z.ledger)!==z.work)throw Error("cap/ledger");
+      let A=p.start;for(let a of z.path)A=f.rotate(A,a,f.ledger());
+      let metric=f.metric(A,p,f.ledger());
+      if(metric.success!==z.success||Math.abs(metric.loss-z.loss)>1e-14*Math.max(1,Math.abs(z.loss)))throw Error("path metric mismatch");
       let {path,...row}=z;rows.push({...row,mode:arm,type:g.type,id,stages:path.length});
     }
   }
@@ -122,13 +125,12 @@ if(require.main===module){
   const hash=crypto.createHash("sha1").update("blob "+Buffer.byteLength(source)+"\\0".replace("\\0","\0")).update(source).digest("hex");
   if(hash!==SOURCE_BLOB)throw Error("source blob drift "+hash);
   const f=load(source,fs.readFileSync("discover_givens.cjs","utf8")),lib=JSON.parse(fs.readFileSync("results/rotation_quality_library.json"));
-  // Replay all old FIRST cases against Gate 12 trace files before new cases.
-  let summary=JSON.parse(fs.readFileSync("results/rotation_trajectory_summary.json")),count=0;
+  // Gate 11 compact rows were checked identical to Gate 12 trace replays.
+  let summary=JSON.parse(fs.readFileSync("results/rotation_quality_summary.json")),count=0;
   for(let file of summary.rawFiles){
-    let raw=JSON.parse(fs.readFileSync("results/"+file)),rows=Array.isArray(raw)?raw:raw.rows;
-    for(let old of rows.filter(x=>x.mode==="FIRST")){
-      let p=f.problem(old.seed),g=f.generate(old.seed),id=f.chosen(lib,g.type,"FIRST");
-      let z=f.solveH(p,"SYN",old.budget??Infinity,f.item(lib,g.type,id),0,8);
+    let rows=JSON.parse(fs.readFileSync("results/"+file));
+    for(let old of rows.filter(x=>/^R[0-4]$/.test(x.mode)&&x.organ===f.chosen(lib,x.type,"FIRST"))){
+      let p=f.problem(old.seed),z=f.solveH(p,"SYN",old.budget??Infinity,f.item(lib,old.type,old.organ),0,8);
       for(let k of ["success","loss","work","rotations"])if(z[k]!==old[k])throw Error("baseline replay "+old.seed+" "+k);
       count++;
     }
