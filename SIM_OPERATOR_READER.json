@@ -1,0 +1,104 @@
+{
+  "format": "SIM-inspired experimental history, not Google's CRSI optimizer",
+  "next_id": 5,
+  "problems": [
+    {
+      "id": 1,
+      "root_cause": "The eager trie serialized entire subtrees even behind wildcard edges.",
+      "attempts": [
+        {
+          "intervention": "Split lazy trie with persistent pending subtree stack",
+          "rationale": "Skip irrelevant subtrees before visiting descendants",
+          "predicted": "Fewer encoding visits and lower total ledger than split eager trie",
+          "observed": {
+            "primitive_encoding": [
+              306.75,
+              213
+            ],
+            "macro_encoding": [
+              310.15,
+              221.76
+            ],
+            "primitive_work": [
+              2328.32,
+              2394.78
+            ],
+            "macro_work": [
+              1875.72,
+              1937.08
+            ],
+            "macro_pending": 149.75
+          },
+          "outcome": "Encoding prediction met; total-work prediction missed. Stack cells cost more than savings on small expressions.",
+          "decision": "Keep exact lazy matcher as control; use split scan for small library."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "root_cause": "Mixed root buckets charge irrelevant macro probes during primitive-only normalization.",
+      "attempts": [
+        {
+          "intervention": "Prebuild separate query-group indexes",
+          "rationale": "A primitive query need not touch macro candidates.",
+          "predicted": "Reduce random-family recognition tax and retain proof trace",
+          "observed": {
+            "old_scan_random_primitive": 1584.04,
+            "old_scan_random_macro": 1819.25,
+            "split_scan_random_primitive": 1640.21,
+            "split_scan_random_macro": 1782.04,
+            "old_accounting_differs": "New ledger also charges sort comparisons and group construction."
+          },
+          "outcome": "Tax shrank from 235.21 to 141.83 units, but remains positive; not an isolated timing result.",
+          "decision": "Retain split buckets; investigate prepass gating on untouched data."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "root_cause": "Macro substitution computed twice per successful prepass match.",
+      "attempts": [
+        {
+          "intervention": "Pass prepared RHS to fire()",
+          "rationale": "The exact same immutable result was already constructed for size checking.",
+          "predicted": "Reduce substitution count without modifying certificate",
+          "observed": {
+            "with_duplicate": 1600.513888888889,
+            "reused": 1591.013888888889,
+            "delta": 9.5
+          },
+          "outcome": "Met in matched split scan.",
+          "decision": "Retain."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "root_cause": "Early canonical reassociation destroys a macro's own input interface.",
+      "attempts": [
+        {
+          "intervention": "Derive wrapped RHS by two associativity steps (6b)",
+          "rationale": "Preserve internal compositional representation until final lowering",
+          "predicted": "Longer conjugate chains admit successive macro hits",
+          "observed": {
+            "chain12_hits": 11,
+            "chain12_proof_applications": 23,
+            "chain12_primitive_applications": 67,
+            "chain2_terminal_lowering_advantage": "Original macro cheaper at n=2; wrapper requires terminal lowering."
+          },
+          "outcome": "Met for designed chain family.",
+          "decision": "Preserve internal wrapper, lower at boundary; not a universal asymptotic claim."
+        }
+      ]
+    }
+  ],
+  "context": {
+    "repo": "anttiluode/ProofSearchExperiments",
+    "experiment": "6c",
+    "cases": "72 reused target expressions + 11 designed chain lengths",
+    "query_audits": 32632,
+    "identical_theorems": 585,
+    "source_development_ledger": "Not comparable to current ledger; no complete amortization claim",
+    "verification": "6b Lean CI success; 6c generated theorem bodies exactly equal after renaming to regenerated 6b, new CI reproduction pending."
+  }
+}
