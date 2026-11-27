@@ -100,8 +100,8 @@ function followup(frozen,oldDev){
   }
   if(prepass)pre([]);walk([]);if(!eq(t,canonical(input)))throw Error("canonical mismatch");if(!same(replay(input,steps,all,l),t,l))throw Error("end");return {steps,ledger:l,expanded,maxChain,out:t}
  }
- let libs={P:[],S:frozen,T:frozen,C:frozen.map(m=>m.name===variant.parent?variant:m)},rows=[],stress=[],lean=[...frozen,variant].map(m=>theorem(m.name,m.lhs,m.trace));
- function test(p,dest,tag){let goal=canonical(p.t);for(let mode of Object.keys(libs)){let r=run(p.t,libs[mode],mode==="S"?"scan":"trie",mode!=="P");if(!eq(r.out,goal))throw Error("oracle");dest.push({seed:p.seed,family:p.family,mode,steps:r.steps.length,expanded:r.expanded,macroHits:r.ledger.macro,maxChain:r.maxChain,ledger:r.ledger});lean.push(theorem(tag+"_"+mode+"_"+p.seed,p.t,r.steps,libs[mode]))}}
+ let libs={P:[],PS:[],S:frozen,T:frozen,C:frozen.map(m=>m.name===variant.parent?variant:m),CS:frozen.map(m=>m.name===variant.parent?variant:m)},rows=[],stress=[],lean=[...frozen,variant].map(m=>theorem(m.name,m.lhs,m.trace));
+ function test(p,dest,tag){let goal=canonical(p.t);for(let mode of Object.keys(libs)){let r=run(p.t,libs[mode],["S","PS","CS"].includes(mode)?"scan":"trie",!["P","PS"].includes(mode));if(!eq(r.out,goal))throw Error("oracle");dest.push({seed:p.seed,family:p.family,mode,steps:r.steps.length,expanded:r.expanded,macroHits:r.ledger.macro,maxChain:r.maxChain,ledger:r.ledger});lean.push(theorem(tag+"_"+mode+"_"+p.seed,p.t,r.steps,libs[mode]))}}
  for(let seed=31000;seed<31072;seed++)test(problem(seed,true),rows,"indexcase");
  for(let n=2;n<=12;n++){let g="g"+n,items=Array.from({length:n},(_,i)=>M(M(V(g),"x"+n+"_"+i),g)),t=items.reduceRight((b,a)=>M(a,b));test({seed:n,family:"chain",t},stress,"chaincase")}
  const sum=x=>Object.values(x).reduce((s,v)=>s+v,0),avg=(a,f)=>a.reduce((s,x)=>s+f(x),0)/a.length;
