@@ -1,0 +1,542 @@
+{
+  "motif": [
+    {
+      "static": 6,
+      "scan": 12.266666666666667,
+      "keyed": 6.5,
+      "generic": 5.666666666666667
+    },
+    {
+      "static": 6,
+      "scan": 11.533333333333333,
+      "keyed": 5.5,
+      "generic": 5.5
+    }
+  ],
+  "rows": [
+    {
+      "t": 0,
+      "l": 3,
+      "static": 5,
+      "scan": 6,
+      "keyed": 7,
+      "generic": 7
+    },
+    {
+      "t": 1,
+      "l": 4,
+      "static": 7,
+      "scan": 9,
+      "keyed": 9,
+      "generic": 9
+    },
+    {
+      "t": 2,
+      "l": 3,
+      "static": 5,
+      "scan": 8,
+      "keyed": 7,
+      "generic": 5
+    },
+    {
+      "t": 3,
+      "l": 4,
+      "static": 7,
+      "scan": 11,
+      "keyed": 9,
+      "generic": 6
+    },
+    {
+      "t": 4,
+      "l": 3,
+      "static": 5,
+      "scan": 10,
+      "keyed": 7,
+      "generic": 5
+    },
+    {
+      "t": 5,
+      "l": 4,
+      "static": 7,
+      "scan": 13,
+      "keyed": 9,
+      "generic": 6
+    },
+    {
+      "t": 6,
+      "l": 3,
+      "static": 5,
+      "scan": 12,
+      "keyed": 7,
+      "generic": 5
+    },
+    {
+      "t": 7,
+      "l": 4,
+      "static": 7,
+      "scan": 15,
+      "keyed": 9,
+      "generic": 6
+    },
+    {
+      "t": 8,
+      "l": 3,
+      "static": 5,
+      "scan": 14,
+      "keyed": 7,
+      "generic": 5
+    },
+    {
+      "t": 9,
+      "l": 4,
+      "static": 7,
+      "scan": 17,
+      "keyed": 9,
+      "generic": 6
+    },
+    {
+      "t": 10,
+      "l": 3,
+      "static": 5,
+      "scan": 16,
+      "keyed": 7,
+      "generic": 5
+    },
+    {
+      "t": 11,
+      "l": 4,
+      "static": 7,
+      "scan": 19,
+      "keyed": 9,
+      "generic": 6
+    },
+    {
+      "t": 12,
+      "l": 3,
+      "static": 5,
+      "scan": 11,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 13,
+      "l": 4,
+      "static": 7,
+      "scan": 17,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 14,
+      "l": 4,
+      "static": 7,
+      "scan": 15,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 15,
+      "l": 3,
+      "static": 5,
+      "scan": 13,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 16,
+      "l": 3,
+      "static": 5,
+      "scan": 11,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 17,
+      "l": 4,
+      "static": 7,
+      "scan": 15,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 18,
+      "l": 3,
+      "static": 5,
+      "scan": 9,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 19,
+      "l": 3,
+      "static": 5,
+      "scan": 11,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 20,
+      "l": 4,
+      "static": 7,
+      "scan": 13,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 21,
+      "l": 3,
+      "static": 5,
+      "scan": 7,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 22,
+      "l": 3,
+      "static": 5,
+      "scan": 7,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 23,
+      "l": 4,
+      "static": 7,
+      "scan": 15,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 24,
+      "l": 4,
+      "static": 7,
+      "scan": 15,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 25,
+      "l": 4,
+      "static": 7,
+      "scan": 15,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 26,
+      "l": 3,
+      "static": 5,
+      "scan": 9,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 27,
+      "l": 4,
+      "static": 7,
+      "scan": 17,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 28,
+      "l": 3,
+      "static": 5,
+      "scan": 5,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 29,
+      "l": 4,
+      "static": 7,
+      "scan": 13,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 30,
+      "l": 3,
+      "static": 5,
+      "scan": 15,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 31,
+      "l": 3,
+      "static": 5,
+      "scan": 13,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 32,
+      "l": 3,
+      "static": 5,
+      "scan": 13,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 33,
+      "l": 3,
+      "static": 5,
+      "scan": 11,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 34,
+      "l": 4,
+      "static": 7,
+      "scan": 13,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 35,
+      "l": 4,
+      "static": 7,
+      "scan": 11,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 36,
+      "l": 3,
+      "static": 5,
+      "scan": 9,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 37,
+      "l": 3,
+      "static": 5,
+      "scan": 5,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 38,
+      "l": 4,
+      "static": 7,
+      "scan": 13,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 39,
+      "l": 4,
+      "static": 7,
+      "scan": 11,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 40,
+      "l": 3,
+      "static": 5,
+      "scan": 5,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 41,
+      "l": 3,
+      "static": 5,
+      "scan": 9,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 42,
+      "l": 4,
+      "static": 7,
+      "scan": 11,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 43,
+      "l": 4,
+      "static": 7,
+      "scan": 17,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 44,
+      "l": 3,
+      "static": 5,
+      "scan": 11,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 45,
+      "l": 4,
+      "static": 7,
+      "scan": 15,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 46,
+      "l": 4,
+      "static": 7,
+      "scan": 13,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 47,
+      "l": 3,
+      "static": 5,
+      "scan": 15,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 48,
+      "l": 4,
+      "static": 7,
+      "scan": 7,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 49,
+      "l": 4,
+      "static": 7,
+      "scan": 13,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 50,
+      "l": 3,
+      "static": 5,
+      "scan": 11,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 51,
+      "l": 3,
+      "static": 5,
+      "scan": 11,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 52,
+      "l": 3,
+      "static": 5,
+      "scan": 5,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 53,
+      "l": 4,
+      "static": 7,
+      "scan": 11,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 54,
+      "l": 4,
+      "static": 7,
+      "scan": 17,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 55,
+      "l": 3,
+      "static": 5,
+      "scan": 13,
+      "keyed": 5,
+      "generic": 5
+    },
+    {
+      "t": 56,
+      "l": 4,
+      "static": 7,
+      "scan": 11,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 57,
+      "l": 4,
+      "static": 7,
+      "scan": 11,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 58,
+      "l": 4,
+      "static": 7,
+      "scan": 11,
+      "keyed": 6,
+      "generic": 6
+    },
+    {
+      "t": 59,
+      "l": 3,
+      "static": 5,
+      "scan": 15,
+      "keyed": 5,
+      "generic": 5
+    }
+  ],
+  "policy": {
+    "source": [
+      225.84375,
+      689.4375,
+      689.4375,
+      689.4375,
+      689.4375
+    ],
+    "target": [
+      1013.28125,
+      1476.875,
+      1910.796875,
+      2694.234375,
+      3934.546875
+    ],
+    "k": [
+      0,
+      1,
+      2,
+      4,
+      8
+    ],
+    "arms": [
+      {
+        "name": "blank",
+        "chosen": 0,
+        "k": 0,
+        "targetMean": 1013.28125
+      },
+      {
+        "name": "source winner",
+        "chosen": 0,
+        "k": 0,
+        "targetMean": 1013.28125
+      },
+      {
+        "name": "source notebook",
+        "chosen": 0,
+        "k": 0,
+        "targetMean": 1013.28125
+      }
+    ],
+    "note": "Degenerate proxy: same source and target optimum, blank policy is k=0. One equal target evaluation per arm, no AI optimizer, cannot identify SIM effect."
+  }
+}
