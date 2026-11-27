@@ -1,0 +1,265 @@
+{
+  "chosen": "macro0",
+  "rows": [
+    {
+      "seed": 41000,
+      "exact": true,
+      "responseError": 2.7755575615628914e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41001,
+      "exact": true,
+      "responseError": 2.7755575615628914e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41002,
+      "exact": true,
+      "responseError": 2.7755575615628914e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41003,
+      "exact": true,
+      "responseError": 2.7755575615628914e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41004,
+      "exact": true,
+      "responseError": 2.7755575615628914e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41005,
+      "exact": true,
+      "responseError": 1.742330095302999e-18,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41006,
+      "exact": true,
+      "responseError": 2.7755575615628914e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41007,
+      "exact": true,
+      "responseError": 2.7755575615628914e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41008,
+      "exact": true,
+      "responseError": 2.7755575615628914e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41009,
+      "exact": true,
+      "responseError": 2.7755575615628914e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41010,
+      "exact": true,
+      "responseError": 2.7755575615628914e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41011,
+      "exact": true,
+      "responseError": 7.152448122690996e-18,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41012,
+      "exact": true,
+      "responseError": 1.1102230246251565e-16,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41013,
+      "exact": true,
+      "responseError": 2.7755575615628914e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41014,
+      "exact": true,
+      "responseError": 2.7755575615628914e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41015,
+      "exact": true,
+      "responseError": 2.7755575615628914e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41016,
+      "exact": true,
+      "responseError": 2.7755575615628914e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41017,
+      "exact": true,
+      "responseError": 1.1102230246251565e-16,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41018,
+      "exact": true,
+      "responseError": 1.1443916996305594e-16,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41019,
+      "exact": true,
+      "responseError": 4.291468873614597e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41020,
+      "exact": true,
+      "responseError": 4.3885418357208765e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41021,
+      "exact": true,
+      "responseError": 1.1102230246251565e-16,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41022,
+      "exact": true,
+      "responseError": 1.1102230246251565e-16,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41023,
+      "exact": true,
+      "responseError": 2.7755575615628914e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41024,
+      "exact": true,
+      "responseError": 4.2207643840401616e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41025,
+      "exact": true,
+      "responseError": 2.7755575615628914e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41026,
+      "exact": true,
+      "responseError": 2.7755575615628914e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41027,
+      "exact": true,
+      "responseError": 2.7755575615628914e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41028,
+      "exact": true,
+      "responseError": 1.2412670766236366e-16,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41029,
+      "exact": true,
+      "responseError": 2.7755575615628914e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41030,
+      "exact": true,
+      "responseError": 2.7755575615628914e-17,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    },
+    {
+      "seed": 41031,
+      "exact": true,
+      "responseError": 4.710277376051326e-16,
+      "directProducts": 5,
+      "learnedProducts": 3,
+      "handFusedProducts": 3
+    }
+  ],
+  "maxResponseError": 4.710277376051326e-16,
+  "exact": 32,
+  "rotation": "3-4-5 internal orthogonal rotation, fixed ports",
+  "warning": "Not actual TWC execution or physical lowering; dense product counts only."
+}
