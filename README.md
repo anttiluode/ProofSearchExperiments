@@ -161,3 +161,22 @@ A separate fresh length stress test (2–12 conjugates, 11 chain lengths) demons
 The variant derivation and schema replay ledger is 1021; the original mining bill is 4111 **under the older, noncomparable ledger**. We do not claim a fully measured developmental break-even. The signed-word decision oracle remains a stronger specialized baseline when a proof-producing trace is unnecessary. Expanded macro proofs still require Lean kernel checking; proof applications are not actual kernel reductions. Full e-graph, rotational commutation and interior discovery remain future work.
 
 Reproduce: `node operator_index.cjs` after `node operator.cjs`; `lean results/OperatorIndexCertificates.lean`. CI checks 4 schemas and 498 target/stress certificates. No new TWC numerical test or hardware claim in this patch.
+
+
+## Experiment 6c — lazy reader, split query buckets, and SIM receipts
+
+[Protocol](OPERATOR_LAZY_PROTOCOL.md) · [Raw results](results/operator_lazy.json) · [SIM-style intervention history](SIM_OPERATOR_READER.json).
+
+This is a diagnostic replay of 6b's **same** 72 expressions and 11 chain lengths, with no new training. All seven arms preserve the 6b proof traces. Separate primitive and macro query-group indexes avoid irrelevant candidate probes; the lazy trie walks constructors on demand with a persistent pending-subtree stack and skips wildcard subtrees. Prepared RHS reuse eliminates duplicate substitution. An independent exhaustive-match audit checked 32,632 queries; all 585 regenerated theorem bodies (including four schemas) were textually identical after theorem-name renaming to the matching 6b proofs. The original 6b Lean CI passed.
+
+| Split index | Primitive only | Composable macros |
+|---|---:|---:|
+| Bucket scan | 2159.74 | 1591.01 |
+| Eager trie | 2328.32 | 1875.72 |
+| Lazy trie | 2394.78 | 1937.08 |
+
+Mean modeled work units, **not timing**. The matched split scan saves 26.3%. The lazy trie reduces mean constructor encoding visits (macro arm 310.15 → 221.76) but creates 149.75 pending cells; total work is higher than eager on this small library. Substitution reuse saves 9.5 units per macro-arm target (1600.51 → 1591.01). Random-expression recognition tax remains (1640.21 → 1782.04, no macro hits), although lower than in 6b. Cross-version ledgers are not strictly comparable: 6c counts sort comparisons and pending cells, and builds separate query indexes. The matched comparisons within 6c are the relevant results.
+
+At length 12, split scan uses 28,675 units for primitives and 11,555 for composable macros, with unchanged 67 vs 23 proof applications. No end-to-end developmental amortization, wall-clock speedup, or new out-of-distribution claim. The audit is excluded from work counts; it is a separate correctness check and runs in the reproduction script. Small-library split scan is the preferred measured reader for the next experiment. TWC rotation algebra and equality saturation remain future work.
+
+Reproduce: `node operator_index.cjs` then `node operator_lazy.cjs`. The latter regenerates reference proof traces and checks every new trace against them; no additional Lean axiom or new mathematical rule is introduced.
