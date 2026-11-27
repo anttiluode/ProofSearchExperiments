@@ -21,6 +21,8 @@ jobs:
           node emit_lean.cjs
           node fatigue.cjs
           node fatigue_dp.cjs
+          node operator.cjs
+          node operator_twc.cjs
       - name: Install pinned Lean via elan
         run: |
           curl -sSf https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh | sh -s -- -y --default-toolchain none
@@ -33,3 +35,7 @@ jobs:
           echo 'Lean accepted fatigue scheduler and suffix-elimination certificates.'
           if lean results/FatigueWrongWitness.lean > wrong.log 2>&1; then cat wrong.log; exit 1; fi
           grep -i 'type mismatch' wrong.log
+          lean results/OperatorCertificates.lean
+          echo 'Lean accepted 3 learned schemas and 144 target normalizer certificates.'
+          if lean results/OperatorWrongOrder.lean > operator_wrong.log 2>&1; then cat operator_wrong.log; exit 1; fi
+          grep -Ei 'type mismatch|not definitionally equal' operator_wrong.log
